@@ -1,5 +1,11 @@
-## Exam questions solution
-    * Enter url to old exam questions
+## Introduction
+    * A project developed for [Stranger Hacks](https://strangerhacks.devfolio.co/) hackathon
+    
+
+    * Tagline: `Old questions solution`
+    
+    ### working
+    Enter url to old exam questions
     * It will give you questions and corresponding answers
 
 ## Running Code:
@@ -7,7 +13,7 @@
     * Install `tesseract-ocr`
     * Run `python main.py`
 
-## Working
+## Internal Working
     * Download pdf from url given
     * Convert pdf to images
     * Extract text from images using `pytesseract`
@@ -82,3 +88,15 @@
     * option to upload images and pdfs files
     * save as soon as each question is extracted or answered
     * buy openai api key to remove rate limit
+
+## References
+    0. [consider this bible](https://github.com/openai/openai-cookbook)
+
+    1. [kickoff + workshop](https://youtu.be/zAjiu60Le8I)
+    
+    2. [Hackers' Guide](https://nsb.dev/stranger-hacks-hackers-guide)
+    
+    3. [Devfolio Code of Conduct](https://devfolio.co/code-of-conduct)
+
+
+    https://platform.openai.com/
