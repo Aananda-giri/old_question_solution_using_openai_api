@@ -26,12 +26,10 @@
 
 
 ## Stored Data Format
-
-'''
-        * `qa.json` format
-        * using random_id to allow multiple qa with same title
-        * todo: store to database
-        
+     * `qa.json` format
+     * using random_id to allow multiple qa with same title
+     * todo: store to database
+```        
         {
                 "random_id": 
                 [
@@ -81,7 +79,7 @@
             ],
 
         }
-        '''
+```
 
 ### TODO
     * use database instead of json file for storing data
@@ -90,13 +88,13 @@
     * buy openai api key to remove rate limit
 
 ## References
-    0. [consider this bible](https://github.com/openai/openai-cookbook)
+* [consider this bible](https://github.com/openai/openai-cookbook)
 
-    1. [kickoff + workshop](https://youtu.be/zAjiu60Le8I)
+* [kickoff + workshop](https://youtu.be/zAjiu60Le8I)
     
-    2. [Hackers' Guide](https://nsb.dev/stranger-hacks-hackers-guide)
+* [Hackers' Guide](https://nsb.dev/stranger-hacks-hackers-guide)
     
-    3. [Devfolio Code of Conduct](https://devfolio.co/code-of-conduct)
+* [Devfolio Code of Conduct](https://devfolio.co/code-of-conduct)
 
 
-    https://platform.openai.com/
+*  [OpenAI](https://platform.openai.com/)
