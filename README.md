@@ -1,17 +1,22 @@
 ## Introduction
-    * A project developed for [Stranger Hacks](https://strangerhacks.devfolio.co/) hackathon
+   * A project developed for [Stranger Hacks](https://strangerhacks.devfolio.co/) hackathon
     
 
-    * Tagline: `Old questions solution`
+   * Tagline: `Old questions solution`
     
-    ### working
-    Enter url to old exam questions
-    * It will give you questions and corresponding answers
+   ### working
+      * Enter url to old exam questions
+      * It will give you questions and corresponding answers
 
 ## Running Code:
-    * Install Requirements: `pip install -r requirements.txt`
-    * Install `tesseract-ocr`
-    * Run `python main.py`
+   * Install Requirements: `pip install -r requirements.txt`
+   * Install `tesseract-ocr`
+   * Get OpenAI API Key from [here](https://platform.openai.com/account/api-keys) and put it in file  `.env` as: 
+```
+# .env
+OPENAI_API_KEY="<API-KEY>"
+```
+   * Run `python main.py`
 
 ## Internal Working
     * Download pdf from url given
