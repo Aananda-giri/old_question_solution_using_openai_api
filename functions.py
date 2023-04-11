@@ -152,6 +152,21 @@ def extract_text_from_pdf(filename):
 
 
 
+import openai  # for OpenAI API calls
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)  # for exponential backoff
+
+
+# with rate limit handling
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
+def openai_response_with_backoff(**kwargs):
+    return openai.Completion.create(**kwargs)
+# openai_response_with_backoff(model="text-davinci-002", prompt="Once upon a time,")
+
+
 
 def get_openai_response(request):
     import os, random
@@ -162,15 +177,17 @@ def get_openai_response(request):
     # random api key from few keys
     openai.api_key = os.getenv(random.choice(["OPENAI_API_KEY", "OPENAI_API_KEY1", "OPENAI_API_KEY2"]))
 
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        prompt=request,
-        temperature=0,
-        max_tokens=700,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0
-    )
+    # response = openai.Completion.create(
+    #     model="text-davinci-003",
+    #     prompt=request,
+    #     temperature=0,
+    #     max_tokens=700,
+    #     top_p=1,
+    #     frequency_penalty=0,
+    #     presence_penalty=0
+    # )
+    
+    response = openai_response_with_backoff(model="text-davinci-002", prompt=request, temperature=0, max_tokens=1000, top_p=1, frequency_penalty=0, presence_penalty=0)
     return response['choices'][0]['text']
 
 def get_questions_from_tesseract_output(questions, file_name):

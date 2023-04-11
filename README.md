@@ -87,10 +87,13 @@ OPENAI_API_KEY="<API-KEY>"
 ```
 
 ### TODO
-    * use database instead of json file for storing data
-    * option to upload images and pdfs files
-    * save as soon as each question is extracted or answered
-    * buy openai api key to remove rate limit
+- [ ] use database instead of json file for storing data
+- [ ] option to upload images and pdfs files
+- [ ] save as soon as each question is extracted or answered
+- [ ] buy openai api key to remove rate limit
+
+### Done
+- [x] openai Rate limit [docs](https://platform.openai.com/docs/guides/rate-limits) [code](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_handle_rate_limits.ipynb)
 
 ## References
 * [consider this bible](https://github.com/openai/openai-cookbook)
