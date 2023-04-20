@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from functions import generate_random_id, pdf_url_to_qa, save_to_db, get_questions_by_id, get_title_id_pair_from_db
+import json
 app = Flask(__name__, template_folder='templates')
 
 @app.route('/questions/<string:question_id>')
@@ -36,6 +37,20 @@ def home():
     data = get_title_id_pair_from_db()
     # print(f'data: {data}')
     return render_template('home.html', title_id_pairs = data)
+
+
+@app.route('/mannual')
+def index():
+    with open ('mannual_questions.json', 'r') as f:
+        qna = json.load(f)
+
+    for item in qna:
+        for _, value in item['questions'].items():
+            # for _, value in all_questions.items():
+                value['num_parts'] = len(value['question'])
+                if 'answer' not in value.keys():
+                    value['answer'] = ['']*value['num_parts']
+    return render_template('mannual_questions.html', qna=qna)
 
 if __name__ == '__main__':
     app.run(debug=True, port=8001)

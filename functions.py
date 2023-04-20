@@ -175,8 +175,8 @@ def get_openai_response(request):
     import openai
 
     # random api key from few keys
-    openai.api_key = os.getenv(random.choice(["OPENAI_API_KEY", "OPENAI_API_KEY1", "OPENAI_API_KEY2"]))
-
+    # openai.api_key = os.getenv(random.choice(["OPENAI_API_KEY", "OPENAI_API_KEY1", "OPENAI_API_KEY2"]))
+    openai.api_key = os.getenv(random.choice(['test_key']))
     # response = openai.Completion.create(
     #     model="text-davinci-003",
     #     prompt=request,

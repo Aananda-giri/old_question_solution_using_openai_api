@@ -1,0 +1,1047 @@
+[
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2079",
+        "date_month": "Ashwin",
+        "Level": "BE",
+        "Exam": "Back",
+        "programme": "BEI, BEX",
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Explain how single wire can radiate electromagnetic waves with necessary radiation patterns and conditions.",
+                    "State reciprocity theorem and equality of directional patterns theorem."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    "A 100 megahertz circuit consists of a transmitting and reciving antenna of 30 db and 25 db respectively. The power radiated by the transmitting antenna is 120 watts. Find the recived power in dB at a distance of 0.75 km over a free space.",
+                    "Derive the expression for the free space loss."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    "Describe a helical antenna with the help of a neat diagram. Explain its two modes of operation with necessary diagrams."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    "How can we increase the directivity of an antenna?",
+                    "Compare log perodic antenna and Yagi-Uda antenna with necessary diagram."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "Explain the different factors that affect the space wave propagation.",
+                    "List the major feature of UHF wave propagation."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Explain what will happen if a radio wave with a frequency greater than critical frequency is propagated to ionosphere.",
+                    "Will it return back? Find out the derivation of the relation between critical and maximum usable frequency when the earth is assumed it not curve."
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Define shadow region.",
+                    "Explain the knife-edge and rounded surface diffraction effects."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "What are the advantages and disadvantages of optical fiver over metallic wire?",
+                    "Explain the losses in optical fiber."
+                ],
+                "marks": [
+                    4,
+                    4
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Discuss the structure and refrective index profile of single mode and multi-mode step index fibers with related mathemetical expressions."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "write short notes on: Linear Polarization",
+                    "write short notes on: marconi antenna",
+                    "write short notes on: Effect of curvature of earth in space wave propagation",
+                    "Two ray propagation model"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2078",
+        "date_month": "Chaitra",
+        "Level": "BE",
+        "Exam": "Regular",
+        "programme": "BEI, BEX",
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Define antenna.",
+                    "Explain the radiation mechanism in single wire antenna.",
+                    "Explain travelling wave long wire antenna with required diagrams."
+                ],
+                "marks": [
+                    2,
+                    3,
+                    3
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    "State the following antenna theorems:",
+                    "Compensation theorem",
+                    "reciprocity theorem",
+                    "write the features of end-fire array."
+                ],
+                "marks": [
+                    2,
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    "Explain the construction, working principle and characteristics of Rhombic antenna with necessary diagram."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    "Explain the special features of reflector antenna and discuss on different types of feed used with necessary diagrams."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "Describe briefly the structure of the ionosphere and its uses for radio frequency spectrum. Write the characteristics of ground wave propagation."
+                ],
+                "marks": [
+                    4,
+                    4
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Describe the formula for maximum usable frequency and skip distance assuming earth is perfectly flat."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "A free space LOS (Line of Sight) microwave link operating at 10 GHZ consists of a transmit and receive antenna each having a gain of 25 dB. Calculate the path loss of the link and received power for 100 Km distance.",
+                    "Derive Friis transmission equation."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "What is acceptance angle?",
+                    "Derive the expression for Numerical Aperture with neat diagram."
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Explain the block diagram of optic fiber communication system.",
+                    "Satate the advantages and applications of optical fiber compared to microwave communication link."
+                ],
+                "marks": [
+                    3,
+                    4
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "write short notes on: Effective antenna height",
+                    "write short notes on: Fresnel zones",
+                    "write short notes on: Microstrip antenna",
+                    "write short notes on: Radio frequency spectrum"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Digital Logic",
+        "date_year": "2078",
+        "date_month": "Baishak",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Back",
+        "programme": [
+            "BEL",
+            "BEX",
+            "BCT"
+        ],
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Define Digital and analog Signal.",
+                    "Explain Grey and Excess 3 code with example."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    "Define positive and negative logic and prove that posative X-OR is equivalent to negative X-NOR"
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    "Simplify the function using K-map F=(1,2,3,8,9,10,11,14) and D = (0,4,12). Also realize the simpilfied circuit using NAND Gates."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    "Design the logic circuit for 4:2 Priority Encoder.",
+                    "Design the logic circuit for 4:1 Multiplexer and 2:1 Multiplexer."
+                ],
+                "marks": [
+                    6,
+                    6
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "Differentiate between combinational and logical circuits.",
+                    "Explain the operation of asyncronous mod-12 counter with timing diagram."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Explain the operation of 4 bit serial in parallel out (SIPO) register with timing diagram."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Convert D flip-flop into JK flip-flop",
+                    "Convert JK flip-flop into D flip-flop."
+                ],
+                "marks": [
+                    4,
+                    2
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "Define syncronous and Asyncronous counter.",
+                    "Design a MOD-10 syncronous counter and draw its timing diagram."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Define CMOS parameters shortly and explain logic operation of CMOS 2-input NAND gate circuit with its timing diagram."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "Design a sequential machine that has a single input 'x' and single output 'z'. The machine is required to give high outut when it detects the serial sequence of 001 message. Use JK flip-flops only."
+                ],
+                "marks": [
+                    12
+                ],
+                "answer": []
+            },
+            "11": {
+                "question": [
+                    "With the help of block diagram explain the operation of time measurement circuit."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Basic Electrical Engineering",
+        "date_year": "2078",
+        "date_month": "Kartik",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Back",
+        "programme": [
+            "BEL",
+            "BEX",
+            "BCT"
+        ],
+        "year": "I",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "At 20\u00b0C two coils connected in series having resistance of 600 ohm and 300 ohm respectively. The temprature coefficient at 20\u00b0C are 0.002/\u00b0C and 0.004/\u00b0C respectively for the coils. Find the resistance of the combination at a temperature of 50\u00b0C",
+                    "What is the effective temperature coefficient of the combination at 50\u00b0C?"
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    ""
+                ],
+                "marks": [],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    ""
+                ],
+                "marks": [],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    ""
+                ],
+                "marks": [],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "Define power and explain why in general, kept as high as possible in power supply system.",
+                    "The power supply to the 415V, 50Hz, 3-phase inductor motor is 50kW at 0.72 power factor lagging. A bank of capacitors is connected in delta across the line improve the overall power factor. Calculate the capacitance per phase in order to rise the power factor to 0.9 lagging.",
+                    "Three arms of a three phase each comprise resistance of 25 ohm and of inductance of 0.15 ohm in series with a 120\u00b5F capacitor. The supply is 415V, 50Hz. Calculate the phase current, line current and total power consumed by the load  a. when three arms are connected in star b. Mesh"
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Explain the operation of 4 bit serial in parallel out (SIPO) register with timing diagram."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Convert D flip-flop into JK flip-flop and Jk flip-flop into D flip-flop."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "Define syncronous and Asyncronous counter",
+                    "Design a MOD-10 syncronous counter and draw its timing diagram."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Define CMOS parameters shortly",
+                    "Explain logic operation of CMOS 2-input NAND gate circuit with its timing diagram."
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "Design a sequential machine that has a single input 'x' and single output 'z'. The machine is required to give high outut when it detects the serial sequence of 001 message. Use JK flip-flops only."
+                ],
+                "marks": [
+                    12
+                ],
+                "answer": []
+            },
+            "11": {
+                "question": [
+                    "With the help of block diagram explain the operation of time measurement circuit."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2077",
+        "date_month": "Chaitra",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Regular",
+        "programme": [
+            "BEX"
+        ],
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Sate maximum power transfer theorem in antenna.",
+                    "Sate reciprocity theorem in antenna"
+                ],
+                "marks": [
+                    2,
+                    2
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    "Explain radiation patterns in antenna",
+                    "Explain polarization in terms of antenna",
+                    "Explain Beam width in terms of antenna"
+                ],
+                "marks": [
+                    2,
+                    2,
+                    2
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    "What is the importance of antenna array?",
+                    "Describe the principle of end-fire and broadside array antenna"
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    "How are aperture type of antennas differ from conventional antennas?",
+                    "Explain the theory of radiation from a rectangular horn."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "Explain the operation of ionospheric communication with the help of different layers created in the atmosphere."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "A parabolic reflector antenna having the efficiency 75% is designed for 3GHZ resonant frequency with 2.5dB waveguide loss. Find out the antenna diameter if effective isotropic radiated power (EIRP) is calculated 46dBW and transmitting power is 500W."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Draw the structure, radiation patteern and explain the working of a V-antenna."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "Explain the helical antenna with respect to structural design, working principle in axial mode and normal mode, their merits, demerits and applications.."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Explain the cntribution of microscopic and macroscopic fiber bend towards the bending loss in optical fiber."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "write short notes on: Effective Isotropic Radiated Power (EIRP)",
+                    "write short notes on: Macroni antenna",
+                    "write short notes on: Fresnel diffraction at a knife edge",
+                    "write short notes on: optical source and optical detector"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2076",
+        "date_month": "Bhadra",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Regular",
+        "programme": [
+            "BEX"
+        ],
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "What is retarded potential?",
+                    "Explain how electromagnetic waves are generated by a conductor."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [
+                    "State maximum power transfer theorem in antenna.",
+                    "State superposition theorem in antenna."
+                ],
+                "marks": [
+                    3,
+                    3
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [
+                    "Explain the working principle, construction, advantages and application of V antenna."
+                ],
+                "marks": [
+                    6,
+                    2
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [
+                    "Describe antenna gain, antenna efficiency and antenna polarization with mathemetical relation if necessary."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [
+                    "What is reflector antenna?",
+                    "With necessary diagram, explain parabolic reflector antenna and its dirrerent types of feeding system."
+                ],
+                "marks": [
+                    1,
+                    6
+                ],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "With a neat diagram design the 5 element yagi uda antenna for the reciving 100Mhz radio signal showing design steps. Consider the effective dipole length equal to 0.48\u03bbc and spacing between elements 0.15\u03bbc."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Explain the importance of different layers in ionospheric communication."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "Define and derive the relation of MUF and skip distance for the case of flat earth."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Derive Friis transmission equation and path loss in case of free space propagation and find out distance of line of sight as: d=3.57[\u221a'(ht) + \u221a(hr)]km."
+                ],
+                "marks": [
+                    4,
+                    3
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "Explain the construction, propagation mechanism and application of different types of optical fiber.",
+                    "Define numerical aperture"
+                ],
+                "marks": [
+                    5,
+                    2
+                ],
+                "answer": []
+            },
+            "11": {
+                "question": [
+                    "Where are optical fibers most widely used? Explain the various advantages and disadvantages of optical fibers.",
+                    "Define numerical aperture"
+                ],
+                "marks": [
+                    2,
+                    5
+                ],
+                "answer": []
+            },
+            "12": {
+                "question": [
+                    "write short notes on: Knife edge diffraction phenomenon",
+                    "write short notes on: Rhombic antenna",
+                    "write short notes on: MW propagation"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2076",
+        "date_month": "Baishak",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Back",
+        "programme": [
+            "BEX"
+        ],
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    ""
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [],
+                "marks": [
+                    3,
+                    3
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [],
+                "marks": [
+                    6,
+                    2
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [],
+                "marks": [],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Draw the structure of ionosphere and explain the mechanism of ionosphere propagation."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "Define transmission loss.",
+                    "Derive Firiss transmission equation of free space propagation."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "What is the maximum power that can be received over a distance of 15.5 KM line of sight free space with a 3.4 GHZ frequency consisting of transmitting antenna gain of 25dB and recciving antenna diameter 6.4m with 75% antenna efficiency? Where transmitted power is 250 W."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "Explain the construction and types of optical fiber with necessary diagrams."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "what are the varius features of graded index fiber?",
+                    "Explain the refractive index profile and ray transmission in a multimode graded index fiber."
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "11": {
+                "question": [
+                    "Write short notes on: Corner reflector antenna",
+                    "Write short notes on: V antenna",
+                    "Write short notes on: Critical Frequency",
+                    "Write short notes on: Light sources in optical communication"
+                ],
+                "marks": [
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "answer": []
+            },
+            "12": {
+                "question": [
+                    "write short notes on: Knife edge diffraction phenomenon",
+                    "write short notes on: Rhombic antenna",
+                    "write short notes on: MW propagation"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Propagation and Antenna",
+        "date_year": "2078",
+        "date_month": "Baishak",
+        "Level": [
+            "BE"
+        ],
+        "Exam": "Back",
+        "programme": [
+            "BEX"
+        ],
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    ""
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": []
+            },
+            "2": {
+                "question": [],
+                "marks": [
+                    3,
+                    3
+                ],
+                "answer": []
+            },
+            "3": {
+                "question": [],
+                "marks": [
+                    6,
+                    2
+                ],
+                "answer": []
+            },
+            "4": {
+                "question": [],
+                "marks": [
+                    6
+                ],
+                "answer": []
+            },
+            "5": {
+                "question": [],
+                "marks": [],
+                "answer": []
+            },
+            "6": {
+                "question": [
+                    "Draw the structure of ionosphere and explain different modes of propagation."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": []
+            },
+            "7": {
+                "question": [
+                    "How do you get friis transmission equation and path loss in case of free space wave propagation?",
+                    "Explain the importance of diffraction in communication system."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": []
+            },
+            "8": {
+                "question": [
+                    "Explain space wave propagation.",
+                    "Determine the radio horizom of space wave propagation if the height of transmitting antenna is 60meters and reciving antenna is 6meters."
+                ],
+                "marks": [
+                    4,
+                    4
+                ],
+                "answer": []
+            },
+            "9": {
+                "question": [
+                    "What is acceptance angle?",
+                    "Derive an expression to calculate numerical aperture of optical fiber."
+                ],
+                "marks": [
+                    3,
+                    5
+                ],
+                "answer": []
+            },
+            "10": {
+                "question": [
+                    "Using simple ray theory concepts, derive an expression for the numerical aperture (NA) and the solid acceptance angle in terms of the physical parameters of step index fiber.",
+                    "Explain importance of numerical aperture (NA) and the solid acceptance angle  in the propagation of optical signal through the fiber."
+                ],
+                "marks": [
+                    6,
+                    2
+                ],
+                "answer": []
+            },
+            "11": {
+                "question": [
+                    "Write short notes on: Log periodic antenna",
+                    "Write short notes on: folded dipole antenna",
+                    "Write short notes on: fresenel zones and knife edge diffraction",
+                    "Write short notes on: PIN photodiode"
+                ],
+                "marks": [
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "answer": []
+            }
+        }
+    }
+]
