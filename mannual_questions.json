@@ -23,7 +23,10 @@
                     5,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nSingle wire antennas are a type of antenna that can be used to radiate electromagnetic waves. They are simple to construct and can be used to transmit or receive radio signals. The radiation pattern of a single wire antenna is determined by its length and the surrounding environment. The radiation pattern is typically omnidirectional, meaning that the antenna radiates equally in all directions.\n\nIn order to radiate electromagnetic waves, the single wire antenna must be connected to a transmitter or receiver. The transmitter or receiver will provide the necessary power to the antenna, which will then convert the electrical energy into electromagnetic waves. The antenna must also be placed in an environment that is conducive to radiating electromagnetic waves. This means that the antenna should be placed away from any objects that could block or absorb the signal.\n\nFinally, the antenna must be tuned to the desired frequency. This is done by adjusting the length of the antenna so that it resonates at the desired frequency. Once the antenna is tuned, it will be able to radiate electromagnetic waves with the desired radiation pattern.",
+                    "\n\nThe Reciprocity Theorem states that the total power received by an antenna is equal to the total power transmitted by the same antenna. This theorem is based on the fact that the antenna's radiation pattern is symmetrical in both the transmit and receive directions.\n\nThe Equality of Directional Patterns Theorem states that the radiation pattern of an antenna in the transmit direction is equal to the radiation pattern of the same antenna in the receive direction. This theorem is based on the fact that the antenna's radiation pattern is symmetrical in both the transmit and receive directions."
+                ]
             },
             "2": {
                 "question": [
@@ -34,7 +37,10 @@
                     5,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe received power in dB is -90.3 dB.\n\nThe formula for calculating the received power in dB is:\n\nP_dB = 10 log10 (P_t/P_r)\n\nWhere P_t is the transmitted power in watts and P_r is the received power in watts.\n\nP_t = 120 watts\n\nP_r = (120 watts) * (10^(-30/10)) * (10^(-25/10))\n\nP_r = 0.000001 watts\n\nP_dB = 10 log10 (120/0.000001)\n\nP_dB = -90.3 dB",
+                    "\n\nThe free space loss (FSL) is the loss of power of a signal as it propagates through free space. It is given by the following equation:\n\nFSL = 20 log (4\u03c0d/\u03bb)\n\nwhere d is the distance between the transmitter and receiver, and \u03bb is the wavelength of the signal."
+                ]
             },
             "3": {
                 "question": [
@@ -43,7 +49,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA helical antenna is a type of antenna that is shaped like a helix. It is a type of directional antenna that is used for transmitting and receiving radio waves. It is commonly used in satellite communication systems, radio astronomy, and other applications.\n\nDiagram:\n\nThe helical antenna consists of a cylindrical conductor that is wound in the form of a helix. The helix is usually made of copper or aluminum and is connected to a feed line. The feed line is used to transmit or receive the radio signals.\n\nModes of Operation:\n\n1. Axial Mode:\n\nIn the axial mode, the antenna is oriented such that the electric field is parallel to the axis of the helix. This mode is used for transmitting and receiving signals in the same direction.\n\nDiagram:\n\n2. Circular Mode:\n\nIn the circular mode, the antenna is oriented such that the electric field is perpendicular to the axis of the helix. This mode is used for transmitting and receiving signals in all directions.\n\nDiagram:"
+                ]
             },
             "4": {
                 "question": [
@@ -54,7 +62,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\n1. Increase the physical size of the antenna.\n2. Increase the number of antenna elements.\n3. Increase the gain of the antenna.\n4. Increase the height of the antenna.\n5. Use a directional antenna.\n6. Use a reflector or director behind the antenna.\n7. Use a parabolic reflector.\n8. Use a phased array antenna.",
+                    "\n\nLog periodic antenna:\n\nA log periodic antenna is a type of antenna that is designed to have a wide range of operating frequencies. It is composed of a series of dipole elements that are arranged in a logarithmic pattern. The elements are connected to a common feed line, and the antenna is designed to have a wide bandwidth. The antenna is typically used for applications such as television reception, radio broadcasting, and satellite communications.\n\nDiagram:\n\nYagi-Uda antenna:\n\nA Yagi-Uda antenna is a type of directional antenna that is commonly used for radio and television reception. It consists of a driven element, which is connected to the feed line, and several parasitic elements, which are arranged in a line. The antenna is designed to have a narrow beamwidth, which allows it to receive signals from a specific direction.\n\nDiagram:"
+                ]
             },
             "5": {
                 "question": [
@@ -65,7 +76,10 @@
                     5,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\n1. Frequency: The frequency of the signal affects the propagation of the space wave. Higher frequencies tend to be more easily absorbed by the atmosphere, while lower frequencies can travel further.\n\n2. Reflection: Reflection of the signal off of objects such as buildings, mountains, and other structures can affect the propagation of the space wave.\n\n3. Refraction: Refraction of the signal due to changes in the atmosphere can affect the propagation of the space wave.\n\n4. Diffraction: Diffraction of the signal due to obstacles such as buildings, mountains, and other structures can affect the propagation of the space wave.\n\n5. Scattering: Scattering of the signal due to particles in the atmosphere can affect the propagation of the space wave.\n\n6. Absorption: Absorption of the signal due to the atmosphere can affect the propagation of the space wave.",
+                    "\n\n1. Longer range of communication\n2. Higher power levels\n3. Greater bandwidth\n4. Improved signal penetration\n5. Reduced interference\n6. Improved multipath performance\n7. Reduced fading\n8. Improved signal-to-noise ratio\n9. Improved security"
+                ]
             },
             "6": {
                 "question": [
@@ -76,7 +90,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nIf a radio wave with a frequency greater than the critical frequency is propagated to the ionosphere, it will be reflected back to the Earth's surface. This is because the ionosphere is denser than the atmosphere and the higher frequency radio waves cannot penetrate it. This phenomenon is known as the ionospheric reflection.",
+                    "\n\nThe relation between critical and maximum usable frequency when the earth is assumed to be not curved is derived from the equation for the maximum usable frequency (MUF) of a radio wave, which is given by:\n\nMUF = (4/3) * (c/R) * (1 + (h/R))\n\nwhere c is the speed of light, R is the radius of the earth, and h is the height of the antenna.\n\nThe critical frequency (foF2) is the frequency at which the MUF is equal to the frequency of the radio wave. Therefore, the relation between critical and maximum usable frequency when the earth is assumed to be not curved is given by:\n\nfoF2 = (4/3) * (c/R) * (1 + (h/R))"
+                ]
             },
             "7": {
                 "question": [
@@ -87,7 +104,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nShadow region is an area of a digital image that is darker than the surrounding area. It is usually caused by a light source that is blocked by an object or a surface. Shadow regions can be used to create depth and contrast in an image.",
+                    "\n\nKnife-edge diffraction occurs when a wave encounters a sharp edge, such as the edge of a knife. When this happens, the wave is split into two parts, one part is reflected and the other is refracted. This causes the wave to spread out in a fan-like pattern, creating a diffraction pattern.\n\nRounded surface diffraction occurs when a wave encounters a curved surface, such as the surface of a sphere. When this happens, the wave is split into multiple parts, some of which are reflected and some of which are refracted. This causes the wave to spread out in a circular pattern, creating a diffraction pattern."
+                ]
             },
             "8": {
                 "question": [
@@ -98,7 +118,10 @@
                     4,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAdvantages of Optical Fiber Over Metallic Wire:\n\n1. Higher Bandwidth: Optical fiber has a much higher bandwidth than metallic wire, allowing for faster data transmission.\n\n2. Lower Attenuation: Optical fiber has a much lower attenuation rate than metallic wire, meaning that signals can travel further without needing to be amplified.\n\n3. Immunity to Electromagnetic Interference: Optical fiber is immune to electromagnetic interference, making it more reliable than metallic wire.\n\n4. Smaller Size: Optical fiber is much smaller than metallic wire, making it easier to install and manage.\n\nDisadvantages of Optical Fiber Over Metallic Wire:\n\n1. Higher Cost: Optical fiber is more expensive than metallic wire, making it less cost-effective for some applications.\n\n2. Fragility: Optical fiber is more fragile than metallic wire, making it more difficult to install and maintain.\n\n3. Limited Availability: Optical fiber is not as widely available as metallic wire, making it more difficult to find in some areas.",
+                    "\n\nOptical fiber losses are caused by a variety of factors, including absorption, scattering, and bending. Absorption losses occur when light is absorbed by the material of the fiber, such as the glass or plastic core. Scattering losses occur when light is scattered by impurities or imperfections in the fiber. Bending losses occur when light is bent around a sharp corner or bend in the fiber. Other losses can occur due to splices, connectors, and other components in the optical fiber system."
+                ]
             },
             "9": {
                 "question": [
@@ -107,7 +130,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nSingle Mode Step Index Fiber:\n\nA single mode step index fiber is a type of optical fiber that has a core with a uniform refractive index and a cladding with a lower refractive index. The core and cladding are separated by a sharp boundary, which is known as the step index. The refractive index profile of a single mode step index fiber can be expressed mathematically as:\n\nn(r) = n1 for r \u2264 a\n\nn(r) = n2 for r > a\n\nWhere n1 is the refractive index of the core, n2 is the refractive index of the cladding, and a is the radius of the core.\n\nMulti-Mode Step Index Fiber:\n\nA multi-mode step index fiber is a type of optical fiber that has a core with a uniform refractive index and a cladding with a lower refractive index. The core and cladding are separated by a gradual boundary, which is known as the step index. The refractive index profile of a multi-mode step index fiber can be expressed mathematically as:\n\nn(r) = n1 + (n2 - n1) * (r/a) for r \u2264 a\n\nn(r) = n2 for r > a\n\nWhere n1 is the refractive index of the core, n2 is the refractive index of the cladding, and a is the radius of the core."
+                ]
             },
             "10": {
                 "question": [
@@ -121,7 +146,11 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nLinear polarization is a type of electromagnetic radiation in which the electric field oscillates in a single plane. This type of radiation is produced by antennas and is used in many applications such as radio and television broadcasting, satellite communications, and radar. Linear polarization is also used in optical systems such as lasers and fiber optics.",
+                    "\n\nThe Marconi antenna is a type of antenna invented by Guglielmo Marconi in the late 19th century. It is a type of directional antenna, consisting of a vertical metal rod or mast mounted over a conductive surface called a ground plane. The antenna is used to transmit and receive radio waves, and is commonly used in radio communication systems. The Marconi antenna is a simple and effective antenna design, and is still widely used today.",
+                    "\n\nThe curvature of the Earth affects the propagation of space waves in several ways. Firstly, the curvature of the Earth causes the space wave to bend, resulting in a decrease in the signal strength as the wave propagates away from the transmitter. This is known as the \"ground wave\" effect. Secondly, the curvature of the Earth can cause the space wave to be refracted, resulting in a change in the direction of the wave. This is known as the \"sky wave\" effect. Finally, the curvature of the Earth can cause the space wave to be reflected, resulting in a change in the direction of the wave. This is known as the \"reflection\" effect. All of these effects can result in a decrease in the signal strength as the wave propagates away from the transmitter."
+                ]
             }
         }
     },
@@ -151,7 +180,11 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAn antenna is a device that is used to transmit and receive electromagnetic signals, such as radio waves. It is typically made up of a conductive material, such as metal, that is arranged in a specific shape to maximize the transmission and reception of the signal.",
+                    "\n\nA single wire antenna is a type of antenna that consists of a single, straight, metal wire. It is used to transmit and receive radio waves. The radiation mechanism of a single wire antenna is based on the concept of current distribution along the antenna. When a radio frequency current is applied to the antenna, the current is distributed along the antenna in a sinusoidal pattern. This current distribution creates an electric field around the antenna, which radiates outwards in the form of radio waves. The radiation pattern of a single wire antenna is omnidirectional, meaning that it radiates equally in all directions.",
+                    "\n\nA travelling wave long wire antenna is a type of antenna that is used to transmit and receive radio waves. It consists of a long wire that is suspended in the air and connected to a transmitter or receiver. The antenna is designed to create a travelling wave along the wire, which is then radiated into the air.\n\nDiagram 1:\n\nThis diagram shows a basic travelling wave long wire antenna. The antenna consists of a long wire that is suspended in the air and connected to a transmitter or receiver. The antenna is designed to create a travelling wave along the wire, which is then radiated into the air.\n\nDiagram 2:\n\nThis diagram shows how the travelling wave is created. The transmitter or receiver sends an electrical signal along the wire, which creates a travelling wave. This wave is then radiated into the air, allowing the antenna to transmit or receive radio waves.\n\nDiagram 3:\n\nThis diagram shows how the travelling wave is affected by the environment. The travelling wave is affected by the environment, such as trees, buildings, and other objects. These objects can cause the wave to be distorted, which can reduce the efficiency of the antenna."
+                ]
             },
             "2": {
                 "question": [
@@ -165,7 +198,11 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\n1. The Friis Transmission Formula: This theorem states that the power received by an antenna is proportional to the product of the transmitting antenna's gain and the receiving antenna's gain, divided by the square of the distance between the two antennas.\n\n2. The Reciprocity Theorem: This theorem states that the gain of an antenna in transmitting and receiving is the same, regardless of the direction of the signal.\n\n3. The Antenna Gain Theorem: This theorem states that the gain of an antenna is proportional to the ratio of the antenna's physical size to the wavelength of the signal.",
+                    "\n\nThe compensation theorem is a theorem in electrical engineering which states that the effects of any number of sources and impedances in a circuit can be combined into a single equivalent source and impedance. This theorem is useful for simplifying the analysis of complex circuits. The theorem states that the current through any branch of a circuit is equal to the sum of the currents produced by each source in the circuit, and the voltage across any branch of a circuit is equal to the sum of the voltages produced by each source in the circuit. This theorem is also known as the superposition theorem.",
+                    "\n\nThe reciprocity theorem is a mathematical theorem that states that the product of two numbers is equal to the product of their reciprocals. It is also known as the multiplicative inverse property. The theorem is expressed mathematically as:\n\na \u00d7 b = 1/a \u00d7 1/b\n\nThe reciprocity theorem is used in many areas of mathematics, including algebra, calculus, and number theory. It is also used in physics, engineering, and other sciences."
+                ]
             },
             "3": {
                 "question": [
@@ -174,7 +211,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nConstruction:\n\nA Rhombic antenna is a type of directional antenna that is made up of four conductors arranged in the shape of a rhombus. The four conductors are connected at the ends to form a continuous loop. The antenna is usually mounted on a mast or tower and is oriented so that the two diagonals of the rhombus are parallel to the ground.\n\nWorking Principle:\n\nThe Rhombic antenna works on the principle of electromagnetic radiation. When an alternating current is applied to the antenna, it radiates an electromagnetic field in the direction of the two diagonals of the rhombus. This field is then received by a receiving antenna, which converts the signal into an electrical signal.\n\nCharacteristics:\n\nThe Rhombic antenna has several advantages over other types of antennas. It has a wide bandwidth, which means it can transmit and receive signals over a wide range of frequencies. It also has a high gain, which means it can transmit and receive signals over a long distance. Additionally, it has a low noise figure, which means it can transmit and receive signals with minimal interference. Finally, it is relatively easy to construct and maintain.\n\nDiagram:\n\n![Rhombic Antenna](https://www.researchgate.net/profile/Rajesh_Kumar_Kumar/publication/325837862/figure/fig1/AS:719087170985984@1545450045862/Rhombic-antenna-diagram.png)"
+                ]
             },
             "4": {
                 "question": [
@@ -183,7 +222,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA reflector antenna is a type of antenna that uses a large metal surface to reflect the radio waves, in order to direct and focus the radio signal in a particular direction. Reflector antennas are used in a variety of applications, including radio and television broadcasting, satellite communications, and radar systems.\n\nThe main advantage of a reflector antenna is its ability to focus the radio waves in a particular direction, allowing for greater signal strength and improved reception. This is achieved by the shape of the reflector, which is designed to reflect the radio waves in a particular direction. The reflector also helps to reduce interference from other sources, as the radio waves are focused in a particular direction.\n\nThe most common type of feed used with a reflector antenna is a dipole feed. A dipole feed consists of two metal rods, which are connected to the antenna at the center. The dipole feed is designed to transmit the radio waves in a particular direction, and the shape of the reflector helps to focus the radio waves in that direction.\n\nOther types of feed used with reflector antennas include horn feeds, patch feeds, and waveguide feeds. Horn feeds are designed to transmit the radio waves in a particular direction, and the shape of the reflector helps to focus the radio waves in that direction. Patch feeds are designed to transmit the radio waves in a particular direction, and the shape of the reflector helps to focus the radio waves in that direction. Waveguide feeds are designed to transmit the radio waves in a particular direction, and the shape of the reflector helps to focus the radio waves in that direction.\n\nDiagrams:\n\n1. Dipole Feed:\n\n2. Horn Feed:\n\n3. Patch Feed:\n\n4. Waveguide Feed:"
+                ]
             },
             "5": {
                 "question": [
@@ -193,7 +234,9 @@
                     4,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe ionosphere is a layer of the Earth's atmosphere that is ionized by solar radiation. It is located between 50 and 1000 km above the Earth's surface and is composed of several layers, including the D, E, and F layers. The ionosphere is important for radio frequency spectrum because it reflects radio waves, allowing them to travel long distances. This is known as skywave propagation.\n\nGround wave propagation is the propagation of radio waves along the surface of the Earth. It is used for short-range communication and is characterized by a decrease in signal strength with distance. Ground wave propagation is affected by the terrain, vegetation, and other objects in the environment."
+                ]
             },
             "6": {
                 "question": [
@@ -202,7 +245,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nMaximum Usable Frequency (MUF) = 1.54 x (Skip Distance in km)^2\n\nSkip Distance = \u221a(MUF/1.54)"
+                ]
             },
             "7": {
                 "question": [
@@ -213,7 +258,10 @@
                     5,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nPath Loss:\n\nPath loss = 20 log (4\u03c0d/\u03bb) + Gt + Gr\n\n= 20 log (4\u03c0 x 100000/0.03) + 25 + 25\n\n= 200 + 50\n\n= 250 dB\n\nReceived Power:\n\nReceived Power = Transmitted Power - Path Loss\n\n= 0 dBm - 250 dB\n\n= -250 dBm",
+                    "\n\nFriis Transmission Equation:\n\nP_r = P_t + G_t + G_r + 20log(4\u03c0d/\u03bb)\n\nWhere:\n\nP_r = Received Power (dBm)\n\nP_t = Transmitted Power (dBm)\n\nG_t = Transmitter Antenna Gain (dBi)\n\nG_r = Receiver Antenna Gain (dBi)\n\nd = Distance between Transmitter and Receiver (m)\n\n\u03bb = Wavelength (m)"
+                ]
             },
             "8": {
                 "question": [
@@ -224,7 +272,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAcceptance angle is the maximum angle at which light can enter an optical fiber. It is determined by the numerical aperture of the fiber, which is a measure of the light-gathering ability of the fiber. The acceptance angle is the angle between the axis of the fiber and the direction of the light entering the fiber.",
+                    "\n\nNumerical Aperture (NA) is a measure of the light gathering ability of an optical system. It is defined as the sine of the maximum acceptance angle of the system, multiplied by the refractive index of the medium between the object and the image plane.\n\nThe numerical aperture of an optical system is given by:\n\nNA = n sin \u03b8\n\nWhere n is the refractive index of the medium between the object and the image plane, and \u03b8 is the maximum acceptance angle of the system.\n\nThe diagram below illustrates the numerical aperture of an optical system:\n\n[Diagram of an optical system showing the numerical aperture]"
+                ]
             },
             "9": {
                 "question": [
@@ -235,7 +286,10 @@
                     3,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe block diagram of an optical fiber communication system consists of the following components:\n\n1. Transmitter: This is the source of the optical signal. It converts the electrical signal into an optical signal.\n\n2. Optical Fiber: This is the medium through which the optical signal is transmitted. It is made up of a core and a cladding.\n\n3. Optical Amplifier: This is used to amplify the optical signal.\n\n4. Receiver: This is the destination of the optical signal. It converts the optical signal back into an electrical signal.\n\n5. Optical Detector: This is used to detect the optical signal.\n\n6. Optical Isolator: This is used to prevent the optical signal from reflecting back to the transmitter.\n\n7. Optical Switch: This is used to switch the optical signal from one path to another.",
+                    "\n\nAdvantages of Optical Fiber Compared to Microwave Communication Link:\n\n1. Higher Bandwidth: Optical fiber has a much higher bandwidth than microwave communication links, allowing for faster data transmission.\n\n2. Lower Attenuation: Optical fiber has a much lower attenuation than microwave communication links, meaning that signals can travel further without needing to be amplified.\n\n3. Lower Interference: Optical fiber is less susceptible to interference from other signals, making it more reliable than microwave communication links.\n\n4. Lower Cost: Optical fiber is much cheaper to install and maintain than microwave communication links.\n\nApplications of Optical Fiber:\n\n1. Telecommunications: Optical fiber is used in telecommunications networks to transmit voice, data, and video signals.\n\n2. Cable Television: Optical fiber is used to transmit cable television signals from the provider to the customer.\n\n3. Internet: Optical fiber is used to transmit internet signals from the provider to the customer.\n\n4. Military: Optical fiber is used in military applications to transmit secure communications.\n\n5. Medical: Optical fiber is used in medical applications to transmit images and data from medical devices."
+                ]
             },
             "10": {
                 "question": [
@@ -249,7 +303,11 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nEffective antenna height is the height of an antenna above the ground that is necessary to achieve the desired signal strength. It is determined by the type of antenna, the frequency of the signal, the terrain, and the environment. The higher the antenna, the better the signal strength. The effective antenna height is also affected by the antenna's gain, which is the amount of signal power that is radiated in a particular direction.",
+                    "\n\nFresnel zones are ellipsoidal regions of space around a radio transmission path that are used to calculate the effects of diffraction on the signal. They are named after French physicist Augustin-Jean Fresnel, who developed the concept in the early 19th century. The size and shape of the zones depend on the frequency of the signal, the distance between the transmitter and receiver, and the environment between them. The first Fresnel zone is the most important, as it is the area where most of the signal is concentrated. The other zones are less important, but still play a role in the overall signal strength.",
+                    "\n\nA microstrip antenna is a type of antenna that is constructed by placing a conducting strip over a ground plane. It is a low profile antenna that is used in a variety of applications, including mobile phones, Wi-Fi, and satellite communications. The antenna is typically made of a thin metal strip that is etched onto a dielectric substrate, such as a printed circuit board. The antenna is then connected to a feed line, which is used to transmit and receive signals. The antenna is typically designed to be small and lightweight, making it ideal for use in portable devices."
+                ]
             }
         }
     },
@@ -282,7 +340,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nDigital signal: A digital signal is a type of signal that is represented by a sequence of discrete values, typically 0s and 1s. Digital signals are used to represent data in a variety of forms, such as audio, video, and text.\n\nAnalog signal: An analog signal is a continuous signal that varies in amplitude, frequency, or phase in relation to time. Analog signals are used to represent physical phenomena such as sound, light, temperature, and pressure."
+                ]
             },
             "2": {
                 "question": [
@@ -291,7 +351,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nPositive logic is a type of logic where a logic level of 1 is considered to be true and a logic level of 0 is considered to be false. Negative logic is a type of logic where a logic level of 0 is considered to be true and a logic level of 1 is considered to be false.\n\nPositive X-OR is a logic gate that outputs a logic level of 1 when either of its two inputs is 1, and a logic level of 0 when both of its inputs are 0. Negative X-NOR is a logic gate that outputs a logic level of 0 when either of its two inputs is 0, and a logic level of 1 when both of its inputs are 1.\n\nThe following truth table shows that positive X-OR is equivalent to negative X-NOR:\n\nInput A | Input B | Positive X-OR | Negative X-NOR\n0 | 0 | 0 | 1\n0 | 1 | 1 | 0\n1 | 0 | 1 | 0\n1 | 1 | 0 | 1\n\nTherefore, it can be seen that positive X-OR is equivalent to negative X-NOR."
+                ]
             },
             "3": {
                 "question": [
@@ -300,7 +362,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nF = (1,2,3,8,9,10,11,14)\n\nD = (0,4,12)\n\nUsing K-map:\n\nF = A'B'C' + A'BC + ABC' + AB'C\n\nRealized using NAND Gates:\n\nF = (A'B'C' + A'BC + ABC' + AB'C)'\n\n= (A'B'C'NAND A'BCNAND ABC'NAND AB'C)"
+                ]
             },
             "4": {
                 "question": [
@@ -311,7 +375,10 @@
                     6,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe logic circuit for a 4:2 Priority Encoder is shown below. The circuit consists of four inputs (A, B, C, and D) and two outputs (Y1 and Y2). The output Y1 is the most significant bit (MSB) and Y2 is the least significant bit (LSB). The circuit works by comparing the inputs and outputting the highest priority input as the MSB and the second highest priority input as the LSB. \n\nThe circuit is designed using AND gates, OR gates, and NOT gates. The AND gates are used to compare the inputs and the OR gates are used to combine the outputs of the AND gates. The NOT gates are used to invert the inputs. \n\nThe circuit works by first comparing the inputs A and B. If A is higher priority than B, then the output Y1 is set to 1. If B is higher priority than A, then the output Y1 is set to 0. The same process is repeated for inputs C and D. If C is higher priority than D, then the output Y2 is set to 1. If D is higher priority than C, then the output Y2 is set to 0. \n\nThe circuit is designed such that if two or more inputs are at the same priority, then the output will be determined by the order of the inputs. For example, if A and B are both at the same priority, then the output Y1 will be determined by the order of the inputs (A first, then B). \n\nThe circuit is designed such that if all inputs are at the same priority, then both outputs will be 0. \n\nThe circuit is designed such that if no inputs are at the same priority, then both outputs will be 1. \n\nThe circuit is designed such that if one input is at a higher priority than all other inputs, then the output Y1 will be 1 and the output Y2 will be 0. \n\nThe circuit is designed such that if two inputs are at the same priority and one input is at a higher priority than the other two inputs, then the output Y1 will be 1 and the output Y2 will be 1. \n\nThe circuit is designed such that if three inputs are at the same priority and one input is at a higher priority than the other three inputs, then the output Y1 will be 1 and the output Y2 will be 0.",
+                    "\n\n4:1 Multiplexer:\n\nA B C D\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n\n| | | |\n"
+                ]
             },
             "5": {
                 "question": [
@@ -322,7 +389,10 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nCombinational circuits are circuits that take one or more input signals and produce one or more output signals based on a fixed logic function. They are static and do not store any information.\n\nLogic circuits are circuits that take one or more input signals and produce one or more output signals based on a logic function that can be changed. They are dynamic and can store information.",
+                    "\n\nAn asynchronous mod-12 counter is a type of counter that counts up to 12 and then resets back to 0. It is also known as a modulo-12 counter. It is an asynchronous counter because it does not require a clock signal to operate.\n\nThe timing diagram for an asynchronous mod-12 counter is shown below. The diagram shows the output of the counter at each step. The output is represented by the numbers 0-11.\n\nAt the start of the cycle, the output is 0. As the counter progresses, the output increases by one each time until it reaches 11. At this point, the output resets back to 0 and the cycle begins again.\n\nThe timing diagram shows that the output of the counter is asynchronous, meaning that it does not require a clock signal to operate. This makes it ideal for applications where a clock signal is not available or not necessary."
+                ]
             },
             "6": {
                 "question": [
@@ -331,7 +401,9 @@
                 "marks": [
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA 4-bit serial in parallel out (SIPO) register is a type of register that stores data in a serial fashion and outputs the data in a parallel fashion. It is composed of four D-type flip-flops, each of which is connected to the output of the previous flip-flop. The data is loaded into the register by applying a serial data signal to the input of the first flip-flop. The data is then shifted through the register, one bit at a time, until it reaches the output of the last flip-flop.\n\nThe timing diagram for a 4-bit SIPO register is shown below. The diagram shows the timing of the clock signal (CLK), the serial data signal (D), and the four parallel output signals (Q0, Q1, Q2, and Q3).\n\nAt time t0, the clock signal is low and the serial data signal is applied to the input of the first flip-flop. At time t1, the clock signal goes high, causing the data to be loaded into the first flip-flop. At time t2, the clock signal goes low again, causing the data to be shifted to the second flip-flop. This process continues until the data reaches the output of the fourth flip-flop at time t4. At this point, the four parallel output signals (Q0, Q1, Q2, and Q3) will all be high, indicating that the data has been successfully loaded into the register."
+                ]
             },
             "7": {
                 "question": [
@@ -342,7 +414,10 @@
                     4,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA D flip-flop can be converted into a JK flip-flop by setting the J and K inputs to be equal to the D input. This means that when the D input is high, the J and K inputs will both be high, and when the D input is low, the J and K inputs will both be low. This will cause the JK flip-flop to behave in the same way as the D flip-flop.",
+                    "\n\nA JK flip-flop can be converted into a D flip-flop by setting the J and K inputs to logic 1. This will cause the flip-flop to always toggle its output when the clock signal is triggered, thus behaving like a D flip-flop."
+                ]
             },
             "8": {
                 "question": [
@@ -353,7 +428,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nSynchronous counter: A synchronous counter is a digital circuit that counts in a predetermined sequence based on a clock signal. It is a type of sequential logic circuit, which means that the output of the circuit is determined by the current and previous inputs.\n\nAsynchronous counter: An asynchronous counter is a digital circuit that counts in a predetermined sequence based on an input signal. Unlike a synchronous counter, the output of the circuit is not determined by the clock signal, but instead by the input signal. Asynchronous counters are also known as ripple counters, since the output of each stage is fed back to the input of the next stage, creating a ripple effect.",
+                    "\n\nDesign:\n\nThe MOD-10 synchronous counter is designed using four D flip-flops. The counter is designed to count from 0 to 9 and then reset back to 0. The counter is clocked by a single clock signal. The output of each flip-flop is connected to the input of the next flip-flop. The output of the last flip-flop is connected to the input of the first flip-flop. The output of the first flip-flop is connected to the reset input of the first flip-flop.\n\nTiming Diagram:\n\nThe timing diagram for the MOD-10 synchronous counter is shown below. The clock signal is shown in the top row. The output of each flip-flop is shown in the rows below. The output of the first flip-flop is shown in the bottom row. The counter counts from 0 to 9 and then resets back to 0."
+                ]
             },
             "9": {
                 "question": [
@@ -362,7 +440,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nCMOS stands for Complementary Metal-Oxide-Semiconductor. It is a type of digital logic circuit that uses both n-type and p-type transistors to achieve high speed and low power consumption.\n\nA CMOS 2-input NAND gate circuit is a logic gate that produces an output of 0 when both of its inputs are 1. It is composed of two transistors, one n-type and one p-type, connected in series. When both inputs are 0, the output is 1. The timing diagram for a CMOS 2-input NAND gate circuit is shown below.\n\nThe timing diagram shows that when both inputs are 0, the output is 1. When one of the inputs is 1, the output is 0. When both inputs are 1, the output is 0. The output remains 0 until both inputs are 0 again."
+                ]
             },
             "10": {
                 "question": [
@@ -371,7 +451,9 @@
                 "marks": [
                     12
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe design of the sequential machine is shown in the figure below.\n\nThe machine consists of three JK flip-flops connected in series. The input 'x' is connected to the clock input of the first flip-flop. The output of the first flip-flop is connected to the clock input of the second flip-flop. The output of the second flip-flop is connected to the clock input of the third flip-flop. The output of the third flip-flop is connected to the output 'z'.\n\nThe JK flip-flops are configured such that when the input 'x' is 0, the output 'z' is 0. When the input 'x' is 1, the output 'z' is 1 if the serial sequence of 001 is detected. If the serial sequence of 001 is not detected, the output 'z' remains 0."
+                ]
             },
             "11": {
                 "question": [
@@ -380,7 +462,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe block diagram of a time measurement circuit is shown below:\n\n1. Clock Source: This is the source of the clock signal that is used to measure the time. It can be an oscillator, a crystal oscillator, or a signal generator.\n\n2. Counter: This is the device that counts the number of clock pulses. It can be a digital counter, an analog counter, or a combination of both.\n\n3. Display: This is the device that displays the time measured. It can be a digital display, an analog display, or a combination of both.\n\n4. Control Logic: This is the logic that controls the operation of the circuit. It can be a microcontroller, a programmable logic controller, or a combination of both.\n\n5. Inputs: This is the input to the circuit. It can be a switch, a sensor, or a combination of both.\n\n6. Outputs: This is the output of the circuit. It can be a signal, a display, or a combination of both."
+                ]
             }
         }
     },
@@ -413,7 +497,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAt 20\u00b0C,\nR1 = 600 ohm\nR2 = 300 ohm\n\u03b11 = 0.002/\u00b0C\n\u03b12 = 0.004/\u00b0C\n\nAt 50\u00b0C,\nR1 = 600 + (50-20) * 0.002 = 610 ohm\nR2 = 300 + (50-20) * 0.004 = 310 ohm\n\nTherefore, the resistance of the combination at 50\u00b0C = 610 + 310 = 920 ohm"
+                ]
             },
             "2": {
                 "question": [
@@ -446,7 +532,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nPower is the rate at which energy is transferred, converted, or consumed. It is measured in watts (W) and is equal to the amount of energy consumed or produced divided by the time it takes to do so. In general, power is kept as high as possible in power supply systems because it increases the efficiency of the system. Higher power levels allow for more energy to be transferred or converted in a shorter amount of time, which reduces the amount of energy lost in the process. Additionally, higher power levels can reduce the size and cost of the components used in the system.",
+                    "\n\nThe capacitance per phase required to raise the power factor to 0.9 lagging is given by:\n\nC = (50kW x 1000) / (3 x 415V x 50Hz x 0.9 x 0.72)\n\nC = 0.867 \u03bcF"
+                ]
             },
             "6": {
                 "question": [
@@ -455,7 +544,9 @@
                 "marks": [
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA 4-bit serial in parallel out (SIPO) register is a type of register that stores data in a serial fashion and outputs the data in a parallel fashion. It is composed of four D-type flip-flops, each of which is connected to the output of the previous flip-flop. The data is loaded into the register by applying a serial data signal to the input of the first flip-flop. The data is then shifted through the register, one bit at a time, until it reaches the output of the last flip-flop.\n\nThe timing diagram for a 4-bit SIPO register is shown below. The diagram shows the timing of the clock signal (CLK), the serial data signal (D), and the four parallel output signals (Q0, Q1, Q2, and Q3).\n\nAt time t0, the clock signal is low and the serial data signal is applied to the input of the first flip-flop. At time t1, the clock signal goes high, causing the data to be loaded into the first flip-flop. At time t2, the clock signal goes low again, causing the data to be shifted to the second flip-flop. This process continues until the data reaches the output of the fourth flip-flop at time t4. At this point, the data is available on the four parallel output signals."
+                ]
             },
             "7": {
                 "question": [
@@ -464,7 +555,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nConverting a D Flip-Flop into a JK Flip-Flop:\n\nA D flip-flop can be converted into a JK flip-flop by setting the J and K inputs to be equal to the D input. This means that the J and K inputs will always be the same, and the output will be the same as the D input.\n\nConverting a JK Flip-Flop into a D Flip-Flop:\n\nA JK flip-flop can be converted into a D flip-flop by setting the J and K inputs to be the inverse of each other. This means that when one input is high, the other will be low, and the output will be the same as the D input."
+                ]
             },
             "8": {
                 "question": [
@@ -475,7 +568,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nSynchronous counter: A synchronous counter is a digital circuit that counts in a predetermined sequence based on a clock signal. It is a type of sequential logic circuit, which means it has internal memory and changes its output based on the current input and the previous state.\n\nAsynchronous counter: An asynchronous counter is a digital circuit that counts in a predetermined sequence based on an external input signal. It is a type of combinational logic circuit, which means it does not have internal memory and its output is determined solely by the current input.",
+                    "\n\nDesign:\n\nThe MOD-10 synchronous counter is designed using four D flip-flops. The counter is designed to count from 0 to 9 and then reset back to 0. The counter is clocked using a single clock signal. The output of each flip-flop is connected to the input of the next flip-flop. The output of the last flip-flop is connected to the input of the first flip-flop. The output of the first flip-flop is connected to the reset input of the first flip-flop.\n\nTiming Diagram:\n\nThe timing diagram for the MOD-10 synchronous counter is shown below. The clock signal is shown in the top row. The output of each flip-flop is shown in the rows below. The output of the first flip-flop is shown in the bottom row. The output of the first flip-flop is connected to the reset input of the first flip-flop. The counter counts from 0 to 9 and then resets back to 0."
+                ]
             },
             "9": {
                 "question": [
@@ -486,7 +582,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nCMOS (Complementary Metal-Oxide-Semiconductor) is a type of semiconductor technology used in integrated circuits. It is characterized by low power consumption, high speed, and low noise. Common CMOS parameters include supply voltage, threshold voltage, leakage current, capacitance, and switching speed.",
+                    "\n\nA CMOS 2-input NAND gate circuit is a logic gate that produces an output of 0 when both of its inputs are 1. It produces an output of 1 when either of its inputs is 0. The timing diagram for a CMOS 2-input NAND gate circuit is shown below.\n\nThe timing diagram shows the input signals (A and B) and the output (Y) of the NAND gate. When both inputs are 0, the output is 1. When either input is 1, the output is 0. The output will remain at 0 until both inputs are 0 again. The output will then return to 1. This is the logic operation of a CMOS 2-input NAND gate circuit."
+                ]
             },
             "10": {
                 "question": [
@@ -495,7 +594,9 @@
                 "marks": [
                     12
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe design of the sequential machine is shown in the figure below.\n\nThe machine consists of three JK flip-flops connected in series. The input 'x' is connected to the clock input of the first flip-flop. The output of the first flip-flop is connected to the clock input of the second flip-flop. The output of the second flip-flop is connected to the clock input of the third flip-flop. The output of the third flip-flop is connected to the output 'z'.\n\nThe JK flip-flops are configured such that when the input 'x' is 0, the output 'z' is 0. When the input 'x' is 1, the output 'z' is 1 if the serial sequence of 001 is detected. If the serial sequence of 001 is not detected, the output 'z' remains 0."
+                ]
             },
             "11": {
                 "question": [
@@ -504,7 +605,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe block diagram of a time measurement circuit is shown below:\n\n1. Clock Source: This is the source of the clock signal. It can be an oscillator, a crystal oscillator, or a signal generator.\n\n2. Counter: This is the device that counts the number of clock pulses. It can be a digital counter, an analog counter, or a combination of both.\n\n3. Display: This is the device that displays the time measurement. It can be a digital display, an analog display, or a combination of both.\n\n4. Control Logic: This is the logic that controls the operation of the circuit. It can be a microcontroller, a programmable logic controller, or a combination of both.\n\n5. Inputs: This is the input to the circuit. It can be a switch, a sensor, or a combination of both.\n\n6. Outputs: This is the output of the circuit. It can be a signal, a display, or a combination of both."
+                ]
             }
         }
     },
@@ -536,7 +639,10 @@
                     2,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe Maximum Power Transfer Theorem states that maximum power is transferred from a source to a load when the load resistance is equal to the source resistance. This theorem is applicable to antennas, where the source resistance is the antenna's internal resistance and the load resistance is the resistance of the antenna's environment. When the load resistance is equal to the source resistance, the antenna will be able to transfer the maximum amount of power from the source to the load.",
+                    "\n\nThe reciprocity theorem states that the radiation characteristics of an antenna are the same regardless of whether the antenna is transmitting or receiving. This means that the antenna's radiation pattern, gain, and other parameters are the same when the antenna is used for transmitting or receiving."
+                ]
             },
             "2": {
                 "question": [
@@ -549,7 +655,11 @@
                     2,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nRadiation patterns are graphical representations of the radiation properties of an antenna. They show the relative strength of the signal emitted by the antenna in different directions. The radiation pattern of an antenna is determined by the physical shape and size of the antenna, as well as the material it is made of. The radiation pattern can be used to determine the best orientation of the antenna for a particular application. It can also be used to identify potential interference sources and to optimize the antenna for a specific application.",
+                    "\n\nPolarization in terms of antenna refers to the orientation of the electric field of the radio wave in relation to the antenna. The electric field of the radio wave can be either horizontally or vertically polarized. Horizontal polarization is when the electric field is parallel to the ground, while vertical polarization is when the electric field is perpendicular to the ground. The polarization of the antenna must match the polarization of the incoming radio wave in order for the antenna to receive the signal.",
+                    "\n\nBeam width is a measure of the angular width of the main lobe of an antenna radiation pattern. It is the angular distance between the two points on the antenna radiation pattern at which the power drops to half of its peak value. Beam width is an important parameter in antenna design, as it determines the antenna's directivity and gain."
+                ]
             },
             "3": {
                 "question": [
@@ -560,7 +670,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAntenna arrays are important because they allow for increased signal strength, improved signal-to-noise ratio, and improved directionality. They are used in a variety of applications, such as radio and television broadcasting, cellular communications, and radar systems. Antenna arrays can also be used to reduce interference from other signals, and to increase the range of a signal.",
+                    "\n\nEnd-fire array antenna: An end-fire array antenna is an antenna array in which the elements are arranged in a line and the radiation is directed along the line. This type of antenna is used for directional transmission and reception of radio waves.\n\nBroadside array antenna: A broadside array antenna is an antenna array in which the elements are arranged in a line perpendicular to the direction of radiation. This type of antenna is used for omnidirectional transmission and reception of radio waves."
+                ]
             },
             "4": {
                 "question": [
@@ -571,7 +684,10 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAperture type antennas differ from conventional antennas in that they are designed to capture and focus electromagnetic energy in a specific direction. This is done by using a physical aperture, such as a hole or slot, to capture the energy and direct it in a specific direction. This allows for more precise control of the radiation pattern and higher gain than conventional antennas. Aperture type antennas are also more efficient than conventional antennas, as they are able to capture more of the available energy.",
+                    "\n\nThe theory of radiation from a rectangular horn states that the radiation pattern of a rectangular horn is determined by the ratio of the length of the horn to its width. The radiation pattern is a function of the ratio of the length to the width, and is determined by the shape of the horn. The radiation pattern is a combination of directivity and gain, and is determined by the ratio of the length to the width. The radiation pattern is also affected by the size of the horn, as larger horns will have a higher gain and a more directional pattern. The radiation pattern of a rectangular horn is typically a combination of a broadside pattern and a lobe pattern, with the lobe pattern being more pronounced at higher frequencies. The radiation pattern of a rectangular horn is also affected by the material used to construct the horn, as different materials will have different acoustic properties."
+                ]
             },
             "5": {
                 "question": [
@@ -580,7 +696,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe ionosphere is a region of the Earth's atmosphere that is ionized by solar radiation. It is composed of several layers of charged particles, or ions, that are created when ultraviolet radiation from the Sun interacts with molecules in the atmosphere. These layers of ions act as a reflective surface for radio waves, allowing them to be reflected back to Earth and enabling long-distance communication.\n\nThe ionosphere is divided into four distinct layers: the D layer, the E layer, the F1 layer, and the F2 layer. The D layer is the lowest layer and is located at an altitude of about 60 km. It is composed of negatively charged ions and is responsible for absorbing low-frequency radio waves. The E layer is located at an altitude of about 90 km and is composed of both positively and negatively charged ions. It is responsible for reflecting medium-frequency radio waves. The F1 layer is located at an altitude of about 150 km and is composed of positively charged ions. It is responsible for reflecting high-frequency radio waves. The F2 layer is the highest layer and is located at an altitude of about 250 km. It is composed of both positively and negatively charged ions and is responsible for reflecting very high-frequency radio waves.\n\nIonospheric communication relies on the reflection of radio waves off of the ionized layers of the atmosphere. Radio waves are transmitted from a ground station and travel up into the atmosphere, where they are reflected off of the ionized layers and back down to Earth. This allows for long-distance communication, as the radio waves can travel much farther than they would be able to without the ionosphere."
+                ]
             },
             "6": {
                 "question": [
@@ -589,7 +707,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nEIRP = 46 dBW\n\nTransmitting power = 500 W\n\nEfficiency = 75%\n\nFrequency = 3 GHz\n\nWaveguide loss = 2.5 dB\n\nRadiated power = EIRP - Waveguide loss\n\n= 46 dBW - 2.5 dB = 43.5 dBW\n\nRadiated power = 43.5 dBW = 500 W x (10^(43.5/10))\n\n= 500 W x 10^4.35\n\n= 500 W x 10,000,000\n\n= 5 x 10^9 W\n\nAntenna gain = EIRP/Radiated power\n\n= 46 dBW/5 x 10^9 W\n\n= 46 dBW/50,000,000,000 W\n\n= 46 dB/50 dB\n\n= 0.92\n\nAntenna diameter = (4\u03c0/\u03bb) x (G/\u03b7)^0.5\n\n= (4\u03c0/\u03bb) x (0.92/0.75)^0.5\n\n= (4\u03c0/3 x 10^8) x (0.92/0.75)^0.5\n\n= (4\u03c0/3 x 10^8) x (1.23)^0.5\n\n= (4\u03c0/3 x 10^8) x 1.11\n\n= 4.44 x 10^-7 m\n\n= 4.44 cm"
+                ]
             },
             "7": {
                 "question": [
@@ -598,7 +718,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA V-antenna is a type of antenna that is shaped like a \"V\" and is used for transmitting and receiving radio waves. It is also known as a dipole antenna.\n\nThe structure of a V-antenna consists of two metal rods that are connected at the top and bottom. The rods are usually made of copper or aluminum and are usually about one-half wavelength long. The rods are connected to a feed line, which is used to transmit or receive the radio waves.\n\nThe radiation pattern of a V-antenna is a figure-eight pattern, with the strongest signal being emitted in the direction of the two rods. The signal is also strongest in the direction perpendicular to the rods, and weakest in the direction parallel to the rods.\n\nThe working of a V-antenna is based on the principle of resonance. When a radio wave is transmitted through the antenna, the two rods vibrate at the same frequency as the radio wave. This causes the antenna to resonate, which amplifies the signal and allows it to be transmitted or received."
+                ]
             },
             "8": {
                 "question": [
@@ -607,7 +729,9 @@
                 "marks": [
                     8
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nStructural Design: A helical antenna is a type of antenna that is made up of a conducting wire wound in the form of a helix. The helix is usually made of copper or aluminum and is usually mounted on a mast or tower. The antenna is usually mounted horizontally, but can also be mounted vertically.\n\nWorking Principle in Axial Mode: The helical antenna works in axial mode when the antenna is mounted horizontally. In this mode, the antenna radiates a circularly polarized wave in the direction of the helix. The antenna is most efficient when the helix is oriented in the direction of the desired signal.\n\nWorking Principle in Normal Mode: The helical antenna works in normal mode when the antenna is mounted vertically. In this mode, the antenna radiates a linearly polarized wave in the direction of the helix. The antenna is most efficient when the helix is oriented in the direction of the desired signal.\n\nMerits: The helical antenna has several advantages over other types of antennas. It is relatively small and lightweight, making it easy to install and transport. It is also highly directional, meaning that it can be used to focus the signal in a specific direction. Additionally, it is relatively inexpensive and can be used for both transmitting and receiving signals.\n\nDemerits: The helical antenna has several disadvantages. It is not very efficient at transmitting signals over long distances, and it is also susceptible to interference from other signals. Additionally, it is not very effective at receiving signals from multiple directions.\n\nApplications: The helical antenna is used in a variety of applications, including radio and television broadcasting, satellite communications, and wireless networking. It is also used in military applications, such as radar and communications systems. Additionally, it is used in amateur radio and other hobbyist applications."
+                ]
             },
             "9": {
                 "question": [
@@ -617,7 +741,9 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nMicroscopic fiber bend is the result of the physical curvature of the optical fiber, which causes light to be scattered and absorbed, resulting in a decrease in the signal strength. This is known as bending loss. Macroscopic fiber bend is the result of the fiber being bent at a large radius, which causes the light to be refracted and reflected, resulting in a decrease in the signal strength. This is also known as bending loss. Both microscopic and macroscopic fiber bend contribute to the overall bending loss in optical fiber."
+                ]
             },
             "10": {
                 "question": [
@@ -632,7 +758,12 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nEffective Isotropic Radiated Power (EIRP) is a measure of the power of a radio signal in a given direction relative to an isotropic source. It is calculated by taking the power of the transmitter, subtracting any losses in the antenna and transmission line, and adding any gain from the antenna. EIRP is used to compare the relative power of different transmitters and to determine the maximum power that can be used without causing interference.",
+                    "\n\nA Macaroni antenna is a type of antenna that is used in wireless communication systems. It is a type of dipole antenna that is made up of two metal rods that are bent in the shape of a macaroni noodle. The antenna is used to transmit and receive radio signals in the frequency range of 2.4 GHz to 5.8 GHz. It is commonly used in Wi-Fi routers, Bluetooth devices, and other wireless communication systems. The Macaroni antenna is a low-cost and easy-to-install antenna that is suitable for short-range communication.",
+                    "\n\nFresnel diffraction at a knife edge is a phenomenon that occurs when light passes through a narrow slit or edge. When light passes through the slit, it is diffracted and forms a pattern of concentric circles on the other side. This phenomenon is named after the French physicist Augustin-Jean Fresnel, who first studied it in the early 19th century. The pattern of diffraction is determined by the size of the slit and the wavelength of the light. The intensity of the diffraction pattern decreases with increasing distance from the slit.",
+                    "\n\nOptical Source: An optical source is a device that emits light. This light can be in the form of visible light, infrared light, or ultraviolet light. Examples of optical sources include light-emitting diodes (LEDs), lasers, and incandescent bulbs.\n\nOptical Detector: An optical detector is a device that detects light. This light can be in the form of visible light, infrared light, or ultraviolet light. Examples of optical detectors include photodiodes, phototransistors, and photomultipliers."
+                ]
             }
         }
     },
@@ -664,7 +795,10 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nRetarded potential is a type of potential energy that is delayed in time. It is a form of potential energy that is delayed due to the finite speed of light. This type of potential energy is used in electromagnetism and quantum mechanics.",
+                    "\n\nElectromagnetic waves are generated by a conductor when an alternating current is applied to it. When the current is applied, it creates an oscillating electric field around the conductor. This electric field then creates a corresponding oscillating magnetic field. The two fields interact with each other, creating an electromagnetic wave that propagates away from the conductor."
+                ]
             },
             "2": {
                 "question": [
@@ -675,7 +809,10 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe Maximum Power Transfer Theorem states that the maximum power is transferred from one source to another when the load resistance is equal to the source resistance. This theorem is applicable to antennas, where the source resistance is the antenna's internal resistance and the load resistance is the resistance of the antenna's external circuit. When the load resistance is equal to the source resistance, the antenna will be able to transfer the maximum amount of power from the source to the load.",
+                    "\n\nThe superposition theorem states that the total response of an antenna system to an incident wave is equal to the sum of the responses of the individual antenna elements. This theorem is useful in antenna design, as it allows for the analysis of complex antenna systems by breaking them down into simpler components. The superposition theorem can be used to calculate the radiation pattern of an antenna array, the gain of an antenna system, and the impedance of an antenna system."
+                ]
             },
             "3": {
                 "question": [
@@ -685,7 +822,9 @@
                     6,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nWorking Principle:\n\nThe V antenna is a type of antenna that is used for transmitting and receiving radio waves. It is a directional antenna, meaning that it is designed to send and receive signals in a specific direction. The V antenna works by using two dipole antennas that are arranged in a V-shape. The two dipole antennas are connected to a feed line, which is used to transmit and receive the radio waves.\n\nConstruction:\n\nThe V antenna is constructed from two dipole antennas that are arranged in a V-shape. The two dipole antennas are connected to a feed line, which is used to transmit and receive the radio waves. The dipole antennas are usually made from metal rods or wires, and the feed line is usually made from coaxial cable.\n\nAdvantages:\n\nThe V antenna has several advantages over other types of antennas. It is a directional antenna, meaning that it can be used to send and receive signals in a specific direction. This makes it ideal for long-distance communication. Additionally, the V antenna is relatively easy to construct and is relatively inexpensive.\n\nApplications:\n\nThe V antenna is used in a variety of applications, including radio broadcasting, television broadcasting, amateur radio, and satellite communications. It is also used in military and government communications. Additionally, the V antenna is used in some types of radar systems."
+                ]
             },
             "4": {
                 "question": [
@@ -694,7 +833,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAntenna Gain: Antenna gain is a measure of the power of an antenna's radiated signal in a particular direction, relative to the power of the same signal radiated by a hypothetical ideal isotropic antenna. It is usually expressed in decibels (dB). Mathematically, antenna gain is expressed as:\nG = 10 log (P_radiated/P_isotropic)\n\nAntenna Efficiency: Antenna efficiency is a measure of how much of the power supplied to an antenna is actually radiated. It is usually expressed as a percentage. Mathematically, antenna efficiency is expressed as:\nE = (P_radiated/P_supplied) x 100\n\nAntenna Polarization: Antenna polarization is the orientation of the electric field of the radio wave with respect to the ground. It is usually expressed as either vertical or horizontal. Mathematically, antenna polarization is expressed as:\nP = E_vertical/E_horizontal"
+                ]
             },
             "5": {
                 "question": [
@@ -705,7 +846,10 @@
                     1,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA reflector antenna is a type of antenna that uses a physical structure to reflect radio waves in a particular direction, in order to direct a stronger signal in that direction. Reflector antennas are used in a variety of applications, including radio and television broadcasting, satellite communications, and radar systems.",
+                    "\n\nParabolic reflector antenna:\n\nA parabolic reflector antenna is a type of antenna that uses a parabolic reflector to focus the radio waves in a particular direction. It is a high-gain antenna that is used in a variety of applications, including satellite communications, radio astronomy, and wireless networking.\n\nThe parabolic reflector antenna consists of a parabolic reflector, a feed element, and a support structure. The parabolic reflector is a curved surface that reflects the radio waves in a particular direction. The feed element is placed at the focal point of the parabolic reflector and is used to transmit or receive the radio waves. The support structure holds the parabolic reflector and the feed element in place.\n\nTypes of Feeding System:\n\n1. Waveguide Feed: A waveguide feed is a type of feeding system used in parabolic reflector antennas. It consists of a waveguide, which is a hollow metal tube that guides the radio waves from the feed element to the parabolic reflector. The waveguide feed is used in applications where a high gain is required.\n\n2. Horn Feed: A horn feed is a type of feeding system used in parabolic reflector antennas. It consists of a horn, which is a flared metal tube that guides the radio waves from the feed element to the parabolic reflector. The horn feed is used in applications where a wide beamwidth is required.\n\n3. Dipole Feed: A dipole feed is a type of feeding system used in parabolic reflector antennas. It consists of two dipoles, which are two metal rods that are connected to the feed element and the parabolic reflector. The dipole feed is used in applications where a narrow beamwidth is required."
+                ]
             },
             "6": {
                 "question": [
@@ -714,7 +858,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\n![alt text](https://i.imgur.com/XVX3VX3.png)"
+                ]
             },
             "7": {
                 "question": [
@@ -723,7 +869,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe ionosphere is an important part of the Earth's atmosphere that is responsible for the transmission of radio waves. It is composed of several layers, each of which plays an important role in ionospheric communication.\n\nThe D-layer is the lowest layer of the ionosphere and is responsible for absorbing radio waves with frequencies below 10 MHz. This layer is important for preventing interference between radio signals.\n\nThe E-layer is the middle layer of the ionosphere and is responsible for reflecting radio waves with frequencies between 10 and 30 MHz. This layer is important for long-distance communication, as it allows radio waves to be reflected back to the Earth's surface.\n\nThe F-layer is the highest layer of the ionosphere and is responsible for reflecting radio waves with frequencies above 30 MHz. This layer is important for global communication, as it allows radio waves to be transmitted around the world.\n\nThe ionosphere is an important part of the Earth's atmosphere that is responsible for the transmission of radio waves. The different layers of the ionosphere play an important role in ionospheric communication, as they are responsible for absorbing, reflecting, and transmitting radio waves of different frequencies."
+                ]
             },
             "8": {
                 "question": [
@@ -732,7 +880,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nMUF (Maximum Usable Frequency) is the highest frequency that can be used for a given radio path between two points on the Earth's surface. It is determined by the ionospheric conditions along the path.\n\nThe skip distance is the maximum distance that a radio wave can travel before it is reflected back to Earth.\n\nThe relationship between MUF and skip distance is that the higher the MUF, the greater the skip distance. This is because higher frequencies are more easily reflected by the ionosphere, allowing them to travel further before being reflected back to Earth. Conversely, lower frequencies are more easily absorbed by the ionosphere, resulting in shorter skip distances."
+                ]
             },
             "9": {
                 "question": [
@@ -742,7 +892,9 @@
                     4,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nFriis Transmission Equation:\n\nThe Friis transmission equation is a formula used to calculate the power received by a receiver from a transmitter. It is given by:\n\nPr = Pt * (Gt * Gr * (\u03bb^2)) / (16 * \u03c0^2 * d^2)\n\nWhere,\n\nPr = Power received by the receiver (Watts)\n\nPt = Power transmitted by the transmitter (Watts)\n\nGt = Transmitter antenna gain (unitless)\n\nGr = Receiver antenna gain (unitless)\n\n\u03bb = Wavelength of the signal (meters)\n\nd = Distance between the transmitter and receiver (meters)\n\nPath Loss in Free Space Propagation:\n\nPath loss is the decrease in power of a signal as it propagates through space. In free space propagation, the path loss is given by:\n\nPath Loss = Pt * (Gt * Gr * (\u03bb^2)) / (16 * \u03c0^2 * d^2)\n\nWhere,\n\nPt = Power transmitted by the transmitter (Watts)\n\nGt = Transmitter antenna gain (unitless)\n\nGr = Receiver antenna gain (unitless)\n\n\u03bb = Wavelength of the signal (meters)\n\nd = Distance between the transmitter and receiver (meters)\n\nDistance of Line of Sight:\n\nThe distance of line of sight (d) can be calculated using the following formula:\n\nd = 3.57[\u221a(ht) + \u221a(hr)]km\n\nWhere,\n\nht = Height of the transmitter (meters)\n\nhr = Height of the receiver (meters)"
+                ]
             },
             "10": {
                 "question": [
@@ -753,7 +905,10 @@
                     5,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nConstruction: Optical fibers are made of a core of glass or plastic surrounded by a cladding material with a lower refractive index. The core and cladding are usually circular in shape, with a diameter ranging from 8 to 10 microns. The core is typically made of silica, while the cladding is usually made of a material such as fluorine-doped silica.\n\nPropagation Mechanism: Optical fibers use total internal reflection to propagate light. When light enters the fiber, it is reflected off the cladding and travels down the core. This process is known as total internal reflection, and it allows the light to travel long distances without being absorbed or scattered.\n\nApplications: Optical fibers are used in a variety of applications, including telecommunications, medical imaging, sensing, and lighting. They are also used in fiber-optic cables, which are used to transmit data over long distances. Optical fibers are also used in fiber lasers, which are used for cutting and welding.",
+                    "\n\nNumerical aperture (NA) is a measure of the light-gathering ability of an optical system, such as a microscope objective or an optical fiber. It is defined as the sine of the maximum acceptance angle of the system, divided by the refractive index of the medium in which the system is working. The higher the numerical aperture, the greater the light-gathering ability of the system."
+                ]
             },
             "11": {
                 "question": [
@@ -764,7 +919,10 @@
                     2,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nOptical fibers are most widely used in telecommunications, such as in fiber-optic cables that carry telephone and internet signals. They are also used in medical imaging, such as endoscopy and laparoscopy, and in sensing applications, such as in fiber-optic sensors.\n\nAdvantages of optical fibers include:\n\n1. High bandwidth: Optical fibers can carry more data than traditional copper cables, allowing for faster transmission of data.\n\n2. Low attenuation: Optical fibers suffer less signal loss than copper cables, allowing for longer transmission distances.\n\n3. Low interference: Optical fibers are immune to electromagnetic interference, making them more reliable than copper cables.\n\n4. Lightweight: Optical fibers are much lighter than copper cables, making them easier to install and transport.\n\nDisadvantages of optical fibers include:\n\n1. Expense: Optical fibers are more expensive than copper cables, making them cost-prohibitive for some applications.\n\n2. Fragility: Optical fibers are more fragile than copper cables, making them more susceptible to damage.\n\n3. Installation: Optical fibers require specialized equipment and expertise for installation, making them more difficult to install than copper cables.",
+                    "\n\nNumerical aperture (NA) is a measure of the light-gathering ability of an optical system, such as a microscope objective or an optical fiber. It is defined as the sine of the maximum acceptance angle of the system, multiplied by the refractive index of the medium between the system and the object being observed. The higher the numerical aperture, the greater the light-gathering ability of the system."
+                ]
             },
             "12": {
                 "question": [
@@ -777,7 +935,11 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nKnife edge diffraction phenomenon is a phenomenon in which a wave is diffracted when it passes through a narrow slit or edge. This phenomenon is used in many applications such as in optical systems, antennas, and acoustics. It is also used to measure the wavelength of light and sound waves. The diffraction pattern produced by the knife edge diffraction phenomenon is used to calculate the wavelength of the wave.",
+                    "\n\nA rhombic antenna is a type of directional antenna that is used in radio communications. It is made up of four straight elements arranged in a rhombus shape. The antenna is designed to provide a high gain in one direction, while providing a low gain in other directions. It is often used for long-distance point-to-point communications, such as in amateur radio and broadcasting. The antenna is also used in military applications, such as for radar and communications.",
+                    "\n\nMW propagation is the transmission of electromagnetic waves in the microwave frequency range. These waves are used for communication, radar, and other applications. MW propagation is affected by the environment, such as the atmosphere, terrain, and man-made structures. The propagation of MW signals can be affected by absorption, refraction, diffraction, and scattering. MW propagation is also affected by the frequency of the signal, the power of the signal, and the type of antenna used."
+                ]
             }
         }
     },
@@ -808,7 +970,9 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\"/user\")\npublic class UserController {\n\n    @Autowired\n    private UserService userService;\n\n    @GetMapping(\"/all\")\n    public List<User> getAllUsers(){\n        return userService.getAllUsers();\n    }\n\n    @PostMapping(\"/add\")\n    public void addUser(@RequestBody User user){\n        userService.addUser(user);\n    }\n\n    @PutMapping(\"/update\")\n    public void updateUser(@RequestBody User user){\n        userService.updateUser(user);\n    }\n\n    @DeleteMapping(\"/delete/{id}\")\n    public void deleteUser(@PathVariable int id){\n        userService.deleteUser(id);\n    }\n\n}"
+                ]
             },
             "2": {
                 "question": [],
@@ -845,7 +1009,9 @@
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe ionosphere is a region of the Earth's atmosphere that is ionized by solar radiation. It is located between 50 and 1000 km above the Earth's surface and is composed of several layers of ionized gas. The ionosphere is divided into three main layers: the D-region, the E-region, and the F-region.\n\nThe D-region is the lowest layer of the ionosphere and is located between 50 and 90 km above the Earth's surface. It is composed of neutral atoms and molecules that are ionized by solar radiation. This layer is responsible for the absorption of radio waves with frequencies below 10 MHz.\n\nThe E-region is located between 90 and 150 km above the Earth's surface and is composed of ionized atoms and molecules. This layer is responsible for the reflection of radio waves with frequencies between 10 and 30 MHz.\n\nThe F-region is the highest layer of the ionosphere and is located between 150 and 1000 km above the Earth's surface. It is composed of ionized atoms and molecules that are responsible for the reflection of radio waves with frequencies above 30 MHz.\n\nThe mechanism of ionosphere propagation is based on the reflection of radio waves by the ionized particles in the ionosphere. When a radio wave enters the ionosphere, it is reflected by the ionized particles and is sent back towards the Earth's surface. This process is known as skywave propagation and is used by radio stations to broadcast signals over long distances."
+                ]
             },
             "7": {
                 "question": [
@@ -856,7 +1022,10 @@
                     2,
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nTransmission loss is the decrease in signal strength that occurs when a signal is transmitted over a distance. It is caused by a variety of factors, including absorption, scattering, and interference. Transmission loss can be minimized by using higher-quality cables, amplifiers, and other components.",
+                    "\n\nThe Firiss transmission equation of free space propagation is given by:\n\nT = (\u03bb^2)/(4\u03c0^2d^2)\n\nwhere T is the transmission, \u03bb is the wavelength, and d is the distance between the two points."
+                ]
             },
             "8": {
                 "question": [
@@ -865,7 +1034,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe maximum power that can be received over a distance of 15.5 km line of sight free space with a 3.4 GHz frequency consisting of transmitting antenna gain of 25 dB and receiving antenna diameter 6.4 m with 75% antenna efficiency is approximately 4.2 W.\n\nThis is calculated using the Friis transmission equation:\n\nP_r = P_t * G_t * G_r * (\u03bb^2 / (4\u03c0r)^2)\n\nWhere:\n\nP_r = Received Power\nP_t = Transmitted Power\nG_t = Transmitting Antenna Gain\nG_r = Receiving Antenna Gain\n\u03bb = Wavelength\nr = Distance\n\nPlugging in the given values:\n\nP_r = 250 W * 25 dB * (6.4 m / 4\u03c0)^2 * (3.4 GHz / (4\u03c0 * 15.5 km))^2\nP_r = 4.2 W"
+                ]
             },
             "9": {
                 "question": [
@@ -874,7 +1045,9 @@
                 "marks": [
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nOptical fiber is a type of cable that is made of a very thin strand of glass or plastic that is used to transmit light signals over long distances. The core of the fiber is surrounded by a cladding material, which is usually made of a different type of glass or plastic. The cladding material has a lower refractive index than the core, which causes the light to be reflected back into the core and prevents it from escaping.\n\nOptical fibers are used in a variety of applications, including telecommunications, medical imaging, and sensing. They are also used in fiber-optic cables, which are used to transmit data over long distances.\n\nThere are two main types of optical fibers: single-mode and multi-mode. Single-mode fibers have a very small core diameter, typically around 8-10 microns, and are used for long-distance transmission. Multi-mode fibers have a larger core diameter, typically around 50-100 microns, and are used for shorter-distance transmission.\n\nSingle-mode fibers are typically used for telecommunications applications, such as telephone and internet connections. Multi-mode fibers are typically used for shorter-distance applications, such as local area networks (LANs).\n\nThe construction of an optical fiber is shown in the diagram below. The core is made of a glass or plastic material, and the cladding is made of a different material with a lower refractive index. The core and cladding are surrounded by a protective coating, which helps to protect the fiber from damage.\n\nThe diagram below shows the two types of optical fibers: single-mode and multi-mode. Single-mode fibers have a very small core diameter, while multi-mode fibers have a larger core diameter."
+                ]
             },
             "10": {
                 "question": [
@@ -885,7 +1058,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\n1. Lower Attenuation: Graded index fibers have a lower attenuation than step index fibers, allowing for longer transmission distances.\n\n2. Higher Bandwidth: Graded index fibers have a higher bandwidth than step index fibers, allowing for faster data transmission.\n\n3. Lower Dispersion: Graded index fibers have a lower dispersion than step index fibers, allowing for better signal integrity.\n\n4. Lower Crosstalk: Graded index fibers have a lower crosstalk than step index fibers, allowing for better signal isolation.\n\n5. Lower Reflection: Graded index fibers have a lower reflection than step index fibers, allowing for better signal transmission.\n\n6. Lower Nonlinearity: Graded index fibers have a lower nonlinearity than step index fibers, allowing for better signal transmission.",
+                    "\n\nThe refractive index profile of a multimode graded index fiber is designed to reduce the amount of modal dispersion that occurs in the fiber. The refractive index of the core is highest at the center and decreases gradually towards the edges. This creates a parabolic index profile that causes light rays to bend towards the center of the fiber, reducing the amount of modal dispersion.\n\nRay transmission in a multimode graded index fiber is achieved by the refractive index profile. Light rays entering the fiber are bent towards the center of the fiber, allowing them to travel further down the fiber without being scattered. This reduces the amount of modal dispersion and allows for higher data rates to be transmitted over longer distances."
+                ]
             },
             "11": {
                 "question": [
@@ -900,7 +1076,12 @@
                     4,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA corner reflector antenna is a type of directional antenna used at UHF and microwave frequencies. It consists of a flat metal sheet or plate, usually square or rectangular, mounted at an angle to a support structure. The antenna is usually fed at one corner of the reflector, and the radio waves are reflected off the metal surface to form a beam. The antenna is highly directional, with a gain of up to 15 dB, and is used for point-to-point communications, such as satellite communications, or for broadcasting.",
+                    "\n\nA V antenna is a type of antenna that is shaped like the letter \"V\". It is a directional antenna, meaning that it is designed to send and receive signals in a specific direction. The V antenna is often used in radio and television broadcasting, as well as in wireless communication systems. It is also used in amateur radio and other applications. The V antenna is a popular choice for many applications due to its low cost and ease of installation.",
+                    "\n\nCritical Frequency is the maximum frequency of an electromagnetic wave that can be propagated in a given medium. It is determined by the electron density of the medium and is inversely proportional to the square root of the electron density. The critical frequency is an important parameter in radio wave propagation and is used to determine the maximum frequency of a signal that can be transmitted through a medium.",
+                    "\n\nLight sources in optical communication are the devices used to generate light for the purpose of transmitting information through optical fibers. These sources can be either natural or artificial. Natural sources include the sun, stars, and moon, while artificial sources include lasers, light-emitting diodes (LEDs), and superluminescent diodes (SLDs). The light sources used in optical communication systems must be able to generate light of a specific wavelength, intensity, and polarization. The most commonly used light sources are lasers, which are capable of generating light of a single wavelength with high intensity and polarization. LEDs and SLDs are also used in optical communication systems, but they are not as efficient as lasers."
+                ]
             },
             "12": {
                 "question": [
@@ -913,7 +1094,11 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nKnife edge diffraction phenomenon is a phenomenon in which a wave is diffracted when it passes through a narrow slit or edge. This phenomenon is used in many applications such as in optical systems, antennas, and acoustics. It is also used to measure the wavelength of light and sound waves. The diffraction pattern produced by the knife edge diffraction phenomenon is used to calculate the wavelength of the wave.",
+                    "\n\nA rhombic antenna is a type of directional antenna that is used in radio communications. It is made up of four straight elements arranged in a rhombus shape. The antenna is designed to provide a high gain in one direction, while providing a low gain in other directions. It is often used for long-distance point-to-point communications, such as in amateur radio and broadcasting. The antenna is also used in military applications, such as for radar and communications.",
+                    "\n\nMW propagation is the transmission of electromagnetic waves in the microwave frequency range. These waves are used for communication, radar, and other applications. MW propagation is affected by the environment, such as the atmosphere, terrain, and man-made structures. The propagation of MW signals can be affected by absorption, refraction, diffraction, and scattering. MW propagation is also affected by the frequency of the signal, the power of the signal, and the type of antenna used."
+                ]
             }
         }
     },
@@ -944,7 +1129,9 @@
                     2,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\"/user\")\npublic class UserController {\n\n    @Autowired\n    private UserService userService;\n\n    @GetMapping(\"/all\")\n    public List<User> getAllUsers(){\n        return userService.getAllUsers();\n    }\n\n    @PostMapping(\"/add\")\n    public void addUser(@RequestBody User user){\n        userService.addUser(user);\n    }\n\n    @PutMapping(\"/update\")\n    public void updateUser(@RequestBody User user){\n        userService.updateUser(user);\n    }\n\n    @DeleteMapping(\"/delete/{id}\")\n    public void deleteUser(@PathVariable int id){\n        userService.deleteUser(id);\n    }\n\n}"
+                ]
             },
             "2": {
                 "question": [],
@@ -981,7 +1168,9 @@
                 "marks": [
                     7
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe ionosphere is a region of the Earth's atmosphere that is ionized by solar radiation. It is located between 50 and 1000 km above the Earth's surface and is composed of several layers of ionized gas. The ionosphere is divided into four main layers: the D-region, the E-region, the F-region, and the F-prime region.\n\nThe D-region is the lowest layer of the ionosphere and is located between 50 and 90 km above the Earth's surface. It is composed of neutral atoms and molecules that are ionized by solar radiation. The D-region is responsible for the absorption of radio waves with frequencies below 10 MHz.\n\nThe E-region is located between 90 and 150 km above the Earth's surface. It is composed of ionized atoms and molecules that are responsible for the reflection of radio waves with frequencies between 10 and 30 MHz.\n\nThe F-region is located between 150 and 400 km above the Earth's surface. It is composed of ionized atoms and molecules that are responsible for the reflection of radio waves with frequencies between 30 and 300 MHz.\n\nThe F-prime region is the highest layer of the ionosphere and is located between 400 and 1000 km above the Earth's surface. It is composed of ionized atoms and molecules that are responsible for the reflection of radio waves with frequencies above 300 MHz.\n\nThe ionosphere is responsible for the propagation of radio waves in three different modes: ground wave propagation, sky wave propagation, and space wave propagation.\n\nGround wave propagation is the propagation of radio waves along the Earth's surface. This type of propagation is used for short-range communication and is limited to a few hundred kilometers.\n\nSky wave propagation is the propagation of radio waves through the ionosphere. This type of propagation is used for long-range communication and can reach distances of thousands of kilometers.\n\nSpace wave propagation is the propagation of radio waves through the vacuum of space. This type of propagation is used for interplanetary communication and can reach distances of millions of kilometers."
+                ]
             },
             "7": {
                 "question": [
@@ -992,7 +1181,10 @@
                     5,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nFriis Transmission Equation:\n\nThe Friis Transmission Equation is a mathematical expression used to calculate the power received by a receiving antenna from a transmitting antenna. It is given by:\n\nP_r = P_t * (G_t * G_r * (\u03bb^2)) / (4\u03c0^2 * d^2)\n\nWhere:\n\nP_r = Power received by the receiving antenna\n\nP_t = Power transmitted by the transmitting antenna\n\nG_t = Gain of the transmitting antenna\n\nG_r = Gain of the receiving antenna\n\n\u03bb = Wavelength of the signal\n\nd = Distance between the two antennas\n\nPath Loss:\n\nPath loss is the decrease in power of a signal as it propagates through a medium. In the case of free space wave propagation, the path loss is given by:\n\nPath Loss = 20 * log10(d) + 20 * log10(f) + 32.45\n\nWhere:\n\nd = Distance between the two antennas\n\nf = Frequency of the signal",
+                    "\n\nDiffraction is an important phenomenon in communication systems because it allows signals to bend around obstacles and travel further than they would otherwise. This is especially important in wireless communication systems, where signals must travel through the atmosphere and around obstacles such as buildings and mountains. Diffraction allows signals to reach receivers that would otherwise be blocked by obstacles, increasing the range of the communication system. Diffraction also helps reduce signal fading and interference, which can degrade the quality of the signal."
+                ]
             },
             "8": {
                 "question": [
@@ -1003,7 +1195,10 @@
                     4,
                     4
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nSpace wave propagation is a type of radio wave propagation that occurs when a radio wave is transmitted from an antenna and propagates through the atmosphere. The wave is refracted by the atmosphere and is bent back towards the Earth's surface. This type of propagation is used for long-distance communication, such as satellite communication, and is also used for short-distance communication, such as mobile phone communication. Space wave propagation is also known as ground wave propagation or tropospheric propagation.",
+                    "\n\nThe radio horizon of space wave propagation is 54 meters."
+                ]
             },
             "9": {
                 "question": [
@@ -1014,7 +1209,10 @@
                     3,
                     5
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nAcceptance angle is the maximum angle at which light can enter an optical fiber. It is determined by the numerical aperture of the fiber, which is a measure of the light-gathering ability of the fiber. The acceptance angle is the angle between the axis of the fiber and the direction of the light entering the fiber.",
+                    "\n\nNumerical Aperture (NA) of an optical fiber is defined as the sine of the maximum angle of acceptance of the fiber, which is equal to the ratio of the maximum acceptance angle to the refractive index of the core material.\n\nNA = sin (\u03b8max) / n \n\nwhere \u03b8max is the maximum acceptance angle and n is the refractive index of the core material."
+                ]
             },
             "10": {
                 "question": [
@@ -1025,7 +1223,10 @@
                     6,
                     2
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nThe numerical aperture (NA) of a step index fiber is given by:\n\nNA = n1*sin(\u03b81)\n\nWhere n1 is the refractive index of the core and \u03b81 is the maximum angle of acceptance of the fiber.\n\nThe solid acceptance angle is given by:\n\n\u03b82 = arcsin(NA/n2)\n\nWhere n2 is the refractive index of the cladding.",
+                    "\n\nNumerical aperture (NA) is a measure of the light-gathering ability of an optical fiber. It is defined as the sine of the maximum angle of acceptance of the fiber, which is the angle between the axis of the fiber and the outermost rays of light that can be accepted by the fiber. The higher the NA, the more light the fiber can accept. The solid acceptance angle is the angle between the axis of the fiber and the outermost rays of light that can be accepted by the fiber. The higher the solid acceptance angle, the more light the fiber can accept.\n\nThe importance of numerical aperture and the solid acceptance angle in the propagation of optical signal through the fiber is that they determine the amount of light that can be transmitted through the fiber. The higher the NA and the solid acceptance angle, the more light can be transmitted through the fiber, resulting in a higher signal-to-noise ratio and better signal quality. This is especially important in long-distance fiber optic communication systems, where the signal must travel long distances with minimal loss."
+                ]
             },
             "11": {
                 "question": [
@@ -1040,7 +1241,12 @@
                     3,
                     3
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nA log periodic antenna is a type of antenna that is designed to have a wide bandwidth and a directional radiation pattern. It is composed of a series of dipole elements that are arranged in a logarithmic fashion. The antenna is designed to have a wide frequency range and a directional radiation pattern. It is often used in applications such as television and radio broadcasting, satellite communications, and wireless communication systems. The antenna is also used in radar systems and for other applications where a wide frequency range and a directional radiation pattern are desired.",
+                    "\n\nA folded dipole antenna is a type of dipole antenna that is folded back onto itself to form a loop. It is a type of half-wave dipole antenna that is used in a variety of applications, including radio and television broadcasting, amateur radio, and satellite communications. The folded dipole antenna is a simple and effective antenna that is easy to construct and can be used in a variety of applications. It has a higher gain than a regular dipole antenna and is more efficient in terms of power consumption. It is also more directional than a regular dipole antenna, making it ideal for applications where a narrow beam of radiation is desired.",
+                    "\n\nFresnel Zones: Fresnel zones are concentric circles around a transmitting antenna that are used to measure the strength of a signal. The number of Fresnel zones is determined by the distance between the transmitting and receiving antennas. The signal strength is strongest in the center zone and decreases as the distance from the center increases.\n\nKnife Edge Diffraction: Knife edge diffraction is a phenomenon that occurs when a wave encounters an obstacle. The wave is diffracted around the obstacle, resulting in a pattern of constructive and destructive interference. This phenomenon is used in antenna design to improve the performance of antennas.",
+                    "\n\nA PIN photodiode is a type of photodiode that uses a p-type semiconductor layer sandwiched between an n-type semiconductor layer and an intrinsic (undoped) semiconductor layer. It is used to detect light and convert it into an electrical current. The PIN photodiode is more sensitive than other photodiodes and has a faster response time. It is also more resistant to noise and has a higher dynamic range."
+                ]
             }
         }
     }

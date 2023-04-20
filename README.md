@@ -18,6 +18,10 @@ OPENAI_API_KEY="<API-KEY>"
 ```
    * Run `python main.py`
 
+## urls:
+    * home: http://127.0.0.1:8001
+    * mannual questions: http://127.0.0.1:8001/mannual
+
 ## Internal Working
     * Download pdf from url given
     * Convert pdf to images

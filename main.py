@@ -53,4 +53,4 @@ def index():
     return render_template('mannual_questions.html', qna=qna)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8001)
+    app.run(host='0.0.0.0', debug=True, port=8001)
