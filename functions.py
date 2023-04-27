@@ -124,6 +124,8 @@ def get_mannual_questions(subject):
     for question_paper in qna:
         if question_paper['subject'] == subject:
             question_papers.append(question_paper)
+    # short by year
+    question_papers.sort(key=lambda x: x['date_year'], reverse=True)
     return question_papers
 # ------------------
 # File operations
