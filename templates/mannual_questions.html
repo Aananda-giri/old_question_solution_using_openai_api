@@ -74,7 +74,7 @@
             {% for question_number, each_question in question_paper['questions'].items() %}
                 {% for i in range(each_question['num_parts']) %}
                     <li>
-                        <h4>{{question_number}}. {{ each_question['question'][i] }} ({{ each_question['marks'][i] }})</h4>
+                        <h4>{{question_number}}. {{ each_question['question'][i] }} [{{ each_question['marks'][i] }}]</h4>
                         <p>{{ each_question['answer'][i] }}</p>
                     </li>
                 {% endfor %}
