@@ -658,7 +658,7 @@
                 "answer": [
                     "\n\nRadiation patterns are graphical representations of the radiation properties of an antenna. They show the relative strength of the signal emitted by the antenna in different directions. The radiation pattern of an antenna is determined by the physical shape and size of the antenna, as well as the material it is made of. The radiation pattern can be used to determine the best orientation of the antenna for a particular application. It can also be used to identify potential interference sources and to optimize the antenna for a specific application.",
                     "\n\nPolarization in terms of antenna refers to the orientation of the electric field of the radio wave in relation to the antenna. The electric field of the radio wave can be either horizontally or vertically polarized. Horizontal polarization is when the electric field is parallel to the ground, while vertical polarization is when the electric field is perpendicular to the ground. The polarization of the antenna must match the polarization of the incoming radio wave in order for the antenna to receive the signal.",
-                    "\n\nBeam width is a measure of the angular width of the main lobe of an antenna radiation pattern. It is the angular distance between the two points on the antenna radiation pattern at which the power drops to half of its peak value. Beam width is an important parameter in antenna design, as it determines the antenna's directivity and gain."
+                    "\n\nBeam width is a measure of the angular width of the main lobe of an antenna radiation pattern. It is the angular distance between the two points on the antenna radiation pattern at which the power drops to half of its peak value. Beam width is an important parameter in antenna design, as it determines the antenna's directivity and gain.\n Half Power Beam Width is the angular separation, in which the magnitude of the radiation pattern decreases by 50% (or -3dB) from the peak of the main beam.\n First Null Beam Width is the angular span between the first pattern nulls adjacent to the main lobe."
                 ]
             },
             "3": {
@@ -735,17 +735,30 @@
             },
             "9": {
                 "question": [
-                    "Explain the cntribution of microscopic and macroscopic fiber bend towards the bending loss in optical fiber."
+                    "Explain the contribution of microscopic and macroscopic fiber bend towards the bending loss in optical fiber."
                 ],
                 "marks": [
-                    2,
-                    6
+                    7
                 ],
                 "answer": [
                     "\n\nMicroscopic fiber bend is the result of the physical curvature of the optical fiber, which causes light to be scattered and absorbed, resulting in a decrease in the signal strength. This is known as bending loss. Macroscopic fiber bend is the result of the fiber being bent at a large radius, which causes the light to be refracted and reflected, resulting in a decrease in the signal strength. This is also known as bending loss. Both microscopic and macroscopic fiber bend contribute to the overall bending loss in optical fiber."
                 ]
             },
             "10": {
+                "question": [
+                    "List out different optical fiber sources.",
+                    "Explain the losses in optical fiber briefly."
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": [
+                    "\n\n1. Laser diode\n2. Light-emitting diode (LED)\n3. Superluminescent diode (SLD)\n4. Vertical-cavity surface-emitting laser (VCSEL)\n5. Raman laser\n6. Erbium-doped fiber amplifier (EDFA)\n7. Optical parametric oscillator (OPO)\n8. Optical frequency comb generator (OFCG)\n9. Optical parametric amplifier (OPA)\n10. Optical amplifier (OA)",
+                    "\n\nOptical fiber losses are caused by a variety of factors, including absorption, scattering, and bending. Absorption occurs when light is absorbed by the material of the fiber, resulting in a decrease in the intensity of the light. Scattering occurs when light is scattered by impurities or imperfections in the fiber, resulting in a decrease in the intensity of the light. Bending losses occur when light is bent around a sharp corner, resulting in a decrease in the intensity of the light."
+                ]
+            },
+            "11": {
                 "question": [
                     "write short notes on: Effective Isotropic Radiated Power (EIRP)",
                     "write short notes on: Macroni antenna",
@@ -964,43 +977,76 @@
         "questions": {
             "1": {
                 "question": [
-                    ""
+                    "Describe a relation for the field intensity for the array of two element isotropic radiators with current equal in magnitude but opposite in phase.",
+                    "Show the condition for maxima and minima direction of intensity and draw the radiation pattern."
                 ],
                 "marks": [
+                    6,
+                    3
+                ],
+                "answer": [
+                    "\n\nThe relation for the field intensity for the array of two element isotropic radiators with current equal in magnitude but opposite in phase is given by:\n\nI = I1 + I2 = 2I0 cos(\u03b8)cos(\u03c6)\n\nwhere I1 and I2 are the individual current magnitudes, I0 is the common current magnitude, \u03b8 is the angle between the two elements, and \u03c6 is the angle between the direction of the field and the line connecting the two elements.",
+                    "\n\nMaxima: The condition for maxima of intensity is that the electric field vector and the magnetic field vector are in phase and in the same direction. This is represented by a radiation pattern with a single lobe pointing in the direction of the electric and magnetic field vectors.\n\nMinima: The condition for minima of intensity is that the electric field vector and the magnetic field vector are out of phase and in opposite directions. This is represented by a radiation pattern with two lobes pointing in opposite directions."
+                ]
+            },
+            "2": {
+                "question": [
+                    "What is the importance of antenna array?",
+                    "Differentiate between End Fire array and Broadside array"
+                ],
+                "marks": [
+                    2,
+                    6
+                ],
+                "answer": [
+                    "\n\nAntenna arrays are important because they allow for increased signal strength, improved signal-to-noise ratio, and improved directionality. They are used in a variety of applications, such as radio and television broadcasting, cellular communications, and radar systems. Antenna arrays can also be used to reduce interference from other signals, and to increase the range of a signal.",
+                    "\n\nEnd Fire Array: An end fire array is an antenna array in which the elements are arranged in a line and are fed in phase. This type of array produces a beam of radiation that is directed along the line of the array.\n\nBroadside Array: A broadside array is an antenna array in which the elements are arranged in a line and are fed out of phase. This type of array produces a beam of radiation that is directed perpendicular to the line of the array."
+                ]
+            },
+            "3": {
+                "question": [
+                    "Explain radiation patterns in terms of antenna",
+                    "Explain antenna gain and directivity",
+                    "Explain Beam width in terms of antenna"
+                ],
+                "marks": [
+                    2,
+                    2,
+                    2
+                ],
+                "answer": [
+                    "\n\nRadiation patterns are graphical representations of the relative strength of an antenna's signal in different directions. They are typically represented as a three-dimensional graph, with the antenna at the center and the signal strength plotted in various directions. Radiation patterns can be used to determine the best orientation for an antenna to maximize its signal strength in a particular direction. They can also be used to identify potential interference sources and to determine the best location for an antenna to minimize interference.",
+                    "\n\nAntenna gain is a measure of the power of an antenna's signal in a particular direction, relative to the power of the same signal in all directions. It is usually expressed in decibels (dB). The higher the gain, the more powerful the signal in the desired direction.\n\nDirectivity is a measure of the antenna's ability to focus its signal in a particular direction. It is usually expressed as a ratio of the power of the signal in the desired direction to the power of the signal in all directions. The higher the directivity, the more focused the signal in the desired direction.",
+                    "\n\nBeam width is a measure of the angular width of the main lobe of an antenna radiation pattern. It is the angular distance between the two points on the antenna radiation pattern at which the power drops to half of its peak value. Beam width is an important parameter in antenna design, as it determines the antenna's directivity and gain."
+                ]
+            },
+            "4": {
+                "question": [
+                    "Explain the current distribution and radiation pattern of center-fed verticle dipole for the following lengths: i. \u03bb/2, ii. 3\u03bb/2"
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+                    "\n\ni. \u03bb/2: The current distribution of a center-fed vertical dipole with a length of \u03bb/2 is symmetrical, with the maximum current at the center and decreasing towards the ends. The radiation pattern is a figure-eight pattern, with the maximum radiation in the direction of the ends of the dipole.\n\nii. 3\u03bb/2: The current distribution of a center-fed vertical dipole with a length of 3\u03bb/2 is asymmetrical, with the maximum current at the center and decreasing towards the ends. The radiation pattern is a broadside pattern, with the maximum radiation in the direction of the ends of the dipole."
+                ]
+            },
+            "5": {
+                "question": [
+                    "Name the parasitic element used in yagi-uda array.",
+                    "Explain the significance of parasitic elements in antenna array.",
+                    "Compare yagi-uda array with log perodic dipole array."
+                ],
+                "marks": [
+                    1,
                     2,
                     4
                 ],
                 "answer": [
-                    "package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\"/user\")\npublic class UserController {\n\n    @Autowired\n    private UserService userService;\n\n    @GetMapping(\"/all\")\n    public List<User> getAllUsers(){\n        return userService.getAllUsers();\n    }\n\n    @PostMapping(\"/add\")\n    public void addUser(@RequestBody User user){\n        userService.addUser(user);\n    }\n\n    @PutMapping(\"/update\")\n    public void updateUser(@RequestBody User user){\n        userService.updateUser(user);\n    }\n\n    @DeleteMapping(\"/delete/{id}\")\n    public void deleteUser(@PathVariable int id){\n        userService.deleteUser(id);\n    }\n\n}"
+                    "\n\nThe parasitic element used in a Yagi-Uda array is a director.",
+                    "\n\nParasitic elements are used in antenna array to increase the gain of the antenna. They are placed in close proximity to the driven element and interact with it to create a directional pattern. Parasitic elements are usually passive, meaning they do not require a power source to operate. They are used to increase the directivity of the antenna, which is the ability to focus the signal in a particular direction. This is useful for applications such as radio communication, where it is important to direct the signal in a specific direction. Parasitic elements also help to reduce the size of the antenna array, making it more compact and easier to install.",
+                    "\n\nA Yagi-Uda array is a type of directional antenna that consists of a driven element, one or more parasitic elements, and a reflector. It is typically used for radio and television reception. A log periodic dipole array (LPDA) is also a type of directional antenna, but it consists of multiple dipole elements arranged in a logarithmic pattern. It is typically used for transmitting and receiving radio signals.\n\nThe main difference between a Yagi-Uda array and a log periodic dipole array is the type of elements used. A Yagi-Uda array uses a driven element, parasitic elements, and a reflector, while a log periodic dipole array uses multiple dipole elements. Additionally, a Yagi-Uda array is typically used for radio and television reception, while a log periodic dipole array is typically used for transmitting and receiving radio signals."
                 ]
-            },
-            "2": {
-                "question": [],
-                "marks": [
-                    3,
-                    3
-                ],
-                "answer": []
-            },
-            "3": {
-                "question": [],
-                "marks": [
-                    6,
-                    2
-                ],
-                "answer": []
-            },
-            "4": {
-                "question": [],
-                "marks": [
-                    6
-                ],
-                "answer": []
-            },
-            "5": {
-                "question": [],
-                "marks": [],
-                "answer": []
             },
             "6": {
                 "question": [
@@ -1123,43 +1169,64 @@
         "questions": {
             "1": {
                 "question": [
-                    ""
+                    "Define antenna.",
+                    "Explain how electromagnetic waves are generated by a conductor."
                 ],
                 "marks": [
                     2,
                     4
                 ],
                 "answer": [
-                    "package com.example.demo.controller;\n\nimport com.example.demo.model.User;\nimport com.example.demo.service.UserService;\nimport org.springframework.beans.factory.annotation.Autowired;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.List;\n\n@RestController\n@RequestMapping(\"/user\")\npublic class UserController {\n\n    @Autowired\n    private UserService userService;\n\n    @GetMapping(\"/all\")\n    public List<User> getAllUsers(){\n        return userService.getAllUsers();\n    }\n\n    @PostMapping(\"/add\")\n    public void addUser(@RequestBody User user){\n        userService.addUser(user);\n    }\n\n    @PutMapping(\"/update\")\n    public void updateUser(@RequestBody User user){\n        userService.updateUser(user);\n    }\n\n    @DeleteMapping(\"/delete/{id}\")\n    public void deleteUser(@PathVariable int id){\n        userService.deleteUser(id);\n    }\n\n}"
+                    "\n\nAn antenna is a device that is used to transmit and receive electromagnetic signals, such as radio waves. It is typically made up of a conductive material, such as metal, that is arranged in a specific shape to maximize the transmission and reception of the signal.",
+                    "\n\nElectromagnetic waves are generated by a conductor when an alternating current is applied to it. When the current is applied, it creates an oscillating electric field around the conductor. This electric field then creates a corresponding oscillating magnetic field. The two fields interact with each other, creating an electromagnetic wave that propagates away from the conductor."
                 ]
             },
             "2": {
-                "question": [],
-                "marks": [
-                    3,
-                    3
+                "question": [
+                    "Elaborate the difference between directionsl, omni-directional and isotropic antennas."
                 ],
-                "answer": []
-            },
-            "3": {
-                "question": [],
-                "marks": [
-                    6,
-                    2
-                ],
-                "answer": []
-            },
-            "4": {
-                "question": [],
                 "marks": [
                     6
                 ],
-                "answer": []
+                "answer": [
+                    "\n\nDirectional antennas are designed to focus their signal in a specific direction, allowing them to transmit and receive signals from a specific area. They are typically used in applications where a long-distance signal is needed, such as in satellite communications.\n\nOmni-directional antennas are designed to transmit and receive signals in all directions. They are typically used in applications where a wide-area signal is needed, such as in wireless networks.\n\nIsotropic antennas are designed to transmit and receive signals in all directions equally. They are typically used in applications where a uniform signal is needed, such as in radio astronomy."
+                ]
+            },
+            "3": {
+                "question": [
+                    "Define the principle of patterrn multiplication.",
+                    "Explain the principle of patterrn multiplication with a suitable example."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": [
+                    "\n\nPattern multiplication is a method of multiplying two numbers by breaking them down into smaller parts and then multiplying the parts together. It is based on the distributive property of multiplication, which states that multiplying a sum by a number is the same as multiplying each part of the sum by the number and then adding the products together. For example, if you wanted to multiply 8 x 7, you could break it down into 4 x 7 + 4 x 7, which is 28.",
+                    "\n\nPattern multiplication is a method of multiplying two numbers by breaking them down into smaller parts. It is a useful technique for multiplying large numbers.\n\nFor example, let's say we want to multiply 12 x 15.\n\nUsing pattern multiplication, we can break down the numbers into smaller parts:\n\n12 = 10 + 2\n15 = 10 + 5\n\nThen, we multiply the parts:\n\n10 x 10 = 100\n10 x 5 = 50\n2 x 10 = 20\n2 x 5 = 10\n\nFinally, we add the results together:\n\n100 + 50 + 20 + 10 = 180\n\nTherefore, 12 x 15 = 180."
+                ]
+            },
+            "4": {
+                "question": [
+                    "Explain the working principle, construction, design, advantages and applications log perodic antenna."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "\n\nWorking Principle: A log periodic antenna is a type of antenna that is designed to have a wide frequency range and a wide radiation pattern. It is composed of a series of dipole elements that are arranged in a logarithmic pattern. The dipole elements are connected to a feed line, which is connected to a radio transmitter or receiver. The antenna is designed to radiate a signal in a broad frequency range, with the radiation pattern remaining relatively constant over the entire frequency range.\n\nConstruction: A log periodic antenna is composed of a series of dipole elements that are arranged in a logarithmic pattern. The dipole elements are connected to a feed line, which is connected to a radio transmitter or receiver. The dipole elements are typically made of metal, such as aluminum or copper, and are arranged in a zig-zag pattern. The dipole elements are connected to the feed line using a balun, which is a device that converts the signal from the feed line into a balanced signal that can be radiated by the antenna.\n\nDesign: The design of a log periodic antenna is based on the principle of resonance. The antenna is designed to resonate at multiple frequencies, which allows it to radiate a signal over a wide frequency range. The antenna is also designed to have a wide radiation pattern, which allows it to receive signals from multiple directions.\n\nAdvantages: The main advantage of a log periodic antenna is its wide frequency range and wide radiation pattern. This makes it ideal for applications where a wide frequency range is needed, such as in radio and television broadcasting. The antenna is also relatively easy to construct and is relatively inexpensive.\n\nApplications: Log periodic antennas are used in a variety of applications, including radio and television broadcasting, satellite communications, and wireless communication systems. They are also used in radar systems, as they are able to detect signals over a wide frequency range."
+                ]
             },
             "5": {
-                "question": [],
-                "marks": [],
-                "answer": []
+                "question": [
+                    "With a mathemetical relation of refractive index of ionospheric layer, derive a relation of critical frequency and maximum usable frequency (MUF) of radio waves with necessary explaination. Consider the earth is flat."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    "\n\nThe refractive index of the ionospheric layer is given by the equation:\n\n$n = \\frac{c}{v} = \\frac{c}{f \\lambda}$\n\nwhere $c$ is the speed of light, $v$ is the velocity of the wave, $f$ is the frequency of the wave, and $\\lambda$ is the wavelength of the wave.\n\nThe critical frequency of a radio wave is the frequency at which the wave is refracted back to the Earth's surface. This occurs when the refractive index of the ionospheric layer is equal to the ratio of the speed of light to the velocity of the wave, i.e. when $n = 1$. Therefore, the critical frequency of a radio wave is given by:\n\n$f_{crit} = \\frac{c}{\\lambda}$\n\nThe maximum usable frequency (MUF) of a radio wave is the highest frequency at which the wave can be refracted back to the Earth's surface. This occurs when the refractive index of the ionospheric layer is equal to the ratio of the speed of light to twice the velocity of the wave, i.e. when $n = 2$. Therefore, the maximum usable frequency of a radio wave is given by:\n\n$f_{MUF} = \\frac{c}{2 \\lambda}$"
+                ]
             },
             "6": {
                 "question": [
@@ -1249,5 +1316,1723 @@
                 ]
             }
         }
-    }
+    },
+    {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Economics",
+            "date_year": "2076",
+            "date_month": "Baisakh",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEI, BEX",
+            "year": "III",
+            "part": "II",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "5":{
+                      "question":["Write down the reasons of replacemment of an existing asset."],
+                      "marks":[4]
+                },
+                "7":{
+                  "question":["Define direct tax indirect.", "Prepare after tax cash flow of a project having the following cashflow details: 8 flow Initial cost = 100000, Useful life=5years, salvage value=20000, annual income rate = 20000 at the end of first year and increases by 2000 per year, tax rate =20%. Depreciation method sum of year digit."],
+                  "marks":[2, 4]
+                },
+                "8":{
+                  "question":["Draw the concept of inflation using suitable example.", "If the real interest rate is given as 5% and general inflation rate as 8%, calculate MARR.", "Explain the meaning of constant dollar and actual dollar"],
+                  "marks":[2, 1.5, 1.5]
+                }
+            }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Economics",
+          "date_year": "2077",
+          "date_month": "Poush",
+          "Level": "BE",
+          "Exam": "Back",
+          "programme": "BEI, BEX",
+          "year": "III",
+          "part": "II",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "5":{
+                    "question":["Write down the procedure replacement analysis under infinite planning horizon"],
+                    "marks":[3]
+              },
+              "6":{
+                "question":["Explain decision tree analysis.", "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"],
+                "marks":[4, 4]
+              },
+              "7":{
+                "question":["You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.", "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."],
+                "marks":[8,4]
+              },
+              "8":{
+                "question":["What is inflation?","Explain constant dollar and actual dollar.", "Explain deflation mebod of analysis using suitable example"],
+                "marks":[1,1,2]
+              }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Physics",
+          "date_year": "2078",
+          "date_month": "Kartik",
+          "Level": "BE",
+          "Exam": "Back",
+          "programme": "BEI, BEX",
+          "year": "III",
+          "part": "II",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "5":{
+                    "question":["Write down the procedure replacement analysis under infinite planning horizon"],
+                    "marks":[3]
+              },
+              "6":{
+                "question":["Explain decision tree analysis.", "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"],
+                "marks":[4, 4]
+              },
+              "7":{
+                "question":["You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.", "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."],
+                "marks":[8,4]
+              },
+              "10":{
+                "question":["A capaciior of capasitance C s dischargs through a resistor of resistance R. After how many time constants is the stored energy if 1/4 of its initial value."],
+                "marks":[]
+              },
+              "11":{
+                "question":[" Discuss a microscopic view of ohom's law and show that resistivity of a conductor is independent of the external electric field."],
+                "marks":[]
+              },
+              "12":{
+                "question":[" Derive the expression of magnetic flux deasity at a point on the axis of a circuler coil carrying current with N number of turns. Explain how the coil behaves for large distance.", "Show that the electrical energy density and the magnetic energy density are proportional to the square of their corresponding fields"],
+                "marks":[]
+              },
+              "13":{
+                "question":["Deuterons in cyclotron describe a circle of radius 0.32m just before emerging from the dees. The frequency of the applied emf is 10 mHZ. Find the flux density of the magnetic field and velocity of deuterons emerging out of the cyclotron.(masss of deuteron is 3.32*10^-27 kg)"],
+                "marks":[]
+              },
+              "14":{
+                "question":["Find an expression of self inductance of a toroid having N number  of turns, radius r and carrying current i."],
+                "marks":[]
+              },
+              "15":{
+                "question":["The maximum electric field 20m from an isotropic point source is 1.5V/m. Determine: a. maximum value of magnetic field, b. average intensity of light, c. power of the source"],
+                "marks":[]
+              },
+              "16":{
+                "question":["Prove that the energy levels are quantized, when an electron is confined in an infinite potential well of width a."],
+                "marks":[]
+              }
+              
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Basic Electrical Engineering",
+          "date_year": "2079",
+          "date_month": "Bhadra",
+          "Level": "BE",
+          "Exam": "Regular",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "1":{
+                    "question":["A coil is connected across a constant de source of voltage 240V, draws current of 12A at room temperature. After running for 4 hours, temperature rises to 65 °C and current reduces to 8A. Calculate the current when temperature increases 80 °C and the coeffiient of resistance at 30 °C and temperature coefficient of at 40 °C. (Consider the room temperature = 25 °C)", " Explain about ideal and practical current and voltage", "A 100 W, 250 V bulb is connected in series with a 40W, 250 V bulb across 500 V  supply. What will be the power consumed by each bulb? Will such a combination work normally>"],
+                    "marks":[6,4,6]
+              },
+              "2":{
+                "question":["Prove theat maximum povier is transferred to the load when load resistance is equal to the source resistance."],
+                "marks":[4]
+              }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Physics",
+          "date_year": "2078",
+          "date_month": "Kartik",
+          "Level": "BE",
+          "Exam": "Back",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+            "1":{
+              "question":["Derive the time period of physical pendumum.", "Show that its time period is minimum when Length of pendulum is equal o radius of gyratication.", "Derive a differential equation for LC  oscillator. Show that the maximum values of electric and magretic energies stored in LC circuit is equal."],
+              "marks":[2.5,2.5,5]
+        },
+        "2":{
+          "question":["A solid sphere of mass 3kg and diameter 0.20m is suspended in a wire. Find the period of angular oscillation for small displacements if the torsional constant of the wire is6*10^-3 Nm/rad."],
+          "marks":[5]
+      },
+      "3":{
+        "question":["A string has linear mass density 530 gm/m and tension 50N. We send a sinusiodal wave with frequency 120Hz and amplitude of 6.5mm along the string. At what average rate does the wave transport energy?"],
+        "marks":[5]
+      },
+      "4":{
+        "question":[" What are Newtons rings? Give the necessary theory for the determination of refractive index of liquid using Newtons ring method.", "What is double refraction? Show that linearly and circularly polarized light are the special cases of elliptically polarized light."],
+        "marks":[5]
+      },
+      "5":{
+        "question":["Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (=589.0nm and =589.6nm) in the first order. Are the two lines resolved?"],
+        "marks":[5]
+      },
+      "6":{
+        "question":["Show that diameter of the circle of least confusion is independent of the focal length of lens in the case when object is at infinify."],
+        "marks":[5]
+      },
+      "7":{
+        "question":[" Two lenses of focal length +5.5cm and -4.5cm are separated by a finite distance. Find the position of principle points if the combinaion satisfies the condition of achromatism. "],
+        "marks":[5]
+      },
+      "8":{
+        "question":["Define optical fiber. Derive expression for acceptance angle and numerical aperture of optical fiber."],
+        "marks":[5]
+      },
+      "9":{
+        "question":["Prove that the electric field due to a short dipole at a point on axial line is twice that on the equatorial line","Discuss the Gauss's law in electrostatics. Find the electric field intensity at a point outside and inside the uniformly charged  non conducting sphere of radius R."],
+        "marks":[5,5]
+      },  
+            "10":{
+                    "question":["Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2θ. prove that the separation of the balls as X=(q^2l/(2πmg ε0))^(1/3) assuming θ is very small."],
+                    "marks":[]
+              },
+              "11":{
+                "question":["An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"],
+                "marks":[]
+              }, 
+              "12":{
+                "question":["What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."],
+                "marks":[]
+              },
+              "13":{
+                "question":["State and explain Biot savart law.","Derive an expression for magnetic field due to current carrying circular loop at axial line.", "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."],
+                "marks":[]
+              },
+              "14":{
+                "question":["A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."],
+                "marks":[]
+              },
+              "15":{
+                "question":["Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."],
+                "marks":[]
+              },
+              "16":{
+                "question":["Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"],
+                "marks":[]
+              } 
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Economics",
+          "date_year": "2079",
+          "date_month": "Bhadra",
+          "Level": "BE",
+          "Exam": "Regular",
+          "programme": "BME, BAM",
+          "year": "IV",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "1":{
+                    "question":["List out and define the types of engineering cconomic decisions.", "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."],
+                    "marks":[4, 4]
+              },
+              "2":{
+                "question":["Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."],
+                "marks":[6]
+              }, 
+              "3":{
+                "question":["Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."],
+                "marks":[10]
+              },
+              "5":{
+                "question":["How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."],
+                "marks":[8]
+              }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Economics",
+          "date_year": "2079",
+          "date_month": "Bhadra",
+          "Level": "BE",
+          "Exam": "Regular",
+          "programme": "BME, BAM",
+          "year": "IV",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "1":{
+                    "question":["List out and define the types of engineering cconomic decisions.", "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."],
+                    "marks":[4, 4]
+              },
+              "2":{
+                "question":["Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."],
+                "marks":[6]
+              }, 
+              "3":{
+                "question":["Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."],
+                "marks":[10]
+              },
+              "5":{
+                "question":["How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."],
+                "marks":[8]
+              }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Physics",
+          "date_year": "2075",
+          "date_month": "Chaitra",
+          "Level": "BE",
+          "Exam": "Regular/Back",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+              "1":{
+                    "question":["Define torsional pendulum. Deive an expression for its time peroid. Explain why the time period of the torsional pendulum remains unaffected even if the amplitude is large.", "Whet is a damped EM oscillator? Which factor in the circuit is responsible to produce such a motion? Derive a differentiel equation for this motion and write its solution. What will be the remedy of such motion to make it smooth."],
+                    "marks":[4, 4]
+              },
+              "2":{
+                "question":["A meter stick swings as a compound pendulum when suspended from one of its end. Calculate: a. period of the oscillatians, b. equivalent length of fhe simple pendulum that would have the same peroid."],
+                "marks":[5,5]
+              }, 
+              "3":{
+                "question":["Mention the conditions for good acoustics of a hall and derive an expression for reverberation time.", "Derive an expression for the rosolving power of the grating having N slits."],
+                "marks":[10]
+              },
+              "4":{
+                "question":["Why Newton's interference fringes are circular? Derive an expression for radius of Newtons ring due to the transmilled light.", "Define dispersive and resolving power of a grating."],
+                "marks":[5,5]
+              },
+              "5":{
+                "question":["A plane transmission grafing having 5000 lines/cm is used to obtain a spectrum of light from a sodim lamp in the sceond order. Calculate the angular sepatation between the two sodium lines whose wavelengths arc 589 nm and 589.6 nm."],
+                "marks":[5]
+              },
+              "6":{
+                "question":[ "Calculate the specific rolation if the plane of polarization is formed through 30.5° traversing 25 cm length of 10% sugar solution."],
+                "marks":[5]
+              }, 
+              "7":{
+                "question":["Define an optical fiber and mention its types. Explain the numerical aperture and acceptance angle for the optical fiber and derive the expression to establish a relationship between them."],
+                "marks":[5]
+              }, 
+              "8":{
+                "question":["Dispersive powers for crown and fint glass lens2s are 0.015 and 0.030 respectively. How can you design an achromatic contact of the lenses of focal length %0 cm?"],
+                "marks":[5]
+              }, 
+              "9":{
+                "question":["What is an eleciric Quadrupole? Derive an expression for the electric potential at any point on the axial line at distance 'r' from the centre of short quadrupole. Also show fhat the electric potential at that point is inversely propurtional to r^3.", "Discuss the modification of Gauss law due to the presense of the dielectrics and derive a relation among displacement vector, polarization vector and the electric field."],
+                "marks":[5,5]
+              }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Basic Electrical Engineering",
+          "date_year": "2079",
+          "date_month": "Jestha",
+          "Level": "BE",
+          "Exam": "Regular/Back",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+            "1":{
+              "question":[],
+              "marks":[]
+            },
+            "2":{
+              "question":[],
+              "marks":[]
+            },
+            "3":{
+              "question":[],
+              "marks":[]
+            },
+            "4":{
+              "question":["Find the expression for the equivalent inductance of two coils connected in series opposition."],
+              "marks":[4]
+            },
+            "5":{
+              "question":["Define power factor and explain why, in general, it should be kept as high as possible in power supply systems", "The three arms of a three-phase load each comprise resistance of 25 ohms and of inductance of 0.15 ohm in series with a 120 μF capacitor. The supply is 415V, 50Hz. Calculate the phase current, line current and total power consumed by the load in star connection."],
+              "marks":["3",5]
+            },
+            "6":{
+              "question":[],
+              "marks":[]
+            },
+            "7":{
+              "question":[],
+              "marks":[]
+            }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Engineering Physics",
+          "date_year": "2079",
+          "date_month": "Bhadra",
+          "Level": "BE",
+          "Exam": "Regular/Back",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+            "1":{
+              "question":[],
+              "marks":[]
+            },
+            "2":{
+              "question":[],
+              "marks":[]
+            },
+            "3":{
+              "question":["The total capacitance of two capacitors is 0.25 μF, when connected in series and 0.15 μF when connected in parallel. Find the capacitance of each capacitor.", "What is power factor? Write down the drawbacks of power factor.", "Explain how connecting a capacitor across the load improves the power factor."],
+              "marks":[4,2,2]
+            },
+            "4":{
+              "question":[],
+              "marks":[]
+            },
+            "5":{
+              "question":[],
+              "marks":[]
+            },
+            "6":{
+              "question":[],
+              "marks":[]
+            },
+            "7":{
+              "question":[],
+              "marks":[]
+            }
+          }
+        },
+        {
+          "university": "Tribhuwan University",
+          "Institute": "Institute of Engineering",
+          "subject": "Basic Electrical Engineering",
+          "date_year": "2076",
+          "date_month": "Ashwin",
+          "Level": "BE",
+          "Exam": "Back",
+          "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+          "year": "I",
+          "part": "I",
+          "full marks": "80",
+          "pass marks": "32",
+          "time": "3 hours",
+          "questions": {
+            "1":{
+              "question":["What are ideal an practical voltage and curent source? Explain", "A coil hes xesisan of 18 ohm when mean temperature is 20 degrees and 20 ohm when its mean tempereture 50 degrees, Find its mean temperature rise when resistance is 21 ohm and the sorrounding temperature is 15 degrees.", "State and explsin krichoffs voltage law."],
+              "marks":[4,6,6]
+            },
+            "2":{
+              "question":[],
+              "marks":[]
+            },
+            "3":{
+              "question":[],
+              "marks":[]
+            },
+            "4":{
+              "question":[],
+              "marks":[]
+            },
+            "5":{
+              "question":[],
+              "marks":[]
+            },
+            "6":{
+              "question":[],
+              "marks":[]
+            },
+            "7":{
+              "question":[],
+              "marks":[]
+            }
+          }
+        },
+        {   "comment":"// -------------------\n// past does haunt\n        // -------------------",
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Economics",
+            "date_year": "2076",
+            "date_month": "Baisakh",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEI, BEX",
+            "year": "III",
+            "part": "II",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "5": {
+                    "question": [
+                        "Write down the reasons of replacemment of an existing asset."
+                    ],
+                    "marks": [
+                        4
+                    ],
+                    "answer": [
+                        "\n\n1. Asset is no longer functioning properly or is outdated.\n2. Asset is no longer compatible with other systems or technology.\n3. Asset is no longer cost-effective to maintain or repair.\n4. Asset is no longer meeting the needs of the organization.\n5. Asset is no longer meeting safety or regulatory standards.\n6. Asset is no longer meeting customer expectations.\n7. Asset is no longer meeting production or operational requirements.\n8. Asset is no longer meeting environmental standards.\n9. Asset is no longer meeting energy efficiency standards.\n10. Asset is no longer meeting sustainability goals."
+                    ]
+                },
+                "7": {
+                    "question": [
+                        "Define direct tax indirect.",
+                        "Prepare after tax cash flow of a project having the following cashflow details: 8 flow Initial cost = 100000, Useful life=5years, salvage value=20000, annual income rate = 20000 at the end of first year and increases by 2000 per year, tax rate =20%. Depreciation method sum of year digit."
+                    ],
+                    "marks": [
+                        2,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nDirect tax: A direct tax is a tax that is paid directly to the government by the person or entity that is liable for the tax. Examples of direct taxes include income tax, corporate tax, property tax, inheritance tax, and gift tax.\n\nIndirect tax: An indirect tax is a tax that is paid indirectly to the government by the person or entity that is liable for the tax. Examples of indirect taxes include sales tax, value-added tax (VAT), excise tax, and customs duties.",
+                        "\n\nYear 0: -100000\n\nYear 1: 20000*(1-20%)=16000\n\nYear 2: 22000*(1-20%)=17600\n\nYear 3: 24000*(1-20%)=19200\n\nYear 4: 26000*(1-20%)=20800\n\nYear 5: 20000+20000=40000*(1-20%)=32000\n\nTotal After Tax Cash Flow = -100000+16000+17600+19200+20800+32000 = -14400"
+                    ]
+                },
+                "8": {
+                    "question": [
+                        "Draw the concept of inflation using suitable example.",
+                        "If the real interest rate is given as 5% and general inflation rate as 8%, calculate MARR.",
+                        "Explain the meaning of constant dollar and actual dollar"
+                    ],
+                    "marks": [
+                        2,
+                        1.5,
+                        1.5
+                    ],
+                    "answer": [
+                        "\n\nInflation can be illustrated using the example of a balloon. As air is pumped into the balloon, it expands and increases in size. This is similar to how prices increase over time due to inflation. As the amount of money in circulation increases, prices rise and the purchasing power of each unit of currency decreases.",
+                        "\n\nMARR = Real Interest Rate + Inflation Rate = 5% + 8% = 13%.",
+                        "\n\nConstant dollar (also known as real dollar) is a term used to describe a dollar amount that has been adjusted for inflation. This means that the dollar amount has been adjusted to reflect the current purchasing power of the dollar. For example, if a product cost $100 in 2020, the constant dollar amount would be adjusted to reflect the current purchasing power of the dollar, which may be higher or lower than the original amount.\n\nActual dollar is a term used to describe a dollar amount that has not been adjusted for inflation. This means that the dollar amount is the same as it was when it was originally purchased. For example, if a product cost $100 in 2020, the actual dollar amount would remain the same in 2021."
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Economics",
+            "date_year": "2077",
+            "date_month": "Poush",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEI, BEX",
+            "year": "III",
+            "part": "II",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "5": {
+                    "question": [
+                        "Write down the procedure replacement analysis under infinite planning horizon"
+                    ],
+                    "marks": [
+                        3
+                    ],
+                    "answer": [
+                        "\n\n1. Identify the current asset and its associated costs.\n\n2. Estimate the cost of replacing the asset with a new one.\n\n3. Calculate the present value of the cost of replacing the asset.\n\n4. Calculate the present value of the cost of maintaining the existing asset.\n\n5. Compare the present value of the cost of replacing the asset with the present value of the cost of maintaining the existing asset.\n\n6. If the present value of the cost of replacing the asset is lower than the present value of the cost of maintaining the existing asset, then replacement is recommended.\n\n7. If the present value of the cost of replacing the asset is higher than the present value of the cost of maintaining the existing asset, then maintenance is recommended."
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "Explain decision tree analysis.",
+                        "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"
+                    ],
+                    "marks": [
+                        4,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nDecision tree analysis is a predictive modeling technique used to identify the best course of action based on a set of conditions. It is a type of supervised learning algorithm that uses a tree-like structure to represent a set of decisions and their possible outcomes. The tree is composed of nodes, branches, and leaves. Nodes represent a decision point, branches represent the possible outcomes of the decision, and leaves represent the final outcome. The goal of decision tree analysis is to identify the most optimal path from the root node to the leaf node. The algorithm works by splitting the data into subsets based on the most important features, and then using the subsets to make predictions. The algorithm is used in a variety of applications, such as credit scoring, medical diagnosis, and customer segmentation.",
+                        "\n\nThe BEP (Break-even Point) would decrease, and the profit/loss would increase.\n\nThe new BEP would be calculated as follows:\n\nNew Selling Price per unit = $80 x 1.2 = $96\nNew Fixed Cost = $60000 - ($60000 x 0.1) = $54000\n\nBEP = Fixed Cost / (Selling Price - Variable Cost)\n= $54000 / ($96 - $10)\n= $54000 / $86\n= 627.91 units\n\nThe new profit/loss would be calculated as follows:\n\nProfit/Loss = (Selling Price - Variable Cost - Fixed Cost) x Units Sold\n= ($96 - $10 - $54000) x Units Sold\n= ($86 x Units Sold) - $54000\n= (Units Sold - 627.91) x $86 - $54000\n\nTherefore, the profit/loss would increase as the number of units sold increases."
+                    ]
+                },
+                "7": {
+                    "question": [
+                        "You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.",
+                        "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."
+                    ],
+                    "marks": [
+                        8,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nBook Purpose:\n\nAnnual Depreciation Allowance: \n\nBook Value = Cost - Accumulated Depreciation\n\nBook Value = 20000 - (20000/8) x (8-n)\n\nYear 1: Book Value = 20000 - (20000/8) x (8-1) = 18750\n\nYear 2: Book Value = 20000 - (20000/8) x (8-2) = 17500\n\nYear 3: Book Value = 20000 - (20000/8) x (8-3) = 16250\n\nYear 4: Book Value = 20000 - (20000/8) x (8-4) = 15000\n\nYear 5: Book Value = 20000 - (20000/8) x (8-5) = 13750\n\nYear 6: Book Value = 20000 - (20000/8) x (8-6) = 12500\n\nYear 7: Book Value = 20000 - (20000/8) x (8-7) = 11250\n\nYear 8: Book Value = 20000 - (20000/8) x (8-8) = 10000\n\nTax Purpose:\n\nAnnual Depreciation Allowance: \n\nYear 1: 20%\n\nYear 2: 32%\n\nYear 3: 19.2%\n\nYear 4: 11.52%\n\nYear 5: 11.52%\n\nBook Value = Cost - Accumulated Depreciation\n\nYear 1: Book Value = 20000 - (20000 x 0.2) = 16000\n\nYear 2: Book Value = 16000 - (16000 x 0.32) = 10960\n\nYear 3: Book Value = 10960 - (10960 x 0.192) = 8800.32\n\nYear 4: Book Value = 8800.32 - (8800.32 x 0.1152) = 7744.25\n\nYear 5: Book Value = 7744.25 - (7744.25 x 0.1152) = 6777.45",
+                        "\n\nAfter Tax Cash Flow = Annual Benefit - Depreciation - Tax\n\n= 16000 - (50000/5) - (16000*30/100)\n\n= 16000 - 10000 - 4800\n\n= 3600"
+                    ]
+                },
+                "8": {
+                    "question": [
+                        "What is inflation?",
+                        "Explain constant dollar and actual dollar.",
+                        "Explain deflation mebod of analysis using suitable example"
+                    ],
+                    "marks": [
+                        1,
+                        1,
+                        2
+                    ],
+                    "answer": [
+                        "\n\nInflation is an economic concept that refers to the sustained increase in the general level of prices for goods and services over a period of time. It is measured as an annual percentage increase. When the inflation rate is high, each unit of currency buys fewer goods and services, resulting in a decrease in the purchasing power of money.",
+                        "\n\nConstant dollar (also known as real dollar) is a term used to describe a dollar amount that has been adjusted for inflation. This means that the dollar amount has been adjusted to reflect the current purchasing power of the dollar. For example, if a product cost $100 in 2020, the constant dollar amount would be adjusted to reflect the current purchasing power of the dollar, which may be higher or lower than the original amount.\n\nActual dollar is a term used to describe a dollar amount that has not been adjusted for inflation. This means that the dollar amount is the same as it was when it was originally purchased. For example, if a product cost $100 in 2020, the actual dollar amount would remain the same in 2021.",
+                        "\n\nDeflation method of analysis is a technique used to identify the underlying causes of a problem or issue. It involves breaking down the problem into smaller components and then analyzing each component to determine the root cause. For example, if a company is experiencing a decrease in sales, the deflation method of analysis could be used to identify the underlying causes. The company could break down the problem into smaller components such as customer service, product quality, pricing, and marketing. By analyzing each component, the company can identify the root cause of the decrease in sales."
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2078",
+            "date_month": "Kartik",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEI, BEX",
+            "year": "III",
+            "part": "II",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "5": {
+                    "question": [
+                        "Write down the procedure replacement analysis under infinite planning horizon"
+                    ],
+                    "marks": [
+                        3
+                    ],
+                    "answer": [
+                        "\n\n1. Identify the existing asset and its associated costs.\n\n2. Estimate the cost of replacing the existing asset with a new one.\n\n3. Calculate the present value of the cost of replacing the existing asset.\n\n4. Calculate the present value of the cost of maintaining the existing asset.\n\n5. Compare the present value of the cost of replacing the existing asset with the present value of the cost of maintaining the existing asset.\n\n6. If the present value of the cost of replacing the existing asset is lower than the present value of the cost of maintaining the existing asset, then the replacement is recommended.\n\n7. If the present value of the cost of replacing the existing asset is higher than the present value of the cost of maintaining the existing asset, then the replacement is not recommended."
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "Explain decision tree analysis.",
+                        "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"
+                    ],
+                    "marks": [
+                        4,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nDecision tree analysis is a predictive modeling technique used to identify the best course of action based on a set of conditions. It is a type of supervised learning algorithm that uses a tree-like structure to represent a set of decisions and their possible outcomes. The tree is composed of nodes, branches, and leaves. Nodes represent a decision point, branches represent the possible outcomes of the decision, and leaves represent the final outcome. The goal of decision tree analysis is to identify the most optimal path from the root node to the leaf node. The algorithm works by splitting the data into subsets based on the most important features, and then using the subsets to make predictions. The algorithm is used in a variety of applications, such as credit scoring, medical diagnosis, and customer segmentation.",
+                        "\n\nThe BEP (Break-even Point) would decrease, and the profit/loss would increase.\n\nThe new BEP would be calculated as follows:\n\nNew Selling Price per unit = $80 x 1.2 = $96\nNew Fixed Cost = $60000 - ($60000 x 0.1) = $54000\n\nBEP = Fixed Cost / (Selling Price - Variable Cost)\n= $54000 / ($96 - $10)\n= $54000 / $86\n= 627.91 units\n\nThe new profit/loss would be calculated as follows:\n\nProfit/Loss = (Selling Price - Variable Cost - Fixed Cost) x Units Sold\n= ($96 - $10 - $54000) x Units Sold\n= ($86 x Units Sold) - $54000\n= ($86 x 627.91) - $54000\n= $53,845.86"
+                    ]
+                },
+                "7": {
+                    "question": [
+                        "You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.",
+                        "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."
+                    ],
+                    "marks": [
+                        8,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nBook Purpose:\n\nAnnual Depreciation Allowance: \n\nBook Value = Cost - Accumulated Depreciation\n\nBook Value = 20000 - (20000/8) x (8-n)\n\nYear 1: Book Value = 20000 - (20000/8) x (8-1) = 18750\n\nYear 2: Book Value = 20000 - (20000/8) x (8-2) = 17500\n\nYear 3: Book Value = 20000 - (20000/8) x (8-3) = 16250\n\nYear 4: Book Value = 20000 - (20000/8) x (8-4) = 15000\n\nYear 5: Book Value = 20000 - (20000/8) x (8-5) = 13750\n\nYear 6: Book Value = 20000 - (20000/8) x (8-6) = 12500\n\nYear 7: Book Value = 20000 - (20000/8) x (8-7) = 11250\n\nYear 8: Book Value = 20000 - (20000/8) x (8-8) = 10000\n\nTax Purpose:\n\nAnnual Depreciation Allowance: \n\nYear 1: 20%\n\nYear 2: 32%\n\nYear 3: 19.2%\n\nYear 4: 11.52%\n\nYear 5: 11.52%\n\nBook Value = Cost - Accumulated Depreciation\n\nYear 1: Book Value = 20000 - (20000 x 0.2) = 16000\n\nYear 2: Book Value = 16000 - (16000 x 0.32) = 10960\n\nYear 3: Book Value = 10960 - (10960 x 0.192) = 8800.32\n\nYear 4: Book Value = 8800.32 - (8800.32 x 0.1152) = 7744.25\n\nYear 5: Book Value = 7744.25 - (7744.25 x 0.1152) = 6777.45",
+                        "\n\nAfter Tax Cash Flow = Annual Benefit - Depreciation - Tax\n\n= 16000 - (50000/5) - (16000*30/100)\n\n= 16000 - 10000 - 4800\n\n= 3600"
+                    ]
+                },
+                "10": {
+                    "question": [
+                        "A capaciior of capasitance C s dischargs through a resistor of resistance R. After how many time constants is the stored energy if 1/4 of its initial value."
+                    ],
+                    "marks": []
+                },
+                "11": {
+                    "question": [
+                        " Discuss a microscopic view of ohom's law and show that resistivity of a conductor is independent of the external electric field."
+                    ],
+                    "marks": []
+                },
+                "12": {
+                    "question": [
+                        " Derive the expression of magnetic flux deasity at a point on the axis of a circuler coil carrying current with N number of turns. Explain how the coil behaves for large distance.",
+                        "Show that the electrical energy density and the magnetic energy density are proportional to the square of their corresponding fields"
+                    ],
+                    "marks": []
+                },
+                "13": {
+                    "question": [
+                        "Deuterons in cyclotron describe a circle of radius 0.32m just before emerging from the dees. The frequency of the applied emf is 10 mHZ. Find the flux density of the magnetic field and velocity of deuterons emerging out of the cyclotron.(masss of deuteron is 3.32*10^-27 kg)"
+                    ],
+                    "marks": []
+                },
+                "14": {
+                    "question": [
+                        "Find an expression of self inductance of a toroid having N number  of turns, radius r and carrying current i."
+                    ],
+                    "marks": []
+                },
+                "15": {
+                    "question": [
+                        "The maximum electric field 20m from an isotropic point source is 1.5V/m. Determine: a. maximum value of magnetic field, b. average intensity of light, c. power of the source"
+                    ],
+                    "marks": []
+                },
+                "16": {
+                    "question": [
+                        "Prove that the energy levels are quantized, when an electron is confined in an infinite potential well of width a."
+                    ],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Basic Electrical Engineering",
+            "date_year": "2079",
+            "date_month": "Bhadra",
+            "Level": "BE",
+            "Exam": "Regular",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "A coil is connected across a constant de source of voltage 240V, draws current of 12A at room temperature. After running for 4 hours, temperature rises to 65 \u00b0C and current reduces to 8A. Calculate the current when temperature increases 80 \u00b0C and the coeffiient of resistance at 30 \u00b0C and temperature coefficient of at 40 \u00b0C. (Consider the room temperature = 25 \u00b0C)",
+                        " Explain about ideal and practical current and voltage",
+                        "A 100 W, 250 V bulb is connected in series with a 40W, 250 V bulb across 500 V  supply. What will be the power consumed by each bulb? Will such a combination work normally>"
+                    ],
+                    "marks": [
+                        6,
+                        4,
+                        6
+                    ],
+                    "answer": [
+                        "\n\nAt 80 \u00b0C, the current will be:\n\nI = 12A * (1 - (80 - 25) * (40 - 30) / (65 - 25))\n= 12A * (1 - 25 * 10 / 40)\n= 12A * (1 - 12.5)\n= 7.5A\n\nThe coefficient of resistance at 30 \u00b0C is:\nR30 = 240V / 12A\n= 20 \u03a9\n\nThe temperature coefficient at 40 \u00b0C is:\n\u03b1 = (8A - 12A) / (65 - 25)\n= -4A / 40\n= -0.1A/\u00b0C",
+                        "\n\nIdeal current and voltage are theoretical values that do not take into account any real-world factors such as resistance, capacitance, or inductance. Ideal current and voltage are used to calculate the power dissipated in a circuit, and are used as a starting point for more complex calculations.\n\nPractical current and voltage are values that take into account real-world factors such as resistance, capacitance, and inductance. These values are used to calculate the actual power dissipated in a circuit, and are used to design and build real-world circuits.",
+                        "\n\nThe power consumed by each bulb will be 100 W and 40 W, respectively. Yes, such a combination will work normally."
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "Prove theat maximum povier is transferred to the load when load resistance is equal to the source resistance."
+                    ],
+                    "marks": [
+                        4
+                    ],
+                    "answer": [
+                        "\n\nThe maximum power is transferred to the load when the load resistance is equal to the source resistance. This is because the power dissipated in the load is equal to the power supplied by the source. When the load resistance is equal to the source resistance, the voltage across the load is equal to the voltage across the source, and the current through the load is equal to the current through the source. This means that the power dissipated in the load is equal to the power supplied by the source, and thus the maximum power is transferred to the load."
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "The total capacitance of two capacitors is 0.25 \u03bcF, when connected in series and 0.15 \u03bcF when connected in parallel. Find the capacitance of each capacitor.",
+                        "What is power factor? Write down the drawbacks of power factor.",
+                        "Explain how connecting a capacitor across the load improves the power factor."
+                    ],
+                    "marks": [
+                        4,
+                        2,
+                        2
+                    ],
+                    "answer": [
+                        "\n\nWhen connected in series:\nC1 + C2 = 0.25 \u03bcF\n\nC1 = 0.125 \u03bcF\nC2 = 0.125 \u03bcF\n\nWhen connected in parallel:\nC1 x C2 = 0.15 \u03bcF\n\nC1 = 0.1 \u03bcF\nC2 = 0.15 \u03bcF",
+                        "\n\nPower factor is a measure of how effectively electrical power is being used. It is the ratio of the real power used in an electrical circuit to the apparent power supplied to the circuit.\n\nDrawbacks of power factor:\n\n1. Low power factor can lead to increased energy costs due to higher current draw.\n\n2. Low power factor can cause voltage drops in the electrical system, leading to reduced efficiency and increased wear and tear on equipment.\n\n3. Low power factor can cause harmonic distortion, which can interfere with other equipment and cause damage to sensitive electronics.\n\n4. Low power factor can cause overheating of electrical equipment, leading to reduced life expectancy and increased maintenance costs.",
+                        "\n\nA capacitor connected across the load improves the power factor by providing a leading current to the load. This leading current is in phase with the voltage, which reduces the phase difference between the voltage and current, resulting in a higher power factor. The capacitor also helps to reduce the reactive power, which is the power that is not used to do useful work. This reduces the amount of power that is wasted and increases the efficiency of the system."
+                    ]
+                },
+                "4": {
+                    "question": [
+                        "An alternating current of 50 HZ, has a maximum value of 200A. Reckoning time from instant current is zero and is becoming positive. Calculate: i. The instantaneous value after 2.5m sec. ii. The time taken for the current to reach 150A for the first and second time."
+                    ],
+                    "marks": [
+                        4
+                    ],
+                    "answer": [
+                        "i. To calculate the instantaneous value after 2.5 msec, we need to use the equation for the sinusoidal current:\n\ni = Imax * sin(2\u03c0ft)\n\nwhere Imax is the maximum value of the current, f is the frequency, and t is time in seconds.\n\nIn this case, Imax = 200A and f = 50Hz. Converting the time to seconds, we get:\n\nt = 2.5msec = 0.0025sec\n\nSubstituting these values in the equation, we get:\n\ni = 200 * sin(2\u03c0500.0025) = 200 * sin(0.7854) \u2248 157.8A\n\nTherefore, the instantaneous value of the current after 2.5 msec is approximately 157.8A.\n\nii. To calculate the time taken for the current to reach 150A for the first and second time, we can use the same equation as above and solve for time.\n\nWhen the current reaches 150A, we have:\n\n150 = 200 * sin(2\u03c050t)\n\nSolving for t, we get:\n\nt = sin\u207b\u00b9(0.75) / (2\u03c0*50) \u2248 3.85msec\n\nTherefore, the time taken for the current to reach 150A for the first time is approximately 3.85 msec.\n\nFor the second time, we need to add the time period of the sinusoidal wave to the time taken for the first occurrence. The time period of the wave is:\n\nT = 1/f = 1/50 = 0.02sec\n\nTherefore, the time taken for the second occurrence of 150A is:\n\nt = 3.85msec + 0.02sec \u2248 23.85msec\n\nTherefore, the time taken for the current to reach 150A for the second time is approximately 23.85 msec."
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "Non inductive loads 8KW, 6KW and 4KW are connected between neutral and R,B,Y phase respectively of a 3-phase 4-wire system. The  line voltage is 400V. Find the current in each conductor and neutral conductor."
+                    ],
+                    "marks": [
+                        8
+                    ],
+                    "answer": [
+                        "To find the current in each conductor and neutral conductor, we can use the following formula:\n\nI = P / (\u221a3 * V * cos(\u03b8))\n\nwhere I is the current, P is the power, V is the line voltage, and \u03b8 is the phase angle between the voltage and current.\n\nFor the non-inductive loads, the power factor is 1, so cos(\u03b8) = 1.\n\nFor the R phase:\n\nI_R = 8KW / (\u221a3 * 400V * 1) \u2248 9.24A\n\nFor the B phase:\n\nI_B = 6KW / (\u221a3 * 400V * 1) \u2248 6.93A\n\nFor the Y phase:\n\nI_Y = 4KW / (\u221a3 * 400V * 1) \u2248 4.62A\n\nThe neutral current is given by the vector sum of the three phase currents, since the loads are unbalanced:\n\nI_N = \u221a(I_R^2 + I_B^2 + I_Y^2 - 2I_RI_Bcos(120\u00b0) - 2I_BI_Ycos(120\u00b0) - 2I_RI_Y*cos(240\u00b0)) \u2248 7.14A\n\nTherefore, the current in the R phase is approximately 9.24A, in the B phase is approximately 6.93A, in the Y phase is approximately 4.62A, and in the neutral conductor is approximately 7.14A."
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "Show that VL=\u221a(3)Vp for 3-phase star connected to load. Derive an expression for power factor measurement of the load by two wattmeter method."
+                    ],
+                    "marks": [
+                        8
+                    ],
+                    "answer": [
+                        "\n\nVL=\u221a(3)Vp\n\nPower factor measurement of the load by two wattmeter method:\n\nLet P1 and P2 be the readings of the two wattmeters.\n\nThen, the power factor of the load is given by:\n\nPF = P1/P2\n\nWhere P1 = 3VL^2/R1 and P2 = 3VL^2/R2\n\nSubstituting VL = \u221a(3)Vp, we get\n\nPF = (3Vp^2/R1)/(3Vp^2/R2)\n\nPF = R2/R1"
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2078",
+            "date_month": "Kartik",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "Derive the time period of physical pendumum.",
+                        "Show that its time period is minimum when Length of pendulum is equal o radius of gyratication.",
+                        "Derive a differential equation for LC  oscillator. Show that the maximum values of electric and magretic energies stored in LC circuit is equal."
+                    ],
+                    "marks": [
+                        2.5,
+                        2.5,
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe time period of a physical pendulum is given by the equation:\n\nT = 2\u03c0\u221a(L/g)\n\nwhere L is the length of the pendulum and g is the acceleration due to gravity.",
+                        "\n\nLet the length of the pendulum be l and the radius of gyration be r.\n\nThe time period of a pendulum is given by T = 2\u03c0\u221a(l/g), where g is the acceleration due to gravity.\n\nWhen l = r, the time period of the pendulum is given by T = 2\u03c0\u221a(r/g).\n\nSince the denominator (g) is constant, the time period is minimum when the numerator (r) is minimum, i.e. when l = r.",
+                        "\n\nThe differential equation for an LC oscillator is given by:\n\n$$\\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0$$\n\nwhere q is the charge on the capacitor and L and C are the inductance and capacitance of the circuit, respectively.\n\nThe maximum electric energy stored in the capacitor is given by:\n\n$$E_{max} = \\frac{1}{2}CV^2$$\n\nwhere V is the maximum voltage across the capacitor.\n\nThe maximum magnetic energy stored in the inductor is given by:\n\n$$E_{max} = \\frac{1}{2}LI^2$$\n\nwhere I is the maximum current through the inductor.\n\nSince the current and voltage in an LC circuit are related by:\n\n$$V = L\\frac{dq}{dt}$$\n\n$$I = C\\frac{dq}{dt}$$\n\nwe can substitute these into the equations for the maximum electric and magnetic energies to get:\n\n$$E_{max} = \\frac{1}{2}CV^2 = \\frac{1}{2}LI^2 = \\frac{1}{2L^2C^2}\\left(\\frac{dq}{dt}\\right)^2$$\n\nSince the maximum energy stored in the LC circuit is equal to the total energy of the system, we can equate the two expressions for the maximum energy to get:\n\n$$\\frac{1}{2L^2C^2}\\left(\\frac{dq}{dt}\\right)^2 = \\frac{1}{2}CV^2$$\n\nRearranging this equation gives us the differential equation for the LC oscillator:\n\n$$\\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0$$\n\nwhich shows that the maximum electric and magnetic energies stored in an LC circuit are equal."
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "A solid sphere of mass 3kg and diameter 0.20m is suspended in a wire. Find the period of angular oscillation for small displacements if the torsional constant of the wire is6*10^-3 Nm/rad."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nT = 2\u03c0\u221a(I/k)\n\nI = (2/5)mr^2\n\nI = (2/5)(3)(0.1)^2\n\nI = 0.012 kg m^2\n\nT = 2\u03c0\u221a(0.012/6*10^-3)\n\nT = 2.45 s"
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "A string has linear mass density 530 gm/m and tension 50N. We send a sinusiodal wave with frequency 120Hz and amplitude of 6.5mm along the string. At what average rate does the wave transport energy?"
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe average rate of energy transport is equal to the product of the linear mass density, tension, frequency, and the square of the amplitude.\n\nTherefore, the average rate of energy transport is 530 gm/m * 50N * 120Hz * (6.5mm)^2 = 4.7 x 10^7 J/s."
+                    ]
+                },
+                "4": {
+                    "question": [
+                        " What are Newtons rings? Give the necessary theory for the determination of refractive index of liquid using Newtons ring method.",
+                        "What is double refraction? Show that linearly and circularly polarized light are the special cases of elliptically polarized light."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nNewton's rings are a phenomenon of interference which can be used to measure the refractive index of a liquid. They are formed when a convex lens is placed on a flat surface and a thin film of liquid is placed between them. When light is shone through the lens, a series of concentric circles of light and dark are formed. The radius of each circle is related to the refractive index of the liquid.\n\nThe theory behind the determination of refractive index of liquid using Newton's rings is based on the principle of interference. When light passes through a thin film of liquid, it is refracted at the interface between the liquid and the lens. This refracted light then interferes with the light that is reflected from the surface of the lens. The interference pattern that is formed is known as Newton's rings.\n\nThe refractive index of the liquid can be determined by measuring the radius of the rings. The radius of the rings is related to the refractive index of the liquid according to the equation:\n\nn = (2R + 1)/2R\n\nwhere n is the refractive index of the liquid and R is the radius of the rings."
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (=589.0nm and =589.6nm) in the first order. Are the two lines resolved?"
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe angular separation for the principle maxima of two sodium lines is given by:\n\n\u03b8 = (1/d) (\u03bb2 - \u03bb1)\n\nWhere d is the grating width and \u03bb1 and \u03bb2 are the two wavelengths.\n\nSubstituting the given values, we get:\n\n\u03b8 = (1/0.5 cm) (589.6 nm - 589.0 nm) = 1.2 mrad\n\nThe two lines are resolved since the angular separation is greater than the angular resolution of the grating, which is given by:\n\n\u03b8res = 1.22\u03bb/d = (1.22)(589 nm)/(0.5 cm) = 1.1 mrad\n\nTherefore, the two lines are resolved."
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "Show that diameter of the circle of least confusion is independent of the focal length of lens in the case when object is at infinify."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nLet the focal length of the lens be f.\n\nThe diameter of the circle of least confusion is given by\n\nD = 2f sin \u03b8\n\nWhere \u03b8 is the angular radius of the circle of least confusion.\n\nWhen the object is at infinity, the angular radius of the circle of least confusion is zero.\n\nTherefore, D = 2f sin \u03b8 = 2f sin 0 = 0\n\nHence, the diameter of the circle of least confusion is independent of the focal length of the lens when the object is at infinity."
+                    ]
+                },
+                "7": {
+                    "question": [
+                        " Two lenses of focal length +5.5cm and -4.5cm are separated by a finite distance. Find the position of principle points if the combinaion satisfies the condition of achromatism. "
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe position of the principle points is the midpoint between the two lenses. The midpoint between +5.5 cm and -4.5 cm is 0.5 cm. Therefore, the position of the principle points is 0.5 cm."
+                    ]
+                },
+                "8": {
+                    "question": [
+                        "Define optical fiber. Derive expression for acceptance angle and numerical aperture of optical fiber."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nOptical fiber is a type of cable that is made of a very thin strand of glass or plastic that is used to transmit light signals over long distances. It is used in telecommunications, medical imaging, and other applications.\n\nThe acceptance angle of an optical fiber is the angle at which light can enter the fiber and be transmitted through it. It is determined by the numerical aperture (NA) of the fiber, which is a measure of the light-gathering ability of the fiber.\n\nThe numerical aperture (NA) of an optical fiber is defined as:\n\nNA = n1sin\u03b8\n\nWhere n1 is the refractive index of the core material and \u03b8 is the maximum angle of acceptance.\n\nThe numerical aperture of an optical fiber is related to the acceptance angle by the following equation:\n\nAcceptance angle = sin-1 (NA/n1)"
+                    ]
+                },
+                "9": {
+                    "question": [
+                        "Prove that the electric field due to a short dipole at a point on axial line is twice that on the equatorial line",
+                        "Discuss the Gauss's law in electrostatics. Find the electric field intensity at a point outside and inside the uniformly charged  non conducting sphere of radius R."
+                    ],
+                    "marks": [
+                        5,
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe electric field due to a short dipole at a point on the axial line is given by:\n\nE_axial = (2p/3) * (p/r^3) * (3cos^2\u03b8 - 1)\n\nThe electric field due to a short dipole at a point on the equatorial line is given by:\n\nE_equatorial = (2p/3) * (p/r^3) * (3sin^2\u03b8 - 1)\n\nSubstituting \u03b8 = \u03c0/2 in the equation for E_axial, we get:\n\nE_axial = (2p/3) * (p/r^3) * (3cos^2(\u03c0/2) - 1)\n\nE_axial = (2p/3) * (p/r^3) * (3(1) - 1)\n\nE_axial = (2p/3) * (p/r^3) * (2)\n\nSubstituting \u03b8 = 0 in the equation for E_equatorial, we get:\n\nE_equatorial = (2p/3) * (p/r^3) * (3sin^2(0) - 1)\n\nE_equatorial = (2p/3) * (p/r^3) * (3(0) - 1)\n\nE_equatorial = (2p/3) * (p/r^3) * (-1)\n\nTherefore, the electric field due to a short dipole at a point on the axial line is twice that on the equatorial line.",
+                        "\n\nGauss's law states that the total electric flux through a closed surface is equal to the total charge enclosed by the surface divided by the permittivity of free space. This law is used to calculate the electric field intensity at a point due to a given charge distribution.\n\nFor a uniformly charged non-conducting sphere of radius R, the electric field intensity at a point outside the sphere is given by:\n\nE = (Q/4\u03c0\u03b5oR2)r\u0302\n\nWhere Q is the total charge on the sphere, \u03b5o is the permittivity of free space, and r\u0302 is the unit vector in the direction of the point from the center of the sphere.\n\nThe electric field intensity at a point inside the sphere is zero since the electric field lines are closed loops inside the sphere."
+                    ]
+                },
+                "10": {
+                    "question": [
+                        "Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2\u03b8. prove that the separation of the balls as X=(q^2l/(2\u03c0mg \u03b50))^(1/3) assuming \u03b8 is very small."
+                    ],
+                    "marks": []
+                },
+                "11": {
+                    "question": [
+                        "An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"
+                    ],
+                    "marks": []
+                },
+                "12": {
+                    "question": [
+                        "What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."
+                    ],
+                    "marks": []
+                },
+                "13": {
+                    "question": [
+                        "State and explain Biot savart law.",
+                        "Derive an expression for magnetic field due to current carrying circular loop at axial line.",
+                        "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."
+                    ],
+                    "marks": []
+                },
+                "14": {
+                    "question": [
+                        "A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."
+                    ],
+                    "marks": []
+                },
+                "15": {
+                    "question": [
+                        "Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."
+                    ],
+                    "marks": []
+                },
+                "16": {
+                    "question": [
+                        "Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"
+                    ],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Economics",
+            "date_year": "2079",
+            "date_month": "Bhadra",
+            "Level": "BE",
+            "Exam": "Regular",
+            "programme": "BME, BAM",
+            "year": "IV",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "List out and define the types of engineering cconomic decisions.",
+                        "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."
+                    ],
+                    "marks": [
+                        4,
+                        4
+                    ],
+                    "answer": [
+                        "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or investments that are expected to generate a return.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and the optimal combination of inputs to produce a given output.\n\n3. Pricing Decisions: These decisions involve the determination of the optimal price for a product or service.\n\n4. Cost Control Decisions: These decisions involve the identification and implementation of strategies to reduce costs and increase efficiency.\n\n5. Risk Management Decisions: These decisions involve the identification and management of risks associated with a project or investment.\n\n6. Financing Decisions: These decisions involve the selection of the most appropriate sources of financing for a project or investment.",
+                        "\n\nAverage Fixed Unit Cost:\n\nAverage fixed unit cost is the total fixed cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total fixed cost by the number of units produced.\n\nThe diagram below illustrates the average fixed unit cost:\n\nAverage Variable Unit Cost:\n\nAverage variable unit cost is the total variable cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total variable cost by the number of units produced.\n\nThe diagram below illustrates the average variable unit cost:\n\nAverage Total Unit Cost:\n\nAverage total unit cost is the total cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total cost by the number of units produced.\n\nThe diagram below illustrates the average total unit cost:\n\nMarginal Cost:\n\nMarginal cost is the additional cost incurred for producing one additional unit of output. It is calculated by dividing the change in total cost by the change in the number of units produced.\n\nThe diagram below illustrates the marginal cost:"
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."
+                    ],
+                    "marks": [
+                        6
+                    ],
+                    "answer": [
+                        "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It is used to compare different financial metrics over time and to compare the performance of a business to that of its competitors. Ratios are used to measure profitability, liquidity, solvency, efficiency, and other aspects of a business\u2019s financial performance.\n\nReturn on Equity (ROE): ROE is a measure of a company\u2019s profitability relative to its shareholders\u2019 equity. It is calculated by dividing a company\u2019s net income by its total equity. A higher ROE indicates that a company is generating more profit from its shareholders\u2019 investments.\n\nAsset Turnover: Asset turnover is a measure of how efficiently a company is using its assets to generate sales. It is calculated by dividing a company\u2019s total sales by its total assets. A higher asset turnover indicates that a company is generating more sales from its assets.\n\nCurrent Ratio: The current ratio is a measure of a company\u2019s short-term liquidity. It is calculated by dividing a company\u2019s current assets by its current liabilities. A higher current ratio indicates that a company has more assets than liabilities and is better able to meet its short-term obligations.\n\nDebt Ratio: The debt ratio is a measure of a company\u2019s financial leverage. It is calculated by dividing a company\u2019s total liabilities by its total assets. A higher debt ratio indicates that a company is more heavily leveraged and is more likely to be at risk of defaulting on its debt."
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."
+                    ],
+                    "marks": [
+                        10
+                    ],
+                    "answer": [
+                        "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD)\n\nYear 3: Dn = (1820000/15) x 3 = 181333.33; Bn = 1820000 - 181333.33 = 1638666.67\n\nYear 7: Dn = (1820000/15) x 7 = 1226666.67; Bn = 1820000 - 1226666.67 = 593333.33\n\nYear 10: Dn = (1820000/15) x 10 = 1220000; Bn = 1820000 - 1220000 = 600000\n\niv. If you are a private investor which method do you choose and explain why.\n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method. This method allows for a higher depreciation charge in the early years of the asset's life, which can be beneficial for tax purposes. Additionally, this method is simpler to calculate and understand than the other methods."
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."
+                    ],
+                    "marks": [
+                        8
+                    ],
+                    "answer": [
+                        "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.1/12)^24 + 300000/(1+0.1/12)^60 + 500000/(1+0.1/12)^84\n\nPV = NRs. 845,945.45\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs. 845,945.45."
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Economics",
+            "date_year": "2079",
+            "date_month": "Bhadra",
+            "Level": "BE",
+            "Exam": "Regular",
+            "programme": "BME, BAM",
+            "year": "IV",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "List out and define the types of engineering cconomic decisions.",
+                        "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."
+                    ],
+                    "marks": [
+                        4,
+                        4
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."
+                    ],
+                    "marks": [
+                        6
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."
+                    ],
+                    "marks": [
+                        10
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."
+                    ],
+                    "marks": [
+                        8
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2075",
+            "date_month": "Chaitra",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "Define torsional pendulum. Deive an expression for its time peroid. Explain why the time period of the torsional pendulum remains unaffected even if the amplitude is large.",
+                        "Whet is a damped EM oscillator? Which factor in the circuit is responsible to produce such a motion? Derive a differentiel equation for this motion and write its solution. What will be the remedy of such motion to make it smooth."
+                    ],
+                    "marks": [
+                        4,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nA torsional pendulum is a type of pendulum that consists of a rod or wire suspended from its center by a torsional spring. The rod or wire is free to rotate about its center, and the spring provides a restoring torque that causes the rod or wire to oscillate back and forth. The time period of a torsional pendulum is given by the equation T = 2\u03c0\u221a(I/k), where I is the moment of inertia of the rod or wire and k is the torsional spring constant.\n\nThe time period of a torsional pendulum remains unaffected even if the amplitude is large because the restoring torque provided by the torsional spring is independent of the amplitude of the oscillation. This means that the time period of the torsional pendulum is determined solely by the moment of inertia of the rod or wire and the torsional spring constant, and is not affected by the amplitude of the oscillation.",
+                        "\n\nA damped EM oscillator is an electrical circuit consisting of an inductor, a capacitor, and a resistor, which produces a motion that is damped or decays over time. The resistor is the factor responsible for producing the damped motion, as it dissipates energy from the oscillator.\n\nThe differential equation for the motion of a damped EM oscillator is given by:\n\n$$\\frac{d^2q}{dt^2} + 2\\beta\\frac{dq}{dt} + \\omega_0^2q = 0$$\n\nwhere $q$ is the charge on the capacitor, $\\beta$ is the damping coefficient, and $\\omega_0$ is the natural frequency of the oscillator.\n\nThe solution to this equation is given by:\n\n$$q(t) = A e^{-\\beta t} \\cos(\\omega_d t + \\phi)$$\n\nwhere $A$ is the amplitude, $\\omega_d$ is the damped frequency, and $\\phi$ is the phase angle.\n\nThe remedy for this motion to make it smooth is to reduce the damping coefficient $\\beta$ so that the motion is less damped."
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "A meter stick swings as a compound pendulum when suspended from one of its end. Calculate: a. period of the oscillatians, b. equivalent length of fhe simple pendulum that would have the same peroid."
+                    ],
+                    "marks": [
+                        5,
+                        5
+                    ],
+                    "answer": [
+                        "\n\na. The period of the oscillations of a compound pendulum is given by:\nT = 2\u03c0\u221a(L/g)\nwhere L is the length of the meter stick and g is the acceleration due to gravity (9.8 m/s2).\n\nTherefore, the period of the oscillations is:\nT = 2\u03c0\u221a(1 m/9.8 m/s2) = 0.63 s\n\nb. The period of a simple pendulum is given by:\nT = 2\u03c0\u221a(l/g)\nwhere l is the equivalent length of the simple pendulum.\n\nTherefore, the equivalent length of the simple pendulum that would have the same period is:\nl = (T2/4\u03c02) x g = (0.632/4\u03c02) x 9.8 m/s2 = 0.09 m"
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "Mention the conditions for good acoustics of a hall and derive an expression for reverberation time.",
+                        "Derive an expression for the rosolving power of the grating having N slits."
+                    ],
+                    "marks": [
+                        10
+                    ],
+                    "answer": [
+                        "\n\nConditions for good acoustics of a hall:\n\n1. The hall should have a good absorption coefficient.\n2. The hall should have a good diffusion coefficient.\n3. The hall should have a low background noise level.\n4. The hall should have a low reverberation time.\n\nReverberation time (T60) is the time taken for the sound pressure level to decay by 60 dB after the sound source has stopped. It is given by the equation:\n\nT60 = 0.161V/A\n\nWhere V is the volume of the hall and A is the total absorption coefficient of the hall."
+                    ]
+                },
+                "4": {
+                    "question": [
+                        "Why Newton's interference fringes are circular? Derive an expression for radius of Newtons ring due to the transmilled light.",
+                        "Define dispersive and resolving power of a grating."
+                    ],
+                    "marks": [
+                        5,
+                        5
+                    ],
+                    "answer": [
+                        "\n\nNewton's interference fringes are circular because the light waves that create them are circularly symmetric. The radius of the fringes is determined by the wavelength of the light and the angle of incidence. The expression for the radius of Newton's ring due to the transmitted light is given by:\n\nr = (n\u03bb/2) * sin\u03b8\n\nwhere n is the refractive index of the medium, \u03bb is the wavelength of the light, and \u03b8 is the angle of incidence.",
+                        "\n\nDispersive power is the ability of a grating to separate light of different wavelengths into its component colors. It is usually measured in terms of the number of lines per millimeter (L/mm). The higher the number of lines per millimeter, the greater the dispersive power of the grating.\n\nResolving power is the ability of a grating to distinguish between two closely spaced wavelengths of light. It is usually measured in terms of the minimum angular separation between two wavelengths that can be resolved by the grating. The higher the resolving power, the better the grating is at distinguishing between two closely spaced wavelengths."
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "A plane transmission grafing having 5000 lines/cm is used to obtain a spectrum of light from a sodim lamp in the sceond order. Calculate the angular sepatation between the two sodium lines whose wavelengths arc 589 nm and 589.6 nm."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe angular separation between the two sodium lines is given by:\n\n\u03b8 = (589.6 - 589) / (5000 * 2)\n\n\u03b8 = 0.006 radians = 0.34\u00b0"
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "Calculate the specific rolation if the plane of polarization is formed through 30.5\u00b0 traversing 25 cm length of 10% sugar solution."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe specific rotation of a 10% sugar solution is +14.7\u00b0. Therefore, the specific rotation of the plane of polarization formed through 30.5\u00b0 traversing 25 cm length of 10% sugar solution is +14.7\u00b0 x 30.5\u00b0 x 25 cm = 11,788.75\u00b0."
+                    ]
+                },
+                "7": {
+                    "question": [
+                        "Define an optical fiber and mention its types. Explain the numerical aperture and acceptance angle for the optical fiber and derive the expression to establish a relationship between them."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nAn optical fiber is a thin strand of glass or plastic that is used to transmit light signals over long distances. It is made up of a core, cladding, and a protective coating. The core is the innermost layer of the fiber and is made of a material with a higher refractive index than the cladding. The cladding is the outer layer of the fiber and is made of a material with a lower refractive index than the core. The protective coating is the outermost layer of the fiber and is used to protect the fiber from damage.\n\nThere are two types of optical fibers: single-mode and multi-mode. Single-mode fibers have a small core diameter and are used for long-distance transmission. Multi-mode fibers have a larger core diameter and are used for short-distance transmission.\n\nThe numerical aperture (NA) of an optical fiber is a measure of the light-gathering ability of the fiber. It is defined as the sine of the acceptance angle of the fiber, which is the angle at which light is accepted by the fiber. The acceptance angle is the angle between the axis of the fiber and the direction of the light entering the fiber.\n\nThe relationship between the numerical aperture and the acceptance angle can be expressed as:\n\nNA = sin(\u03b8)\n\nWhere \u03b8 is the acceptance angle."
+                    ]
+                },
+                "8": {
+                    "question": [
+                        "Dispersive powers for crown and fint glass lens2s are 0.015 and 0.030 respectively. How can you design an achromatic contact of the lenses of focal length %0 cm?"
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nAn achromatic doublet lens can be designed using the crown and flint glass lenses. The crown lens should be placed closest to the object and the flint lens should be placed closest to the image. The focal length of the doublet should be equal to the sum of the focal lengths of the individual lenses. The ratio of the focal lengths of the two lenses should be equal to the ratio of the inverse of their dispersions. In this case, the ratio of the focal lengths should be 0.015/0.030 = 0.5. Therefore, the focal length of the crown lens should be 0.5*30 = 15 cm and the focal length of the flint lens should be 0.5*30 = 15 cm."
+                    ]
+                },
+                "9": {
+                    "question": [
+                        "What is an eleciric Quadrupole? Derive an expression for the electric potential at any point on the axial line at distance 'r' from the centre of short quadrupole. Also show fhat the electric potential at that point is inversely propurtional to r^3.",
+                        "Discuss the modification of Gauss law due to the presense of the dielectrics and derive a relation among displacement vector, polarization vector and the electric field."
+                    ],
+                    "marks": [
+                        5,
+                        5
+                    ],
+                    "answer": [
+                        "\n\nAn electric quadrupole is a system of four electric charges of equal magnitude but opposite sign, arranged in a square configuration. The electric potential at any point on the axial line at distance 'r' from the centre of the short quadrupole is given by:\n\nV(r) = (Q/4\u03c0\u03b50) * (1/r^2 - 3/r^4)\n\nWhere Q is the total charge of the quadrupole and \u03b50 is the permittivity of free space.\n\nThis expression can be simplified to show that the electric potential at that point is inversely proportional to r^3:\n\nV(r) = (Q/4\u03c0\u03b50) * (1/r^3) * (1 - 3/r^2)\n\nV(r) = (Q/4\u03c0\u03b50) * (1/r^3) * (1/r^2)\n\nV(r) = (Q/4\u03c0\u03b50) * (1/r^3)",
+                        "\n\nGauss's law states that the electric flux through a closed surface is equal to the total charge enclosed by the surface divided by the permittivity of free space. This law is modified in the presence of dielectrics, which are materials that have a different permittivity than free space. The modified Gauss's law states that the electric flux through a closed surface is equal to the total charge enclosed by the surface divided by the permittivity of the material.\n\nThe presence of dielectrics also affects the electric field. The electric field in the presence of a dielectric is given by:\n\nE = E_0 + P/\u03b5_0\n\nwhere E_0 is the electric field in the absence of the dielectric, P is the polarization vector, and \u03b5_0 is the permittivity of free space.\n\nThe polarization vector is related to the displacement vector, D, by the equation:\n\nP = \u03b5_0*D\n\nwhere \u03b5_0 is the permittivity of free space.\n\nTherefore, the electric field in the presence of a dielectric can be expressed as:\n\nE = E_0 + \u03b5_0*D/\u03b5_0\n\nE = E_0 + D\n\nThis equation shows that the electric field in the presence of a dielectric is equal to the electric field in the absence of the dielectric plus the displacement vector."
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Basic Electrical Engineering",
+            "date_year": "2079",
+            "date_month": "Jestha",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "A field coil has a resistance of 173 ohms at 20 degree C. Afier working for 6 hours on full the resistance of the field coils increases 215 ohms. Find the final tempereture of the coil and mean rise of temperature of the coil. Take the tempereture coefficient of resistance at 0 degree celcius = 0.00445 per degree celsisus."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nFinal temperature of the coil = (173 + 215) / (173 * 0.00445) + 20 = 43.3\u00b0C\n\nMean rise of temperature of the coil = (43.3 - 20) / 6 = 4.72\u00b0C"
+                    ]
+                },
+                "2": {
+                    "question": [],
+                    "marks": []
+                },
+                "3": {
+                    "question": [],
+                    "marks": []
+                },
+                "4": {
+                    "question": [
+                        "Find the expression for the equivalent inductance of two coils connected in series opposition.",
+                        "An alternating source of emf v=200sin(314t) volts is applied to a practical coil with resistance 20 ohms and inductance 0.1 henry. Find the expression for instantaneious current and power factor., ii. Active, reactive, and apparent power consumed by the coil., iii. Voltage drop in resistor and inductor."
+                    ],
+                    "marks": [
+                        4,
+                        6
+                    ],
+                    "answer": [
+                        "\n\nThe equivalent inductance of two coils connected in series opposition is given by:\n\nL_eq = L1*L2 / (L1 + L2)",
+                        "\n\ni. Instantaneous current, I = V/R = 200sin(314t)/20 = 10sin(314t) A\n\nPower factor, PF = cos(314t)\n\nii. Active power, P = VIcos(314t) = 2000cos(314t) W\n\nReactive power, Q = VIsin(314t) = 2000sin(314t) VAR\n\nApparent power, S = V\u221a(I^2 + Q^2) = 2000\u221a(102 + 2000^2) VA\n\niii. Voltage drop in resistor, Vr = IR = 200cos(314t) V\n\nVoltage drop in inductor, Vl = IXL = 200sin(314t) V"
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "Define power factor and explain why, in general, it should be kept as high as possible in power supply systems",
+                        "The three arms of a three-phase load each comprise resistance of 25 ohms and of inductance of 0.15 ohm in series with a 120 \u03bcF capacitor. The supply is 415V, 50Hz. Calculate the phase current, line current and total power consumed by the load in star connection."
+                    ],
+                    "marks": [
+                        "3",
+                        5
+                    ],
+                    "answer": [
+                        "\n\nPower factor is a measure of how efficiently electrical power is being used. It is the ratio of the real power used in an electrical circuit to the apparent power supplied to the circuit. A power factor of 1 indicates that all of the power supplied to the circuit is being used efficiently. A power factor of less than 1 indicates that some of the power is being wasted.\n\nIn general, it is important to keep the power factor as high as possible in power supply systems. This is because a low power factor can lead to increased losses in the system, resulting in higher energy costs. Additionally, a low power factor can cause voltage drops in the system, leading to reduced performance and reliability.",
+                        "\n\nPhase current, I = V/Z = 415/50 = 8.3 A\n\nLine current, I_L = \u221a3 x I = \u221a3 x 8.3 = 14.5 A\n\nTotal power consumed by the load, P = 3 x I^2 x R = 3 x 8.3^2 x 25 = 5,845 W"
+                    ]
+                },
+                "6": {
+                    "question": [],
+                    "marks": []
+                },
+                "7": {
+                    "question": [],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Basic Electrical Engineering",
+            "date_year": "2076",
+            "date_month": "Ashwin",
+            "Level": "BE",
+            "Exam": "Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "What are ideal an practical voltage and curent source? Explain",
+                        "A coil hes xesisan of 18 ohm when mean temperature is 20 degrees and 20 ohm when its mean tempereture 50 degrees, Find its mean temperature rise when resistance is 21 ohm and the sorrounding temperature is 15 degrees.",
+                        "State and explsin krichoffs voltage law."
+                    ],
+                    "marks": [
+                        4,
+                        6,
+                        6
+                    ],
+                    "answer": [
+                        "\n\nAn ideal voltage source is a device that can provide a constant voltage regardless of the current drawn from it. This means that the voltage output will remain constant regardless of the load connected to it.\n\nA practical voltage source is a device that can provide a constant voltage, but the current output will vary depending on the load connected to it. This means that the voltage output will remain constant, but the current output will vary depending on the load.\n\nAn ideal current source is a device that can provide a constant current regardless of the voltage applied to it. This means that the current output will remain constant regardless of the load connected to it.\n\nA practical current source is a device that can provide a constant current, but the voltage output will vary depending on the load connected to it. This means that the current output will remain constant, but the voltage output will vary depending on the load.",
+                        "\n\nMean temperature rise = (21 - 18) / (20 - 50) * (50 - 15) = 5.5 degrees",
+                        "\n\nKirchhoff's Voltage Law (KVL) states that the sum of all voltages around a closed loop in a circuit must equal zero. This law is based on the conservation of energy, which states that energy cannot be created or destroyed, only transferred from one form to another. KVL states that the sum of all voltages in a closed loop must equal zero because the energy entering the loop must equal the energy leaving the loop. This law is useful for analyzing circuits and determining the voltage drops across components."
+                    ]
+                },
+                "2": {
+                    "question": [],
+                    "marks": []
+                },
+                "3": {
+                    "question": [],
+                    "marks": []
+                },
+                "4": {
+                    "question": [],
+                    "marks": []
+                },
+                "5": {
+                    "question": [],
+                    "marks": []
+                },
+                "6": {
+                    "question": [],
+                    "marks": []
+                },
+                "7": {
+                    "question": [],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2075",
+            "date_month": "Chaitra",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [
+                        "Define centers of suspension and oscillation of a compound pendulum",
+                        "show that they are interchangable. also Find the expression for minimum time period of compound pendulum.",
+                        "Define EM oscillation.",
+                        "Compare it with Mechanical oscillation.",
+                        "Develop a reletion of frequency of LC oscillation for under demped condition."
+                    ],
+                    "marks": [
+                        2,
+                        3,
+                        1,
+                        2,
+                        2
+                    ],
+                    "answer": [
+                        "\n\nA compound pendulum is a pendulum that has a mass that is not concentrated at a single point. The two centers of suspension and oscillation of a compound pendulum are the point of suspension and the center of mass. The point of suspension is the point at which the pendulum is attached to the support. The center of mass is the point at which the mass of the pendulum is concentrated.",
+                        "\n\nYes, the terms \"compound pendulum\" and \"physical pendulum\" are interchangeable.\n\nThe expression for the minimum time period of a compound pendulum is T = 2\u03c0\u221a(I/mgl), where I is the moment of inertia, m is the mass, g is the acceleration due to gravity, and l is the length of the pendulum.",
+                        "\n\nEM oscillation is the oscillation of an electromagnetic wave, which is a wave of energy that is created by the oscillation of electric and magnetic fields. EM oscillations are responsible for the transmission of energy in the form of radio waves, microwaves, and other forms of electromagnetic radiation.",
+                        "\n\nMechanical oscillation is the periodic motion of a physical object or system due to an applied force. Examples of mechanical oscillation include a pendulum swinging back and forth, a spring being compressed and released, or a mass attached to a spring being pulled and released.\n\nElectrical oscillation is the periodic motion of an electrical signal due to an applied voltage or current. Examples of electrical oscillation include an alternating current (AC) waveform, a radio frequency (RF) signal, or a voltage pulse. Electrical oscillation is used in many applications, such as radio communication, power generation, and signal processing.",
+                        "\n\nF = 1/(2\u03c0\u221aLC)"
+                    ]
+                },
+                "2": {
+                    "question": [
+                        "A 750 gm block oscillates on the end of spring Whose force constant is 56 N/m. The mass moves in a fluid of damping const 0.162 Ns/m. Find the period of oscillation."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe period of oscillation is given by:\n\nT = 2\u03c0\u221a(m/k)\n\nWhere m is the mass of the block and k is the force constant of the spring.\n\nT = 2\u03c0\u221a(750/56)\n\nT = 4.9 s"
+                    ]
+                },
+                "3": {
+                    "question": [
+                        "A room has dimension of 5m x 4m * 4m. Find i. The mean free path of the sound wave in the room. ii. No. of reflections made per second by sound waves with the wall of the room. Given the velocity of sound in air is 350 m/s."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\ni. The mean free path of the sound wave in the room is 0.5 m.\n\nii. No. of reflections made per second by sound waves with the wall of the room is 2800."
+                    ]
+                },
+                "4": {
+                    "question": [
+                        "What is the power of combination of lenses of focal lengths 50 cm and 10 cm which are scparated by 10 cm."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe power of the combination of lenses is 5 diopters."
+                    ]
+                },
+                "5": {
+                    "question": [
+                        "Explain briefly with well-labeled ray diagram, the diffraction at single slit.",
+                        "Show that the intensity of first maxima is 4.54% of intensity of centeral maxima.",
+                        "What is Nicol prism?",
+                        " How can  linearly, circularly end elliptically polarized light be produced? Derive the relation."
+                    ],
+                    "marks": [
+                        2,
+                        3,
+                        2,
+                        3
+                    ],
+                    "answer": [
+                        "\n\nA ray diagram of diffraction at a single slit is shown below:\n\n1. Incident Ray: A ray of light is incident on the single slit.\n\n2. Diffracted Rays: The incident ray is diffracted by the slit, producing a series of diffracted rays.\n\n3. Central Maximum: The diffracted rays form a central maximum at the center of the slit.\n\n4. Secondary Maxima: Secondary maxima are formed on either side of the central maximum.\n\n5. Minima: Minima are formed between the secondary maxima.",
+                        "\n\nIntensity of first maxima = 4.54% of intensity of central maxima\n\nLet I1 be the intensity of the first maxima and I2 be the intensity of the central maxima.\n\nThen,\n\nI1 = 4.54% * I2\n\nI1 = 0.0454 * I2\n\nTherefore, the intensity of the first maxima is 4.54% of the intensity of the central maxima.",
+                        "\n\nA Nicol prism is a type of polarizing prism used to analyze the polarization of light. It is made of two calcite prisms, each cut along a particular crystal axis, and then glued together with the optic axes crossed at 90\u00b0. The prism splits the light into two beams, each of which is linearly polarized in a perpendicular direction. The Nicol prism is used in a variety of applications, including optical microscopy, spectroscopy, and polarimetry.",
+                        "\n\nLinearly polarized light can be produced by passing unpolarized light through a linear polarizer. Circularly polarized light can be produced by passing linearly polarized light through a quarter-wave plate. Elliptically polarized light can be produced by passing linearly polarized light through a half-wave plate.\n\nThe relation between the polarization states is as follows:\n\nUnpolarized light \u2192 Linear Polarizer \u2192 Linear Polarized Light \u2192 Quarter-Wave Plate \u2192 Circularly Polarized Light \u2192 Half-Wave Plate \u2192 Elliptically Polarized Light"
+                    ]
+                },
+                "6": {
+                    "question": [
+                        "What is Newton's ring?",
+                        "Describe a necessary theory of Newtons rings metkod for the determinztion of wavelength of light"
+                    ],
+                    "marks": [
+                        1,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nNewton's ring is an optical phenomenon in which an interference pattern is created by the reflection of light between two surfaces\u2014a spherical surface and an adjacent flat surface. It was first observed by English physicist Sir Isaac Newton in 1671. The pattern is created when light reflects off the curved surface and then off the flat surface, creating a series of concentric circles. The pattern is visible when the two surfaces are very close together, and the size of the circles depends on the distance between the two surfaces.",
+                        "\n\nNewton's rings method is a technique used to measure the wavelength of light. It is based on the interference of light waves. The method involves placing a convex lens on a flat surface and then placing a flat glass plate on top of the lens. A thin film of oil is then placed between the lens and the glass plate. When light is shone on the glass plate, a series of concentric rings are formed due to the interference of light waves. The distance between the rings is proportional to the wavelength of the light. By measuring the distance between the rings, the wavelength of the light can be determined. This method is very accurate and is used in many scientific experiments."
+                    ]
+                },
+                "7": {
+                    "question": [
+                        "Calculate the minimum number of lines in a grating which will just resolve the sodium lines in the first order spectrum. The wavelengths are 5890 A\u00b0 end 5896 A\u00b0."
+                    ],
+                    "marks": [
+                        6
+                    ],
+                    "answer": [
+                        "\n\nThe minimum number of lines in a grating is given by:\n\nN = (\u03bb2 - \u03bb1) / d\n\nwhere \u03bb1 and \u03bb2 are the two wavelengths to be resolved, and d is the line spacing of the grating.\n\nIn this case, N = (5896 - 5890) / d = 6 / d\n\nTherefore, the minimum number of lines in the grating is 6/d."
+                    ]
+                },
+                "8": {
+                    "question": [
+                        "Starting from energy level diagram, explain how lasers can be produced by Helium-Neon gas."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nA laser is a device that produces a highly focused beam of light. In a Helium-Neon gas laser, the laser action is produced by a process called stimulated emission. This process occurs when an electron in an excited state is stimulated by an external energy source, such as a photon, to drop to a lower energy level.\n\nIn a Helium-Neon gas laser, the energy source is usually an electrical current. This current is used to excite the electrons in the Helium-Neon gas, which then jump to a higher energy level. When the electrons return to their original energy level, they emit a photon of light. This photon is then amplified by the stimulated emission process, which causes more electrons to drop to a lower energy level and emit more photons. This process continues until a beam of light is produced. The beam of light is then focused by a lens to produce a laser beam."
+                    ]
+                },
+                "9": {
+                    "question": [
+                        "What is an electric quadrapole?",
+                        "Calculate the potential for points on the asis of the quadrupole.",
+                        "Find the electric field at a distance z above the center of a flat circular disc of radius R which caries a uniform surface charge density  \u03c3. What docs your formula give in the limit R -> \u221e."
+                    ],
+                    "marks": [
+                        1,
+                        4,
+                        5
+                    ],
+                    "answer": [
+                        "\n\nAn electric quadrupole is a system of four electric charges of equal magnitude but opposite sign, arranged in a square or rectangular configuration. It is a type of electric multipole, and is used in various fields such as electrostatics, quantum mechanics, and electromagnetism.",
+                        "\n\nThe potential for points on the axis of a quadrupole is given by:\n\nV(r) = (Q/2\u03c0\u03b5_0) (1/r^2 - 2/R^2)\n\nwhere Q is the total charge of the quadrupole, \u03b5_0 is the permittivity of free space, r is the distance from the center of the quadrupole, and R is the distance from the center of the quadrupole to the point of interest.",
+                        "\n\nThe electric field at a distance z above the center of a flat circular disc of radius R is given by:\n\nE = \u03c3/(2\u03c0\u03b5_0) * (R^2/(R^2 + z^2)^(3/2))\n\nIn the limit R -> \u221e, the electric field becomes:\n\nE = 0"
+                    ]
+                },
+                "10": {
+                    "question": [
+                        "A long cylindrical conducter has length 1 m and is surrounded by a coaxial cylindrical conducting shell with inner radius double that of long cylindrical conductor. calculate the capacitance for this capacitor assuming there is vacuum in space between cylinders."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe capacitance of a cylindrical capacitor is given by:\n\nC = 2\u03c0\u03b50ln(R2/R1)\n\nWhere R1 is the radius of the inner cylinder and R2 is the radius of the outer cylinder.\n\nIn this case, R1 = 0.5 m and R2 = 1 m.\n\nTherefore, the capacitance of the capacitor is:\n\nC = 2\u03c0\u03b50ln(1/0.5) = 4\u03c0\u03b50 \u2248 39.48 pF"
+                    ]
+                },
+                "11": {
+                    "question": [
+                        "State Gauss Law of electrostatics.",
+                        "Show that electric field intensity at the surface of infinitely long non-conducting cylindrical symmetric uniform charge distribution is maximum"
+                    ],
+                    "marks": [
+                        1,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nGauss's Law states that the net electric flux through any closed surface is equal to the charge enclosed by the surface divided by the permittivity of free space. Mathematically, this is expressed as:\n\n\u03a6 = \u222bE\u22c5dA = q/\u03b5\u2080",
+                        " at the axis and zero at the surface\n\nLet us consider a non-conducting cylindrical symmetric uniform charge distribution of radius R and charge q.\n\nThe electric field intensity at any point on the surface of the cylinder is given by:\n\nE = q/4\u03c0\u03b5R2\n\nAt the axis, the electric field intensity is maximum since the distance from the charge to the point is minimum.\n\nAt the surface, the electric field intensity is zero since the distance from the charge to the point is maximum."
+                    ]
+                },
+                "12": {
+                    "question": [
+                        "Caleulate the mean free path and mean free time between collisions for the conduction electrons in copper having electron density 8.5 * 10^27/cm^3 and resistivity 1.7*10^-8 ohm meter. Given charge of an electron = 1.6*10^19C, mass of an electron = 9.1*10^-11 kg and speed of an electron = 1.6*10^6 m/s."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nMean free path = (1.7*10^-8)/(8.5*10^27*1.6*10^-19) = 2.1*10^-14 m\n\nMean free time = Mean free path/Speed of an electron = 2.1*10^-14/1.6*10^6 = 1.3*10^-20 s"
+                    ]
+                },
+                "13": {
+                    "question": [
+                        "Compare the methods of Biot Savart law and amperes law to calculate magnetic fields due to current carrying conductor.",
+                        "Calculate magnetic field at an axial distance 'x' from the center of the circular coil carrying current.",
+                        "Explain Hall Effect.",
+                        "Derive an expression for Hall coefficient for an electrn."
+                    ],
+                    "marks": [
+                        2,
+                        3,
+                        1,
+                        4
+                    ],
+                    "answer": [
+                        "\n\nBiot Savart Law: Biot Savart Law is an equation that describes the magnetic field generated by a current-carrying conductor. It is based on the principle that the magnetic field at any point is proportional to the current passing through the conductor and the distance from the conductor.\n\nAmpere's Law: Ampere's Law is an equation that describes the magnetic field generated by a current-carrying conductor. It is based on the principle that the magnetic field at any point is proportional to the current passing through the conductor and the area of the loop formed by the conductor.\n\nBoth Biot Savart Law and Ampere's Law can be used to calculate the magnetic field due to a current-carrying conductor. The main difference between the two is that Biot Savart Law is based on the distance from the conductor, while Ampere's Law is based on the area of the loop formed by the conductor.",
+                        "\n\nThe magnetic field at a distance x from the center of a circular coil carrying current I is given by:\n\nB = \u03bc0 * (2 * I) / (2 * \u03c0 * x)\n\nwhere \u03bc0 is the permeability of free space (4\u03c0 x 10-7 Tm/A).",
+                        "\n\nThe Hall effect is a phenomenon in which a voltage is generated across a conductor when a magnetic field is applied perpendicular to the current flowing through it. This voltage is known as the Hall voltage and is proportional to the strength of the magnetic field. The Hall effect is used in a variety of applications, such as measuring magnetic fields, detecting the presence of a magnetic field, and controlling the flow of current in a circuit.",
+                        "\n\nThe Hall coefficient for an electron is given by:\n\nR_H = \\frac{1}{nq}"
+                    ]
+                },
+                "14": {
+                    "question": [
+                        "In a LR the current builds up to 20% of its steady state value in 3 sec. What is the inductive time constant?"
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe inductive time constant is 0.6 seconds."
+                    ]
+                },
+                "15": {
+                    "question": [
+                        "Prove that: (E/B)=1/\u221a(\u03bc0\u03b50) where E is electric field, B is magnetic field and \u03bc0, \u03b50 are the permeability and permittivity of free space."
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nProof:\n\nThe electric field E and the magnetic field B are related by the equation:\n\nE = (1/\u221a(\u03bc0\u03b50))*B\n\nRearranging the equation, we get:\n\n(E/B) = (1/\u221a(\u03bc0\u03b50))\n\nTherefore, (E/B) = 1/\u221a(\u03bc0\u03b50)."
+                    ]
+                },
+                "16": {
+                    "question": [
+                        "A beam of electrons having energy of each 3eV is incident on a potential barrier of finite height 4eV. If the width of the barrier is 1 nm, calculate the percentage transmission of the beam through barrier. "
+                    ],
+                    "marks": [
+                        5
+                    ],
+                    "answer": [
+                        "\n\nThe transmission coefficient for a potential barrier of finite height is given by \n\nT = (4E/K)^2 * sinh^2(KL)\n\nwhere E is the energy of the incident electrons, K is the wave number, and L is the width of the barrier. \n\nSubstituting the given values, we get \n\nT = (4*3/2\u03c0)^2 * sinh^2(2\u03c0*1) \n\nT = 0.0045 \n\nTherefore, the percentage transmission of the beam through the barrier is 0.45%."
+                    ]
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2075",
+            "date_month": "Chaitra",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [],
+                    "marks": []
+                },
+                "2": {
+                    "question": [],
+                    "marks": []
+                },
+                "3": {
+                    "question": [],
+                    "marks": []
+                },
+                "4": {
+                    "question": [],
+                    "marks": []
+                },
+                "5": {
+                    "question": [],
+                    "marks": []
+                },
+                "6": {
+                    "question": [],
+                    "marks": []
+                },
+                "7": {
+                    "question": [],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2075",
+            "date_month": "Chaitra",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [],
+                    "marks": []
+                },
+                "2": {
+                    "question": [],
+                    "marks": []
+                },
+                "3": {
+                    "question": [],
+                    "marks": []
+                },
+                "4": {
+                    "question": [],
+                    "marks": []
+                },
+                "5": {
+                    "question": [],
+                    "marks": []
+                },
+                "6": {
+                    "question": [],
+                    "marks": []
+                },
+                "7": {
+                    "question": [],
+                    "marks": []
+                }
+            }
+        },
+        {
+            "university": "Tribhuwan University",
+            "Institute": "Institute of Engineering",
+            "subject": "Engineering Physics",
+            "date_year": "2075",
+            "date_month": "Chaitra",
+            "Level": "BE",
+            "Exam": "Regular/Back",
+            "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+            "year": "I",
+            "part": "I",
+            "full marks": "80",
+            "pass marks": "32",
+            "time": "3 hours",
+            "questions": {
+                "1": {
+                    "question": [],
+                    "marks": []
+                },
+                "2": {
+                    "question": [],
+                    "marks": []
+                },
+                "3": {
+                    "question": [],
+                    "marks": []
+                },
+                "4": {
+                    "question": [],
+                    "marks": []
+                },
+                "5": {
+                    "question": [],
+                    "marks": []
+                },
+                "6": {
+                    "question": [],
+                    "marks": []
+                },
+                "7": {
+                    "question": [],
+                    "marks": []
+                }
+            }
+        }
 ]

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from functions import generate_random_id, pdf_url_to_qa, save_to_db, get_questions_by_id, get_title_id_pair_from_db
+from functions import pdf_url_to_qa, get_questions_by_id, get_title_id_pair_from_db, get_mannual_subjects, get_mannual_questions
 import json
 app = Flask(__name__, template_folder='templates')
 
@@ -34,16 +34,28 @@ def home():
             # print(f'url: {url}, title: {title}, question_answers: {question_answers}')
             # return render_template('home.html', title_id_pairs = title_id_pairs)
     # else:
-    data = get_title_id_pair_from_db()
     # print(f'data: {data}')
-    return render_template('home.html', title_id_pairs = data)
+    return render_template('home.html', title_id_pairs = get_title_id_pair_from_db(), mannual_subjects = get_mannual_subjects())
 
 
-@app.route('/mannual')
-def index():
-    with open ('mannual_questions.json', 'r') as f:
-        qna = json.load(f)
+# @app.route('/mannual')
+# def index():
+#     with open ('mannual_questions.json', 'r') as f:
+#         qna = json.load(f)
 
+    # for item in qna:
+    #     for _, value in item['questions'].items():
+    #         # for _, value in all_questions.items():
+    #             value['num_parts'] = len(value['question'])
+    #             if 'answer' not in value.keys():
+    #                 value['answer'] = ['']*value['num_parts']
+#     return render_template('mannual_questions.html', qna=qna)
+
+@app.route('/mannual/<string:subject>')
+def index(subject):
+    
+    qna = get_mannual_questions(subject)
+    # print(qna)
     for item in qna:
         for _, value in item['questions'].items():
             # for _, value in all_questions.items():

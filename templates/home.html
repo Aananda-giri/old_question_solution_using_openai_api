@@ -79,7 +79,7 @@
     
     /* place footer at the bottom of page */
     footer {
-      position: absolute;
+      position: relative;
       bottom: 0;
       width: 100%;
       /* height of footer*/
@@ -126,7 +126,23 @@
         </ol>
     
   </section>
-  <footer class="mb-3">
+  <section>
+    <!-- centered heading -->
+    <center>
+    <h2>Selective manually typed:</h2></center>
+    <!-- ul with centerer list items -->
+    <!-- ordered list -->
+    <ol type=1>
+        {% for subject in mannual_subjects %}
+        <br>    
+            <li><a href="/mannual/{{subject}}"> {{subject}} </a></li>
+
+        {% endfor %}
+        </ol>
+    
+  </section>
+
+  <footer class="mb-3 mt-3">
     <div class="footer-container">
       <div class="footer-section">
         <h3>Feedback</h3>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Questions</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		/* CSS styles for the mobile-friendly layout */
+		@media only screen and (max-width: 600px) {
+			.container {
+				width: 100%;
+			}
+			.question {
+				font-size: 18px;
+				font-weight: bold;
+				margin-top: 20px;
+			}
+			.answer {
+				font-size: 16px;
+				margin-top: 10px;
+			}
+		}
+
+	#myTable tr:nth-child(2) {
+    display: table-row;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		{% for item in qna %}
+			<h2>{{ item['subject'] }} - {{ item['date_month'] }} {{ item['date_year'] }} ({{ item['Level'] }} {{ item['programme'] }} Year {{ item['year'] }} Part {{ item['part'] }})</h2>
+			<table cellspacing="0" cellpadding="0" style="border:block;" id = "myTable">
+				<tr>
+					<th>Question</th>
+					<th>Marks</th>
+				</tr>
+				{% for q, value in item['questions'].items() %}
+				{% for i in range(value['num_parts']) %}
+				<tr>
+					
+					<td class="answer">
+						<b>{{q}}. {{ value['question'][i] }}</b>
+						{{ value['answer'][i] }}
+					
+					</td>
+					<td>
+						{% if i == 0 %}
+							<!-- <td class="question" rowspan="{{ value['num_parts'] }}"><b>{{ value['question'][i] }}</b></td> -->
+							<td class="marks" rowspan="{{ value['num_parts'] }}">{{ value['marks'][i] }}</td>
+						{% endif %}
+					</td>
+				</tr>
+				{% endfor %}
+				{% endfor %}
+			</table>
+		{% endfor %}
+        
+        
+        
+        <!-- {% for item in qna %}
+		{% for q, value in item['questions'].items() %}
+        <div class="question">
+			{{ q['subject'] }} - {{ q['level'] }} {{ q['programme'] }} {{ q['year'] }}/{{ q['part'] }}
+		</div>
+		
+        <div class="details">
+			<p>{{ q['university'] }}, {{ q['institute'] }}</p>
+			<p>Date: {{ q['date_month'] }} {{ q['date_year'] }}</p>
+			<p>Full marks: {{ q['full_marks'] }}, Pass marks: {{ q['pass_marks'] }}, Time: {{ q['time'] }}</p>
+		</div>
+
+
+
+
+        
+        {% for i in range(value['num_parts']) %}
+            {% if i == 0 %}
+            <div class="question">{{ value['question'] }}:</div>    
+                
+            
+            <div class="marks"> {{ value['marks'] }}</div>
+            {% endif %}
+            <div class="answer">{{ value['answer'] }}</div>
+            
+        {% endfor %}
+        {% endfor %}
+        {% endfor %} -->
+
+</div>

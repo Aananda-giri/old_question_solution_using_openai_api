@@ -104,6 +104,28 @@ def save_clean_questions(questions, url, title):
     return 'saved'
 
 # ------------------
+# Mannual Questions
+# ------------------
+
+def get_mannual_subjects():
+    with open ('mannual_questions.json', 'r') as f:
+        qna = json.load(f)
+    mannual_subjects = []
+    for question_paper in qna:
+        if question_paper['subject'] not in mannual_subjects:
+            mannual_subjects.append(question_paper['subject'])
+    return mannual_subjects
+
+def get_mannual_questions(subject):
+    with open ('mannual_questions.json', 'r') as f:
+        qna = json.load(f)
+    
+    question_papers = []
+    for question_paper in qna:
+        if question_paper['subject'] == subject:
+            question_papers.append(question_paper)
+    return question_papers
+# ------------------
 # File operations
 # ------------------
 def download_file(title, url="https://acem.edu.np/uploads/userfiles/files/old_question/6th%20Semester/BCTBEXBEL/Object%20Oriented%20Analysis%20and%20Design.pdf"):
