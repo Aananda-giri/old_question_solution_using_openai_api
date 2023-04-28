@@ -51,7 +51,11 @@ def home():
     #                 value['answer'] = ['']*value['num_parts']
 #     return render_template('mannual_questions.html', qna=qna)
 
-@app.route('/mannual/<string:subject>')
+@app.route('/mannual/')
+def redirecting():
+    return redirect('/', code=302)
+
+@app.route('/<string:subject>')
 def index(subject):
     
     qna = get_mannual_questions(subject)
