@@ -1,6 +1,6 @@
 ## Introduction
    * A project developed for [Stranger Hacks](https://strangerhacks.devfolio.co/) hackathon
-    
+   * [Demo](https://strangehacksoldquestionsolution.aanandagiri.repl.co)
 
    * Tagline: `Old questions solution`
     
@@ -110,3 +110,6 @@ OPENAI_API_KEY="<API-KEY>"
 
 
 *  [OpenAI](https://platform.openai.com/)
+
+
+![photo](archive/Screenshot.png)
