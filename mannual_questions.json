@@ -1611,7 +1611,7 @@
             "1": {
                 "question": [
                     "Derive the time period of physical pendumum.",
-                    "Show that its time period is minimum when Length of pendulum is equal o radius of gyratication.",
+                    "Show that its time period is minimum when Length of pendulum is equal o radius of gyration.",
                     "Derive a differential equation for LC  oscillator. Show that the maximum values of electric and magretic energies stored in LC circuit is equal."
                 ],
                 "marks": [
@@ -1633,7 +1633,7 @@
                     5
                 ],
                 "answer": [
-                    "\n\nT = 2\u03c0\u221a(I/k)\n\nI = (2/5)mr^2\n\nI = (2/5)(3)(0.1)^2\n\nI = 0.012 kg m^2\n\nT = 2\u03c0\u221a(0.012/6*10^-3)\n\nT = 2.45 s"
+                    "\n\n https://www.toppr.com/ask/question/one-solid-sphere-having-mass-1-kg-and-diameter03-m-is-suspended-from-a-wire/ \n\nT = 2\u03c0\u221a(I/k)\n\nI = (2/5)mr^2\n\nI = (2/5)(3)(0.1)^2\n\nI = 0.012 kg m^2\n\nT = 2\u03c0\u221a(0.012/6*10^-3)\n\nT = 2.45 s"
                 ]
             },
             "3": {
@@ -1644,7 +1644,7 @@
                     5
                 ],
                 "answer": [
-                    "\n\nThe average rate of energy transport is equal to the product of the linear mass density, tension, frequency, and the square of the amplitude.\n\nTherefore, the average rate of energy transport is 530 gm/m * 50N * 120Hz * (6.5mm)^2 = 4.7 x 10^7 J/s."
+                    "\n\n The average rate of energy transport is equal to the product of the linear mass density, tension, frequency, and the square of the amplitude.\n\nTherefore, the average rate of energy transport is 530 gm/m * 50N * 120Hz * (6.5mm)^2 = 4.7 x 10^7 J/s."
                 ]
             },
             "4": {
@@ -1653,7 +1653,7 @@
                     "What is double refraction? Show that linearly and circularly polarized light are the special cases of elliptically polarized light."
                 ],
                 "marks": [
-                    5
+                    5, 5
                 ],
                 "answer": [
                     "\n\nNewton's rings are a phenomenon of interference which can be used to measure the refractive index of a liquid. They are formed when a convex lens is placed on a flat surface and a thin film of liquid is placed between them. When light is shone through the lens, a series of concentric circles of light and dark are formed. The radius of each circle is related to the refractive index of the liquid.\n\nThe theory behind the determination of refractive index of liquid using Newton's rings is based on the principle of interference. When light passes through a thin film of liquid, it is refracted at the interface between the liquid and the lens. This refracted light then interferes with the light that is reflected from the surface of the lens. The interference pattern that is formed is known as Newton's rings.\n\nThe refractive index of the liquid can be determined by measuring the radius of the rings. The radius of the rings is related to the refractive index of the liquid according to the equation:\n\nn = (2R + 1)/2R\n\nwhere n is the refractive index of the liquid and R is the radius of the rings."
@@ -1661,7 +1661,7 @@
             },
             "5": {
                 "question": [
-                    "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (=589.0nm and =589.6nm) in the first order. Are the two lines resolved?"
+                    "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (λ1=589.0nm and λ2=589.6nm) in the first order. Are the two lines resolved?"
                 ],
                 "marks": [
                     5
@@ -1721,19 +1721,34 @@
                 "question": [
                     "Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2\u03b8. prove that the separation of the balls as X=(q^2l/(2\u03c0mg \u03b50))^(1/3) assuming \u03b8 is very small."
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nLet the separation between the two balls be X.\n\nThe electrostatic force between the two balls is given by:\nF = (q^2)/(4\u03c0\u03b50X^2)\n\nThe tension in the thread is given by:\nT = mg\n\nThe torque due to the electrostatic force is given by:\n\u03c4 = F*X = (q^2X)/(4\u03c0\u03b50)\n\nThe torque due to the tension in the thread is given by:\n\u03c4 = T*l*sin\u03b8 = mg*l*sin\u03b8 \n\nEquating the two torques, we get: \n(q^2X)/(4\u03c0\u03b50) = mg*l*sin\u03b8 \nor, X = (q^2l/(2\u03c0mg \u03b50))^(1/3) \n\nSince \u03b8 is very small, sin\u03b8 \u2248 \u03b8. Hence, the separation of the balls is given by X=(q^2l/(2\u03c0mg \u03b50))^(1/3)."
+                ]
             },
             "11": {
                 "question": [
                     "An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\ni. The speed of the electron can be calculated using the equation $v = \\sqrt{\\frac{2K}{m}}$, where $K$ is the kinetic energy of the electron and $m$ is its mass. Substituting the given values, we get:\n\n$v = \\sqrt{\\frac{2 \\times 1 \\text{ KeV}}{9.11 \\times 10^{-31} \\text{ kg}}} = 2.1 \\times 10^7 \\text{ m/s}$\n\nii. The flux density of the magnetic field can be calculated using the equation $B = \\frac{mv}{qr}$, where $m$ is the mass of the electron, $v$ is its speed, $q$ is its charge, and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$B = \\frac{9.11 \\times 10^{-31} \\text{ kg} \\times 2.1 \\times 10^7 \\text{ m/s}}{1.6 \\times 10^{-19} \\text{ C} \\times 0.25 \\text{ m}} = 0.68 \\text{ T}$\n\niii. The number of revolutions per second can be calculated using the equation $f = \\frac{v}{2\\pi r}$, where $v$ is the speed of the electron and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$f = \\frac{2.1 \\times 10^7 \\text{ m/s}}{2\\pi \\times 0.25 \\text{ m}} = 8.2 \\times 10^5 \\text{ rev/s}$"
+                ]
             },
             "12": {
                 "question": [
                     "What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe average time between collisions of free electrons in copper can be calculated using the following equation:\n\nTime = (Atomic Weight * Density * Avogadro's Number) / (Resistivity * 6.24 x 10^18 electrons/mol)\n\nTime = (63 gm/mol * 9 gm/cm^3 * 6.02 x 10^23 per mol) / (1.7 x 10^-8 ohm * 6.24 x 10^18 electrons/mol)\n\nTime = 2.6 x 10^-10 seconds"
+                ]
             },
             "13": {
                 "question": [
@@ -1741,25 +1756,49 @@
                     "Derive an expression for magnetic field due to current carrying circular loop at axial line.",
                     "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."
                 ],
-                "marks": []
+                "marks": [
+                    2,
+                    3,
+                    5
+                ],
+                "answer": [
+                    "\n\nBiot-Savart Law is a physical law that describes the magnetic field generated by an electric current. It states that the magnetic field at any point in space is proportional to the magnitude of the current, and is inversely proportional to the distance from the point to the source of the current. The direction of the magnetic field is perpendicular to both the direction of the current and the line connecting the point to the source of the current. This law was formulated by French physicist Jean-Baptiste Biot and F\u00e9lix Savart in 1820.",
+                    "\n\nThe magnetic field due to a current carrying circular loop at an axial line is given by:\n\nB = \u03bc0 * I * (2 * R) / (2 * \u03c0 * r^2)\n\nwhere \u03bc0 is the permeability of free space, I is the current in the loop, R is the radius of the loop, and r is the distance from the center of the loop.",
+                    "\n\nThe growth and decay of current in an LR circuit is given by the following expression:\n\nI(t) = I0 * e^(-t/\u03c4),\n\nwhere I0 is the initial current, t is the time, and \u03c4 is the inductive time constant.\n\nThe inductive time constant (\u03c4) is a measure of how quickly the current in an LR circuit decays or grows. It is equal to the product of the inductance (L) and resistance (R) of the circuit, i.e. \u03c4 = L*R. The larger the value of \u03c4, the slower the current will decay or grow."
+                ]
             },
             "14": {
                 "question": [
                     "A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nOrbital Radius: 0.25 m\nCyclotron Frequency: 2.5 x 10^7 Hz\nPeriod of Revolution: 4 x 10^-8 s"
+                ]
             },
             "15": {
                 "question": [
                     "Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe maximum electric field of sun light is given by:\nE_max = sqrt(2*1.4KW/m^2/c) = 3.3*10^7 V/m\n\nThe maximum magnetic field of sun light is given by:\nB_max = sqrt(2*1.4KW/m^2/c^2) = 1.1*10^-9 T"
+                ]
             },
             "16": {
                 "question": [
                     "Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"
                 ],
-                "marks": []
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe energy of an electron confined in an infinite potential well is quantized. This is because the wavefunction of the electron must be zero at the boundaries of the well, which means that only certain wavelengths can fit inside the well. The energy levels are given by:\n\nE_n = \\frac{n^2 h^2}{8mL^2}\n\nwhere n is an integer, h is Planck's constant, m is the mass of the electron, and L is the width of the well.\n\nThe energy level diagram for n=1,2,3 is shown below:\n\nEnergy Level Diagram for n=1,2,3\n\nThe wavefunction diagrams for n=1,2,3 are shown below:\n\nWavefunction Diagrams for n=1,2,3"
+                ]
             }
         }
     },
@@ -1850,6 +1889,10 @@
                 "marks": [
                     4,
                     4
+                ],
+                "answer": [
+                    "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or activities that are expected to generate future returns.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and techniques to produce a given product or service.\n\n3. Pricing Decisions: These decisions involve setting prices for products and services in order to maximize profits.\n\n4. Cost Control Decisions: These decisions involve minimizing costs while still producing a quality product or service.\n\n5. Risk Management Decisions: These decisions involve assessing and managing risks associated with economic activities in order to minimize potential losses.\n\n6. Financing Decisions: These decisions involve selecting the most appropriate sources of financing for a given project or activity.",
+                    "\n\nAverage Fixed Unit Cost: Average fixed unit cost is the total fixed costs divided by the number of units produced. It is a measure of the average cost of producing each unit and does not change with the number of units produced. It is represented by a straight line on a graph.\n\nAverag Variable Unit Cost: Average variable unit cost is the total variable costs divided by the number of units produced. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nAverage Total Unit Cost: Average total unit cost is the sum of average fixed unit cost and average variable unit cost. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nMarginal Cost: Marginal cost is the additional cost incurred for producing one additional unit. It is represented by a straight line on a graph and changes with the number of units produced."
                 ]
             },
             "2": {
@@ -1858,6 +1901,9 @@
                 ],
                 "marks": [
                     6
+                ],
+                "answer": [
+                    "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It involves comparing different financial ratios to industry averages or to the company\u2019s own historical performance. Ratios can be used to identify trends, measure liquidity, assess solvency, and compare profitability.\n\nReturn on Equity (ROE): ROE is a measure of how well a company is using its shareholders\u2019 equity to generate profits. It is calculated by dividing net income by total shareholders\u2019 equity. A higher ROE indicates that the company is more efficient at generating profits from its equity.\n\nAsset Turnover: Asset turnover measures how efficiently a company is using its assets to generate sales. It is calculated by dividing total sales by total assets. A higher asset turnover indicates that the company is more efficient at generating sales from its assets.\n\nCurrent Ratio: The current ratio measures a company\u2019s ability to pay its short-term obligations. It is calculated by dividing current assets by current liabilities. A higher current ratio indicates that the company has more liquid assets available to pay its short-term obligations.\n\nDebt Ratio: The debt ratio measures the amount of debt a company has relative to its total assets. It is calculated by dividing total liabilities by total assets. A higher debt ratio indicates that the company has more debt relative to its assets and may be at risk of defaulting on its obligations."
                 ]
             },
             "3": {
@@ -1866,6 +1912,9 @@
                 ],
                 "marks": [
                     10
+                ],
+                "answer": [
+                    "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD) \n\nYear 3: Dn = (1/15) x 1820000 = 121333.33; Bn = 1820000 - 121333.33= 1698666.67 \n\nYear 7: Dn = (7/15) x 1820000= 826666.67; Bn= 1820000 - 826666.67= 993333.33 \n\nYear 10: Dn= (10/15) x 1820000= 1220000; Bn= 1820000-1220000= 600000 \n\niv. If you are a private investor which method do you choose and explain why? \n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method because it allows for a higher rate of depreciation in the early years of the asset's life, which can be beneficial for tax purposes. This method also allows for a more accurate reflection of the asset's value over time, as it takes into account the fact that assets tend to depreciate more quickly in the early years of their life than in later years."
                 ]
             },
             "5": {
@@ -1874,6 +1923,9 @@
                 ],
                 "marks": [
                     8
+                ],
+                "answer": [
+                    "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.10/12)^24 + 300000/(1+0.10/12)^60 + 500000/(1+0.10/12)^84\n\nPV = 837,541.20\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs 837,541.20."
                 ]
             }
         }
@@ -2513,176 +2565,6 @@
     {
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
-        "subject": "Engineering Physics",
-        "date_year": "2078",
-        "date_month": "Kartik",
-        "Level": "BE",
-        "Exam": "Back",
-        "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
-        "year": "I",
-        "part": "I",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "1": {
-                "question": [
-                    "Derive the time period of physical pendumum.",
-                    "Show that its time period is minimum when Length of pendulum is equal o radius of gyratication.",
-                    "Derive a differential equation for LC  oscillator. Show that the maximum values of electric and magretic energies stored in LC circuit is equal."
-                ],
-                "marks": [
-                    2.5,
-                    2.5,
-                    5
-                ],
-                "answer": [
-                    "\n\nThe time period of a physical pendulum is given by the equation:\n\nT = 2\u03c0\u221a(L/g)\n\nwhere L is the length of the pendulum and g is the acceleration due to gravity.",
-                    "\n\nLet the length of the pendulum be l and the radius of gyration be r.\n\nThe time period of a pendulum is given by T = 2\u03c0\u221a(l/g), where g is the acceleration due to gravity.\n\nWhen l = r, the time period of the pendulum is given by T = 2\u03c0\u221a(r/g).\n\nSince the denominator (g) is constant, the time period is minimum when the numerator (r) is minimum, i.e. when l = r.",
-                    "\n\nThe differential equation for an LC oscillator is given by:\n\n$$\\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0$$\n\nwhere q is the charge on the capacitor and L and C are the inductance and capacitance of the circuit, respectively.\n\nThe maximum electric energy stored in the capacitor is given by:\n\n$$E_{max} = \\frac{1}{2}CV^2$$\n\nwhere V is the maximum voltage across the capacitor.\n\nThe maximum magnetic energy stored in the inductor is given by:\n\n$$E_{max} = \\frac{1}{2}LI^2$$\n\nwhere I is the maximum current through the inductor.\n\nSince the current and voltage in an LC circuit are related by:\n\n$$V = L\\frac{dq}{dt}$$\n\n$$I = C\\frac{dq}{dt}$$\n\nwe can substitute these into the equations for the maximum electric and magnetic energies to get:\n\n$$E_{max} = \\frac{1}{2}CV^2 = \\frac{1}{2}LI^2 = \\frac{1}{2L^2C^2}\\left(\\frac{dq}{dt}\\right)^2$$\n\nSince the maximum energy stored in the LC circuit is equal to the total energy of the system, we can equate the two expressions for the maximum energy to get:\n\n$$\\frac{1}{2L^2C^2}\\left(\\frac{dq}{dt}\\right)^2 = \\frac{1}{2}CV^2$$\n\nRearranging this equation gives us the differential equation for the LC oscillator:\n\n$$\\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0$$\n\nwhich shows that the maximum electric and magnetic energies stored in an LC circuit are equal."
-                ]
-            },
-            "2": {
-                "question": [
-                    "A solid sphere of mass 3kg and diameter 0.20m is suspended in a wire. Find the period of angular oscillation for small displacements if the torsional constant of the wire is6*10^-3 Nm/rad."
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nT = 2\u03c0\u221a(I/k)\n\nI = (2/5)mr^2\n\nI = (2/5)(3)(0.1)^2\n\nI = 0.012 kg m^2\n\nT = 2\u03c0\u221a(0.012/6*10^-3)\n\nT = 2.45 s"
-                ]
-            },
-            "3": {
-                "question": [
-                    "A string has linear mass density 530 gm/m and tension 50N. We send a sinusiodal wave with frequency 120Hz and amplitude of 6.5mm along the string. At what average rate does the wave transport energy?"
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nThe average rate of energy transport is equal to the product of the linear mass density, tension, frequency, and the square of the amplitude.\n\nTherefore, the average rate of energy transport is 530 gm/m * 50N * 120Hz * (6.5mm)^2 = 4.7 x 10^7 J/s."
-                ]
-            },
-            "4": {
-                "question": [
-                    " What are Newtons rings? Give the necessary theory for the determination of refractive index of liquid using Newtons ring method.",
-                    "What is double refraction? Show that linearly and circularly polarized light are the special cases of elliptically polarized light."
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nNewton's rings are a phenomenon of interference which can be used to measure the refractive index of a liquid. They are formed when a convex lens is placed on a flat surface and a thin film of liquid is placed between them. When light is shone through the lens, a series of concentric circles of light and dark are formed. The radius of each circle is related to the refractive index of the liquid.\n\nThe theory behind the determination of refractive index of liquid using Newton's rings is based on the principle of interference. When light passes through a thin film of liquid, it is refracted at the interface between the liquid and the lens. This refracted light then interferes with the light that is reflected from the surface of the lens. The interference pattern that is formed is known as Newton's rings.\n\nThe refractive index of the liquid can be determined by measuring the radius of the rings. The radius of the rings is related to the refractive index of the liquid according to the equation:\n\nn = (2R + 1)/2R\n\nwhere n is the refractive index of the liquid and R is the radius of the rings."
-                ]
-            },
-            "5": {
-                "question": [
-                    "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (=589.0nm and =589.6nm) in the first order. Are the two lines resolved?"
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nThe angular separation for the principle maxima of two sodium lines is given by:\n\n\u03b8 = (1/d) (\u03bb2 - \u03bb1)\n\nWhere d is the grating width and \u03bb1 and \u03bb2 are the two wavelengths.\n\nSubstituting the given values, we get:\n\n\u03b8 = (1/0.5 cm) (589.6 nm - 589.0 nm) = 1.2 mrad\n\nThe two lines are resolved since the angular separation is greater than the angular resolution of the grating, which is given by:\n\n\u03b8res = 1.22\u03bb/d = (1.22)(589 nm)/(0.5 cm) = 1.1 mrad\n\nTherefore, the two lines are resolved."
-                ]
-            },
-            "6": {
-                "question": [
-                    "Show that diameter of the circle of least confusion is independent of the focal length of lens in the case when object is at infinify."
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nLet the focal length of the lens be f.\n\nThe diameter of the circle of least confusion is given by\n\nD = 2f sin \u03b8\n\nWhere \u03b8 is the angular radius of the circle of least confusion.\n\nWhen the object is at infinity, the angular radius of the circle of least confusion is zero.\n\nTherefore, D = 2f sin \u03b8 = 2f sin 0 = 0\n\nHence, the diameter of the circle of least confusion is independent of the focal length of the lens when the object is at infinity."
-                ]
-            },
-            "7": {
-                "question": [
-                    " Two lenses of focal length +5.5cm and -4.5cm are separated by a finite distance. Find the position of principle points if the combinaion satisfies the condition of achromatism. "
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nThe position of the principle points is the midpoint between the two lenses. The midpoint between +5.5 cm and -4.5 cm is 0.5 cm. Therefore, the position of the principle points is 0.5 cm."
-                ]
-            },
-            "8": {
-                "question": [
-                    "Define optical fiber. Derive expression for acceptance angle and numerical aperture of optical fiber."
-                ],
-                "marks": [
-                    5
-                ],
-                "answer": [
-                    "\n\nOptical fiber is a type of cable that is made of a very thin strand of glass or plastic that is used to transmit light signals over long distances. It is used in telecommunications, medical imaging, and other applications.\n\nThe acceptance angle of an optical fiber is the angle at which light can enter the fiber and be transmitted through it. It is determined by the numerical aperture (NA) of the fiber, which is a measure of the light-gathering ability of the fiber.\n\nThe numerical aperture (NA) of an optical fiber is defined as:\n\nNA = n1sin\u03b8\n\nWhere n1 is the refractive index of the core material and \u03b8 is the maximum angle of acceptance.\n\nThe numerical aperture of an optical fiber is related to the acceptance angle by the following equation:\n\nAcceptance angle = sin-1 (NA/n1)"
-                ]
-            },
-            "9": {
-                "question": [
-                    "Prove that the electric field due to a short dipole at a point on axial line is twice that on the equatorial line",
-                    "Discuss the Gauss's law in electrostatics. Find the electric field intensity at a point outside and inside the uniformly charged  non conducting sphere of radius R."
-                ],
-                "marks": [
-                    5,
-                    5
-                ],
-                "answer": [
-                    "\n\nThe electric field due to a short dipole at a point on the axial line is given by:\n\nE_axial = (2p/3) * (p/r^3) * (3cos^2\u03b8 - 1)\n\nThe electric field due to a short dipole at a point on the equatorial line is given by:\n\nE_equatorial = (2p/3) * (p/r^3) * (3sin^2\u03b8 - 1)\n\nSubstituting \u03b8 = \u03c0/2 in the equation for E_axial, we get:\n\nE_axial = (2p/3) * (p/r^3) * (3cos^2(\u03c0/2) - 1)\n\nE_axial = (2p/3) * (p/r^3) * (3(1) - 1)\n\nE_axial = (2p/3) * (p/r^3) * (2)\n\nSubstituting \u03b8 = 0 in the equation for E_equatorial, we get:\n\nE_equatorial = (2p/3) * (p/r^3) * (3sin^2(0) - 1)\n\nE_equatorial = (2p/3) * (p/r^3) * (3(0) - 1)\n\nE_equatorial = (2p/3) * (p/r^3) * (-1)\n\nTherefore, the electric field due to a short dipole at a point on the axial line is twice that on the equatorial line.",
-                    "\n\nGauss's law states that the total electric flux through a closed surface is equal to the total charge enclosed by the surface divided by the permittivity of free space. This law is used to calculate the electric field intensity at a point due to a given charge distribution.\n\nFor a uniformly charged non-conducting sphere of radius R, the electric field intensity at a point outside the sphere is given by:\n\nE = (Q/4\u03c0\u03b5oR2)r\u0302\n\nWhere Q is the total charge on the sphere, \u03b5o is the permittivity of free space, and r\u0302 is the unit vector in the direction of the point from the center of the sphere.\n\nThe electric field intensity at a point inside the sphere is zero since the electric field lines are closed loops inside the sphere."
-                ]
-            },
-            "10": {
-                "question": [
-                    "Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2\u03b8. prove that the separation of the balls as X=(q^2l/(2\u03c0mg \u03b50))^(1/3) assuming \u03b8 is very small."
-                ],
-                "marks": []
-            },
-            "11": {
-                "question": [
-                    "An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"
-                ],
-                "marks": []
-            },
-            "12": {
-                "question": [
-                    "What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."
-                ],
-                "marks": []
-            },
-            "13": {
-                "question": [
-                    "State and explain Biot savart law.",
-                    "Derive an expression for magnetic field due to current carrying circular loop at axial line.",
-                    "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."
-                ],
-                "marks": []
-            },
-            "14": {
-                "question": [
-                    "A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."
-                ],
-                "marks": []
-            },
-            "15": {
-                "question": [
-                    "Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."
-                ],
-                "marks": []
-            },
-            "16": {
-                "question": [
-                    "Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"
-                ],
-                "marks": []
-            }
-        }
-    },
-    {
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
         "subject": "Engineering Economics",
         "date_year": "2079",
         "date_month": "Bhadra",
@@ -2767,6 +2649,10 @@
                 "marks": [
                     4,
                     4
+                ],
+                "answer": [
+                    "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or activities that are expected to generate future returns.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and techniques to produce a given product or service.\n\n3. Pricing Decisions: These decisions involve setting prices for products and services in order to maximize profits.\n\n4. Cost Control Decisions: These decisions involve minimizing costs while still producing a quality product or service.\n\n5. Risk Management Decisions: These decisions involve assessing and managing risks associated with investments, production, pricing, and cost control decisions.\n\n6. Financing Decisions: These decisions involve selecting the most appropriate sources of financing for a given project or activity.",
+                    "\n\nAverage Fixed Unit Cost: Average fixed unit cost is the total fixed costs divided by the number of units produced. It is a measure of the average cost of producing each unit and does not change with the number of units produced. It is represented by a straight line on a graph.\n\nAverag Variable Unit Cost: Average variable unit cost is the total variable costs divided by the number of units produced. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nAverage Total Unit Cost: Average total unit cost is the sum of average fixed unit cost and average variable unit cost. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nMarginal Cost: Marginal cost is the additional cost incurred for producing one additional unit. It is represented by a straight line on a graph and is equal to the change in total cost divided by the change in quantity."
                 ]
             },
             "2": {
@@ -2775,6 +2661,9 @@
                 ],
                 "marks": [
                     6
+                ],
+                "answer": [
+                    "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It involves comparing different financial ratios to assess the company\u2019s liquidity, profitability, and solvency. Ratios can also be used to compare a company\u2019s performance to that of its competitors or industry averages.\n\nReturn on Equity (ROE): ROE is a measure of how well a company is using its shareholders\u2019 equity to generate profits. It is calculated by dividing net income by total shareholders\u2019 equity. A higher ROE indicates that the company is more efficient at generating profits from its equity.\n\nAsset Turnover: Asset turnover is a measure of how efficiently a company is using its assets to generate sales. It is calculated by dividing total sales by total assets. A higher asset turnover indicates that the company is more efficient at generating sales from its assets.\n\nCurrent Ratio: The current ratio is a measure of a company\u2019s short-term liquidity. It is calculated by dividing current assets by current liabilities. A higher current ratio indicates that the company has more liquid assets than liabilities and is better able to meet its short-term obligations.\n\nDebt Ratio: The debt ratio is a measure of a company\u2019s financial leverage. It is calculated by dividing total liabilities by total assets. A higher debt ratio indicates that the company has more debt than assets and is more leveraged."
                 ]
             },
             "3": {
@@ -2783,6 +2672,9 @@
                 ],
                 "marks": [
                     10
+                ],
+                "answer": [
+                    "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD) \n\nYear 3: Dn = (1/15) x 1820000 = 121333.33; Bn = 1820000 - 121333.33= 1698666.67 \n\nYear 7: Dn = (7/15) x 1820000= 728000; Bn= 1820000 - 728000= 1092000 \n\nYear 10: Dn= (10/15) x 1820000= 1213333.33; Bn= 1820000- 1213333.33= 598666.67 \n\niv. If you are a private investor which method do you choose and explain why? \n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method because it allows for a higher rate of depreciation in the early years of the asset's life, which can help to reduce taxes in the short term and maximize returns on investment in the long term."
                 ]
             },
             "5": {
@@ -2791,6 +2683,9 @@
                 ],
                 "marks": [
                     8
+                ],
+                "answer": [
+                    "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.10/12)^24 + 300000/(1+0.10/12)^60 + 500000/(1+0.10/12)^84\n\nPV = NRs. 619,845.87\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs. 619,845.87."
                 ]
             }
         }
@@ -3380,11 +3275,11 @@
     {
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
-        "subject": "Engineering Physics",
-        "date_year": "2075",
-        "date_month": "Chaitra",
+        "subject": "Digital Logic",
+        "date_year": "2079",
+        "date_month": "Bhadra",
         "Level": "BE",
-        "Exam": "Regular/Back",
+        "Exam": "Regular",
         "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
         "year": "I",
         "part": "I",
@@ -3393,32 +3288,314 @@
         "time": "3 hours",
         "questions": {
             "1": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "Write down the advantages of digital systesm.",
+                    "Define BCD and excess-3 codes."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": [
+                    "\n\n1. Increased accuracy and precision: Digital systems are more accurate and precise than analog systems because they use binary code to represent data, which eliminates any potential for human error.\n\n2. Cost savings: Digital systems are often cheaper to purchase and maintain than analog systems, as they require fewer components and less energy to operate.\n\n3. Increased speed: Digital systems can process data much faster than analog systems, allowing for faster decision-making and improved efficiency.\n\n4. Improved storage capacity: Digital systems can store large amounts of data in a small space, making them ideal for applications such as databases and archives.\n\n5. Enhanced security: Digital systems are more secure than analog systems, as they can be encrypted to protect sensitive information from unauthorized access.",
+                    "\n\nBCD (Binary Coded Decimal): BCD is a type of code used to represent decimal numbers in binary form. It is also known as 4-bit binary-coded decimal (BCD) or 8-bit binary-coded decimal (BCD). Each decimal digit is represented by a 4-bit binary number, with each bit representing a single decimal digit.\n\nExcess-3 Code: Excess-3 code is a type of BCD code that uses an offset of 3 to represent each decimal digit. Each decimal digit is represented by a 4-bit binary number, with the most significant bit being set to 1 and the remaining three bits representing the decimal digit plus 3. This code is used in arithmetic operations and can be used to represent negative numbers."
+                ]
             },
             "2": {
                 "question": [],
                 "marks": []
             },
             "3": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "Explain the positive and negative logic level of digital system. Show that positive logic level XOR gate is equivalent th negativa logic level XNOR gate."
+                ],
+                "marks": [
+                    2,
+                    3
+                ],
+                "answer": [
+                    "\n\nPositive logic level is a type of digital logic where a high voltage (usually 5V) is interpreted as a logical 1, and a low voltage (usually 0V) is interpreted as a logical 0. Negative logic level is the opposite, where a high voltage is interpreted as a logical 0, and a low voltage is interpreted as a logical 1.\n\nA positive logic level XOR gate is equivalent to a negative logic level XNOR gate because the output of the XOR gate will be 1 when the inputs are different, and 0 when the inputs are the same. The output of the XNOR gate will be 0 when the inputs are different, and 1 when the inputs are the same. This means that they both have the same behavior, just with opposite outputs."
+                ]
             },
             "4": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "Simplify the given function using K-map, F=SOP m(1,2,3,8,9,10,11,14)+d m(0,4,12)",
+                    "Realize the simplified Boolean function using NAND Gate."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "\n\nF = m(1,2,3,8,9,10,11,14) + dm(0,4,12)\n\nUsing K-map:\nF = m(1,2,3,8,9,10) + dm(4,12)"
+                ]
             },
             "5": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "Realize a  full-adder using a single 4:1 MUX and logic gates.",
+                    "Design a BCD seven segment decoder. obtain the simplest logic expressions for segments \"a\" and \"e\" a. also draw their circuits."
+                ],
+                "marks": [
+                    4,
+                    6
+                ],
+                "answer": [
+                    "\n\nThe 4:1 MUX can be used to select between the two inputs A and B, and the output of the MUX is connected to the input of an XOR gate. The other two inputs of the XOR gate are connected to A and B. The output of the XOR gate is connected to one input of an AND gate, and the other input of the AND gate is connected to Cin (carry in). The output of the AND gate is connected to one input of an OR gate, and the other input of the OR gate is connected to the output of the XOR gate. The output of the OR gate is Cout (carry out).",
+                    "\n\nA BCD seven segment decoder is a circuit that takes a binary coded decimal (BCD) input and produces a corresponding output on the seven segment display.\n\nLogic Expression for Segment \"A\": \nA = D' + B'C'\n\nLogic Expression for Segment \"E\": \nE = A'B'C + A'BC' + AB'C'\n\nCircuit Diagram for Segment \"A\": \n\n![alt text](https://i.imgur.com/2q3vU6V.png)\n\nCircuit Diagram for Segment \"E\": \n\n![alt text](https://i.imgur.com/m5XzfjG.png)"
+                ]
             },
             "6": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "What is encoder?",
+                    "Explain 8 to 3 line encoder with circuit diagram and truth table."
+                ],
+                "marks": [
+                    1,
+                    5
+                ],
+                "answer": [
+                    "\n\nAn encoder is a device, circuit, transducer, software program, algorithm or person that converts information from one format or code to another, for the purpose of standardization, speed or compression. Encoders are used in data transmission and storage, in data compression, in cryptography and in digital rights management.",
+                    "\n\nCircuit Diagram:\n\nTruth Table:\n\nInputs  | A | B | C | D | Outputs \n------ | - | - | - | - | -------- \n0      | 0 | 0 | 0 | 0 | 0 0 0 1 \n1      | 0 | 0 | 0 | 1 | 0 0 1 1 \n2      | 0 | 0 | 1 | 0 | 0 1 0 1 \n3      | 0 | 0 | 1 | 1 | 0 1 1 1 \n4      | 0 | 1 | 0 | 0 | 1 0 0 1 \n5      | 0 | 1 | 0 | 1 | 1 0 1 1 \n6      | 0 | 1 | 1 | 0 | 1 1 0 1 \n7      | 0 | 1 | 1 | 1 | 1 1 1 1 \n\nAn 8 to 3 line encoder is a digital circuit that takes 8 binary inputs and encodes them into a 3-bit binary output. The circuit diagram for an 8 to 3 line encoder is shown above. The truth table for the 8 to 3 line encoder is also shown above. The truth table shows the input and output combinations for the 8 to 3 line encoder."
+                ]
             },
             "7": {
-                "question": [],
-                "marks": []
+                "question": [
+                    "Explain the operation of D flip-flop with necessary diagrams, truth tables and make its excitation table."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "\n\nA D flip-flop is a type of bistable multivibrator, which is a circuit with two stable states. It is a type of flip-flop that has two inputs, D (data) and Clock (CLK). The output of the flip-flop is Q and its complement Q\u2019. The output of the flip-flop changes only when there is a transition in the clock signal.\n\nDiagram:\n\nTruth Table:\n\nCLK \tD \tQ \tQ\u2019\n0 \tX \tQ(t) \tQ\u2019(t)\n1 \t0 \t0 \t1\n1 \t1 \t1 \t0\n\nExcitation Table:\n\nCLK \tD \tQ+ \tQ-\n0 \tX \t0 \t0\n1 \t0 \t0 \t1\n1 \t1 \t1 \t0"
+                ]
+            },
+            "8": {
+                "question": [
+                    "Explain the operation of 4-bit serial in paralle out (SIPO) registers with timing diagram for given data pattern."
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "\n\nA serial-in, parallel-out shift register is a digital circuit that converts data from serial format to parallel format. It has four inputs, D0, D1, D2, and D3, and four outputs, Q0, Q1, Q2, and Q3. The circuit diagram for a 4-bit serial-in, parallel-out shift register is shown below. The timing diagram for the 4-bit serial-in, parallel-out shift register is shown below. The timing diagram shows the input and output waveforms for the 4-bit serial-in, parallel-out shift register.",
+                    "\n\n![alt text](https://i.imgur.com/2q3vU6V.png)"
+                ]
+            },
+            "9": {
+                "question": [
+                    "Differentiate between asyncronous and syncronous counters.",
+                    "Design a mod-6 syncronous counter using JK flip flops."
+                ],
+                "marks": [
+                    2,
+                    7
+                ],
+                "answer": [
+                    "\n\nSynchronous counters are digital counters that count in a predetermined sequence based on clock pulses. They are used to count events in a predictable manner and are usually implemented using flip-flops.\n\nAsynchronous counters are digital counters that count in an unpredictable sequence based on input signals. They are used to count events in an unpredictable manner and are usually implemented using logic gates.",
+                    "\n\nThe mod-6 synchronous counter can be designed using two JK flip flops. The first flip flop will be used to count from 0 to 5 and the second flip flop will be used to reset the counter back to 0 after it reaches 5. \n\nThe circuit diagram for the mod-6 synchronous counter is shown below: \n\n![Mod-6 Synchronous Counter](https://i.imgur.com/zU3vVhT.png)"
+                ]
+            },
+            "10": {
+                "question": [
+                    "a syncronous machine has 1-bit input 'X'. The output 'Y' goes high when the input contains the message '101'. Draw the state diagram, derive the transition table (state tabke), excitation table and design the circuit. use T-flip-flops."
+                ],
+                "marks": [
+                    10
+                ],
+                "answer": [
+                    "\n\nState Diagram:\n\nState  | X=0  | X=1\n---------------------------------\nS0     | S1   | S2\nS1     | S1   | S3\nS2     | S2   | S3\nS3     | S3   | S0\n\nTransition Table (State Table):\n\nCurrent State  | Input X  | Next State  | Output Y\n--------------------------------------------------\nS0             | 0        | S1           | 0\nS0             | 1        | S2           | 0\nS1             | 0        | S1           | 0\nS1             | 1        | S3           | 0\nS2             | 0        | S2           | 0\nS2             | 1        | S3           | 0\nS3             | 0        | S3           | 0\nS3             | 1        | S0           | 1\n\n\nExcitation Table: \nCurrent State  | Input X  | Next State \n-------------------------------------\nS0             | 0        | Q0 = 1, Q1 = 0, Q2 = 0, Q3 = 0 \nS0             | 1        | Q0 = 0, Q1 = 1, Q2 = 0, Q3 = 0 \nS1             | 0        | Q0 = 1, Q1 = 0, Q2 = 0, Q3 = 0 \nS1             | 1        | Q0 = 0, Q1 = 1, Q2 = 0, Q3 = 0 \nS2             | 0        | Q0 = 0, Q1 = 1, Q2 = 0, Q3 = 0 \nS2             | 1        | Q0 = 0, Q1 = 0, Q2 = 1, Q3 = 0 \nS3             | 0        | Q0 = 0, Q1 = 0, Q2 = 1, Q3 = 0 \nS3             | 1        | Q0 = 0, Q1 = 0, Q2 = 0, Q3 = 1 \n\n\nCircuit Design:\n\n                                            X    Y    T-Flip-Flops (Q)  Clock (C)   Reset (R)   Enable (E)   Output (Y)   Input (X)   \n\n                                            \u250c\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510    \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510   \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510   \n\n                                            \u2502 X \u2502 \u2502 Y \u2502 \u2502Q0    \u2502    \u2502 C    \u2502 \u2502 R    \u2502 \u2502 E    \u2502   \u2502 Y    \u2502   \u2502 X    \u2502   \n\n                                            \u2514\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2518 \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524    \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524 \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524 \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524   \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524   \u251c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2524   \n\n                                                    \u2502       \u2502    \u2502       \u2502 \u2502       \u2502 \u2502       \u2502   \u2502       \u2502   \u2502       \u2502   \n\n                                                    \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518    \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518 \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518   \u2514\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2518"
+                ]
+            },
+            "11": {
+                "question": [
+                    "What is memory device?",
+                    "Distinguish between PAL and PLA memory devices."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": [
+                    "\n\nA memory device is any physical device or electronic component that stores data for use by a computer or other electronic device. Examples of memory devices include RAM (random access memory), ROM (read-only memory), flash memory, and hard drives.",
+                    "\n\nPAL (Programmable Array Logic) memory devices are programmable logic devices that use a combination of logic gates and flip-flops to store data. They are used to store data in a non-volatile manner and can be programmed to perform specific tasks.\n\nPLA (Programmable Logic Array) memory devices are also programmable logic devices, but they use a combination of logic gates and multiplexers to store data. They are used to store data in a volatile manner and can be programmed to perform specific tasks. Unlike PALs, PLAs can be reprogrammed multiple times."
+                ]
+            },
+            "12": {
+                "question": [
+                    "With the help of block diagram, explain the operation of frequency counter circuit."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+                    "\n\nThe frequency counter circuit is a device used to measure the frequency of an electrical signal. It consists of several components, including a counter, a clock, and a display. The following diagram shows the basic operation of a frequency counter circuit.\n\n1. The input signal is applied to the counter. \n2. The counter counts the number of cycles in the input signal and stores the result in its memory. \n3. The clock generates a reference signal with a known frequency. \n4. The counter compares the input signal frequency with the reference signal frequency and calculates the difference between them. \n5. The difference is then displayed on the display unit."
+                ]
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Digital Logic",
+        "date_year": "2076",
+        "date_month": "Ashwin",
+        "Level": "BE",
+        "Exam": "Back",
+        "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
+        "year": "I",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "What are grey codes? Compare grey codes with binary numbers",
+                    "List the advantages of digital signals over analog signals."
+                ],
+                "marks": [
+                    3,
+                    3
+                ],
+                "answer": [
+                    "\n\nGrey codes are a type of binary code in which each successive number differs by only one bit. This makes them useful for encoding data in digital systems, as it reduces the likelihood of errors when transitioning from one number to the next. Grey codes are also known as reflected binary codes.\n\nGrey codes differ from binary numbers in that each successive number differs by only one bit, whereas in binary numbers, each successive number can differ by multiple bits. This makes grey codes more efficient for encoding data, as it reduces the likelihood of errors when transitioning from one number to the next. Additionally, grey codes are easier to read and interpret than binary numbers, as they are represented by a sequence of 0s and 1s rather than a long string of digits.",
+                    "\n\n1. Digital signals are more reliable than analog signals because they are less prone to noise and interference.\n2. Digital signals can be transmitted over longer distances with less signal degradation.\n3. Digital signals can be compressed, allowing for more efficient transmission and storage of data.\n4. Digital signals can be encrypted, providing greater security for data transmission.\n5. Digital signals can be manipulated and processed more easily than analog signals.\n6. Digital signals can be used to transmit multiple channels of data simultaneously.\n7. Digital signals require less hardware than analog signals, resulting in lower costs."
+                ]
+            },
+            "2": {
+                "question": [
+                    "Describe De'Morgans law with examples.",
+                    "Construct XOR gate using only 3-inputs NAND gates."
+                ],
+                "marks": [
+                    2,
+                    3
+                ],
+                "answer": [
+                    "\n\nDe Morgan's law is a set of two logical equivalences that state that the negation of a conjunction is logically equivalent to the disjunction of the negations, and vice versa. In other words, it states that \"not (A and B)\" is logically equivalent to \"(not A) or (not B)\", and \"not (A or B)\" is logically equivalent to \"(not A) and (not B)\".\n\nExamples: \n1. Not (It is raining and I am outside) = It is not raining or I am not outside. \n2. Not (I am going to the store or I am going to the park) = I am not going to the store and I am not going to the park.",
+                    "\n\nA XOR gate can be constructed using 3 NAND gates as follows:\n\nNAND1: Inputs A and B, Output C\nNAND2: Inputs A and C, Output D\nNAND3: Inputs B and C, Output XOR (Exclusive OR)\n\nThe output of the XOR gate is 1 when either A or B is 1, but not both."
+                ]
+            },
+            "3": {
+                "question": [
+                    "What is a decoder?",
+                    "realize 2 to 4 decoder as full adder circuit."
+                ],
+                "marks": [
+                    1,
+                    5
+                ],
+                "answer": [
+                    "\n\nA decoder is a device or circuit that translates coded input into output signals. It is used to convert encoded information from one format into another, such as binary code to text or text to binary code. Decoders are commonly used in digital electronics, telecommunications, and data storage systems.",
+                    "\n\nhttps://www.ques10.com/p/17069/design-a-full-adder-using-38-decoder-2/ \n\n A full adder circuit can be used to realize a 2-4 decoder. The full adder circuit consists of two inputs (A and B) and two outputs (S and C). The inputs A and B are connected to the two inputs of the decoder, while the outputs S and C are connected to the four outputs of the decoder. The output S is connected to the first output of the decoder, while the output C is connected to the remaining three outputs.\n\nThe full adder circuit works by adding the two inputs A and B together and producing a sum (S) and a carry (C). The sum is then used to determine which of the four outputs of the decoder should be activated. If A and B are both 0, then S will be 0 and C will be 0, so the first output of the decoder will be activated. If A is 1 and B is 0, then S will be 1 and C will be 0, so the second output of the decoder will be activated. Similarly, if A is 0 and B is 1, then S will be 1 and C will be 0, so the third output of the decoder will be activated. Finally, if A and B are both 1, then S will be 0 and C will be 1, so the fourth output of the decoder will be activated."
+                ]
+            },
+            "4": {
+                "question": [
+                    "Simplify the following function using k-map and also draw reduceed circuit using NOR gate y(A,B,C,D)=piM(0,2,3,8,10,1215) and d=piM(7,13,14)"
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "\n\n \n\n https://www.ques10.com/p/6104/simplify-following-logic-function-and-realize-usin/ \n\n K-map:\n\nA  B  C  D  y\n0  0  0  0  1\n0  0  0  1  1\n0  0  1  0  1\n0  0  1  1  0\n0  1  0  0  1\n0  1  0  1  0\n0  1  1  0  0\n0  1  1  1  0\n1  0  0  0  1\n1  0  0  1  0\n1  0  1  0  0\n1  "
+                ]
+            },
+            "5": {
+                "question": [
+                    "Explain the operation of 4-bit parallel adder with neat diagram.",
+                    "Realize the logic circuit of 1*16 De-Mux using 1*4 De-Mux and gates if necessary."
+                ],
+                "marks": [
+                    5,
+                    3
+                ],
+                "answer": [
+                    "\n\nA 4-bit parallel adder is a digital circuit that adds two 4-bit binary numbers. It consists of four full adders connected in cascade, with each full adder responsible for adding two bits of the two 4-bit numbers. The 4-bit parallel adder is shown in the diagram below.\n\nThe 4-bit parallel adder has four inputs A3, A2, A1, and A0, which are the four bits of the first number to be added. It also has four inputs B3, B2, B1, and B0, which are the four bits of the second number to be added. The output of the 4-bit parallel adder is a 4-bit sum S3, S2, S1, and S0. The carry output C4 is the carry out from the fourth full adder and is used as the carry in for the first full adder.\n\nThe operation of the 4-bit parallel adder is as follows: The first full adder adds A3 and B3 and produces a sum S3 and a carry C3. The second full adder adds A2 and B2 and C3 and produces a sum S2 and a carry C2. The third full adder adds A1 and B1 and C2 and produces a sum S1 and a carry C1. The fourth full adder adds A0 and B0 and C1 and produces a sum S0 and a carry C4. The output of the 4-bit parallel adder is then S3, S2, S1, and S0.",
+                    "\n\n![1*16 De-Mux](https://i.imgur.com/h3qVUvX.png)"
+                ]
+            },
+            "6": {
+                "question": [
+                    "Differentiate between combinational and sequential circuits.",
+                    "Explain briefly how latch can be used as bounce eliminator."
+                ],
+                "marks": [
+                    2,
+                    4
+                ],
+                "answer": [
+                    "\n\nCombinational circuits are circuits that produce an output based on the current input. The output of a combinational circuit is determined solely by the present input state, and does not depend on any previous inputs or outputs.\n\nSequential circuits are circuits that produce an output based on the current input as well as the previous inputs and outputs. The output of a sequential circuit is determined by both the present input state and the past input states.",
+                    "\n\n https://www.ques10.com/p/67510/write-the-latch-as-a-contact-bounce-eliminator-w-1/ \n\n A latch can be used as a bounce eliminator by using it to store the state of a signal. When the signal changes, the latch will hold the signal in its current state until the signal has stabilized. This prevents any bouncing of the signal from being registered as multiple changes."
+                ]
+            },
+            "7": {
+                "question": [
+                    "Explain how 1001 data can be stored and retrive n PISO shift register with neat diagram and truth table."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "\n\nA PISO shift register is a type of shift register that can be used to store and retrieve data. It is composed of a series of flip-flops connected in a chain, with each flip-flop storing one bit of data. The data is shifted through the register by applying a clock signal to the first flip-flop in the chain.\n\nThe diagram below shows how 1001 data can be stored and retrieved using a PISO shift register. The data is loaded into the register by applying the data bits to the D inputs of each flip-flop in the chain. The clock signal is then applied to the first flip-flop, which shifts the data through the register. The data can then be retrieved from the Q outputs of each flip-flop.\n\nThe truth table below shows how the PISO shift register works. When the clock signal is low, the data at the D inputs is stored in the register. When the clock signal is high, the data is shifted through the register and can be retrieved from the Q outputs.\n\nTruth Table: \n\nClock | D0 | D1 | D2 | Q0 | Q1 | Q2 \n-----|----|----|----|----|----|-----\nLow  |  0 |  1 |  0 |  0 |  1 |  0 \nHigh |  0 |  1 |  0 |  0 |  0 |  1"
+                ]
+            },
+            "8": {
+                "question": [
+                    "Construct a mod-12 asyncronous upcounter with positive clock edge triggering implement only T flip flops."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\n https://www.ques10.com/p/16964/design-mod-12-asynchronous-counter-using-t-flipf-2/ \n https://www.youtube.com/watch?v=kbZxoKR0FY4 \n\nThe mod-12 asynchronous upcounter can be implemented using T flip flops as follows:\n\n1. Connect the clock input of the first T flip flop to the positive edge of the clock signal.\n\n2. Connect the output of the first T flip flop to the input of the second T flip flop.\n\n3. Connect the output of the second T flip flop to the input of the third T flip flop.\n\n4. Connect the output of the third T flip flop to the input of the fourth T flip flop.\n\n5. Connect the output of the fourth T flip flop to the input of the fifth T flip flop.\n\n6. Connect the output of the fifth T flip flop to the input of the sixth T flip flop.\n\n7. Connect the output of the sixth T flip flop to a logic OR gate with two inputs, one from each of the first and fourth T flip flops. The output of this OR gate is connected back to the clock input of the first T flip flop, thus forming a feedback loop. This will cause the counter to reset after 12 clock cycles, thus forming a mod-12 counter."
+                ]
+            },
+            "9": {
+                "question": [
+                    "Design BCD syncronous counter with circuit diagram, truth table and timing waveform. use T flip-flop only."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "\n\n http://geeksforgeeks.org/design-mod-n-synchronous-counter/ \n\n Circuit Diagram:\n\nTruth Table:\n\nT Flip-Flop | T1 | T2 | T3 | T4 | Q1 | Q2 | Q3 | Q4 \n------------|----|----|----|----|----|----|----|-----\n0           | 0  | 0  | 0  | 0  | 0  | 0  | 0  | 0  \n1           | 1  | 0  | 0  | 0  | 1  | 0  | 0  | 0  \n2           | 0  | 1  | 0  | 0  | 0  | 1  | 0  | 0  \n3           | 1  | 1  | 0  | 0  | 1  | 1  | 0  | 0  \n4           | 0  | 0  | 1  | 0  | 0  | 0  | 1  | 0  \n5           | 1  | 0  | 1  | 0  | 1  | 0  | 1  | 0  \n6           | 0  | 1  | 1  | 0  | 0  | 1  | 1 \u00a0|\u00a00  \n7          \u00a0|\u00a01\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a00  \n8          \u00a0|\u00a00\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a01\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a00\u00a0\u00a0|\u00a01  \n9          \u00a0|\u00a01\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\u00a01\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a00\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a00\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a00\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a00\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0|\u00a0\u00a0\u00a0\u00a0\u00a0\u00a01\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\u00a0\nTiming Waveform:\n\n"
+                ]
+            },
+            "10": {
+                "question": [
+                    "Draw the schemantic diagram of 2-input TTL NAND gate",
+                    "explain about CMOS characteristics."
+                ],
+                "marks": [
+                    4,
+                    2
+                ],
+                "answer": [
+                    "\n\n![2-input TTL NAND gate](https://user-images.githubusercontent.com/46491214/83964863-e7f9f400-a8d2-11ea-9f0b-e1c7a7d6c9f5.png)",
+                    "\n\nComplementary Metal Oxide Semiconductor (CMOS) is a type of semiconductor technology that uses both n-type and p-type transistors to create logic gates and other digital circuits. CMOS is widely used in modern integrated circuits due to its low power consumption, high speed, and low cost. CMOS also has several unique characteristics that make it an attractive choice for many applications. These include:\n\n\u2022 Low Power Consumption: CMOS circuits consume very little power, making them ideal for battery-powered devices.\n\n\u2022 High Speed: CMOS circuits can operate at very high speeds, making them suitable for high-speed applications such as digital signal processing.\n\n\u2022 Low Cost: CMOS circuits are relatively inexpensive to manufacture, making them a cost-effective choice for many applications.\n\n\u2022 High Integration: CMOS circuits can be highly integrated, allowing for the creation of complex systems on a single chip.\n\n\u2022 Low Noise: CMOS circuits produce very little noise, making them suitable for sensitive applications such as medical imaging."
+                ]
+            },
+            "11": {
+                "question": [
+                    "Design a sequential machine with one input 'x' and single output 'z' which gives output z=1 when the serial input counts 1011 messaege.Use J-K flip-flop only."
+                ],
+                "marks": [
+                    12
+                ],
+                "answer": [
+                    "\n\nThe design of the sequential machine with one input 'x' and single output 'z' which gives output z=1 when the serial input counts 1011 message is as follows:\n\nStep 1: Connect the input x to the clock input of the J-K flip-flop.\n\nStep 2: Connect the output of the J-K flip-flop to the reset input of the next J-K flip-flop.\n\nStep 3: Connect the output of the second J-K flip-flop to the reset input of the third J-K flip-flop.\n\nStep 4: Connect the output of the third J-K flip-flop to the reset input of the fourth J-K flip-flop.\n\nStep 5: Connect the output of the fourth J-K flip-flop to the output z.\n\nStep 6: Set all J and K inputs of all four J-K flip-flops to 1. \n\nStep 7: Set the initial state of all four J-K flip-flops to 0. \n\nThe above design will give output z=1 when the serial input counts 1011 message."
+                ]
+            },
+            "12": {
+                "question": [
+                    "With the help of block diagram, explain the operation of frequency counter."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nBlock Diagram:\n\nInput Signal \u2192 Frequency Divider \u2192 Counter \u2192 Display\n\nOperation:\n\nThe frequency counter works by taking an input signal and dividing it down to a lower frequency. This is done using a frequency divider, which takes the input signal and divides it by a certain number. The output of the frequency divider is then fed into a counter, which counts the number of pulses in a given time period. The count is then displayed on a display device, such as an LCD or LED display. The frequency of the input signal can then be determined by multiplying the count by the divisor used in the frequency divider."
+                ]
             }
         }
     }
