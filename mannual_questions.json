@@ -1452,7 +1452,7 @@
     {
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
-        "subject": "Engineering Physics",
+        "subject": "Engineering Economics",
         "date_year": "2078",
         "date_month": "Kartik",
         "Level": "BE",
@@ -1502,49 +1502,6 @@
                     "\n\nBook Purpose:\n\nAnnual Depreciation Allowance: \n\nBook Value = Cost - Accumulated Depreciation\n\nBook Value = 20000 - (20000/8) x (8-n)\n\nYear 1: Book Value = 20000 - (20000/8) x (8-1) = 18750\n\nYear 2: Book Value = 20000 - (20000/8) x (8-2) = 17500\n\nYear 3: Book Value = 20000 - (20000/8) x (8-3) = 16250\n\nYear 4: Book Value = 20000 - (20000/8) x (8-4) = 15000\n\nYear 5: Book Value = 20000 - (20000/8) x (8-5) = 13750\n\nYear 6: Book Value = 20000 - (20000/8) x (8-6) = 12500\n\nYear 7: Book Value = 20000 - (20000/8) x (8-7) = 11250\n\nYear 8: Book Value = 20000 - (20000/8) x (8-8) = 10000\n\nTax Purpose:\n\nAnnual Depreciation Allowance: \n\nYear 1: 20%\n\nYear 2: 32%\n\nYear 3: 19.2%\n\nYear 4: 11.52%\n\nYear 5: 11.52%\n\nBook Value = Cost - Accumulated Depreciation\n\nYear 1: Book Value = 20000 - (20000 x 0.2) = 16000\n\nYear 2: Book Value = 16000 - (16000 x 0.32) = 10960\n\nYear 3: Book Value = 10960 - (10960 x 0.192) = 8800.32\n\nYear 4: Book Value = 8800.32 - (8800.32 x 0.1152) = 7744.25\n\nYear 5: Book Value = 7744.25 - (7744.25 x 0.1152) = 6753.45",
                     "\n\nAfter Tax Cash Flow = Annual Benefit - Depreciation - Tax\n\n= 16000 - (50000/5) - (16000*30/100)\n\n= 16000 - 10000 - 4800\n\n= 3600"
                 ]
-            },
-            "10": {
-                "question": [
-                    "A capaciior of capasitance C s dischargs through a resistor of resistance R. After how many time constants is the stored energy if 1/4 of its initial value."
-                ],
-                "marks": []
-            },
-            "11": {
-                "question": [
-                    " Discuss a microscopic view of ohom's law and show that resistivity of a conductor is independent of the external electric field."
-                ],
-                "marks": []
-            },
-            "12": {
-                "question": [
-                    " Derive the expression of magnetic flux deasity at a point on the axis of a circuler coil carrying current with N number of turns. Explain how the coil behaves for large distance.",
-                    "Show that the electrical energy density and the magnetic energy density are proportional to the square of their corresponding fields"
-                ],
-                "marks": []
-            },
-            "13": {
-                "question": [
-                    "Deuterons in cyclotron describe a circle of radius 0.32m just before emerging from the dees. The frequency of the applied emf is 10 mHZ. Find the flux density of the magnetic field and velocity of deuterons emerging out of the cyclotron.(masss of deuteron is 3.32*10^-27 kg)"
-                ],
-                "marks": []
-            },
-            "14": {
-                "question": [
-                    "Find an expression of self inductance of a toroid having N number  of turns, radius r and carrying current i."
-                ],
-                "marks": []
-            },
-            "15": {
-                "question": [
-                    "The maximum electric field 20m from an isotropic point source is 1.5V/m. Determine: a. maximum value of magnetic field, b. average intensity of light, c. power of the source"
-                ],
-                "marks": []
-            },
-            "16": {
-                "question": [
-                    "Prove that the energy levels are quantized, when an electron is confined in an infinite potential well of width a."
-                ],
-                "marks": []
             }
         }
     },
@@ -1653,7 +1610,8 @@
                     "What is double refraction? Show that linearly and circularly polarized light are the special cases of elliptically polarized light."
                 ],
                 "marks": [
-                    5, 5
+                    5,
+                    5
                 ],
                 "answer": [
                     "\n\nNewton's rings are a phenomenon of interference which can be used to measure the refractive index of a liquid. They are formed when a convex lens is placed on a flat surface and a thin film of liquid is placed between them. When light is shone through the lens, a series of concentric circles of light and dark are formed. The radius of each circle is related to the refractive index of the liquid.\n\nThe theory behind the determination of refractive index of liquid using Newton's rings is based on the principle of interference. When light passes through a thin film of liquid, it is refracted at the interface between the liquid and the lens. This refracted light then interferes with the light that is reflected from the surface of the lens. The interference pattern that is formed is known as Newton's rings.\n\nThe refractive index of the liquid can be determined by measuring the radius of the rings. The radius of the rings is related to the refractive index of the liquid according to the equation:\n\nn = (2R + 1)/2R\n\nwhere n is the refractive index of the liquid and R is the radius of the rings."
@@ -1661,7 +1619,7 @@
             },
             "5": {
                 "question": [
-                    "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (λ1=589.0nm and λ2=589.6nm) in the first order. Are the two lines resolved?"
+                    "Light is incident normally on a grating 0.5cm wide with 2500 lines. Find the angular separation for the principle maxima of two sodium lines (\u03bb1=589.0nm and \u03bb2=589.6nm) in the first order. Are the two lines resolved?"
                 ],
                 "marks": [
                     5
@@ -1719,85 +1677,82 @@
             },
             "10": {
                 "question": [
-                    "Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2\u03b8. prove that the separation of the balls as X=(q^2l/(2\u03c0mg \u03b50))^(1/3) assuming \u03b8 is very small."
+                    "A capaciior of capasitance C s dischargs through a resistor of resistance R. After how many time constants is the stored energy if 1/4 of its initial value."
                 ],
                 "marks": [
                     5
                 ],
                 "answer": [
-                    "\n\nLet the separation between the two balls be X.\n\nThe electrostatic force between the two balls is given by:\nF = (q^2)/(4\u03c0\u03b50X^2)\n\nThe tension in the thread is given by:\nT = mg\n\nThe torque due to the electrostatic force is given by:\n\u03c4 = F*X = (q^2X)/(4\u03c0\u03b50)\n\nThe torque due to the tension in the thread is given by:\n\u03c4 = T*l*sin\u03b8 = mg*l*sin\u03b8 \n\nEquating the two torques, we get: \n(q^2X)/(4\u03c0\u03b50) = mg*l*sin\u03b8 \nor, X = (q^2l/(2\u03c0mg \u03b50))^(1/3) \n\nSince \u03b8 is very small, sin\u03b8 \u2248 \u03b8. Hence, the separation of the balls is given by X=(q^2l/(2\u03c0mg \u03b50))^(1/3)."
+                    "\n\nThe stored energy is 1/4 of its initial value after 4 time constants."
                 ]
             },
             "11": {
                 "question": [
-                    "An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"
+                    " Discuss a microscopic view of ohom's law and show that resistivity of a conductor is independent of the external electric field."
                 ],
                 "marks": [
                     5
                 ],
                 "answer": [
-                    "\n\ni. The speed of the electron can be calculated using the equation $v = \\sqrt{\\frac{2K}{m}}$, where $K$ is the kinetic energy of the electron and $m$ is its mass. Substituting the given values, we get:\n\n$v = \\sqrt{\\frac{2 \\times 1 \\text{ KeV}}{9.11 \\times 10^{-31} \\text{ kg}}} = 2.1 \\times 10^7 \\text{ m/s}$\n\nii. The flux density of the magnetic field can be calculated using the equation $B = \\frac{mv}{qr}$, where $m$ is the mass of the electron, $v$ is its speed, $q$ is its charge, and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$B = \\frac{9.11 \\times 10^{-31} \\text{ kg} \\times 2.1 \\times 10^7 \\text{ m/s}}{1.6 \\times 10^{-19} \\text{ C} \\times 0.25 \\text{ m}} = 0.68 \\text{ T}$\n\niii. The number of revolutions per second can be calculated using the equation $f = \\frac{v}{2\\pi r}$, where $v$ is the speed of the electron and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$f = \\frac{2.1 \\times 10^7 \\text{ m/s}}{2\\pi \\times 0.25 \\text{ m}} = 8.2 \\times 10^5 \\text{ rev/s}$"
+                    "\n\nOhm's law states that the current through a conductor is directly proportional to the applied voltage, or in other words, the resistance of a conductor is constant. This means that the resistivity of a conductor is independent of the external electric field.\n\nAt a microscopic level, Ohm's law can be explained by considering the motion of electrons in a conductor. Electrons in a conductor are constantly moving and colliding with each other and with the atoms of the conductor. The collisions between electrons and atoms cause resistance to the flow of current. The magnitude of this resistance is determined by the number of collisions per unit time, which is independent of the external electric field. Therefore, the resistivity of a conductor is independent of the external electric field."
                 ]
             },
             "12": {
                 "question": [
-                    "What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."
+                    " Derive the expression of magnetic flux deasity at a point on the axis of a circuler coil carrying current with N number of turns. Explain how the coil behaves for large distance.",
+                    "Show that the electrical energy density and the magnetic energy density are proportional to the square of their corresponding fields"
                 ],
                 "marks": [
+                    5,
                     5
                 ],
                 "answer": [
-                    "\n\nThe average time between collisions of free electrons in copper can be calculated using the following equation:\n\nTime = (Atomic Weight * Density * Avogadro's Number) / (Resistivity * 6.24 x 10^18 electrons/mol)\n\nTime = (63 gm/mol * 9 gm/cm^3 * 6.02 x 10^23 per mol) / (1.7 x 10^-8 ohm * 6.24 x 10^18 electrons/mol)\n\nTime = 2.6 x 10^-10 seconds"
+                    "\n\nThe expression of magnetic flux density at a point on the axis of a circular coil carrying current with N number of turns is given by:\n\nB = \u03bc0 * (N * I) / (2 * \u03c0 * r)\n\nWhere, \n\u03bc0 = Permeability of free space \nN = Number of turns \nI = Current in the coil \nr = Distance from the center of the coil to the point on the axis.\n\nFor large distances, the coil behaves as if it is a point source and the magnetic flux density decreases inversely with the square of the distance.",
+                    "\n\nThe electrical energy density is given by:\n\nU_e = \\frac{1}{2}\\epsilon_0 E^2\n\nThe magnetic energy density is given by:\n\nU_m = \\frac{1}{2\\mu_0} B^2\n\nWe can see that the electrical energy density is proportional to the square of the electric field, and the magnetic energy density is proportional to the square of the magnetic field. Therefore, we can conclude that the electrical energy density and the magnetic energy density are proportional to the square of their corresponding fields."
                 ]
             },
             "13": {
                 "question": [
-                    "State and explain Biot savart law.",
-                    "Derive an expression for magnetic field due to current carrying circular loop at axial line.",
-                    "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."
+                    "Deuterons in cyclotron describe a circle of radius 0.32m just before emerging from the dees. The frequency of the applied emf is 10 mHZ. Find the flux density of the magnetic field and velocity of deuterons emerging out of the cyclotron.(masss of deuteron is 3.32*10^-27 kg)"
                 ],
                 "marks": [
-                    2,
-                    3,
                     5
                 ],
                 "answer": [
-                    "\n\nBiot-Savart Law is a physical law that describes the magnetic field generated by an electric current. It states that the magnetic field at any point in space is proportional to the magnitude of the current, and is inversely proportional to the distance from the point to the source of the current. The direction of the magnetic field is perpendicular to both the direction of the current and the line connecting the point to the source of the current. This law was formulated by French physicist Jean-Baptiste Biot and F\u00e9lix Savart in 1820.",
-                    "\n\nThe magnetic field due to a current carrying circular loop at an axial line is given by:\n\nB = \u03bc0 * I * (2 * R) / (2 * \u03c0 * r^2)\n\nwhere \u03bc0 is the permeability of free space, I is the current in the loop, R is the radius of the loop, and r is the distance from the center of the loop.",
-                    "\n\nThe growth and decay of current in an LR circuit is given by the following expression:\n\nI(t) = I0 * e^(-t/\u03c4),\n\nwhere I0 is the initial current, t is the time, and \u03c4 is the inductive time constant.\n\nThe inductive time constant (\u03c4) is a measure of how quickly the current in an LR circuit decays or grows. It is equal to the product of the inductance (L) and resistance (R) of the circuit, i.e. \u03c4 = L*R. The larger the value of \u03c4, the slower the current will decay or grow."
+                    "\n\n https://www.doubtnut.com/question-answer-physics/deuteron-in-a-cyclotron-describes-a-circle-of-radius-320cm-just-before-emerging-from-the-ds-the-freq-10967420 \n\n Flux density of the magnetic field, B = (2\u03c0fev)/r\n\n= (2 \u00d7 3.14 \u00d7 10 \u00d7 1.6 \u00d7 10^-19 \u00d7 3 \u00d7 10^8)/0.32\n\n= 2.45 \u00d7 10^-5 T\n\nVelocity of deuterons, v = (eBr)/m\n\n= (1.6 \u00d7 10^-19 \u00d7 2.45 \u00d7 10^-5 \u00d7 0.32)/3.32 \u00d7 10^-27\n\n= 2.17 \u00d7 10^7 m/s"
                 ]
             },
             "14": {
                 "question": [
-                    "A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."
+                    "Find an expression of self inductance of a toroid having N number  of turns, radius r and carrying current i."
                 ],
                 "marks": [
                     5
                 ],
                 "answer": [
-                    "\n\nOrbital Radius: 0.25 m\nCyclotron Frequency: 2.5 x 10^7 Hz\nPeriod of Revolution: 4 x 10^-8 s"
+                    "\n\nThe self inductance of a toroid is given by: L = (\u03bc*N^2*\u03c0^2*r^2)/(2*l), where \u03bc is the permeability of the material, N is the number of turns, r is the radius and l is the mean length of the toroid."
                 ]
             },
             "15": {
                 "question": [
-                    "Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."
+                    "The maximum electric field 20m from an isotropic point source is 1.5V/m. Determine: a. maximum value of magnetic field, b. average intensity of light, c. power of the source"
                 ],
                 "marks": [
                     5
                 ],
                 "answer": [
-                    "\n\nThe maximum electric field of sun light is given by:\nE_max = sqrt(2*1.4KW/m^2/c) = 3.3*10^7 V/m\n\nThe maximum magnetic field of sun light is given by:\nB_max = sqrt(2*1.4KW/m^2/c^2) = 1.1*10^-9 T"
+                    "\n\n https://www.doubtnut.com/question-answer-physics/the-maximum-electric-field-at-a-distance-of-10m-from-an-isotropic-point-source-of-light-is-30-vm-1-c-614522523 \n\na. The maximum value of the magnetic field cannot be determined from the given information.\n\nb. The average intensity of light cannot be determined from the given information.\n\nc. The power of the source cannot be determined from the given information."
                 ]
             },
             "16": {
                 "question": [
-                    "Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"
+                    "Prove that the energy levels are quantized, when an electron is confined in an infinite potential well of width a."
                 ],
                 "marks": [
                     5
                 ],
                 "answer": [
-                    "\n\nThe energy of an electron confined in an infinite potential well is quantized. This is because the wavefunction of the electron must be zero at the boundaries of the well, which means that only certain wavelengths can fit inside the well. The energy levels are given by:\n\nE_n = \\frac{n^2 h^2}{8mL^2}\n\nwhere n is an integer, h is Planck's constant, m is the mass of the electron, and L is the width of the well.\n\nThe energy level diagram for n=1,2,3 is shown below:\n\nEnergy Level Diagram for n=1,2,3\n\nThe wavefunction diagrams for n=1,2,3 are shown below:\n\nWavefunction Diagrams for n=1,2,3"
+                    "\n\nThe energy levels of an electron confined in an infinite potential well of width a are quantized because the wavefunction of the electron must be zero at the boundaries of the well. This means that the wavefunction must have a node at each boundary, which implies that the energy of the electron must be quantized."
                 ]
             }
         }
@@ -2218,20 +2173,12 @@
                 "marks": []
             },
             "4": {
-                "question": [],
-                "marks": []
+                "question": ["state and explain reciprocity theorem with a suitable example.", "A resistance of 200 ohms, an inductance of 0.2H anda capacitance of 100 micro Farad are connected in a series across a 220V, 50 Hz supply. Determine the following: \n i. Impedance\n ii. current, \n iii. Voltage across R, L and C.", "Two impedences z1 and z2 are connected in parallel. The first branch takes a leading current of 16 A and has a resistance of 5 ohms, while the second branch takes a lagging current at power factor 0.8. The total power supplied is 5kW, the applied voltage being (100+j200) V. Determine the branch and total currents."],
+                "marks": [4, 4, 8]
             },
             "5": {
-                "question": [],
-                "marks": []
-            },
-            "6": {
-                "question": [],
-                "marks": []
-            },
-            "7": {
-                "question": [],
-                "marks": []
+                "question": ["What are the disadvantages of supplying a low power factor?", "A 100 kW load at 0.85 lagging power factor is being supplied by 230V, 50Hz source. If the capacitor connected parallel to the load improves its power factor to 0.9, find the capacitance of the capacitor. Also calculate the current drawn from the source before and after connecting the capacitor.", "A three phase delta connected system with 400V line voltage is connected to three unbalanced loads: (12-j16)Ω, (3+j4)Ω, and 20Ω, are connected in data. Find:\n i. Phase currents\n ii. Line currents\n iii. Total active power\n iv. Power factor\n v. Total apparent power\n vi. Total reactive power\n vii. Total power"],
+                "marks": [2,6, 8]
             }
         }
     },
@@ -3231,10 +3178,10 @@
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
         "subject": "Engineering Physics",
-        "date_year": "2075",
-        "date_month": "Chaitra",
+        "date_year": "2078",
+        "date_month": "Bhadra",
         "Level": "BE",
-        "Exam": "Regular/Back",
+        "Exam": "Regular",
         "programme": "BEl, BEX, BEI, BCT, BAM, BIE, BAG, BAS, BCH",
         "year": "I",
         "part": "I",
@@ -3269,6 +3216,97 @@
             "7": {
                 "question": [],
                 "marks": []
+            },
+            "8": {
+                "question": [],
+                "marks": []
+            },
+            "9": {
+                "question": [],
+                "marks": []
+            },
+            "10": {
+                "question": [
+                    "Two similar balls of mass m and charge q are hanging from silk thread of length  l. These two balls are repelled by an angle  2\u03b8. prove that the separation of the balls as X=(q^2l/(2\u03c0mg \u03b50))^(1/3) assuming \u03b8 is very small."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\n https://www.toppr.com/ask/question/two-similar-balls-of-mass-m-are-hung-from-silk-threads-of-length-ell-and/ \n\n Let the separation between the two balls be X.\n\nThe electrostatic force between the two balls is given by:\nF = (q^2)/(4\u03c0\u03b50X^2)\n\nThe tension in the thread is given by:\nT = mg\n\nThe torque due to the electrostatic force is given by:\n\u03c4 = F*X = (q^2X)/(4\u03c0\u03b50)\n\nThe torque due to the tension in the thread is given by:\n\u03c4 = T*l*sin\u03b8 = mg*l*sin\u03b8 \n\nEquating the two torques, we get: \n(q^2X)/(4\u03c0\u03b50) = mg*l*sin\u03b8 \nor, X = (q^2l/(2\u03c0mg \u03b50))^(1/3) \n\nSince \u03b8 is very small, sin\u03b8 \u2248 \u03b8. Hence, the separation of the balls is given by X=(q^2l/(2\u03c0mg \u03b50))^(1/3)."
+                ]
+            },
+            "11": {
+                "question": [
+                    "An electron with kinetic energy KeV circles in a plane perpendicular uniform magnetic field. The radius of the orbit is 25 cm. Calculate i. the speed of the electron, ii. the flux density of magnetic field, iii. the number of revolutions per second"
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\ni. The speed of the electron can be calculated using the equation $v = \\sqrt{\\frac{2K}{m}}$, where $K$ is the kinetic energy of the electron and $m$ is its mass. Substituting the given values, we get:\n\n$v = \\sqrt{\\frac{2 \\times 1 \\text{ KeV}}{9.11 \\times 10^{-31} \\text{ kg}}} = 2.1 \\times 10^7 \\text{ m/s}$\n\nii. The flux density of the magnetic field can be calculated using the equation $B = \\frac{mv}{qr}$, where $m$ is the mass of the electron, $v$ is its speed, $q$ is its charge, and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$B = \\frac{9.11 \\times 10^{-31} \\text{ kg} \\times 2.1 \\times 10^7 \\text{ m/s}}{1.6 \\times 10^{-19} \\text{ C} \\times 0.25 \\text{ m}} = 0.68 \\text{ T}$\n\niii. The number of revolutions per second can be calculated using the equation $f = \\frac{v}{2\\pi r}$, where $v$ is the speed of the electron and $r$ is its radius of orbit. Substituting the given values, we get:\n\n$f = \\frac{2.1 \\times 10^7 \\text{ m/s}}{2\\pi \\times 0.25 \\text{ m}} = 8.2 \\times 10^5 \\text{ rev/s}$"
+                ]
+            },
+            "12": {
+                "question": [
+                    "What is the average time between collisions of free electrons in copper given atomic weight 63 gm/mol, denisty = 9gm/cm^3, resistivity = 1.7*10^-8 ohm and Avagadros number=6.02*10^23 per mol."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe average time between collisions of free electrons in copper can be calculated using the following equation:\n\nTime = (Atomic Weight * Density * Avogadro's Number) / (Resistivity * 6.24 x 10^18 electrons/mol)\n\nTime = (63 gm/mol * 9 gm/cm^3 * 6.02 x 10^23 per mol) / (1.7 x 10^-8 ohm * 6.24 x 10^18 electrons/mol)\n\nTime = 2.6 x 10^-10 seconds"
+                ]
+            },
+            "13": {
+                "question": [
+                    "State and explain Biot savart law.",
+                    "Derive an expression for magnetic field due to current carrying circular loop at axial line.",
+                    "Derive an expression for the growth and decay of curtent in LR circuit. Explain the meaning of inductive time constant."
+                ],
+                "marks": [
+                    2,
+                    3,
+                    5
+                ],
+                "answer": [
+                    "\n\nBiot-Savart Law is a physical law that describes the magnetic field generated by an electric current. It states that the magnetic field at any point in space is proportional to the magnitude of the current, and is inversely proportional to the distance from the point to the source of the current. The direction of the magnetic field is perpendicular to both the direction of the current and the line connecting the point to the source of the current. This law was formulated by French physicist Jean-Baptiste Biot and F\u00e9lix Savart in 1820.",
+                    "\n\nThe magnetic field due to a current carrying circular loop at an axial line is given by:\n\nB = \u03bc0 * I * (2 * R) / (2 * \u03c0 * r^2)\n\nwhere \u03bc0 is the permeability of free space, I is the current in the loop, R is the radius of the loop, and r is the distance from the center of the loop.",
+                    "\n\nThe growth and decay of current in an LR circuit is given by the following expression:\n\nI(t) = I0 * e^(-t/\u03c4),\n\nwhere I0 is the initial current, t is the time, and \u03c4 is the inductive time constant.\n\nThe inductive time constant (\u03c4) is a measure of how quickly the current in an LR circuit decays or grows. It is equal to the product of the inductance (L) and resistance (R) of the circuit, i.e. \u03c4 = L*R. The larger the value of \u03c4, the slower the current will decay or grow."
+                ]
+            },
+            "14": {
+                "question": [
+                    "A 10eV electron is circulating in a plane at right angles to a uniform field of magnetic induction of 1*10^-4 Wb/m^2. Calculate its orbital radius, clotron frequency and period of revolution."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nOrbital Radius: 0.25 m\nCyclotron Frequency: 2.5 x 10^7 Hz\nPeriod of Revolution: 4 x 10^-8 s"
+                ]
+            },
+            "15": {
+                "question": [
+                    "Sun light just outside the earth in atmosphere has an intensity of 1.4KW/m^2. Calculate the maximum electric and magnetic fields for sun light assuming it to be a plane wave. Given c=2.299*10^8m/s."
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe maximum electric field of sun light is given by:\nE_max = sqrt(2*1.4KW/m^2/c) = 3.3*10^7 V/m\n\nThe maximum magnetic field of sun light is given by:\nB_max = sqrt(2*1.4KW/m^2/c^2) = 1.1*10^-9 T"
+                ]
+            },
+            "16": {
+                "question": [
+                    "Show that energy of an electron that is confined in the infinite potential well is quantized and sketch that energy level and wave functicion diagram for n=1,2,3 for that well"
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                    "\n\nThe energy of an electron confined in an infinite potential well is quantized. This is because the wavefunction of the electron must be zero at the boundaries of the well, which means that only certain wavelengths can fit inside the well. The energy levels are given by:\n\nE_n = \\frac{n^2 h^2}{8mL^2}\n\nwhere n is an integer, h is Planck's constant, m is the mass of the electron, and L is the width of the well.\n\nThe energy level diagram for n=1,2,3 is shown below:\n\nEnergy Level Diagram for n=1,2,3\n\nThe wavefunction diagrams for n=1,2,3 are shown below:\n\nWavefunction Diagrams for n=1,2,3"
+                ]
             }
         }
     },
@@ -3365,7 +3403,7 @@
                     6
                 ],
                 "answer": [
-                    "\n\nA D flip-flop is a type of bistable multivibrator, which is a circuit with two stable states. It is a type of flip-flop that has two inputs, D (data) and Clock (CLK). The output of the flip-flop is Q and its complement Q\u2019. The output of the flip-flop changes only when there is a transition in the clock signal.\n\nDiagram:\n\nTruth Table:\n\nCLK \tD \tQ \tQ\u2019\n0 \tX \tQ(t) \tQ\u2019(t)\n1 \t0 \t0 \t1\n1 \t1 \t1 \t0\n\nExcitation Table:\n\nCLK \tD \tQ+ \tQ-\n0 \tX \t0 \t0\n1 \t0 \t0 \t1\n1 \t1 \t1 \t0"
+                    "\n\nA D flip-flop is a sequential logic circuit that is widely used in digital electronics. It is a type of flip-flop that can store a single bit of digital information, which is represented by its output state. The D flip-flop has a single input (D), a clock input (CLK), and two outputs (Q and Q'). The output Q represents the current state of the flip-flop, while the output Q' represents the complement of Q.\n\nHere is the operation of D flip-flop with necessary diagrams and truth tables:\n\nD flip-flop circuit diagram:\n\nlua\nCopy code\n +-----+\nD ---| |--- Q\n| D |\nCLK ---| |\n| FF |\nQ' ---| |\n+-----+\n```\n\nTruth Table:\n\ndiff\nCopy code\n+-----+-----+-----+\n| CLK |  D  | Q   |\n+-----+-----+-----+\n|  0  |  X  | Q(t)|\n|  1  |  0  |  0  |\n|  1  |  1  |  1  |\n+-----+-----+-----+\nWhere X denotes "don't care", and Q(t) denotes the current state of the flip-flop.\n\nExcitation table:\n\ncss\nCopy code\n+-----+-----+-----+-----+\n| CLK |  D  | Q(t)|Q(t+1)|\n+-----+-----+-----+-----+\n|  0  |  X  | Q(t)| Q(t)|\n|  1  |  0  |  0  |  0  |\n|  1  |  0  |  1  |  0  |\n|  1  |  1  |  0  |  1  |\n|  1  |  1  |  1  |  1  |\n+-----+-----+-----+-----+\nThe excitation table shows the input and output states of the D flip-flop. The first row represents the case where the clock input is 0, and the output states remain the same as the current state Q(t). The other rows represent the cases where the clock input is 1, and in those cases, the next output state Q(t+1) is determined by the input data D.\n\nFor example, if the current state Q(t) is 0, and the input data D is 1, then the next output state Q(t+1) will be 1. Similarly, if the current state Q(t) is 1, and the input data D is 0, then the next output state Q(t+1) will be 0. If the current state Q(t) and the input data D are both 1, then the next output state Q(t+1) will be 1, and so on.\n\nOverall, the D flip-flop is a simple and useful digital circuit that can store a single bit of information and transfer it to the next stage at each clock cycle. It finds its applications in many digital systems such as microprocessors, memory units, and communication systems."
                 ]
             },
             "8": {
