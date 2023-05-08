@@ -1332,6 +1332,45 @@
         "pass marks": "32",
         "time": "3 hours",
         "questions": {
+            "1": {
+                "question": ["Why does engineer must have the kanowledg of ecanomics during docision misking process?", "List out the principles of engineering economics"
+                ],
+                "marks": [
+                    1,3
+                ],
+                "answer": [
+                ]
+            },
+            "2": {
+                "question": [
+                    "A man is plannin to retire in 25 years. He wishes to deposit regular money every months unill he retire so that he will annual payments of Rs. 450,000 after the first year of his retirement for next 10 years. How much he deposit if the interest rate is 8% compounded monthly?"
+                ],
+                "marks": [
+                    5
+                ],
+                "answer": [
+                ]
+            },
+            "3": {
+                "question": [
+                    "Explain the limiiations of IRR with suitble examples.", "Explain in brief the absolute and relative meosures used under different methodologies of engineering economic analysis."
+                ],
+                "marks": [
+                    2,2
+                ],
+                "answer": [
+                ]
+            },
+            "4": {
+                "question": [
+                    "Why are incremental analysis is essence during comparative analysis of alteratives using BCR, IRR and ERR?"
+                ],
+                "marks": [
+                    2
+                ],
+                "answer": [
+                ]
+            },
             "5": {
                 "question": [
                     "Write down the reasons of replacemment of an existing asset."
@@ -1391,6 +1430,51 @@
         "pass marks": "32",
         "time": "3 hours",
         "questions": {
+            "1": {
+                "question": [
+                    "Explain the principles of engineering ecanomy in detail with appropriate examples"
+                    
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+
+                ]
+            },
+            "2": {
+                "question": [
+                    "Suppose that you make a deposit of Rs 5000 per month in a saving account which gives interest compounded quarerly for the first three years and 9% compounded monthly for the last two years. What amount do you expect at the end of 5 years?","A company is considering investing Rs 550,000 in new Net cash flow estimate during first year will be Rs 50,000 and will increase by Rs 25,000 per year the next year and each year thereafter. The equipment has a 10 years service life and salvage value of Rs. 60,000. Assuming MARR = 10%. Determine : i. annual capital cost for the equipment. \n ii. Equipment annual saving. \n iii. is this is a wise investment?"
+                ],
+                "marks": [
+                    3,7
+                ],
+                "answer": [
+
+                ]
+            },
+            "3": {
+                "question": [
+                    "What is MARR? Explain the life cycle costing."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+
+                ]
+            },
+            "4": {
+                "question": [
+                    "What are the reasons behind the alternative projects being mutually exclusives to cach other? Explain with suitable examples."
+                ],
+                "marks": [
+                    2
+                ],
+                "answer": [
+
+                ]
+            },
             "5": {
                 "question": [
                     "Write down the procedure replacement analysis under infinite planning horizon"
@@ -1445,62 +1529,6 @@
                     "\n\nInflation is an economic concept that refers to the sustained increase in the general level of prices for goods and services over a period of time. It is measured as an annual percentage increase. When the inflation rate is high, each unit of currency buys fewer goods and services, resulting in a decrease in the purchasing power of money.",
                     "\n\nConstant dollar (also known as real dollar) is a term used to describe a dollar amount that has been adjusted for inflation. This means that the dollar amount has been adjusted to reflect the current purchasing power of the dollar. For example, if a product cost $100 in 2020, the constant dollar amount would be adjusted to reflect the current purchasing power of the dollar, which may be higher or lower than the original amount.\n\nActual dollar is a term used to describe a dollar amount that has not been adjusted for inflation. This means that the dollar amount is the same as it was when it was originally purchased. For example, if a product cost $100 in 2020, the actual dollar amount would remain the same in 2021.",
                     "\n\nDeflation method of analysis is a technique used to identify the underlying causes of a problem or issue. It involves breaking down the problem into smaller components and then analyzing each component to determine the root cause. For example, if a company is experiencing a decrease in sales, the deflation method of analysis could be used to identify the underlying causes. The company could break down the problem into smaller components such as customer service, product quality, pricing, and marketing. By analyzing each component, the company can identify the root cause of the decrease in sales."
-                ]
-            }
-        }
-    },
-    {
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
-        "subject": "Engineering Economics",
-        "date_year": "2078",
-        "date_month": "Kartik",
-        "Level": "BE",
-        "Exam": "Back",
-        "programme": "BEI, BEX",
-        "year": "III",
-        "part": "II",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "5": {
-                "question": [
-                    "Write down the procedure replacement analysis under infinite planning horizon"
-                ],
-                "marks": [
-                    3
-                ],
-                "answer": [
-                    "\n\n1. Identify the current asset and its associated costs.\n\n2. Estimate the cost of replacing the asset with a new one.\n\n3. Calculate the present value of the cost of replacing the asset.\n\n4. Calculate the present value of the cost of maintaining the existing asset.\n\n5. Compare the present value of the cost of replacing the asset with the present value of the cost of maintaining the existing asset.\n\n6. If the present value of the cost of replacing the asset is lower than the present value of the cost of maintaining the existing asset, then replacement is recommended.\n\n7. If the present value of the cost of replacing the asset is higher than the present value of the cost of maintaining the existing asset, then maintenance is recommended."
-                ]
-            },
-            "6": {
-                "question": [
-                    "Explain decision tree analysis.",
-                    "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"
-                ],
-                "marks": [
-                    4,
-                    4
-                ],
-                "answer": [
-                    "\n\nDecision tree analysis is a predictive modeling technique used to identify the best course of action based on a set of conditions. It is a type of supervised learning algorithm that uses a tree-like structure to represent a set of decisions and their possible outcomes. The tree is composed of nodes, branches, and leaves. Nodes represent a decision point, branches represent the possible outcomes of the decision, and leaves represent the final outcome. The goal of decision tree analysis is to identify the most optimal path from the root node to the leaf node. The algorithm works by splitting the data into subsets based on the most important features, and then using the subsets to make predictions. The algorithm is used in a variety of applications, such as credit scoring, medical diagnosis, and customer segmentation.",
-                    "\n\nThe BEP (Break-even Point) would decrease, and the profit/loss would increase.\n\nThe new BEP would be calculated as follows:\n\nNew Selling Price per unit = $80 x 1.2 = $96\nNew Fixed Cost = $60000 - ($60000 x 0.1) = $54000\n\nBEP = Fixed Cost / (Selling Price - Variable Cost)\n\nBEP = $54000 / ($96 - $10) = 4166.67 units\n\nThe new profit/loss would be calculated as follows:\n\nProfit/Loss = (Selling Price - Variable Cost - Fixed Cost) x Units Sold\n\nProfit/Loss = ($96 - $10 - $54000) x Units Sold\n\nIf the number of units sold is greater than 4166.67, then the profit/loss would be positive. If the number of units sold is less than 4166.67, then the profit/loss would be negative."
-                ]
-            },
-            "7": {
-                "question": [
-                    "You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.",
-                    "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."
-                ],
-                "marks": [
-                    8,
-                    4
-                ],
-                "answer": [
-                    "\n\nBook Purpose:\n\nAnnual Depreciation Allowance: \n\nBook Value = Cost - Accumulated Depreciation\n\nBook Value = 20000 - (20000/8) x (8-n)\n\nYear 1: Book Value = 20000 - (20000/8) x (8-1) = 18750\n\nYear 2: Book Value = 20000 - (20000/8) x (8-2) = 17500\n\nYear 3: Book Value = 20000 - (20000/8) x (8-3) = 16250\n\nYear 4: Book Value = 20000 - (20000/8) x (8-4) = 15000\n\nYear 5: Book Value = 20000 - (20000/8) x (8-5) = 13750\n\nYear 6: Book Value = 20000 - (20000/8) x (8-6) = 12500\n\nYear 7: Book Value = 20000 - (20000/8) x (8-7) = 11250\n\nYear 8: Book Value = 20000 - (20000/8) x (8-8) = 10000\n\nTax Purpose:\n\nAnnual Depreciation Allowance: \n\nYear 1: 20%\n\nYear 2: 32%\n\nYear 3: 19.2%\n\nYear 4: 11.52%\n\nYear 5: 11.52%\n\nBook Value = Cost - Accumulated Depreciation\n\nYear 1: Book Value = 20000 - (20000 x 0.2) = 16000\n\nYear 2: Book Value = 16000 - (16000 x 0.32) = 10960\n\nYear 3: Book Value = 10960 - (10960 x 0.192) = 8800.32\n\nYear 4: Book Value = 8800.32 - (8800.32 x 0.1152) = 7744.25\n\nYear 5: Book Value = 7744.25 - (7744.25 x 0.1152) = 6753.45",
-                    "\n\nAfter Tax Cash Flow = Annual Benefit - Depreciation - Tax\n\n= 16000 - (50000/5) - (16000*30/100)\n\n= 16000 - 10000 - 4800\n\n= 3600"
                 ]
             }
         }
@@ -1818,6 +1846,51 @@
                 "answer": [
                     "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.1/12)^24 + 300000/(1+0.1/12)^60 + 500000/(1+0.1/12)^84\n\nPV = NRs. 845,945.45\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs. 845,945.45."
                 ]
+            },
+            "6":{
+                "question": [
+                    
+                ],
+                "marks": [
+                    
+                ],
+                "answer": [
+                    
+                ]
+                
+            },
+            "7":{
+                "question": [
+                    "A metopolitan city goverment is considering two types of waste incenecation systems. Design A requires an initial outlay of Rs. 40,000,000 with anoual operating and maintanance costs of Rs. 5,000,000 for the next 15 years. Design B calls for an investment of Rs. 30,000,000 with annual operating and maintenance costs of Rs. 8,000,000 per year for the next 15 years. Fee collections from the residents would be Rs. 85,000 per year which is the ecoromic equivalent to the benefit to the residents. The interest rate is 8% and no selvage value is associated with either system. \n Find the benifit-cost ratio of both options. \n Find the net benifit-cost ratio of both options. \n If the options are mutually exclusive, which one do you choose based on incremental net benifit-cost ratio analysis?"
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    
+                ]
+            },
+            "8":{
+                "question": [
+                    "Why risk analysis should be performed before investment in any project?", "Discuss briefly about sensitivity breakeven analysis and scenrio analysis."
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    
+                ]
+            },
+            "9":{
+                "question": [
+                    "A local newspaper headline blared, \"Dipesh Gautam Signed for Rs. 30 Million.\". A reading of the article revealed that on Apri l, 2075, Bo Smith, the former record  breaking top order batsman in Nepal signed a Rs. 30 million package with the Dhangadhi Rangers. The terms of the contract were Rs. 3 milion immediately, Rs. 2.4 million per year for the first five years (with the first payment after 1 year) and Rs. 3 million per year for the next five years (with the first payment at year 6). If Dipesh's interest rate is 8% per year, what would his contract be worth at the tme he signs it?"
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    
+                ]
             }
         }
     },
@@ -1825,64 +1898,195 @@
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
         "subject": "Engineering Economics",
-        "date_year": "2079",
-        "date_month": "Bhadra",
+        "date_year": "2075",
+        "date_month": "Baisakh",
         "Level": "BE",
-        "Exam": "Regular",
+        "Exam": "Back",
         "programme": "BME, BAM",
-        "year": "IV",
-        "part": "I",
+        "year": "III",
+        "part": "II",
         "full marks": "80",
         "pass marks": "32",
         "time": "3 hours",
         "questions": {
             "1": {
                 "question": [
-                    "List out and define the types of engineering cconomic decisions.",
-                    "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."
+                    "State and explain principles of engineering economics."
                 ],
                 "marks": [
-                    4,
                     4
                 ],
                 "answer": [
-                    "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or activities that are expected to generate future returns.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and techniques to produce a given product or service.\n\n3. Pricing Decisions: These decisions involve setting prices for products and services in order to maximize profits.\n\n4. Cost Control Decisions: These decisions involve minimizing costs while still producing a quality product or service.\n\n5. Risk Management Decisions: These decisions involve assessing and managing risks associated with economic activities in order to minimize potential losses.\n\n6. Financing Decisions: These decisions involve selecting the most appropriate sources of financing for a given project or activity.",
-                    "\n\nAverage Fixed Unit Cost: Average fixed unit cost is the total fixed costs divided by the number of units produced. It is a measure of the average cost of producing each unit and does not change with the number of units produced. It is represented by a straight line on a graph.\n\nAverag Variable Unit Cost: Average variable unit cost is the total variable costs divided by the number of units produced. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nAverage Total Unit Cost: Average total unit cost is the sum of average fixed unit cost and average variable unit cost. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nMarginal Cost: Marginal cost is the additional cost incurred for producing one additional unit. It is represented by a straight line on a graph and changes with the number of units produced."
                 ]
             },
             "2": {
                 "question": [
-                    "Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."
+                    "Define the terms time value of money, nominal and effective interest rate","Calculate the future sum at the end of 5th year when monthly deposit is Rs 6000 for 3 years that earns 7% interest rate for three years."
+                ],
+                "marks": [3,3
+                    
+                ],
+                "answer": [
+                ]
+            },
+            "3": {
+                "question": [
+                    "Make investment decision for the following project by using i. IRR, ii. B/C iii. Discounted Payback methods. Where initial cost = Rs. 400,000 \n Annual Revenue = Rs. 160,000 for the first year and decreases by Rs. 10,000 thereafter. \n Annual Expenses = Rs. 40,000 for the first year and increases by Rs. 5,000 thereater \n Salvage value=Rs. 100,000 \n life span=8years \n MARR=8% per year.", "What do you mean by financial and economic analysis?", "Briefly explain the conecpt of lifecycle costing."
+                ],
+                "marks": [
+                    12,2,2
+                ],
+                "answer": [
+                ]
+            },
+            "4": {
+                "question": ["Define independent and contingent projects.", "Find present worth from annual cash flow series of Rs. 5,000 forever when i=8% per year."
+                ],
+                "marks": [
+                    2,2
+                    
+                ],
+                "answer": [
+                ]
+            },
+            "5": {
+                "question": ["What do you mean by replacement analysis and economic service life?", "What are the procedures for replacement when planning horizon is infinite and finite?", "Calculate AECs from the following information and determine economic service life: \n I=18,000, \n  N=8 years \n O and M = 3000 for first year and increases by 15% thereafter, \n S=Decline by 20% each successive year over than previous price, \n MARR=12% per year."
+            ],
+            "marks": [
+                4,2,6    
+                ],
+                "answer": [
+                ]
+            },
+            "6": {
+                "question": [
+                    "Explain the concept of scenario and decision tree analysis. If 20 watt CFL bulb price is Rs. 280 and 100 watt filament bulb price is Rs. 30 at market but their lighting power is equal. Which bulb do you prefer to use in your house when electricity cost Rs. 12 per unit?"
                 ],
                 "marks": [
                     6
                 ],
                 "answer": [
-                    "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It involves comparing different financial ratios to industry averages or to the company\u2019s own historical performance. Ratios can be used to identify trends, measure liquidity, assess solvency, and compare profitability.\n\nReturn on Equity (ROE): ROE is a measure of how well a company is using its shareholders\u2019 equity to generate profits. It is calculated by dividing net income by total shareholders\u2019 equity. A higher ROE indicates that the company is more efficient at generating profits from its equity.\n\nAsset Turnover: Asset turnover measures how efficiently a company is using its assets to generate sales. It is calculated by dividing total sales by total assets. A higher asset turnover indicates that the company is more efficient at generating sales from its assets.\n\nCurrent Ratio: The current ratio measures a company\u2019s ability to pay its short-term obligations. It is calculated by dividing current assets by current liabilities. A higher current ratio indicates that the company has more liquid assets available to pay its short-term obligations.\n\nDebt Ratio: The debt ratio measures the amount of debt a company has relative to its total assets. It is calculated by dividing total liabilities by total assets. A higher debt ratio indicates that the company has more debt relative to its assets and may be at risk of defaulting on its obligations."
                 ]
             },
-            "3": {
+            "7": {
                 "question": [
-                    "Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."
+                    "Define depreciation","What are the advantages of depriciation concept?", "Your college is considering purchase vehicle for Rs. 400,000 that assigned to 5 years useful life and expected salvage value is Rs. 100,000. Calculate depreciation for each year by using declining balance and MACRS.",
+                    "What do you mean by tax, personal tax and corporate tax?", " Develop a model to calculate after tax cash flow"
                 ],
-                "marks": [
-                    10
+                "marks": [1,2,6,3,2
+                    
                 ],
                 "answer": [
-                    "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD) \n\nYear 3: Dn = (1/15) x 1820000 = 121333.33; Bn = 1820000 - 121333.33= 1698666.67 \n\nYear 7: Dn = (7/15) x 1820000= 826666.67; Bn= 1820000 - 826666.67= 993333.33 \n\nYear 10: Dn= (10/15) x 1820000= 1220000; Bn= 1820000-1220000= 600000 \n\niv. If you are a private investor which method do you choose and explain why? \n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method because it allows for a higher rate of depreciation in the early years of the asset's life, which can be beneficial for tax purposes. This method also allows for a more accurate reflection of the asset's value over time, as it takes into account the fact that assets tend to depreciate more quickly in the early years of their life than in later years."
                 ]
             },
-            "5": {
+            "8": {
+                "question": ["What is inflation?", "List out the impact of inflation", "Calculate the rate of inflation when CPI from 100 to 250 over three"
+                ],
+                "marks": [1,2,1
+                    
+                ],
+                "answer": [
+                ]
+            }
+        }
+    },
+
+
+
+
+
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Engineering Economics",
+        "date_year": "2079",
+        "date_month": "Jestha",
+        "Level": "BE",
+        "Exam": "Back",
+        "programme": "BEl, BEX, BEL, BCT, BGE",
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
                 "question": [
-                    "How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."
+                    "Describe different principles of engincering economics.","What do you mean by sunk cost and opportunity cost?"
+                ],
+                "marks": [
+                    4,2
+                ],
+                "answer": [
+                    
+                ]
+            },
+            "2": {
+                "question": [
+                    "How much money must be invested in an account that pays 9% per year interest compounded quarterly to draw Rs 6000 at the end of first year and drawing amount increases by Rs 1000 there afier up to 10 years (use gradient formula)"
                 ],
                 "marks": [
                     8
                 ],
                 "answer": [
-                    "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.10/12)^24 + 300000/(1+0.10/12)^60 + 500000/(1+0.10/12)^84\n\nPV = 837,541.20\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs 837,541.20."
+                    
+                ]
+            },
+            "3": {
+                "question": [
+                    "Explein the drawbacks of IRR.","Differentiate between financial and economic analysis."
+                ],
+                "marks": [
+                    2,2
+                ],
+                "answer": [
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "Differentiate between cashflow approach and opportunity cost approach used in replacement analysis.", "A machine has a first cost of $ 50,000. Its market value declines 20% annually. The operation and maintenance cost start at $ 3500 at first year and climb up by $2000 per year. The firm's MARR is 9%. Find the minimum EUAC for this machine and its economic service life if useful life is 7 years."
+                ],
+                "marks": [
+                    4,8
+                ],
+                "answer": [
+                    
                 ]
             }
+        },
+        "6":{
+            "question": [
+                "Explain different methods of analyzing the riskiness of the project."
+            ],
+            "marks": [
+                2
+            ],
+            "answer": [
+                
+            ]
+        },
+        "7":{
+            "question": [
+               
+            ],
+            "marks": [
+                
+            ],
+            "answer": [
+                
+            ]
+        },
+        "8":{
+            "question": [
+                    
+            ],
+            "marks": [
+                
+            ],
+            "answer": [
+                
+            ]
         }
     },
     {
@@ -2183,139 +2387,6 @@
         }
     },
     {
-        "comment": "// -------------------\n// past does haunt\n        // -------------------",
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
-        "subject": "Engineering Economics",
-        "date_year": "2076",
-        "date_month": "Baisakh",
-        "Level": "BE",
-        "Exam": "Back",
-        "programme": "BEI, BEX",
-        "year": "III",
-        "part": "II",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "5": {
-                "question": [
-                    "Write down the reasons of replacemment of an existing asset."
-                ],
-                "marks": [
-                    4
-                ],
-                "answer": [
-                    "\n\n1. Asset is no longer functioning properly or is outdated.\n2. Asset is no longer compatible with other systems or technology.\n3. Asset is no longer cost-effective to maintain or repair.\n4. Asset is no longer meeting the needs of the organization.\n5. Asset is no longer meeting safety or regulatory standards.\n6. Asset is no longer meeting customer expectations.\n7. Asset is no longer meeting production or operational requirements.\n8. Asset is no longer meeting environmental standards.\n9. Asset is no longer meeting energy efficiency standards.\n10. Asset is no longer meeting sustainability goals."
-                ]
-            },
-            "7": {
-                "question": [
-                    "Define direct tax indirect.",
-                    "Prepare after tax cash flow of a project having the following cashflow details: 8 flow Initial cost = 100000, Useful life=5years, salvage value=20000, annual income rate = 20000 at the end of first year and increases by 2000 per year, tax rate =20%. Depreciation method sum of year digit."
-                ],
-                "marks": [
-                    2,
-                    4
-                ],
-                "answer": [
-                    "\n\nDirect tax: A direct tax is a tax that is paid directly to the government by the person or entity that is liable for the tax. Examples of direct taxes include income tax, corporate tax, property tax, inheritance tax, and gift tax.\n\nIndirect tax: An indirect tax is a tax that is paid indirectly to the government by the person or entity that is liable for the tax. Examples of indirect taxes include sales tax, value-added tax (VAT), excise tax, and customs duties.",
-                    "\n\nYear 0: -100000\n\nYear 1: 20000*(1-20%)=16000\n\nYear 2: 22000*(1-20%)=17600\n\nYear 3: 24000*(1-20%)=19200\n\nYear 4: 26000*(1-20%)=20800\n\nYear 5: 20000+20000=40000*(1-20%)=32000\n\nTotal After Tax Cash Flow = -100000+16000+17600+19200+20800+32000 = -14400"
-                ]
-            },
-            "8": {
-                "question": [
-                    "Draw the concept of inflation using suitable example.",
-                    "If the real interest rate is given as 5% and general inflation rate as 8%, calculate MARR.",
-                    "Explain the meaning of constant dollar and actual dollar"
-                ],
-                "marks": [
-                    2,
-                    1.5,
-                    1.5
-                ],
-                "answer": [
-                    "\n\nInflation can be illustrated using the example of a balloon. As air is pumped into the balloon, it expands and increases in size. This is similar to how prices increase over time due to inflation. As the amount of money in circulation increases, prices rise and the purchasing power of each unit of currency decreases.",
-                    "\n\nMARR = Real Interest Rate + Inflation Rate = 5% + 8% = 13%.",
-                    "\n\nConstant dollar (also known as real dollar) is a term used to describe a dollar amount that has been adjusted for inflation. This means that the dollar amount has been adjusted to reflect the current purchasing power of the dollar. For example, if a product cost $100 in 2020, the constant dollar amount would be adjusted to reflect the current purchasing power of the dollar, which may be higher or lower than the original amount.\n\nActual dollar is a term used to describe a dollar amount that has not been adjusted for inflation. This means that the dollar amount is the same as it was when it was originally purchased. For example, if a product cost $100 in 2020, the actual dollar amount would remain the same in 2021."
-                ]
-            }
-        }
-    },
-    {
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
-        "subject": "Engineering Economics",
-        "date_year": "2077",
-        "date_month": "Poush",
-        "Level": "BE",
-        "Exam": "Back",
-        "programme": "BEI, BEX",
-        "year": "III",
-        "part": "II",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "5": {
-                "question": [
-                    "Write down the procedure replacement analysis under infinite planning horizon"
-                ],
-                "marks": [
-                    3
-                ],
-                "answer": [
-                    "\n\n1. Identify the current asset and its associated costs.\n\n2. Estimate the cost of replacing the asset with a new one.\n\n3. Calculate the present value of the cost of replacing the asset.\n\n4. Calculate the present value of the cost of maintaining the existing asset.\n\n5. Compare the present value of the cost of replacing the asset with the present value of the cost of maintaining the existing asset.\n\n6. If the present value of the cost of replacing the asset is lower than the present value of the cost of maintaining the existing asset, then replacement is recommended.\n\n7. If the present value of the cost of replacing the asset is higher than the present value of the cost of maintaining the existing asset, then maintenance is recommended."
-                ]
-            },
-            "6": {
-                "question": [
-                    "Explain decision tree analysis.",
-                    "What would be the effect on BEP and profit/loss, when the selling price increases by 20% and fixed cost decreases by 10%? consider the following data: Variable cost per unit = $ 10, Fixed cost = $ 60000, Selling price per unit = $ 80"
-                ],
-                "marks": [
-                    4,
-                    4
-                ],
-                "answer": [
-                    "\n\nDecision tree analysis is a predictive modeling technique used to identify the best course of action based on a set of conditions. It is a type of supervised learning algorithm that uses a tree-like structure to represent a set of decisions and their possible outcomes. The tree is composed of nodes, branches, and leaves. Nodes represent a decision point, branches represent the possible outcomes of the decision, and leaves represent the final outcome. The goal of decision tree analysis is to identify the most optimal path from the root node to the leaf node. The algorithm works by splitting the data into subsets based on the most important features, and then using the subsets to make predictions. The algorithm is used in a variety of applications, such as credit scoring, medical diagnosis, and customer segmentation.",
-                    "\n\nThe BEP (Break-even Point) would decrease, and the profit/loss would increase.\n\nThe new BEP would be calculated as follows:\n\nNew Selling Price per unit = $80 x 1.2 = $96\nNew Fixed Cost = $60000 - ($60000 x 0.1) = $54000\n\nBEP = Fixed Cost / (Selling Price - Variable Cost)\n= $54000 / ($96 - $10)\n= $54000 / $86\n= 627.91 units\n\nThe new profit/loss would be calculated as follows:\n\nProfit/Loss = (Selling Price - Variable Cost - Fixed Cost) x Units Sold\n= ($96 - $10 - $54000) x Units Sold\n= ($86 x Units Sold) - $54000\n= (Units Sold - 627.91) x $86 - $54000\n\nTherefore, the profit/loss would increase as the number of units sold increases."
-                ]
-            },
-            "7": {
-                "question": [
-                    "You purchased a machine at a cost of Re 20000 having useful life of 8 years. The estimated salvage value is 500000.For a book purpose straight ine method is used and for tax purpose the machine is depreciated using MACRS over its 5 year class. Determine the annual deprecistion allowance and resulting book value of a machine for both book and tax purpose.",
-                    "A company requires machine which costs Rs 50000 and has salvage Rs 10000 aftcr 5 years and expected to save the annual benifit of Rs. 16000. The Depriciation if on SOYD. Calculate after tax cash flow of the machine if tax rate applicable is 30%."
-                ],
-                "marks": [
-                    8,
-                    4
-                ],
-                "answer": [
-                    "\n\nBook Purpose:\n\nAnnual Depreciation Allowance: \n\nBook Value = Cost - Accumulated Depreciation\n\nBook Value = 20000 - (20000/8) x (8-n)\n\nYear 1: Book Value = 20000 - (20000/8) x (8-1) = 18750\n\nYear 2: Book Value = 20000 - (20000/8) x (8-2) = 17500\n\nYear 3: Book Value = 20000 - (20000/8) x (8-3) = 16250\n\nYear 4: Book Value = 20000 - (20000/8) x (8-4) = 15000\n\nYear 5: Book Value = 20000 - (20000/8) x (8-5) = 13750\n\nYear 6: Book Value = 20000 - (20000/8) x (8-6) = 12500\n\nYear 7: Book Value = 20000 - (20000/8) x (8-7) = 11250\n\nYear 8: Book Value = 20000 - (20000/8) x (8-8) = 10000\n\nTax Purpose:\n\nAnnual Depreciation Allowance: \n\nYear 1: 20%\n\nYear 2: 32%\n\nYear 3: 19.2%\n\nYear 4: 11.52%\n\nYear 5: 11.52%\n\nBook Value = Cost - Accumulated Depreciation\n\nYear 1: Book Value = 20000 - (20000 x 0.2) = 16000\n\nYear 2: Book Value = 16000 - (16000 x 0.32) = 10960\n\nYear 3: Book Value = 10960 - (10960 x 0.192) = 8800.32\n\nYear 4: Book Value = 8800.32 - (8800.32 x 0.1152) = 7744.25\n\nYear 5: Book Value = 7744.25 - (7744.25 x 0.1152) = 6777.45",
-                    "\n\nAfter Tax Cash Flow = Annual Benefit - Depreciation - Tax\n\n= 16000 - (50000/5) - (16000*30/100)\n\n= 16000 - 10000 - 4800\n\n= 3600"
-                ]
-            },
-            "8": {
-                "question": [
-                    "What is inflation?",
-                    "Explain constant dollar and actual dollar.",
-                    "Explain deflation mebod of analysis using suitable example"
-                ],
-                "marks": [
-                    1,
-                    1,
-                    2
-                ],
-                "answer": [
-                    "\n\nInflation is an economic concept that refers to the sustained increase in the general level of prices for goods and services over a period of time. It is measured as an annual percentage increase. When the inflation rate is high, each unit of currency buys fewer goods and services, resulting in a decrease in the purchasing power of money.",
-                    "\n\nConstant dollar (also known as real dollar) is a term used to describe a dollar amount that has been adjusted for inflation. This means that the dollar amount has been adjusted to reflect the current purchasing power of the dollar. For example, if a product cost $100 in 2020, the constant dollar amount would be adjusted to reflect the current purchasing power of the dollar, which may be higher or lower than the original amount.\n\nActual dollar is a term used to describe a dollar amount that has not been adjusted for inflation. This means that the dollar amount is the same as it was when it was originally purchased. For example, if a product cost $100 in 2020, the actual dollar amount would remain the same in 2021.",
-                    "\n\nDeflation method of analysis is a technique used to identify the underlying causes of a problem or issue. It involves breaking down the problem into smaller components and then analyzing each component to determine the root cause. For example, if a company is experiencing a decrease in sales, the deflation method of analysis could be used to identify the underlying causes. The company could break down the problem into smaller components such as customer service, product quality, pricing, and marketing. By analyzing each component, the company can identify the root cause of the decrease in sales."
-                ]
-            }
-        }
-    },
-    {
         "university": "Tribhuwan University",
         "Institute": "Institute of Engineering",
         "subject": "Engineering Physics",
@@ -2505,134 +2576,6 @@
                 ],
                 "answer": [
                     "\n\nVL=\u221a(3)Vp\n\nPower factor measurement of the load by two wattmeter method:\n\nLet P1 and P2 be the readings of the two wattmeters.\n\nThen, the power factor of the load is given by:\n\nPF = P1/P2\n\nWhere P1 = 3VL^2/R1 and P2 = 3VL^2/R2\n\nSubstituting VL = \u221a(3)Vp, we get\n\nPF = (3Vp^2/R1)/(3Vp^2/R2)\n\nPF = R2/R1"
-                ]
-            }
-        }
-    },
-    {
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
-        "subject": "Engineering Economics",
-        "date_year": "2079",
-        "date_month": "Bhadra",
-        "Level": "BE",
-        "Exam": "Regular",
-        "programme": "BME, BAM",
-        "year": "IV",
-        "part": "I",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "1": {
-                "question": [
-                    "List out and define the types of engineering cconomic decisions.",
-                    "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."
-                ],
-                "marks": [
-                    4,
-                    4
-                ],
-                "answer": [
-                    "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or investments that are expected to generate a return.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and the optimal combination of inputs to produce a given output.\n\n3. Pricing Decisions: These decisions involve the determination of the optimal price for a product or service.\n\n4. Cost Control Decisions: These decisions involve the identification and implementation of strategies to reduce costs and increase efficiency.\n\n5. Risk Management Decisions: These decisions involve the identification and management of risks associated with a project or investment.\n\n6. Financing Decisions: These decisions involve the selection of the most appropriate sources of financing for a project or investment.",
-                    "\n\nAverage Fixed Unit Cost:\n\nAverage fixed unit cost is the total fixed cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total fixed cost by the number of units produced.\n\nThe diagram below illustrates the average fixed unit cost:\n\nAverage Variable Unit Cost:\n\nAverage variable unit cost is the total variable cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total variable cost by the number of units produced.\n\nThe diagram below illustrates the average variable unit cost:\n\nAverage Total Unit Cost:\n\nAverage total unit cost is the total cost divided by the total number of units produced. It is a measure of the cost of producing each unit of output. It is calculated by dividing the total cost by the number of units produced.\n\nThe diagram below illustrates the average total unit cost:\n\nMarginal Cost:\n\nMarginal cost is the additional cost incurred for producing one additional unit of output. It is calculated by dividing the change in total cost by the change in the number of units produced.\n\nThe diagram below illustrates the marginal cost:"
-                ]
-            },
-            "2": {
-                "question": [
-                    "Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."
-                ],
-                "marks": [
-                    6
-                ],
-                "answer": [
-                    "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It is used to compare different financial metrics over time and to compare the performance of a business to that of its competitors. Ratios are used to measure profitability, liquidity, solvency, efficiency, and other aspects of a business\u2019s financial performance.\n\nReturn on Equity (ROE): ROE is a measure of a company\u2019s profitability relative to its shareholders\u2019 equity. It is calculated by dividing a company\u2019s net income by its total equity. A higher ROE indicates that a company is generating more profit from its shareholders\u2019 investments.\n\nAsset Turnover: Asset turnover is a measure of how efficiently a company is using its assets to generate sales. It is calculated by dividing a company\u2019s total sales by its total assets. A higher asset turnover indicates that a company is generating more sales from its assets.\n\nCurrent Ratio: The current ratio is a measure of a company\u2019s short-term liquidity. It is calculated by dividing a company\u2019s current assets by its current liabilities. A higher current ratio indicates that a company has more assets than liabilities and is better able to meet its short-term obligations.\n\nDebt Ratio: The debt ratio is a measure of a company\u2019s financial leverage. It is calculated by dividing a company\u2019s total liabilities by its total assets. A higher debt ratio indicates that a company is more heavily leveraged and is more likely to be at risk of defaulting on its debt."
-                ]
-            },
-            "3": {
-                "question": [
-                    "Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."
-                ],
-                "marks": [
-                    10
-                ],
-                "answer": [
-                    "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD)\n\nYear 3: Dn = (1820000/15) x 3 = 181333.33; Bn = 1820000 - 181333.33 = 1638666.67\n\nYear 7: Dn = (1820000/15) x 7 = 1226666.67; Bn = 1820000 - 1226666.67 = 593333.33\n\nYear 10: Dn = (1820000/15) x 10 = 1220000; Bn = 1820000 - 1220000 = 600000\n\niv. If you are a private investor which method do you choose and explain why.\n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method. This method allows for a higher depreciation charge in the early years of the asset's life, which can be beneficial for tax purposes. Additionally, this method is simpler to calculate and understand than the other methods."
-                ]
-            },
-            "5": {
-                "question": [
-                    "How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."
-                ],
-                "marks": [
-                    8
-                ],
-                "answer": [
-                    "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.1/12)^24 + 300000/(1+0.1/12)^60 + 500000/(1+0.1/12)^84\n\nPV = NRs. 845,945.45\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs. 845,945.45."
-                ]
-            }
-        }
-    },
-    {
-        "university": "Tribhuwan University",
-        "Institute": "Institute of Engineering",
-        "subject": "Engineering Economics",
-        "date_year": "2079",
-        "date_month": "Bhadra",
-        "Level": "BE",
-        "Exam": "Regular",
-        "programme": "BME, BAM",
-        "year": "IV",
-        "part": "I",
-        "full marks": "80",
-        "pass marks": "32",
-        "time": "3 hours",
-        "questions": {
-            "1": {
-                "question": [
-                    "List out and define the types of engineering cconomic decisions.",
-                    "Explain the following terms with proper diagram: Average Fixed Unit Cost, Averag Variable Unit Cost, Average Total Unit Cost and Marginal Cost."
-                ],
-                "marks": [
-                    4,
-                    4
-                ],
-                "answer": [
-                    "\n\n1. Investment Decisions: These decisions involve the allocation of resources to projects or activities that are expected to generate future returns.\n\n2. Production Decisions: These decisions involve the selection of the most efficient production methods and techniques to produce a given product or service.\n\n3. Pricing Decisions: These decisions involve setting prices for products and services in order to maximize profits.\n\n4. Cost Control Decisions: These decisions involve minimizing costs while still producing a quality product or service.\n\n5. Risk Management Decisions: These decisions involve assessing and managing risks associated with investments, production, pricing, and cost control decisions.\n\n6. Financing Decisions: These decisions involve selecting the most appropriate sources of financing for a given project or activity.",
-                    "\n\nAverage Fixed Unit Cost: Average fixed unit cost is the total fixed costs divided by the number of units produced. It is a measure of the average cost of producing each unit and does not change with the number of units produced. It is represented by a straight line on a graph.\n\nAverag Variable Unit Cost: Average variable unit cost is the total variable costs divided by the number of units produced. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nAverage Total Unit Cost: Average total unit cost is the sum of average fixed unit cost and average variable unit cost. It is a measure of the average cost of producing each unit and changes with the number of units produced. It is represented by a curved line on a graph.\n\nMarginal Cost: Marginal cost is the additional cost incurred for producing one additional unit. It is represented by a straight line on a graph and is equal to the change in total cost divided by the change in quantity."
-                ]
-            },
-            "2": {
-                "question": [
-                    "Why do business firm use ratio analysis? Explain the following terms: Retum in Equity, Asset turn over, Current Ratio and Debt Ratio."
-                ],
-                "marks": [
-                    6
-                ],
-                "answer": [
-                    "\n\nRatio analysis is a tool used by businesses to evaluate their financial performance. It involves comparing different financial ratios to assess the company\u2019s liquidity, profitability, and solvency. Ratios can also be used to compare a company\u2019s performance to that of its competitors or industry averages.\n\nReturn on Equity (ROE): ROE is a measure of how well a company is using its shareholders\u2019 equity to generate profits. It is calculated by dividing net income by total shareholders\u2019 equity. A higher ROE indicates that the company is more efficient at generating profits from its equity.\n\nAsset Turnover: Asset turnover is a measure of how efficiently a company is using its assets to generate sales. It is calculated by dividing total sales by total assets. A higher asset turnover indicates that the company is more efficient at generating sales from its assets.\n\nCurrent Ratio: The current ratio is a measure of a company\u2019s short-term liquidity. It is calculated by dividing current assets by current liabilities. A higher current ratio indicates that the company has more liquid assets than liabilities and is better able to meet its short-term obligations.\n\nDebt Ratio: The debt ratio is a measure of a company\u2019s financial leverage. It is calculated by dividing total liabilities by total assets. A higher debt ratio indicates that the company has more debt than assets and is more leveraged."
-                ]
-            },
-            "3": {
-                "question": [
-                    "Equipment for steam generator of diary factory hes an installed value of NRs 1820000 with an estimated trade in value of NRs 400000 after 15 years. Determine the depreciation charge (Dn) and the book velue (Bn) for years 3,7 and 10 using following book depreciation methods: i. Single Declining Balance (SDB) book depreciation ii. Double Decline Balance(DDB) book depreciation iii. Sum of year Depriciation Method (SOYD)  iv. If you are a private investor which method do you choose and explain why."
-                ],
-                "marks": [
-                    10
-                ],
-                "answer": [
-                    "\n\ni. Single Declining Balance (SDB) book depreciation\n\nYear 3: Dn = 0.2 x 1820000 = 364000; Bn = 1820000 - 364000 = 1456000\n\nYear 7: Dn = 0.2 x 1456000 = 291200; Bn = 1456000 - 291200 = 1164800\n\nYear 10: Dn = 0.2 x 1164800 = 232960; Bn = 1164800 - 232960 = 931840\n\nii. Double Decline Balance(DDB) book depreciation\n\nYear 3: Dn = 0.4 x 1820000 = 728000; Bn = 1820000 - 728000 = 1092000\n\nYear 7: Dn = 0.4 x 1092000 = 436800; Bn = 1092000 - 436800 = 655200\n\nYear 10: Dn = 0.4 x 655200 = 262080; Bn = 655200 - 262080 = 393120\n\niii. Sum of year Depriciation Method (SOYD) \n\nYear 3: Dn = (1/15) x 1820000 = 121333.33; Bn = 1820000 - 121333.33= 1698666.67 \n\nYear 7: Dn = (7/15) x 1820000= 728000; Bn= 1820000 - 728000= 1092000 \n\nYear 10: Dn= (10/15) x 1820000= 1213333.33; Bn= 1820000- 1213333.33= 598666.67 \n\niv. If you are a private investor which method do you choose and explain why? \n\nAs a private investor, I would choose the Single Declining Balance (SDB) book depreciation method because it allows for a higher rate of depreciation in the early years of the asset's life, which can help to reduce taxes in the short term and maximize returns on investment in the long term."
-                ]
-            },
-            "5": {
-                "question": [
-                    "How much invested now at an interest rate of 10% compounded monthly would be just sufficient to provide three payments as follows: the first payment in the amount of NRs 100000 occurring two years from now, the second payment in the amount of Nrs.300000 five years thereafter and the third payment in the amount Rs. 500000 seven years thereafter."
-                ],
-                "marks": [
-                    8
-                ],
-                "answer": [
-                    "\n\nThe present value of the three payments is:\n\nPV = 100000/(1+0.10/12)^24 + 300000/(1+0.10/12)^60 + 500000/(1+0.10/12)^84\n\nPV = NRs. 619,845.87\n\nTherefore, the amount that needs to be invested now at an interest rate of 10% compounded monthly to provide the three payments is NRs. 619,845.87."
                 ]
             }
         }
@@ -3403,7 +3346,7 @@
                     6
                 ],
                 "answer": [
-                    "\n\nA D flip-flop is a sequential logic circuit that is widely used in digital electronics. It is a type of flip-flop that can store a single bit of digital information, which is represented by its output state. The D flip-flop has a single input (D), a clock input (CLK), and two outputs (Q and Q'). The output Q represents the current state of the flip-flop, while the output Q' represents the complement of Q.\n\nHere is the operation of D flip-flop with necessary diagrams and truth tables:\n\nD flip-flop circuit diagram:\n\nlua\nCopy code\n +-----+\nD ---| |--- Q\n| D |\nCLK ---| |\n| FF |\nQ' ---| |\n+-----+\n```\n\nTruth Table:\n\ndiff\nCopy code\n+-----+-----+-----+\n| CLK |  D  | Q   |\n+-----+-----+-----+\n|  0  |  X  | Q(t)|\n|  1  |  0  |  0  |\n|  1  |  1  |  1  |\n+-----+-----+-----+\nWhere X denotes "don't care", and Q(t) denotes the current state of the flip-flop.\n\nExcitation table:\n\ncss\nCopy code\n+-----+-----+-----+-----+\n| CLK |  D  | Q(t)|Q(t+1)|\n+-----+-----+-----+-----+\n|  0  |  X  | Q(t)| Q(t)|\n|  1  |  0  |  0  |  0  |\n|  1  |  0  |  1  |  0  |\n|  1  |  1  |  0  |  1  |\n|  1  |  1  |  1  |  1  |\n+-----+-----+-----+-----+\nThe excitation table shows the input and output states of the D flip-flop. The first row represents the case where the clock input is 0, and the output states remain the same as the current state Q(t). The other rows represent the cases where the clock input is 1, and in those cases, the next output state Q(t+1) is determined by the input data D.\n\nFor example, if the current state Q(t) is 0, and the input data D is 1, then the next output state Q(t+1) will be 1. Similarly, if the current state Q(t) is 1, and the input data D is 0, then the next output state Q(t+1) will be 0. If the current state Q(t) and the input data D are both 1, then the next output state Q(t+1) will be 1, and so on.\n\nOverall, the D flip-flop is a simple and useful digital circuit that can store a single bit of information and transfer it to the next stage at each clock cycle. It finds its applications in many digital systems such as microprocessors, memory units, and communication systems."
+                    "\n\nA D flip-flop is a sequential logic circuit that is widely used in digital electronics. It is a type of flip-flop that can store a single bit of digital information, which is represented by its output state. The D flip-flop has a single input (D), a clock input (CLK), and two outputs (Q and Q'). The output Q represents the current state of the flip-flop, while the output Q' represents the complement of Q.\n\nHere is the operation of D flip-flop with necessary diagrams and truth tables:\n\nD flip-flop circuit diagram:\n\nlua\nCopy code\n +-----+\nD ---| |--- Q\n| D |\nCLK ---| |\n| FF |\nQ' ---| |\n+-----+\n```\n\nTruth Table:\n\ndiff\nCopy code\n+-----+-----+-----+\n| CLK |  D  | Q   |\n+-----+-----+-----+\n|  0  |  X  | Q(t)|\n|  1  |  0  |  0  |\n|  1  |  1  |  1  |\n+-----+-----+-----+\nWhere X denotes \"don't care\", and Q(t) denotes the current state of the flip-flop.\n\nExcitation table:\n\ncss\nCopy code\n+-----+-----+-----+-----+\n| CLK |  D  | Q(t)|Q(t+1)|\n+-----+-----+-----+-----+\n|  0  |  X  | Q(t)| Q(t)|\n|  1  |  0  |  0  |  0  |\n|  1  |  0  |  1  |  0  |\n|  1  |  1  |  0  |  1  |\n|  1  |  1  |  1  |  1  |\n+-----+-----+-----+-----+\nThe excitation table shows the input and output states of the D flip-flop. The first row represents the case where the clock input is 0, and the output states remain the same as the current state Q(t). The other rows represent the cases where the clock input is 1, and in those cases, the next output state Q(t+1) is determined by the input data D.\n\nFor example, if the current state Q(t) is 0, and the input data D is 1, then the next output state Q(t+1) will be 1. Similarly, if the current state Q(t) is 1, and the input data D is 0, then the next output state Q(t+1) will be 0. If the current state Q(t) and the input data D are both 1, then the next output state Q(t+1) will be 1, and so on.\n\nOverall, the D flip-flop is a simple and useful digital circuit that can store a single bit of information and transfer it to the next stage at each clock cycle. It finds its applications in many digital systems such as microprocessors, memory units, and communication systems."
                 ]
             },
             "8": {
@@ -3414,7 +3357,7 @@
                     6
                 ],
                 "answer": [
-                    "\n\nA serial-in, parallel-out shift register is a digital circuit that converts data from serial format to parallel format. It has four inputs, D0, D1, D2, and D3, and four outputs, Q0, Q1, Q2, and Q3. The circuit diagram for a 4-bit serial-in, parallel-out shift register is shown below. The timing diagram for the 4-bit serial-in, parallel-out shift register is shown below. The timing diagram shows the input and output waveforms for the 4-bit serial-in, parallel-out shift register.",
+                    "\n\n[4-bit SIPO](https://www.allaboutcircuits.com/textbook/digital/chpt-12/serial-in-parallel-out-shift-register/)\n\n A serial-in, parallel-out shift register is a digital circuit that converts data from serial format to parallel format. It has four inputs, D0, D1, D2, and D3, and four outputs, Q0, Q1, Q2, and Q3. The circuit diagram for a 4-bit serial-in, parallel-out shift register is shown below. The timing diagram for the 4-bit serial-in, parallel-out shift register is shown below. The timing diagram shows the input and output waveforms for the 4-bit serial-in, parallel-out shift register.",
                     "\n\n![alt text](https://i.imgur.com/2q3vU6V.png)"
                 ]
             },
@@ -3429,7 +3372,7 @@
                 ],
                 "answer": [
                     "\n\nSynchronous counters are digital counters that count in a predetermined sequence based on clock pulses. They are used to count events in a predictable manner and are usually implemented using flip-flops.\n\nAsynchronous counters are digital counters that count in an unpredictable sequence based on input signals. They are used to count events in an unpredictable manner and are usually implemented using logic gates.",
-                    "\n\nThe mod-6 synchronous counter can be designed using two JK flip flops. The first flip flop will be used to count from 0 to 5 and the second flip flop will be used to reset the counter back to 0 after it reaches 5. \n\nThe circuit diagram for the mod-6 synchronous counter is shown below: \n\n![Mod-6 Synchronous Counter](https://i.imgur.com/zU3vVhT.png)"
+                    "\n\n https://www.ques10.com/p/edit/6674/ \n\nThe mod-6 synchronous counter can be designed using two JK flip flops. The first flip flop will be used to count from 0 to 5 and the second flip flop will be used to reset the counter back to 0 after it reaches 5. \n\nThe circuit diagram for the mod-6 synchronous counter is shown below: \n\n![Mod-6 Synchronous Counter](https://i.imgur.com/zU3vVhT.png)"
                 ]
             },
             "10": {
@@ -3633,6 +3576,103 @@
                 ],
                 "answer": [
                     "\n\nBlock Diagram:\n\nInput Signal \u2192 Frequency Divider \u2192 Counter \u2192 Display\n\nOperation:\n\nThe frequency counter works by taking an input signal and dividing it down to a lower frequency. This is done using a frequency divider, which takes the input signal and divides it by a certain number. The output of the frequency divider is then fed into a counter, which counts the number of pulses in a given time period. The count is then displayed on a display device, such as an LCD or LED display. The frequency of the input signal can then be determined by multiplying the count by the divisor used in the frequency divider."
+                ]
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Engineering Economics",
+        "date_year": "2079",
+        "date_month": "Bhadra",
+        "Level": "BE",
+        "Exam": "Back",
+        "programme": "BEl, BEX, BEL, BCT, BGE",
+        "year": "III",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "\"Engineers make good decision makers.\"Justify this statement."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+                ]
+            },
+            "2": {
+                "question": [
+                    "The equivalent linear growth rupees to make economic equivalence for present deposit of Rs. 38,281.23 against withdrawals at the end of one year. Withdrawls at the end of two months each(6 number of linearly increased withdrawals in total)  with base amount Rs. 5000 at first (end of second month) with 12% interest rate compounding quarterly."
+                ],
+                "marks": [
+                    
+                ],
+                "answer": [
+                ]
+            },
+            "3": {
+                "question": [
+                    "Explain the drawbacks of IRR with examples."," Differentiate between financial analysis and economic analysis.", "If a machine will be operated according to varying hours. 1200 hrs in the first year, 2100 hrs in the second year, 1300 hrs in the third year and 1500 hrs in the fourth year. Compute the annual equivalent saving or cost per machine hour, if the MARR is 13% with annual worth of Rs. 7500."
+                ],
+                "marks": [
+                    3,3,5
+                ],
+                "answer": [
+                ]
+            },
+            "4": {
+                "question": [
+                    "Calculate imputed  market value (IMV) for study period 4 years if initial investment is Rs. 10,000 and market value after 8 years is Rs. 200. Take MARR=10%.",
+                    "Prepare all possible mutual exclusive combinations for the following properties of projects: !, B,C, D and E: \n * Project A and B are mutually exclusive \n * Project C and D are mutually exclusive and contingent on acceptance of Project A \n * Project E is contingent an acceptance of Project D."
+                ],
+                "marks": [
+                    4
+                ],
+                "answer": [
+                ]
+            },
+            "5": {
+                "question": [
+                    "A company is considering the replacemient of old machine. If the machine is repaired, it can be used for 5 more years. It can be sold to the other firm in Rs. 5000. If the machine is kept it will require an immediate overhaul (renovation) of Rs. 1200 to make it operable condition. Overhaul charge is not extended for service life. The operation cost is estimated at Rs. 2000 during first year and these are expected to inercase by Rs. 1500 per year thereafter. Further market values are expected to decline by Rs. 1000 per year. The new machine cost 10,000 and will have operating costs of Rs. 2000 in the first increasing Rs 800 per year thereafter. Salvage Value is Rs. 6000 after one year and will decline by 15% each year. The company requires a rate of return of 15%. Determine economic life of each option and when the defender should be replaced."
+                ],
+                "marks": [
+                    12
+                ],
+                "answer": [
+                ]
+            },
+            "6": {
+                "question": [
+                    "Perform Semsitivity Analysis of the following project over a range of +/-15% with an inerement of 5% in: i. Initial Investment, \n ii.Net annual revenue, \n iii. Useful life, \n iv. MARR. \n Use AW  formulation. Also draw sensitivity graph and find the order of sensitivity from high to low. \n Initial investment=Rs.500,000 \n Net annual revenue = Rs. 120,000 \n Salvage value = Rs.80,000 \n Useful Life = 6 years \n  MARR=8%","Explain with how the project risk is determined using Seenario Analysis."
+                ],
+                "marks": [
+                    8,4
+                ],
+                "answer": [
+                ]
+            },
+            "7": {
+                "question": [
+                    "Differentiate between tax depreciation and book depreciation.", "Why recovery period called as depreciable life?", "For I=10,000 , \n N = 5 years, \n SV=2,000.  Calculate depreciation amount and resultant book value using SOYD method.", " If an organization has annual revenue generation of Rs. 18,000 and operation and maintenance cost is about Rs. 9000 annyally. If cost basis of 5 years project is Rs. 80,000 then determine afier tax cash flow (use sinking fund method of depreciation) use tax rate = 38%"
+                ],
+                "marks": [
+                    2,2,2,6
+                ],
+                "answer": [
+                ]
+            },
+            "8": {
+                "question": [
+                ],
+                "marks": [
+                    
+                ],
+                "answer": [
                 ]
             }
         }
