@@ -42,7 +42,7 @@
 		a:hover {
 			text-decoration: underline;
 		}
-	</style>
+		</style>
 </head>
 <body>
 	<header>
@@ -69,7 +69,8 @@
 
 
         {% for question_paper in qna %}
-        <h2 class="question_paper_title">{{ question_paper['subject'] }} - {{ question_paper['date_year'] }} - {{ question_paper['Exam'] }} {{ question_paper['date_month'] }} ({{ question_paper['Level'] }} {{ question_paper['programme'] }} Year {{ question_paper['year'] }} Part {{ question_paper['part'] }})</h2>
+        <h2 class="question_paper_title"><center>{{ question_paper['subject'] }} - {{ question_paper['date_year'] }} - 
+			{{ question_paper['Exam'] }} <br> {{ question_paper['date_month'] }} ({{ question_paper['Level'] }} {{ question_paper['programme'] }} Year {{ question_paper['year'] }} Part {{ question_paper['part'] }})</center></center></h2>
         <ul>
             {% for question_number, each_question in question_paper['questions'].items() %}
                 {% for i in range(each_question['num_parts']) %}
