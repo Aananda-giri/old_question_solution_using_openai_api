@@ -1322,7 +1322,7 @@
         "Institute": "Institute of Engineering",
         "subject": "Engineering Economics",
         "date_year": "2076",
-        "date_month": "Baisakh",
+        "date_month": "Baishakh",
         "Level": "BE",
         "Exam": "Back",
         "programme": "BEI, BEX",
@@ -1899,7 +1899,7 @@
         "Institute": "Institute of Engineering",
         "subject": "Engineering Economics",
         "date_year": "2075",
-        "date_month": "Baisakh",
+        "date_month": "Baishakh",
         "Level": "BE",
         "Exam": "Back",
         "programme": "BME, BAM",
@@ -4741,4 +4741,910 @@
             }
         }
     }
+    ,{
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2079",
+        "date_month": "Bhadra",
+        "Level": "BE",
+        "Exam": "Regular",
+        "programme": "BEI",
+        "year": "IV",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "What is turing test?",
+                    "How can it be used to measure intelligence of machine? Explain."
+                    
+                ],
+                "marks": [
+                    2,5
+                ],
+                "answer": [
+                    "The Turing test, proposed by the British mathematician and computer scientist Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. It is a benchmark for evaluating the machine's capability to exhibit human-like intelligence.",
+                    "The basic premise of the Turing test involves a human evaluator who engages in natural language conversations with both a machine and another human. The evaluator is not aware of which entity is human and which is the machine. If the machine is capable of generating responses that are indistinguishable from those of a human, it is considered to have passed the Turing test.\n\nThe test is typically conducted through a computer interface, such as a chat program, where the evaluator can communicate with both the machine and the human through text-based exchanges. The machine's goal is to convince the evaluator that it is a human by generating responses that are coherent, contextually relevant, and demonstrate understanding.\n\nTo measure the intelligence of a machine using the Turing test, the evaluator assesses various aspects of its responses, including the machine's ability to understand and interpret the questions, generate appropriate and meaningful answers, exhibit contextual understanding, display knowledge on a wide range of topics, and engage in convincing and coherent conversations.\n\nIf the machine successfully convinces the evaluator that it is human, then it can be argued that the machine possesses intelligence comparable to that of a human, at least in terms of its conversational ability. However, it's important to note that passing the Turing test does not necessarily mean that the machine possesses true human-like intelligence in all aspects.\n\nThe Turing test serves as a significant milestone in the field of artificial intelligence (AI) research and provides a practical framework for evaluating the progress and capabilities of AI systems. While passing the Turing test remains a highly challenging task, it represents an important step towards the development of more sophisticated and intelligent machines."
+                ]
+            },
+            "2": {
+                "question": [
+                    "What are the steps for problem solving?",
+                    "Assume you are given three empty jugs; a 3-gallon, a 5-gallon and a 9-gallon, and a pump that can fill water only in 3-gallon jug. How you get exactly 7 gallons of water in the 9-gallon jug? Formalize the problem, write production rules and draw search tree to solve this water jug problem"
+                    
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "To formalize the problem of getting exactly 7 gallons of water in the 9-gallon jug using the given set of three jugs (3-gallon, 5-gallon, and 9-gallon) and the pump that can only fill the 3-gallon jug, we can define the following elements:\n\nState:\n- The state represents the configuration of water in the jugs at any given moment. It can be represented as (x, y, z), where x, y, and z represent the amount of water in the 3-gallon, 5-gallon, and 9-gallon jugs, respectively.\n\nInitial State:\n- The initial state is (0, 0, 0), representing that all three jugs are initially empty.\n\nGoal State:\n- The goal state is (a, b, 7), where a and b can be any values representing the amount of water in the 3-gallon and 5-gallon jugs, respectively, as long as the 9-gallon jug contains exactly 7 gallons of water.\n\nOperators/Actions:\n1. Fill 3-gallon jug: Fills the 3-gallon jug to its maximum capacity from the water source.\n2. Fill 5-gallon jug: Fills the 5-gallon jug to its maximum capacity from the water source.\n3. Empty 3-gallon jug: Empties the water from the 3-gallon jug.\n4. Empty 5-gallon jug: Empties the water from the 5-gallon jug.\n5. Pour water from 3-gallon jug to 5-gallon jug: Fills the 5-gallon jug using the water in the 3-gallon jug until either the 5-gallon jug is full or the 3-gallon jug is empty.\n6. Pour water from 5-gallon jug to 3-gallon jug: Fills the 3-gallon jug using the water in the 5-gallon jug until either the 3-gallon jug is full or the 5-gallon jug is empty.\n\nProduction Rules (Assuming all actions are reversible):\n1. Fill 3-gallon jug:\n   - IF 3-gallon jug is not full, THEN fill it.\n2. Fill 5-gallon jug:\n   - IF 5-gallon jug is not full, THEN fill it.\n3. Empty 3-gallon jug:\n   - IF 3-gallon jug is not empty, THEN empty it.\n4. Empty 5-gallon jug:\n   - IF 5-gallon jug is not empty, THEN empty it.\n5. Pour water from 3-gallon jug to 5-gallon jug:\n   - IF 3-gallon jug is not empty and 5-gallon jug is not full, THEN pour water from 3-gallon jug to 5-gallon jug.\n6. Pour water from 5-gallon jug to 3-gallon jug:\n   - IF 5-gallon jug is not empty and 3-gallon jug is not full, THEN pour water from 5-gallon jug to 3-gallon jug.\n\nSearch Tree (Partial representation):\n```\n               (0, 0, 0)\n                /   |   \\n               /    |    \\n              /     |     \\n    (3, 0, 0) (0, 5, 0) (0, 0, 9)\n              |       |\n              |       |\n              |       |\n       (3, 5, 0)   (0, 5, 9)\n          / /         | \n         /   /        |\n        /     /       |\n(0, 5,",
+                    "The basic skills and functions required for management can vary depending on the level and type of management role. However, some common skills and functions that are essential for effective management include:\n\n1. Planning: The ability to set goals, establish strategies, and create action plans to achieve desired outcomes. Planning involves analyzing the current situation, forecasting future trends, and making decisions about resource allocation.\n\n2. Organizing: The skill of structuring and arranging resources, tasks, and people in an efficient and effective manner. This includes establishing roles and responsibilities, coordinating activities, and creating systems and processes to facilitate smooth workflow.\n\n3. Leading: The capability to inspire, motivate, and guide individuals or teams towards achieving organizational goals. Leadership involves setting a vision, communicating expectations, fostering teamwork, and providing guidance and support to employees.\n\n4. Decision Making: The capacity to analyze information, evaluate options, and make sound decisions. Managers need to gather relevant data, consider alternatives, assess risks, and choose the best course of action to solve problems or seize opportunities.\n\n5. Communication: The skill to convey information, ideas, and expectations clearly and effectively to individuals or groups. Effective communication involves listening, speaking, writing, and using various communication channels to ensure understanding and alignment.\n\n6. Problem Solving: The ability to identify and analyze problems, develop creative solutions, and implement effective resolutions. Problem-solving skills involve critical thinking, creativity, and the capacity to evaluate options and make informed decisions.\n\n7. Delegation: The competence to assign tasks and responsibilities to others based on their skills and abilities. Delegation involves empowering employees, providing clear instructions, monitoring progress, and providing support when needed.\n\n8. Time Management: The skill to prioritize tasks, allocate time effectively, and meet deadlines. Time management involves setting goals, planning activities, managing interruptions, and balancing competing priorities.\n\n9. Team Building: The capacity to build and develop a cohesive and high-performing team. Team building involves fostering collaboration, resolving conflicts, providing feedback, and recognizing and leveraging individual strengths.\n\n10. Monitoring and Control: The function of monitoring progress, tracking performance, and taking corrective actions as needed. Managers need to establish performance metrics, measure results, provide feedback, and ensure that work is aligned with organizational objectives.\n\nThese skills and functions are interrelated and contribute to effective management in different contexts and industries. Successful managers continually develop and refine these skills to adapt to changing organizational needs and to achieve positive outcomes for their teams and the organization as a whole."
+                ]
+            },
+            "3": {
+                "question": [
+                    "Differentiate between Depth first search and Breadth first search with their performance criteria."
+                    
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "Joint stock organizations, also known as corporations or companies, offer several advantages over partnership organizations. Some of the key advantages are:\n\n1. Limited Liability: One significant advantage of joint stock organizations is limited liability for shareholders. In a partnership, each partner has unlimited liability, which means they are personally responsible for the debts and obligations of the business. In a joint stock organization, shareholders' liability is limited to the amount they have invested in the company. This protects their personal assets and reduces the risk associated with business ventures.\n\n2. Continuity and Perpetual Existence: Joint stock organizations have perpetual existence, meaning they can continue to exist even if shareholders or directors change. The death, retirement, or withdrawal of a shareholder does not impact the existence of the company. Partnerships, on the other hand, dissolve or undergo significant changes in ownership and structure when a partner exits or passes away.\n\n3. Ease of Transferability of Ownership: Shares in joint stock organizations can be easily bought, sold, or transferred. This provides shareholders with liquidity and the ability to exit or divest their investment easily. In a partnership, ownership transfer is often more complex and requires the consent and agreement of all partners.\n\n4. Access to Capital: Joint stock organizations have the advantage of being able to raise capital by issuing shares to investors. This allows them to raise large amounts of funds from a wide range of investors, including individuals, institutions, and even the general public through initial public offerings (IPOs). Partnerships, on the other hand, rely on the personal funds of the partners and may have limitations in accessing significant capital.\n\n5. Professional Management: Joint stock organizations can attract professional managers and executives to run the company. This is because the structure of a corporation provides a clear framework for managerial roles and responsibilities, offering greater stability and professional growth opportunities. Partnerships often rely on the expertise and management capabilities of the partners themselves.\n\n6. Diversification of Risk: Joint stock organizations allow shareholders to diversify their investment risks by owning shares in multiple companies. They can spread their investments across different industries, sectors, and geographies, reducing the impact of any single company's performance. In a partnership, partners often have all their investment tied to a single business, resulting in higher risk concentration.\n\nIt is important to note that the choice between a joint stock organization and a partnership depends on various factors such as the nature of the business, the number of owners, the desired level of control and flexibility, and the availability of capital. Consulting with legal and financial professionals can help determine the most suitable structure for a specific business venture.",
+                    "Line organization is a traditional organizational structure that follows a simple and straightforward chain of command. Here are the key features of a line organization:\n\n1. Clear Line of Authority: In a line organization, there is a clear and direct line of authority that flows vertically from top management to lower-level employees. This means that each employee reports to a single supervisor, and authority is delegated downwards through the hierarchy.\n\n2. Unity of Command: The principle of unity of command is followed in line organizations, which means that each employee receives orders and instructions from only one supervisor. This helps in maintaining clarity, accountability, and avoiding conflicts arising from multiple sources of authority.\n\n3. Vertical Structure: Line organizations typically have a hierarchical structure with multiple levels of management. Each level has a specific set of responsibilities and authority, and communication primarily flows vertically up and down the chain of command.\n\n4. Specialization and Division of Labor: Line organizations often rely on functional specialization and division of labor. Employees are assigned specific roles and tasks based on their areas of expertise, and they are expected to perform their specialized functions within the organization.\n\n5. Direct Flow of Communication: Communication in line organizations follows a direct and formal path. Information and instructions flow from the top management to lower-level employees, and feedback and reports flow upwards through the chain of command.\n\n6. Quick Decision-Making: Line organizations promote quick decision-making since there are fewer levels of management involved. Decisions can be made promptly as they do not need to go through extensive consultations or consensus-building processes.\n\n7. Centralized Authority: Line organizations generally have a centralized authority structure, where decision-making and control rest with the top management or a single individual. This centralized authority ensures uniformity and consistency in decision-making throughout the organization.\n\n8. Clear Line of Responsibility: In line organizations, there is a clear line of responsibility for each position and role. Employees are accountable for their assigned tasks and outcomes, and they are aware of their responsibilities within the organization.\n\nWhile line organizations have certain advantages like clear authority and quick decision-making, they can sometimes result in limited flexibility, slow communication, and lack of cross-functional collaboration. Different organizations may adopt variations of the line organization structure based on their specific needs and industry requirements."
+                ]
+            },
+            "4": {
+                "question": [
+                    "Prove charlie is a mammal with given propositions: a) Cows, Pigs and horses are mammal. b) The child of horse is horse. c) Bluebeard is a horse. d) Bluebeard is charlie's father. d) Child and father are inverse relation. e) Every mammal has a father."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    "To prove that Charlie is a mammal based on the given propositions, we can use deductive reasoning:\n\n1. Cows, pigs, and horses are mammals. (Given)\n2. Bluebeard is a horse. (Given)\n3. The child of a horse is a horse. (Given)\n4. Bluebeard is Charlie's father. (Given)\n5. Child and father are inverse relations. (Given)\n6. Every mammal has a father. (Given)\n\nBased on these propositions, we can derive the following conclusions:\n\nFrom propositions 2 and 3, we can conclude that Bluebeard's child is a horse.\n\nFrom proposition 5, since child and father are inverse relations, we can conclude that if Bluebeard is Charlie's father, then Charlie is Bluebeard's child.\n\nFrom proposition 6, we can conclude that if Charlie is a mammal (based on being Bluebeard's child), then Charlie must have a father.\n\nCombining these conclusions, we can infer that:\n- Bluebeard's child is a horse.\n- Bluebeard is Charlie's father.\n- If Charlie is Bluebeard's child, then Charlie has a father.\n\nSince proposition 1 states that cows, pigs, and horses are mammals, and Charlie is Bluebeard's child (a horse), we can conclude that Charlie is indeed a mammal.\n\nTherefore, based on the given propositions, we can prove that Charlie is a mammal."
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "Differentiate between forward chaining and backward chaning with suitable example."
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    ""
+                ]
+            },
+            "6": {
+                "question": [
+                    "List the issues needed to be considered in knowledge representation techniques.",
+                    "Convert given sentences into semantic network: a) Tom is a cat. b) Tom fights with rat. c) Tom is owned by Ram. d) Tom is black in color e) Cat like milk f) Rats like cheese g) The cat sat on the bed h) A cat is mammal i) Rat is a animal j) All mammals are animals k) Every mammal gives birth a baby."
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    }
+    ,{
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2078",
+        "date_month": "Baishakh",
+        "Level": "BCT",
+        "Exam": "Back",
+        "programme": "BEI",
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "List down the disadvantages of AI.",
+                    "What is the importance of turin test in artificial intelligence?",
+                    "What are the applications of AI?Explain."
+                    
+                ],
+                "marks": [
+                    2,5
+                ],
+                "answer": [
+                    "The Turing test, proposed by the British mathematician and computer scientist Alan Turing in 1950, is a test of a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. It is a benchmark for evaluating the machine's capability to exhibit human-like intelligence.",
+                    "The basic premise of the Turing test involves a human evaluator who engages in natural language conversations with both a machine and another human. The evaluator is not aware of which entity is human and which is the machine. If the machine is capable of generating responses that are indistinguishable from those of a human, it is considered to have passed the Turing test.\n\nThe test is typically conducted through a computer interface, such as a chat program, where the evaluator can communicate with both the machine and the human through text-based exchanges. The machine's goal is to convince the evaluator that it is a human by generating responses that are coherent, contextually relevant, and demonstrate understanding.\n\nTo measure the intelligence of a machine using the Turing test, the evaluator assesses various aspects of its responses, including the machine's ability to understand and interpret the questions, generate appropriate and meaningful answers, exhibit contextual understanding, display knowledge on a wide range of topics, and engage in convincing and coherent conversations.\n\nIf the machine successfully convinces the evaluator that it is human, then it can be argued that the machine possesses intelligence comparable to that of a human, at least in terms of its conversational ability. However, it's important to note that passing the Turing test does not necessarily mean that the machine possesses true human-like intelligence in all aspects.\n\nThe Turing test serves as a significant milestone in the field of artificial intelligence (AI) research and provides a practical framework for evaluating the progress and capabilities of AI systems. While passing the Turing test remains a highly challenging task, it represents an important step towards the development of more sophisticated and intelligent machines."
+                ]
+            },
+            "2": {
+                "question": [
+                    "What do you understand by constraint satisfaction problem?",
+                    "Solve the crypt-arithmetic problem: TEN + TEN + FORTY = SIXTY"
+                    
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "3": {
+                "question": [
+                    "Explain A* search method using suitable example.",
+                    "Describe drawbacks of hill-climbing algorithm."
+                    
+                ],
+                "marks": [
+                    6,2
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "4": {
+                "question": [
+                    "Assume following facts: i. Cow, Buffalo, Bull are mammals. ii) An offspring of Cow is Cow c) Kali is a cow d) Kali is Taarey's parent. e) offsprings and parents are inverse relations. f) Every mammal has a parent. By using resolution refutation method, prove the Taarey is a Cow."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    "To prove that Taarey is a cow using the resolution refutation method, let's formalize the given facts and derive a contradiction:\n\n1. Cow, Buffalo, Bull are mammals. (Given)\n   ∀x (Cow(x) ∨ Buffalo(x) ∨ Bull(x) → Mammal(x))\n\n2. An offspring of Cow is a cow. (Given)\n   ∀x (Cow(x) → Offspring(x, Cow))\n\n3. Kali is a cow. (Given)\n   Cow(Kali)\n\n4. Kali is Taarey's parent. (Given)\n   Parent(Kali, Taarey)\n\n5. Offsprings and parents are inverse relations. (Given)\n   ∀x ∀y (Offspring(x, y) ↔ Parent(y, x))\n\n6. Every mammal has a parent. (Given)\n   ∀x (Mammal(x) → ∃y Parent(y, x))\n\nTo prove that Taarey is a cow (Cow(Taarey)), we assume the negation of the conclusion (¬Cow(Taarey)) and derive a contradiction.\n\nAssumption: ¬Cow(Taarey)\n\nUsing resolution refutation, we construct a proof tree by combining the premises and their negations:\n\n1. Cow(Kali) (Premise 3)\n2. Parent(Kali, Taarey) (Premise 4)\n3. Offspring(Taarey, Kali) (From 5 and 2)\n4. Cow(Kali) ∨ Buffalo(Kali) ∨ Bull(Kali) (From 1)\n5. Cow(Kali) ∨ Buffalo(Kali) ∨ Bull(Kali) ∨ Mammal(Taarey) (From 3 and 4)\n6. ∀x (Cow(x) ∨ Buffalo(x) ∨ Bull(x) → Mammal(x)) (Premise 1)\n7. Cow(Taarey) ∨ Buffalo(Taarey) ∨ Bull(Taarey) (From 5 and 6)\n8. ∀x (Cow(x) → Offspring(x, Cow)) (Premise 2)\n9. Offspring(Taarey, Cow) (From 8 and ¬Cow(Taarey))\n10. Cow(Taarey) (From 7 and 9)\n\nA contradiction is reached as we have derived both Cow(Taarey) and ¬Cow(Taarey). Therefore, the assumption (¬Cow(Taarey)) is false, and the original statement (Cow(Taarey)) is true.\n\nHence, using the resolution refutation method, we have proven that Taarey is indeed a cow (Cow(Taarey))."
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "What do you understand by Bayesian network?",
+                    "For the given bayseian network, find the probability of grass being wet when the weather is cloudy, there is some sprinkler but no rain i.e. C=Truem S=True, R=False, and W=True. <fig.>"
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "A Bayesian network, also known as a belief network or probabilistic graphical model, is a graphical representation of probabilistic relationships among a set of variables. It provides a compact and intuitive way to model uncertainty and make probabilistic inferences.\n\nIn a Bayesian network, nodes represent random variables, and directed edges between nodes indicate probabilistic dependencies or causal relationships between the variables. Each node in the network represents a conditional probability distribution that quantifies the relationship between the node and its parents (the nodes that directly influence it).\n\nThe key concept in a Bayesian network is the use of conditional probabilities to model dependencies. By combining these conditional probabilities according to the network structure, we can calculate the joint probability distribution over all variables in the network. This allows us to reason about the probabilities of events and make inferences given observed evidence.\n\nBayesian networks are beneficial in various areas, including:\n\n1. Uncertainty Modeling: Bayesian networks excel in modeling and reasoning under uncertainty. They can handle incomplete or noisy data, missing values, and uncertain or imprecise information.\n\n2. Decision Support: Bayesian networks facilitate decision-making by incorporating probabilities and conditional dependencies. They can analyze various scenarios, assess the impact of different actions, and assist in making optimal decisions.\n\n3. Diagnosis and Prediction: Bayesian networks are widely used in medical diagnosis, fault detection, and predictive modeling. They can combine observed evidence with prior knowledge to estimate the likelihoods of different outcomes and predict future events.\n\n4. Risk Assessment: Bayesian networks help assess risks by considering multiple factors and their dependencies. They enable the identification of critical variables and the evaluation of the impact of changes or interventions.\n\n5. Machine Learning: Bayesian networks can be used as a learning framework. By observing data, they can automatically learn the conditional probabilities and structure of the network, enabling the discovery of hidden dependencies and patterns.\n\nOverall, Bayesian networks provide a powerful framework for modeling uncertainty, reasoning under incomplete information, and making probabilistic inferences. They have applications in various domains, including healthcare, finance, risk analysis, decision support systems, and artificial intelligence.",
+                    ""
+                ]
+            },
+            "6": {
+                "question": [
+                    "List the issues needed to be considered in knowledge representation techniques.",
+                    "Convert given sentences into semantic network: a) Tom is a cat. b) Tom fights with rat. c) Tom is owned by Ram. d) Tom is black in color e) Cat like milk f) Rats like cheese g) The cat sat on the bed h) A cat is mammal i) Rat is a animal j) All mammals are animals k) Every mammal gives birth a baby."
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "When considering knowledge representation techniques in AI, several important issues need to be taken into account. Here are some key considerations:\n\n1. Expressiveness: The chosen knowledge representation technique should be capable of representing a wide range of knowledge, including both factual information and more complex concepts, relationships, and uncertainties. It should support the representation of different types of knowledge domains effectively.\n\n2. Inferential Power: The representation technique should allow for efficient inference and reasoning. It should enable drawing conclusions, making deductions, and performing logical operations on the represented knowledge. The representation should facilitate both deductive and probabilistic reasoning, depending on the requirements of the AI system.\n\n3. Efficiency and Scalability: The representation technique should be efficient in terms of storage and computational complexity. It should be able to handle large knowledge bases and perform reasoning tasks in a timely manner. Scalability becomes crucial when dealing with complex and evolving knowledge domains.\n\n4. Uncertainty and Incomplete Information: Many real-world scenarios involve uncertainty, incomplete information, or conflicting evidence. The chosen representation technique should be able to handle uncertainty and support techniques such as probabilistic reasoning, fuzzy logic, or non-monotonic reasoning to deal with these challenges.\n\n5. Interoperability: AI systems often need to interact and integrate knowledge from multiple sources or domains. The representation technique should be compatible with other systems and standards, enabling interoperability and seamless integration of knowledge from various sources.\n\n6. Ontology and Semantic Interoperability: Knowledge representation should incorporate ontology design principles to ensure clarity, consistency, and shared understanding of concepts and relationships. Semantic interoperability allows for effective communication and integration of knowledge across different AI systems.\n\n7. Expressive Power vs. Understandability: Balancing the expressiveness of the representation technique with the understandability by human users is essential. Representations that are too complex or abstract may hinder human comprehension, while overly simplistic representations may lack the ability to capture nuanced knowledge.\n\n8. Domain-Specific Considerations: Different knowledge domains may have specific requirements and constraints. The representation technique should align with the characteristics of the domain and capture domain-specific knowledge effectively. For instance, some domains may require temporal reasoning, spatial reasoning, or modeling of causality.\n\n9. Maintainability and Extensibility: The knowledge representation technique should be easily maintainable and extensible as new knowledge is acquired or existing knowledge needs to be modified. It should support updates, additions, and revisions without requiring significant rework or disruption.\n\nThese considerations provide a starting point for evaluating knowledge representation techniques in AI. The choice of the most appropriate representation method will depend on the specific requirements, characteristics, and constraints of the AI system and the knowledge domain being addressed.",
+                    "Here is the conversion of the given sentences into a semantic network:\n\n```\n       is-a          is-a\nTom ────► Cat       Mammal ────► Animal\n |                     ▲\n └────────► is-a      │\n          Mammal ◄────┘\n             ▲\n             │\n             └────────► is-a\n           Animal ◄─────┘\n             ▲\n             │\n             └────────► is-a\n            Rat ◄───────┘\n\n   fights-with\nTom ◄────────── Rat\n\n   owned-by\nTom ◄─────── Ram\n\n   is-a           is-a\nCat ◄─────► Mammal\n\n   like            like\nCat ◄─────► Milk     Rat ◄─────► Cheese\n\n   is-color\nTom ◄─────► Black\n\n   sits-on\nCat ◄────── Bed\n\n   gives-birth\nMammal ◄─────► Baby\n```\n\nIn the above semantic network representation:\n- The arrows indicate the \"is-a\" relationship, showing the hierarchy and categorization.\n- The lines represent other relationships such as ownership, fighting, liking, color, sitting, and giving birth.\n- The nodes represent the entities or concepts mentioned in the sentences, such as Tom, Cat, Mammal, Rat, Animal, Milk, Cheese, Ram, Bed, and Baby.\n\nNote that the semantic network captures the relationships and associations between the concepts mentioned in the given sentences. It represents a simplified version of the knowledge, highlighting the connections and dependencies between the entities."
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    },{
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2077",
+        "date_month": "Chaitra",
+        "Level": "BCT",
+        "Exam": "Regular",
+        "programme": "BEI",
+        "year": "III",
+        "part": "II",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Define Artificial Intelligence(AI)",
+                    "When is machine said to have passed the Turing Test?",
+                    "Discuss two fields of application of AI."
+                    
+                ],
+                "marks": [
+                    2,3,3
+                ],
+                "answer": [
+                    "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to perform tasks that typically require human intelligence. It involves developing computer systems and algorithms capable of perceiving, reasoning, learning, and making decisions, allowing them to solve problems, understand natural language, recognize patterns, and interact with their environment in intelligent ways.",
+                    "A machine is said to have passed the Turing Test when it can engage in a conversation with a human evaluator in a manner indistinguishable from that of a human. According to the original formulation by Alan Turing, if a machine can convince a human evaluator that it is a human through text-based conversations, then it can be considered as having passed the Turing Test. In this context, passing the Turing Test implies that the machine exhibits a level of artificial intelligence and conversational ability that is comparable to that of a human.",
+                    "Artificial Intelligence (AI) finds applications in various fields due to its ability to automate tasks, analyze data, and make intelligent decisions. Here are two prominent fields where AI is extensively applied:\n\n1. Healthcare:\nAI has significant potential to transform the healthcare industry, aiding in diagnosis, treatment, and patient care. Some applications include:\n   - Medical Imaging: AI algorithms can analyze medical images, such as X-rays, MRIs, and CT scans, assisting in the detection of diseases like cancer, identifying abnormalities, and providing support to radiologists.\n   - Drug Discovery: AI techniques can help accelerate the process of drug discovery by analyzing vast amounts of biological and chemical data, predicting drug efficacy, identifying potential targets, and generating new drug candidates.\n   - Personalized Medicine: AI enables the analysis of patient data, including medical records, genetic information, and lifestyle factors, to develop personalized treatment plans and predict individual health risks.\n   - Virtual Assistants: AI-powered virtual assistants can provide support to patients by answering questions, scheduling appointments, and providing basic medical advice.\n\n2. Autonomous Vehicles:\nAI plays a crucial role in the development of self-driving or autonomous vehicles, revolutionizing transportation systems. Key applications include:\n   - Perception and Sensing: AI algorithms analyze data from various sensors, such as cameras, lidar, radar, and ultrasonic sensors, to detect objects, identify road signs, interpret traffic situations, and make real-time driving decisions.\n   - Decision-Making: AI enables autonomous vehicles to make complex decisions on navigation, route planning, lane changing, and responding to dynamic traffic conditions, ensuring safe and efficient travel.\n   - Advanced Driver Assistance Systems (ADAS): AI-powered ADAS technologies, like adaptive cruise control, lane departure warning, and automatic emergency braking, enhance vehicle safety and assist human drivers in avoiding accidents.\n   - Predictive Maintenance: AI algorithms can analyze data from vehicle sensors and diagnose potential faults or maintenance needs, enabling proactive maintenance scheduling and reducing vehicle downtime.\n\nThese examples demonstrate how AI is making a significant impact in fields like healthcare and autonomous vehicles, improving efficiency, accuracy, and decision-making processes. However, it's important to note that AI's applications extend far beyond these two fields and are pervasive across many industries, including finance, education, manufacturing, customer service, and more."
+                    
+                ]
+            },
+            "2": {
+                "question": [
+                    "What do you understand by production system problem?",
+                    "Solve the crypt-arithmetic problem: WRONG + WRONG = RIGHT"
+                    
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "\"Production system\" usually refers to a specific type of rule-based system used in artificial intelligence and expert systems. It consists of a set of production rules that guide the behavior or decision-making of a system. These rules typically have an \"if-then\" structure, where specific conditions (if-part) trigger certain actions or conclusions (then-part). Production Rules: These rules define the knowledge and logic of the system. Each rule consists of two parts: the condition (or antecedent) and the action (or consequent). The condition specifies the conditions that must be satisfied for the rule to be triggered, and the action represents the actions to be taken when the rule is fired or activated.\n\nWorking Memory: The working memory, also known as the data or fact base, contains the current state of the system or relevant information. It provides the data that the production rules use to make decisions or perform actions.\n\nControl Strategy: The control strategy determines how the production rules are selected and applied. It specifies the order in which the rules are evaluated and fired, and it determines the overall behavior and decision-making process of the system.",
+                    "To solve the crypt-arithmetic problem \"WRONG + WRONG = RIGHT,\" we need to find the unique digit values for the letters W, R, O, N, G, and I that satisfy the given equation. Here's the step-by-step solution:\n\n1. Start by examining the units (rightmost) column: G + G = T. Since G + G results in a two-digit number, the sum T must be 1G, where G + G = T + 10.\n\n2. This means T = 1 + 2G. To have a carry of 1, the only possible values for T are 1 and 11. However, T cannot be 1 because G is a digit. Therefore, T must be 11, and G = 5.\n\n3. With G = 5, the equation becomes 5 + 5 = 1R1. The only possible value for R that satisfies this is R = 0.\n\n4. Now we have 5 + 5 = 101. This implies that O + O + 1 = 0, which can only happen if O = 4. The carry of 1 is taken into account.\n\n5. The equation becomes 5 + 5 = 101, which is correct so far.\n\nTherefore, the solution to the crypt-arithmetic problem \"WRONG + WRONG = RIGHT\" is W = 1, R = 0, O = 4, N = 6, G = 5, and I = 1."
+                ]
+            },
+            "3": {
+                "question": [
+                    "List out the advantages of mini-max algorithm for game playing.",
+                    "Explain how alpha-beta pruning helps mini-max with algorithm with an example."
+                    
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "The minimax algorithm is a widely used technique in game theory and artificial intelligence for decision-making in games. Here are some advantages of the minimax algorithm for game playing:\n\n1. Optimal Strategy: The minimax algorithm guarantees finding the optimal strategy for a game with perfect information. It explores the entire game tree, considering all possible moves and their outcomes, to determine the best move for the current player.\n\n2. Minimizes Worst-Case Scenario: The minimax algorithm minimizes the maximum possible loss (hence the name \"minimax\") that a player can face. It assumes that the opponent plays optimally, and the algorithm chooses moves that minimize the maximum potential loss in the worst-case scenario.\n\n3. Suitable for Zero-Sum Games: The minimax algorithm is particularly effective for zero-sum games, where the gain of one player corresponds to the loss of the other player. Examples include chess, checkers, and tic-tac-toe. By maximizing the player's utility while considering the opponent's optimal moves, it ensures a competitive strategy.\n\n4. Handles Deterministic Games: The minimax algorithm works well for games with deterministic outcomes, where the state of the game and its possible transitions are fully known. It does not rely on chance or randomness, making it suitable for games like chess or Go.\n\n5. Simple and Intuitive Concept: The concept of the minimax algorithm is straightforward to understand and implement. It involves recursive evaluation of the game tree, with each player maximizing or minimizing their respective utility values.\n\n6. Enables Depth-Limited Search: In games with large or infinite search spaces, it is often impractical to explore the entire game tree. The minimax algorithm can be combined with depth-limited search, where the search is restricted to a certain depth or evaluated using heuristics. This allows for effective decision-making even in complex games.\n\n7. Basis for Advanced Techniques: The minimax algorithm forms the foundation for various advanced game-playing techniques, such as alpha-beta pruning and Monte Carlo tree search (MCTS). These techniques build upon the minimax algorithm to improve efficiency and explore larger game trees.\n\nOverall, the minimax algorithm provides a systematic and strategic approach to game playing, ensuring optimal decision-making and effective gameplay in various types of games.",
+                    "Alpha-beta pruning is a technique used in conjunction with the minimax algorithm to reduce the number of nodes evaluated in the game tree, resulting in a more efficient search. It cuts off unnecessary branches of the tree that do not contribute to the final decision, thus speeding up the computation without affecting the optimal outcome. Let's illustrate how alpha-beta pruning works with an example:\n\nConsider a simple game tree for a two-player game with alternating turns, where the goal is to find the maximum value:\n\n```\n          A (MAX)\n        /    \\n       /      \\n      B        C (MIN)\n     / /      / \\n    D   E    F   G (Terminal states)\n```\n\nIn the example, nodes A, B, and C represent game states, while D, E, F, and G are terminal states with assigned values.\n\nTo apply alpha-beta pruning, we utilize two additional values at each level of the tree: alpha and beta. The alpha value represents the best choice for the maximizing player (MAX) found so far, while beta represents the best choice for the minimizing player (MIN).\n\nThe algorithm proceeds as follows:\n\n1. Initially, alpha is set to negative infinity, and beta is set to positive infinity.\n\n2. Starting from the root node A, the MAX player (A) explores its children. It evaluates node B, the first child, and sets alpha to the maximum of alpha and the value obtained from B.\n\n3. MAX then explores the second child C, the MIN player. At this point, we set beta to the minimum of beta and the value obtained from C.\n\n4. The algorithm proceeds to explore the children of node B (D and E). Let's assume that D has a value of 3 and E has a value of 2.\n\n5. Since the MAX player already has a choice (alpha) of 3 from node B, there is no need to evaluate node E further because the MIN player will choose a value less than 3.\n\n6. Therefore, alpha-beta pruning can eliminate the evaluation of node E and its subsequent branches, significantly reducing the search space.\n\nThe same process continues for the remaining nodes and branches. The algorithm updates alpha and beta at each level, cutting off branches when possible.\n\nBy eliminating unnecessary evaluations, alpha-beta pruning reduces the time and computational resources required to search the game tree, making the minimax algorithm more efficient. It prunes branches that do not impact the final decision, focusing the search on more promising paths.\n\nOverall, alpha-beta pruning is a powerful optimization technique that enhances the performance of the minimax algorithm, allowing it to handle larger game trees and more complex games effectively."
+                ]
+            },
+            "4": {
+                "question": [
+                    "It is crime for america to sell weapons to hostile nations. Nono has some missles. All the missiles owned by Nono were sold by Colonel West. Missilies are weapons. An enemy of America counts as hostile. Colonel West is an American. The country,Nono is an enemy of america. prove that Colonel West is a criminal by using FOPL based Resolution refutation method."
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    ""
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "What is rule based reasoning? explain with an example",
+                    "How bayes theorem widen belief network?"
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "Rule-based reasoning, also known as rule-based systems or rule-based inference, is a form of reasoning used in artificial intelligence and expert systems. It involves using a set of rules or logical statements to make deductions or draw conclusions based on given inputs or conditions.\n\nIn rule-based reasoning, a set of if-then rules, also called production rules, is defined. Each rule consists of two parts: the antecedent (if-part) and the consequent (then-part). The antecedent contains the conditions or premises, and the consequent contains the actions or conclusions to be taken if the conditions are satisfied.\n\nHere's an example to illustrate rule-based reasoning:\n\nLet's consider a rule-based system for a smart home security system. The system has the following rules:\n\nRule 1: If the motion sensor detects movement, then sound the alarm.\nRule 2: If the door sensor is triggered, then send a notification to the homeowner.\nRule 3: If the security code is entered incorrectly three times, then lock all doors and alert the authorities.\nRule 4: If the smoke detector detects smoke, then activate the sprinkler system.\n\nNow, imagine the following scenario:\n\nInput: The motion sensor detects movement, and the door sensor is triggered.\n\nUsing the rules, we can apply rule-based reasoning:\n\nRule 1 is triggered because the motion sensor detects movement. The system follows the consequent of Rule 1 and sounds the alarm.\n\nRule 2 is also triggered because the door sensor is triggered. The system follows the consequent of Rule 2 and sends a notification to the homeowner.\n\nIn this example, the inputs (motion sensor detecting movement and door sensor being triggered) led to the activation of specific rules, which resulted in the corresponding actions (sounding the alarm and sending a notification). The system reasoned and made deductions based on the defined rules.\n\nRule-based reasoning allows systems to handle complex decision-making by breaking it down into smaller, logical steps. It provides a structured approach to draw conclusions based on given conditions and actions. Rule-based systems are often used in domains where explicit knowledge and a set of rules can be defined, such as expert systems, decision support systems, and automated reasoning systems.",
+                    "Bayes' theorem is a fundamental concept in probability theory that plays a significant role in expanding belief networks, specifically Bayesian networks. Bayesian networks are graphical models that represent probabilistic relationships among a set of variables. These networks consist of nodes representing variables and directed edges indicating dependencies between the variables.\n\nBayes' theorem allows us to update and revise the beliefs or probabilities associated with the variables in a Bayesian network based on new evidence or observations. By incorporating Bayes' theorem, belief networks can handle uncertain or incomplete information and make probabilistic inferences.\n\nHere's how Bayes' theorem widens the scope of belief networks:\n\n1. Updating Probabilities: Bayes' theorem allows for the revision of probabilities based on new evidence. In a belief network, each node represents a variable, and the conditional probabilities associated with the nodes capture the dependencies between variables. When new evidence is observed, Bayes' theorem can be applied to update the probabilities of the variables in the network, taking into account the prior probabilities and the likelihood of the evidence given the variables.\n\n2. Incorporating Prior Knowledge: Bayes' theorem allows for the inclusion of prior knowledge or beliefs into the probability calculations. Prior probabilities represent the initial beliefs about the variables before any evidence is observed. By incorporating prior probabilities into the Bayesian network, we can factor in existing knowledge or assumptions, and update these probabilities as evidence is observed.\n\n3. Handling Uncertainty: Bayesian networks inherently handle uncertainty by representing probabilistic relationships between variables. Bayes' theorem provides a mathematical framework to quantify and update these probabilities in the face of uncertainty. By incorporating new evidence, the belief network can revise the probabilities and provide more refined and accurate estimates of the variables' states.\n\n4. Inference and Prediction: Bayes' theorem enables inference in belief networks, allowing for the estimation of unobserved variables based on the observed evidence. By applying Bayes' theorem, the belief network can calculate posterior probabilities, which represent the updated probabilities after incorporating evidence. These posterior probabilities can be used for prediction, decision-making, or further analysis within the belief network.\n\nIn summary, Bayes' theorem widens the belief network's capabilities by allowing for the updating of probabilities based on new evidence, incorporating prior knowledge, handling uncertainty, and facilitating inference and prediction. It provides a principled and systematic approach to reasoning under uncertainty within the context of Bayesian networks."
+                ]
+            },
+            "6": {
+                "question": [
+                    "List the issues needed to be considered in knowledge representation techniques.",
+                    "Convert given sentences into semantic network: a) Tom is a cat. b) Tom fights with rat. c) Tom is owned by Ram. d) Tom is black in color e) Cat like milk f) Rats like cheese g) The cat sat on the bed h) A cat is mammal i) Rat is a animal j) All mammals are animals k) Every mammal gives birth a baby."
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    },{
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2080",
+        "date_month": "Baishakh",
+        "Level": "BCT",
+        "Exam": "Back",
+        "programme": "BCT, BEX",
+        "year": "IV",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "What is data warehousing?",
+                    "Explain with examples where data warehouses are used."
+
+                    
+                ],
+                "marks": [
+                    2,4
+                ],
+                "answer": [
+                    "Data warehousing is the process of collecting, organizing, and storing large amounts of structured and potentially heterogeneous data from various sources into a central repository, known as a data warehouse. It involves the transformation and integration of data from different operational systems to provide a unified, consistent, and historical view of the organization's data.\n\nKey features and components of data warehousing include:\n\n1. Data Integration: Data warehousing involves extracting data from multiple sources, which can include databases, transactional systems, spreadsheets, logs, and external sources. The data is transformed and standardized to ensure consistency and compatibility within the data warehouse.\n\n2. Data Cleansing and Transformation: Data cleaning techniques are applied to handle data quality issues such as missing values, inconsistencies, and outliers. Data transformations are performed to convert data into a common format, resolve semantic differences, and align with the warehouse schema.\n\n3. Data Modeling: Data warehouse schema design focuses on creating a structure that supports efficient querying and analysis. The most common data modeling approach is the star schema or snowflake schema, consisting of a central fact table and related dimension tables.\n\n4. ETL Processes: ETL (Extract, Transform, Load) processes are used to extract data from source systems, transform it into a suitable format for the data warehouse, and load it into the warehouse. ETL processes involve data extraction, data cleansing, data integration, data transformation, and data loading.\n\n5. Data Storage: The data warehouse stores large volumes of data, typically in a columnar or multidimensional database management system (DBMS). This enables efficient querying and analysis by providing fast access to aggregated and summarized data.\n\n6. Metadata Management: Metadata, which includes information about the data structure, semantics, relationships, and lineage, is crucial in data warehousing. It helps in understanding the content and context of data, ensuring data quality, and facilitating data governance.\n\n7. Querying and Reporting: Data warehouses provide a platform for ad-hoc querying, reporting, and analysis. Users can run complex queries and generate reports to gain insights, support decision-making, and perform trend analysis across different dimensions of the data.\n\nThe primary goal of data warehousing is to provide a consolidated and consistent view of data for business intelligence, data analysis, and reporting purposes. By centralizing and integrating data, organizations can gain a comprehensive understanding of their operations, make informed decisions, and uncover valuable insights that can drive business success.",
+                    "Data warehouses are used in various industries and domains to support data analysis, reporting, and decision-making. Here are some examples of where data warehouses are commonly used:\n\n1. Retail Industry: Retailers often use data warehouses to store and analyze vast amounts of transactional data, customer information, inventory data, and sales data. By consolidating and analyzing this data, retailers can gain insights into customer behavior, inventory management, product performance, and sales trends. This helps in optimizing pricing strategies, improving customer segmentation, and making informed decisions about inventory replenishment.\n\n2. Finance and Banking: Data warehouses are extensively used in the finance and banking sector to analyze financial transactions, customer data, risk management, and regulatory compliance. Financial institutions leverage data warehouses to track customer transactions, identify patterns of fraudulent activities, assess credit risks, and generate regulatory reports.\n\n3. Healthcare Industry: Data warehouses play a crucial role in the healthcare industry for integrating and analyzing patient data, clinical records, medical history, and billing information. By leveraging data warehouses, healthcare organizations can improve patient care, track treatment outcomes, conduct medical research, optimize resource allocation, and generate insights for public health initiatives.\n\n4. Manufacturing and Supply Chain: Manufacturers and supply chain companies utilize data warehouses to manage and analyze data related to production, inventory, logistics, and supply chain operations. By centralizing and analyzing data from various sources, organizations can optimize production schedules, monitor inventory levels, improve supply chain efficiency, and identify areas for cost reduction.\n\n5. Telecommunications: Telecommunications companies rely on data warehouses to consolidate and analyze massive amounts of customer data, call detail records, network performance data, and billing information. By leveraging data warehouses, telecom companies can gain insights into customer behavior, perform network analysis, detect anomalies or fraudulent activities, and optimize network infrastructure.\n\n6. Government and Public Sector: Government agencies and public sector organizations use data warehouses to integrate and analyze diverse data sources, including demographic data, economic indicators, public records, and administrative data. Data warehouses help government organizations to monitor social and economic trends, facilitate evidence-based policy-making, conduct research, and enhance public service delivery.\n\nThese examples demonstrate the broad applicability of data warehouses across different industries, highlighting their role in data-driven decision-making, performance analysis, and gaining insights from large and complex datasets."
+                ]
+            },
+            "2": {
+                "question": [
+                    "List down the different types of similarity measures by highlighting their application areas.",
+                    "<table> i) Calculate the Jaccard Coefficient of Sim.Jacard(Ram, Laxmi) for asymmetric binary attributes.\n ii) Dissimilarity of symmetric binary attributes d(Laxmi, Shyam). \n iii) Find the simple matching coefficient SMC(Ram, Shyam). iv) Find the cosine similarity between documents d1 = (4,1,2,0,2,0,0) and d2 = (2,1,3,0,1,1,1)"
+                    
+                ],
+                "marks": [
+                    3,7
+                ],
+                "answer": [
+                    "There are various types of similarity measures used in different domains and applications. Here is a list of commonly used similarity measures, along with their application areas:\n\n1. Euclidean Distance:\n   - Application Areas: Clustering, image and signal processing, recommendation systems.\n\n2. Manhattan Distance (City Block Distance):\n   - Application Areas: Routing algorithms, computer vision, feature selection.\n\n3. Cosine Similarity:\n   - Application Areas: Information retrieval, text mining, document clustering, collaborative filtering.\n\n4. Jaccard Similarity:\n   - Application Areas: Set similarity, data mining, text analysis, recommendation systems.\n\n5. Pearson Correlation Coefficient:\n   - Application Areas: Data analysis, collaborative filtering, recommender systems, correlation-based clustering.\n\n6. Hamming Distance:\n   - Application Areas: Genetic algorithms, error detection and correction, data clustering.\n\n7. Mahalanobis Distance:\n   - Application Areas: Multivariate analysis, anomaly detection, pattern recognition.\n\n8. Tanimoto Coefficient (Jaccard index):\n   - Application Areas: Chemical informatics, fingerprint comparison, bioinformatics.\n\n9. Dice Similarity Coefficient:\n   - Application Areas: Image segmentation, pattern recognition, natural language processing.\n\n10. Edit Distance (Levenshtein Distance):\n    - Application Areas: Spell checking, DNA sequence comparison, fuzzy matching.\n\n11. KL Divergence (Kullback-Leibler Divergence):\n    - Application Areas: Information theory, document similarity, text categorization.\n\n12. Canberra Distance:\n    - Application Areas: Text analysis, data mining, information retrieval.\n\n13. Hamming Loss:\n    - Application Areas: Machine learning, error analysis, binary classification.\n\nThese similarity measures have diverse applications across various fields and are selected based on the specific requirements and characteristics of the data or problem domain.",
+                    ""
+                ]
+            },
+            "3": {
+                "question": [
+                    "In what cases you cannot use accuracy for performance measure, give some examples.",
+                    "Assume you have the following confusion matrix. Calculate the Classification error, Sensitivity, False alarm rate specificity."
+                    
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "Accuracy may not be an appropriate performance measure in the following cases:\n\n1. Class imbalance: When dealing with imbalanced datasets, where the number of instances in different classes is significantly unequal, accuracy can be misleading. A classifier that always predicts the majority class would have a high accuracy, but it fails to capture the performance on the minority class.\n\n2. Cost-sensitive classification: In scenarios where misclassifications have varying costs, accuracy alone is insufficient. For example, in medical diagnosis, misclassifying a life-threatening condition as benign has severe consequences. In such cases, a more nuanced evaluation metric, considering the associated costs, is necessary.\n\n3. Unequal misclassification costs: When the costs of different types of misclassifications are not equal, accuracy may not accurately reflect the impact. For instance, in a fraud detection system, incorrectly labeling a legitimate transaction as fraudulent carries different consequences than labeling a fraudulent transaction as legitimate.\n\n4. Multiclass classification: Accuracy may not adequately capture performance in multiclass classification problems, especially when the classes are imbalanced. The accuracy metric fails to distinguish between different types of errors, such as confusing one minority class with another.\n\n5. Data with mislabeled instances: If the training data contains mislabeled instances, accuracy will be affected. Even with a high accuracy score, the classifier may not be performing well due to mislabeled or noisy data points.\n\n6. Outliers: Accuracy can be sensitive to outliers, as a few extreme values can heavily influence the overall accuracy score. An outlier that is misclassified can disproportionately impact accuracy while not providing a true reflection of the model's performance.\n\nIn these cases, alternative performance measures like precision, recall, F1-score, area under the receiver operating characteristic curve (AUC-ROC), or cost-sensitive evaluation metrics should be used to provide a more comprehensive evaluation of the classifier's performance.",
+                    "To calculate the classification error, sensitivity (true positive rate), false alarm rate, and specificity (true negative rate) from a confusion matrix, we need the values of true positives (TP), false positives (FP), false negatives (FN), and true negatives (TN). The confusion matrix should be in the following format:\n\n```\n                  Predicted Positive   Predicted Negative\nActual Positive         TP                     FN\nActual Negative         FP                     TN\n```\n\nBased on this confusion matrix, we can calculate the desired performance measures:\n\n1. Classification Error:\nClassification Error = (FP + FN) / (TP + FP + FN + TN)\n\n2. Sensitivity (True Positive Rate):\nSensitivity = TP / (TP + FN)\n\n3. False Alarm Rate:\nFalse Alarm Rate = FP / (FP + TN)\n\n4. Specificity (True Negative Rate):\nSpecificity = TN / (FP + TN)\n\nPlease provide the values in the confusion matrix, and I will be able to calculate these performance measures for you."
+                ]
+            },
+            "4": {
+                "question": [
+                    "What is nearest neighbour classifier?",
+                    "what are the main issues with nearest neighbour classifier?",
+                    "Purpose another classifier that solves these issues with nearest neighbour classifier."
+                ],
+                "marks": [
+                    1,3,4
+                ],
+                "answer": [
+                    "The nearest neighbor classifier is a simple machine learning algorithm that classifies new instances based on their similarity to the training instances. It assigns the class label of the nearest training instance(s) to the new instance.",
+                    "The nearest neighbor classifier has several main issues:\n\n1. Computational complexity: As the dataset grows larger, the computation required to find the nearest neighbors becomes more time-consuming. The algorithm needs to calculate distances or similarities between the new instance and all existing instances in the training set.\n\n2. Storage requirements: The nearest neighbor classifier typically requires storing the entire training dataset in memory. For large datasets, this can be a significant memory constraint.\n\n3. Sensitivity to irrelevant features: The nearest neighbor classifier treats all features equally, which means irrelevant or noisy features can have a detrimental impact on classification accuracy. The presence of irrelevant features can lead to misleading similarities and misclassification.\n\n4. Sensitivity to data representation: The choice of distance metric or similarity measure used to calculate the nearest neighbors can greatly affect the classifier's performance. Different measures may be more appropriate for different types of data, and selecting the right one is crucial.\n\n5. Curse of dimensionality: In high-dimensional feature spaces, the effectiveness of the nearest neighbor classifier diminishes. As the number of dimensions increases, the density of data points decreases, making it harder to find meaningful nearest neighbors.\n\n6. Class imbalance: The nearest neighbor classifier is sensitive to class imbalance in the training data. If a class is underrepresented, it may have fewer neighbors, leading to biased classification results.\n\n7. Lack of interpretability: The nearest neighbor classifier does not provide explicit explanations or rules for its decisions. It is often considered a \"black box\" model, as it doesn't offer insights into the underlying patterns in the data.\n\n8. Scalability: When dealing with large datasets, the computational cost of finding nearest neighbors for each new instance can become prohibitive. Scaling up the algorithm to handle big data efficiently is a significant challenge.\n\nThese issues should be considered when applying the nearest neighbor classifier, and alternative algorithms may be more suitable depending on the specific characteristics of the data and the desired performance.",
+                    "One classifier that addresses some of the issues with the nearest neighbor classifier is the k-Nearest Neighbors (k-NN) classifier. The k-NN classifier improves upon the nearest neighbor classifier by introducing the following features:\n\n1. Computational complexity: The k-NN classifier reduces the computational complexity compared to the nearest neighbor classifier. Instead of considering all training instances, it only selects the k nearest neighbors to the new instance, where k is a user-defined parameter.\n\n2. Storage requirements: The k-NN classifier still requires storing the training dataset but doesn't need to store the entire dataset for predictions. Only the necessary k nearest neighbors need to be accessed during classification.\n\n3. Sensitivity to irrelevant features: The k-NN classifier can mitigate the impact of irrelevant features by considering multiple neighbors instead of relying on a single nearest neighbor. Outliers or noise in individual instances have less influence when considering a larger neighborhood.\n\n4. Sensitivity to data representation: The k-NN classifier can work with different distance metrics or similarity measures. It provides flexibility in choosing appropriate distance metrics based on the data characteristics.\n\n5. Curse of dimensionality: Although the curse of dimensionality can still affect the k-NN classifier, it can be mitigated to some extent by selecting an optimal value for k or by applying dimensionality reduction techniques.\n\n6. Class imbalance: The k-NN classifier can handle class imbalance by considering class weights or applying oversampling or undersampling techniques to balance the representation of different classes within the k nearest neighbors.\n\n7. Interpretability: The k-NN classifier provides more interpretability compared to the nearest neighbor classifier. By examining the class labels of the k nearest neighbors, users can gain insights into the decision-making process.\n\n8. Scalability: The k-NN classifier can be more scalable than the nearest neighbor classifier since it only considers a subset of training instances. Approximation techniques, such as kd-trees or ball trees, can be employed to speed up the search for nearest neighbors.\n\nWhile the k-NN classifier addresses some of the issues with the nearest neighbor classifier, it's important to note that it may still have limitations in high-dimensional and large-scale scenarios. Other classifiers, such as decision trees, random forests, or support vector machines, might be more appropriate for certain problem domains. The choice of classifier should be based on the specific characteristics of the data and the requirements of the problem at hand."
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    7
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "6": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    },{
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2079",
+        "date_month": "Baishakh",
+        "Level": "BCT",
+        "Exam": "Back",
+        "programme": "BEX, BCT",
+        "year": "IV",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Describe the process of knowledge discovery in databases.",
+                    "Explain the specific challanges that motivated the development of data mining."
+
+                    
+                ],
+                "marks": [
+                    3,3
+                ],
+                "answer": [
+                    "The process of knowledge discovery in databases (KDD) involves several steps that collectively aim to extract valuable knowledge or patterns from large datasets. Here is a description of the typical KDD process:\n\n1. Problem Definition: The first step is to clearly define the problem or objective of the knowledge discovery process. This involves understanding the domain, identifying the data sources, and specifying the goals and requirements of the analysis.\n\n2. Data Selection: In this step, relevant data is selected from various sources, such as databases, data warehouses, or external datasets. The data selection process involves determining which attributes or variables are necessary for the analysis and filtering out irrelevant or redundant data.\n\n3. Data Preprocessing: Once the data is selected, it needs to be preprocessed to address various issues. This step involves data cleaning to remove errors, missing values, and outliers. Data integration may also be performed to combine data from different sources. Data transformation techniques, such as normalization or discretization, can be applied to ensure consistency and suitability for analysis.\n\n4. Data Mining: Data mining is the core step of the KDD process. In this step, various data mining techniques and algorithms are applied to discover patterns, relationships, or hidden knowledge in the preprocessed data. This can include classification, clustering, association rule mining, regression analysis, or other advanced analytics methods.\n\n5. Pattern Evaluation: Once patterns or models are discovered, they need to be evaluated to determine their quality and usefulness. Evaluation techniques can involve measures such as accuracy, precision, recall, or other domain-specific metrics. Patterns that meet the desired criteria or provide valuable insights are selected for further analysis.\n\n6. Knowledge Representation: The discovered patterns or models are then represented in a form that is understandable and interpretable by domain experts or end users. This can involve visualizations, reports, summary statistics, or other forms of representation that facilitate the communication and utilization of the knowledge.\n\n7. Knowledge Utilization: The final step involves utilizing the extracted knowledge to support decision-making, improve processes, or gain new insights. The knowledge gained through the KDD process can be used for prediction, classification, optimization, recommendation systems, or other applications, depending on the problem domain.\n\nIt's important to note that the KDD process is iterative and interactive, with feedback loops between different steps. It may involve revisiting earlier steps, refining the analysis, or incorporating new data to improve the quality and relevance of the extracted knowledge.",
+                    "The development of data mining was motivated by several specific challenges that emerged as a result of the rapid growth in data collection and storage capabilities. Here are some key challenges that led to the need for data mining:\n\n1. Data Explosion: The exponential growth of data generated by various sources, such as business transactions, scientific experiments, social media, and sensor networks, created a challenge in extracting valuable insights and knowledge from large and complex datasets. Traditional manual methods of data analysis were inadequate to handle the scale and complexity of these datasets.\n\n2. Information Overload: With the abundance of data, there was a need to sift through vast amounts of information to identify patterns, trends, and meaningful relationships. Traditional query-based approaches were not sufficient to discover hidden patterns and knowledge buried within the data.\n\n3. Complexity of Data Structures: Data became increasingly heterogeneous, unstructured, and multi-dimensional. Traditional structured data models and techniques were not effective in handling the diverse types of data, such as text, images, time series, spatial data, and multimedia.\n\n4. Need for Prediction and Decision-Making: Organizations sought ways to move beyond descriptive analytics and understand future trends and patterns for prediction and decision-making. There was a growing demand for automated techniques that could analyze historical data and make accurate predictions or support decision-making processes.\n\n5. Data Quality and Data Integration: Data from different sources often varied in terms of quality, consistency, and format. Data mining techniques were needed to handle noisy, incomplete, and inconsistent data and to integrate data from multiple sources to provide a unified view for analysis.\n\n6. Privacy and Security Concerns: The increasing availability of personal and sensitive data raised concerns about privacy and security. Data mining techniques needed to address privacy-preserving methods and ensure the protection of individuals' confidential information while still enabling meaningful analysis.\n\n7. Real-Time Data Analysis: The need for timely and on-the-fly analysis of streaming data or dynamic datasets became crucial in domains such as finance, telecommunications, and healthcare. Data mining techniques were required to process and analyze data in real-time or near-real-time to extract valuable insights and support immediate decision-making.\n\nThese challenges led to the development of data mining techniques and algorithms that could handle large-scale data, discover hidden patterns and knowledge, address data quality issues, support prediction and decision-making, and ensure privacy and security. Data mining provides powerful tools for extracting meaningful information from the vast amount of data available today, enabling organizations to gain valuable insights and make data-driven decisions."
+                    
+                    
+                ]
+            },
+            "2": {
+                "question": [
+                    "Suppose that the data for analysis include attribute the frequency of stop words in documents. The values are given in increasing order: 13,15,16,16,19,20,20,21,22,22,25,25,25,25,30,33,33,35,35,35,36,40,45,46,52,70. \n i) Use smoothing by bin means with a depth of 3.  ii) Use min-max normalization to transform the value 35 into the range from 0.0 to 1.0 c) Use Z-Score normalization to transform the value 35 where the standard deviation of the above frequency is 12.94. d) Use normalization by decimal scaling to transform the value 35 into the range from 0.0 to 1.0. e) Use normalization by decimal scaling to transform the value 35."
+                    
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "i) Smoothing by Bin Means with a Depth of 3:\nTo apply smoothing by bin means with a depth of 3, we divide the data into bins of size 3 and replace each value in a bin with the mean of that bin. Here is the transformed data:\n\n10-12: 15.0\n13-15: 15.0\n16-18: 17.0\n19-21: 19.0\n22-24: 23.0\n25-27: 25.0\n28-30: 28.0\n31-33: 33.0\n34-36: 35.0\n37-39: 37.0\n40-42: 40.0\n43-45: 45.0\n46-48: 46.0\n49-51: 52.0\n52-54: 52.0\n55-57: 70.0\n\nii) Min-Max Normalization:\nTo transform the value 35 using min-max normalization, we use the formula:\n\nNormalized Value = (Value - Min) / (Max - Min)\n\nThe minimum value in the dataset is 13, and the maximum value is 70. Using these values, we can calculate the normalized value:\n\nNormalized Value = (35 - 13) / (70 - 13) = 0.502\n\nc) Z-Score Normalization:\nTo transform the value 35 using Z-Score normalization, we use the formula:\n\nNormalized Value = (Value - Mean) / Standard Deviation\n\nThe mean of the dataset is calculated as the sum of all values divided by the number of values (24) and is approximately 29.375. The standard deviation is given as 12.94. Using these values, we can calculate the normalized value:\n\nNormalized Value = (35 - 29.375) / 12.94 ≈ 0.434\n\nd) Normalization by Decimal Scaling:\nTo transform the value 35 into the range from 0.0 to 1.0 using decimal scaling, we divide the value by an appropriate power of 10. In this case, we divide by 100 since the maximum value is 70. The transformed value is:\n\nNormalized Value = 35 / 100 = 0.35\n\ne) Normalization by Decimal Scaling:\nIf we only want to transform the value 35 using decimal scaling without specifying a particular range, we can choose the power of 10 based on the magnitude of the maximum value. In this case, since the maximum value is 70, we divide the value by 100. The transformed value is:\n\nNormalized Value = 35 / 100 = 0.35\n\nNote: The transformed values may be rounded to the appropriate number of decimal places depending on the desired precision."
+                    
+                ]
+            },
+            "3": {
+                "question": [
+                    "What are nominial and ordinal attributes? Discuss how to handle missing data and noisy data during data cleaning processs."
+                    
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "Nominal and ordinal attributes are two types of categorical attributes commonly encountered in data analysis:\n\n1. Nominal attributes: Nominal attributes represent categories or labels that have no inherent order or ranking. Examples include colors, types of vehicles, or categories of products. Nominal attributes are typically represented by discrete values or labels.\n\n2. Ordinal attributes: Ordinal attributes also represent categories, but they have a meaningful order or ranking associated with them. Examples include education levels (e.g., high school, college, graduate), rating scales (e.g., 1-star, 2-star, 3-star), or satisfaction levels (e.g., low, medium, high). Ordinal attributes are represented by discrete values that have an inherent order.\n\nNow, let's discuss handling missing data and noisy data during the data cleaning process:\n\nHandling Missing Data:\n1. Deletion: Remove instances or attributes with missing data. This can be done if the missing data is minimal or the missingness is completely at random (MCAR).\n2. Imputation: Fill in missing values using techniques such as mean imputation (replacing missing values with the mean of the non-missing values), regression imputation (using regression models to predict missing values), or hot-deck imputation (matching missing values with similar known values).\n\nHandling Noisy Data:\n1. Binning/Smoothing: Grouping similar values into bins or ranges can help reduce the impact of outliers or noise. This can be done by replacing extreme values with the bin mean or median.\n2. Outlier Detection: Identify and remove or correct outliers that are significantly different from the majority of the data. Techniques such as Z-Score or boxplot analysis can be used to identify outliers.\n3. Data Transformation: Applying mathematical functions or transformations such as logarithmic, square root, or normalization can reduce the impact of noise or outliers.\n4. Ensemble Methods: Utilize ensemble techniques such as bagging or boosting that combine multiple models to reduce the impact of noisy data. By averaging predictions or assigning different weights to models, the impact of individual noisy instances can be minimized.\n\nIt's important to note that the specific approach to handle missing or noisy data depends on the nature of the dataset, the extent of missingness or noise, and the goals of the analysis. Careful consideration should be given to choose the most appropriate technique for each situation."
+                ]
+            },
+            "4": {
+                "question": [
+                    "Describe the working mechanism as well as the merits and demerits of the holdout method, random sampling, k-cross validation and bootstrap approaches in evaluating the performance of a classifier."
+                    
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    "The holdout method, random sampling, k-fold cross-validation, and bootstrap are commonly used techniques to evaluate the performance of a classifier. Here's an overview of how they work, along with their merits and demerits:\n\n1. Holdout Method:\n   - Mechanism: The dataset is split into two subsets: a training set and a testing set. The classifier is trained on the training set and evaluated on the testing set.\n   - Merits: Simple and computationally efficient, especially for large datasets. Provides a single evaluation metric for performance assessment.\n   - Demerits: The evaluation may be sensitive to the particular instances in the testing set, especially with small datasets. The performance estimate may have high variance if the training and testing sets are not representative of the overall dataset.\n\n2. Random Sampling:\n   - Mechanism: Randomly partition the dataset into a training set and a testing set. The classifier is trained on the training set and evaluated on the testing set.\n   - Merits: Easy to implement and understand. Provides a relatively unbiased estimate of the classifier's performance.\n   - Demerits: The quality of the performance estimate can vary depending on the random partitioning. It may be sensitive to the specific instances in the testing set.\n\n3. k-fold Cross-Validation:\n   - Mechanism: The dataset is divided into k equally sized subsets (folds). The classifier is trained on k-1 folds and evaluated on the remaining fold. This process is repeated k times, with each fold serving as the testing set once, and the performance results are averaged.\n   - Merits: Provides a more robust estimate of the classifier's performance by averaging results across multiple iterations. Reduces variance and accounts for the variability in performance due to different train-test splits.\n   - Demerits: Requires more computational resources and time compared to the holdout method. Can be computationally expensive for large datasets or when using complex classifiers. The final performance estimate may have higher bias due to smaller training set sizes.\n\n4. Bootstrap:\n   - Mechanism: The dataset is randomly sampled with replacement to create multiple bootstrap samples. The classifier is trained on each bootstrap sample, and the performance is evaluated by aggregating the results.\n   - Merits: Provides an estimate of the classifier's performance by accounting for variability and uncertainty in the dataset. Suitable for small datasets and situations where data points have different weights or importance.\n   - Demerits: The bootstrap samples may still contain duplicate instances, leading to potential bias. Bootstrap resampling can increase computational complexity and may not be suitable for large datasets.\n\nIt's worth noting that the choice of evaluation technique depends on factors such as the dataset size, computational resources, the level of performance estimation required, and the characteristics of the classifier being evaluated. Researchers often use a combination of these techniques to obtain a comprehensive understanding of classifier performance."
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "<table> Write Apriori algorithm and find all the frequent itemset for the following database. (min_sup=20%)",
+                    "Is it possible to generate rules out of the frequent item, considering any value of confidence threshold?"
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answer": [
+                    "",
+                    "Yes, it is possible to generate rules out of frequent itemsets by considering different confidence thresholds. Confidence is a measure of how often a rule is found to be true in the dataset.\n\nHere's the general process for generating rules from frequent itemsets:\n\n1. Find frequent itemsets: Use a frequent itemset mining algorithm, such as the Apriori algorithm or FP-Growth, to identify itemsets that meet the minimum support threshold.\n\n2. Generate association rules: From the frequent itemsets, generate candidate rules by considering different combinations of items within the itemsets.\n\n3. Calculate rule metrics: For each candidate rule, calculate metrics such as support, confidence, and lift. Confidence is defined as the proportion of transactions containing the antecedent that also contain the consequent.\n\n4. Apply confidence threshold: Select the rules that meet or exceed the desired confidence threshold. The confidence threshold determines the minimum level of confidence required for a rule to be considered interesting or valid.\n\nBy varying the confidence threshold, you can control the strictness or leniency of the rules generated. Lower confidence thresholds will result in more rules being generated, including weaker or less reliable rules. Higher confidence thresholds will yield fewer rules, but they will typically be stronger and more reliable.\n\nIt's important to strike a balance when choosing the confidence threshold. Setting it too low may lead to a large number of uninteresting or trivial rules, while setting it too high may result in a limited number of rules, potentially overlooking valuable insights.\n\nRemember that the choice of the confidence threshold should be guided by the specific domain, application requirements, and the desired level of confidence in the generated rules."
+                ]
+            },
+            "6": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    },
+    {
+        "university": "Tribhuwan University",
+        "Institute": "Institute of Engineering",
+        "subject": "Artificial Intelligence",
+        "date_year": "2078",
+        "date_month": "Bhadra",
+        "Level": "BEX, BCT",
+        "Exam": "Regular",
+        "programme": "BEX, BCT",
+        "year": "IV",
+        "part": "I",
+        "full marks": "80",
+        "pass marks": "32",
+        "time": "3 hours",
+        "questions": {
+            "1": {
+                "question": [
+                    "Explain how data mining system can ve integrated into a database/data warehouse system.",
+                    "Explain data mining process with neat diagram."
+
+                    
+                ],
+                "marks": [
+                    4,2
+                ],
+                "answer": [
+                    "",
+                    ""
+                    
+                    
+                ]
+            },
+            "2": {
+                "question": [
+                    "Suppose the data warehouse consist of the four dimensions data, spectator, locaion, and game, and the two measures count and charge, where charge is the fare that a spectator pays when watching a game on a given date. Spectators may be students, adults or seniors, with each category having its own charge rate. a) Draw a star schema diagram for the data warehouse. b) Starting with the base of cuboid [data, spectator, location, game], what specific OLAP operations should you perform in order to list the total charge paid by student spectators at Dasharath Stadium in 2021?"
+                    
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    ""
+                ]
+            },
+            "3": {
+                "question": [
+                    "Use the following methods to normalize the data: 200,300,400,600 and 1000: a) Minimax normalization by setting min=0 and max=1. b) Z-score normalization c) Normalization by decimal scaling."
+                    
+                ],
+                "marks": [
+                    6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "4": {
+                "question": [
+                    "<table> Construct a decision tree for the following data set using information gaim. Predict the class lavel for a data point with values <Female,2, standard, high>"
+                    
+                ],
+                "marks": [
+                    8
+                ],
+                "answer": [
+                    ""
+                    
+                ]
+            },
+            "5": {
+                "question": [
+                    "<table> Write Apriori algorithm and find all the frequent itemset for the following database. (min_sup=20%)",
+                    "is it possible to generate rules out of the frequent item, considering any value of confidence thereshold?"
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "6": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    2,6
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "7": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "8": {
+                "question": [
+                    "",
+                    ""
+
+                ],
+                "marks": [
+                    4,4
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            },
+            "9": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    5,3
+                ],
+                "answqer": [
+                    "",
+                    ""
+                ]
+            },
+            "10": {
+                "question": [
+                    "",
+                    ""
+                ],
+                "marks": [
+                    3,5
+                ],
+                "answer": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    }
+    
 ]
