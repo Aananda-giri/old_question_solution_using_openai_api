@@ -53,8 +53,8 @@
 		<ul>
             {% for qa in questions %}
 			<li>
-				<h3>{{qa.question}}</h3>
-				<p>{{qa.answer}}</p>
+				<h3>{{qa.question|safe}}</h3>
+				<pre>{{ qa.answer | safe }}</pre>
 			</li>
             {% endfor %}
 		</ul>

@@ -61,37 +61,20 @@
             {% endfor %}
 		</ul>
 
-
-
-
-
-
-
-
         {% for question_paper in qna %}
         <h2 class="question_paper_title"><center>{{ question_paper['subject'] }} - {{ question_paper['date_year'] }} - 
-			{{ question_paper['Exam'] }} <br> {{ question_paper['date_month'] }} ({{ question_paper['Level'] }} {{ question_paper['programme'] }} Year {{ question_paper['year'] }} Part {{ question_paper['part'] }})</center></center></h2>
+			{{ question_paper['Exam'] }} <br> {{ question_paper['date_month'] }} ({{ question_paper['Level'] }} {{ question_paper['programme'] }} Year {{ question_paper['year'] }} Part {{ question_paper['part'] }})</center></h2>
         <ul>
             {% for question_number, each_question in question_paper['questions'].items() %}
                 {% for i in range(each_question['num_parts']) %}
                     <li>
-                        <h4>{{question_number}}. {{ each_question['question'][i] }} [{{ each_question['marks'][i] }}]</h4>
-                        <p>{{ each_question['answer'][i] }}</p>
+                        <h4>{{question_number}}. {{ each_question['question'][i] | safe }} [{{ each_question['marks'][i] }}]</h4>
+                        <pre>{{ each_question['answer'][i] |safe }}</pre>
                     </li>
                 {% endfor %}
             {% endfor %}
 		</ul>
         {% endfor %}
-
-
-
-
-
-
-
-
-
-        
 	</section>
 </body>
 </html>
